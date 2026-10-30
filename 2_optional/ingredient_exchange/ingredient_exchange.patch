@@ -1,0 +1,84 @@
+diff --git a/src/db/rpc-store.ts b/src/db/rpc-store.ts
+index 0851640..bb6d96e 100644
+--- a/src/db/rpc-store.ts
++++ b/src/db/rpc-store.ts
+@@ -714,6 +714,13 @@ export async function swapIngredient(
+ ): Promise<number> {
+   await ensureAccountProfile(account);
+   const targetUid = target.networkUid || String(target.playfishUid || PLAYER_NETWORK_UID);
++
++  // A trade aimed at the caller's own restaurant is the in-restaurant exchange
++  // (own-exchange mode of the patched WorldTradePanel); its offer is a list.
++  if (targetUid === account.networkUid) {
++    return exchangeOwnIngredients(account.networkUid, offeredToken, requestedToken);
++  }
++
+   // The client sends each ingredient's opaque `hash`, not its numeric id.
+   const offered = resolveIngredientId(offeredToken);
+   const requested = resolveIngredientId(requestedToken);
+@@ -779,6 +786,65 @@ export async function swapIngredient(
+   return STATUS_OK;
+ }
+ 
++// In-restaurant exchange rules (owner's decision, 2026-10-28): exactly
++// OWN_EXCHANGE_ITEMS ingredients, picked one by one (repeats allowed, all copies
++// may be spent), buy 1 other ingredient whose rarity is at most the offered
++// rarities' average rounded up. The padlock only guards against friends, so it
++// does not block the owner here, and there is no daily limit. The client sends
++// the offered hashes joined by OWN_EXCHANGE_SEPARATOR in the offer string.
++const OWN_EXCHANGE_ITEMS = 3;
++const OWN_EXCHANGE_SEPARATOR = ',';
++
++export function ownExchangeAllowed(offered: readonly number[], requested: number): boolean {
++  const requestedRarity = ingredientRarity(requested);
++  if (offered.length !== OWN_EXCHANGE_ITEMS || requestedRarity === null || offered.includes(requested)) return false;
++  let total = 0;
++  for (const id of offered) {
++    const rarity = ingredientRarity(id);
++    if (rarity === null) return false;
++    total += rarity;
++  }
++  return Math.ceil(total / OWN_EXCHANGE_ITEMS) >= requestedRarity;
++}
++
++async function exchangeOwnIngredients(networkUid: string, offeredToken: string, requestedToken: string): Promise<number> {
++  const tokens = offeredToken.split(OWN_EXCHANGE_SEPARATOR);
++  if (tokens.length !== OWN_EXCHANGE_ITEMS) return STATUS_INVALID_TOKEN;
++  const offered: number[] = [];
++  for (const token of tokens) {
++    const id = resolveIngredientId(token);
++    if (id === null) return STATUS_INVALID_TOKEN;
++    offered.push(id);
++  }
++  const requested = resolveIngredientId(requestedToken);
++  if (requested === null || !ownExchangeAllowed(offered, requested)) return STATUS_INVALID_TOKEN;
++
++  const spend = new Map<number, number>();
++  for (const id of offered) spend.set(id, (spend.get(id) ?? 0) + 1);
++
++  try {
++    return await prisma.$transaction(async (tx) => {
++      for (const [id, copies] of spend) {
++        // Conditional decrement: a concurrent retry cannot spend the same copies twice.
++        const debited = await tx.ingredientInventory.updateMany({
++          where: { userProfileId: profileKey(networkUid), globalItemId: id, number: { gte: copies } },
++          data: { number: { decrement: copies } },
++        });
++        if (debited.count !== 1) throw new OwnExchangeRejected();
++      }
++      await tx.ingredientInventory.deleteMany({ where: { userProfileId: profileKey(networkUid), globalItemId: { in: [...spend.keys()] }, number: { lte: 0 } } });
++      await adjustIngredient(tx, networkUid, requested, 1);
++      return STATUS_OK;
++    });
++  } catch (error) {
++    if (error instanceof OwnExchangeRejected) return STATUS_INVALID_TOKEN;
++    throw error;
++  }
++}
++
++// Thrown inside the exchange transaction so a partial debit is rolled back.
++class OwnExchangeRejected extends Error {}
++
+ async function hasIngredientStock(networkUid: string, ingredientId: number, tx: any = prisma): Promise<boolean> {
+   const row = await tx.ingredientInventory.findUnique({
+     where: { userProfileId_globalItemId: { userProfileId: profileKey(networkUid), globalItemId: ingredientId } },

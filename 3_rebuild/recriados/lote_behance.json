@@ -1,0 +1,839 @@
+﻿{
+    "itens":  [
+                  {
+                      "classe":  "RCR_SingingFruit",
+                      "nome":  "Singing Fruit",
+                      "grupo":  "Decoration",
+                      "custo":  9000,
+                      "base":  74,
+                      "sizeX":  2,
+                      "sizeY":  2,
+                      "repetir":  8,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_SingingFruit/q1.png",
+                                                                    "RCR_SingingFruit/q2.png",
+                                                                    "RCR_SingingFruit/q3.png"
+                                                                ],
+                                                    "altura":  143
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_MelonRug",
+                      "nome":  "Melon Rug",
+                      "grupo":  "Decoration",
+                      "custo":  1500,
+                      "base":  76,
+                      "sizeX":  2,
+                      "sizeY":  2,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_MelonRug/frente.png"
+                                                                ],
+                                                    "altura":  80
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_StrawberryRug",
+                      "nome":  "Strawberry Rug",
+                      "grupo":  "Decoration",
+                      "custo":  1500,
+                      "base":  76,
+                      "sizeX":  2,
+                      "sizeY":  2,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_StrawberryRug/frente.png"
+                                                                ],
+                                                    "altura":  84
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_KiwiRug",
+                      "nome":  "Kiwi Rug",
+                      "grupo":  "Decoration",
+                      "custo":  1500,
+                      "base":  76,
+                      "sizeX":  2,
+                      "sizeY":  2,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_KiwiRug/frente.png"
+                                                                ],
+                                                    "altura":  80
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_PottedMelonDivider",
+                      "nome":  "Potted Melon Divider",
+                      "grupo":  "Decoration",
+                      "custo":  1200,
+                      "base":  59,
+                      "sizeX":  1,
+                      "sizeY":  2,
+                      "deslocX":  -20,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_PottedMelonDivider/frente.png"
+                                                                ],
+                                                    "altura":  75
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_NosySquirrel",
+                      "nome":  "Nosy Squirrel",
+                      "grupo":  "Decoration",
+                      "custo":  2500,
+                      "base":  31,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_NosySquirrel/frente.png"
+                                                                ],
+                                                    "altura":  44
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_CamouflageBear",
+                      "nome":  "Camouflage Bear",
+                      "grupo":  "Decoration",
+                      "custo":  4000,
+                      "base":  34,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_CamouflageBear/frente.png"
+                                                                ],
+                                                    "altura":  70
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_PlatypusPond",
+                      "nome":  "Platypus Pond",
+                      "grupo":  "Decoration",
+                      "custo":  12000,
+                      "base":  76,
+                      "sizeX":  2,
+                      "sizeY":  2,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_PlatypusPond/frente.png"
+                                                                ],
+                                                    "altura":  104
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_GhostStoryArcade",
+                      "nome":  "Ghost Story Arcade",
+                      "grupo":  "Functional",
+                      "custo":  9000,
+                      "base":  76,
+                      "tipo":  "interactive",
+                      "sizeX":  2,
+                      "sizeY":  2,
+                      "quebra":  10,
+                      "efeito":  "Works like an arcade machine: customers play and pay you!",
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_GhostStoryArcade/frente.png"
+                                                                ],
+                                                    "altura":  108
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_PixelDecalFruitPunch",
+                      "nome":  "Pixel Decal - Fruit Punch",
+                      "grupo":  "Wall Decoration",
+                      "custo":  800,
+                      "base":  40,
+                      "tipo":  "wallDecorationItem",
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_PixelDecalFruitPunch/frente.png"
+                                                                ],
+                                                    "altura":  110
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_PixelDecalGooeyMonster",
+                      "nome":  "Pixel Decal - Gooey Monster",
+                      "grupo":  "Wall Decoration",
+                      "custo":  800,
+                      "base":  40,
+                      "tipo":  "wallDecorationItem",
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_PixelDecalGooeyMonster/frente.png"
+                                                                ],
+                                                    "altura":  110
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_PixelDecalPotato",
+                      "nome":  "Pixel Decal - Potato \u003c3",
+                      "grupo":  "Wall Decoration",
+                      "custo":  800,
+                      "base":  40,
+                      "tipo":  "wallDecorationItem",
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_PixelDecalPotato/frente.png"
+                                                                ],
+                                                    "altura":  110
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_PixelDecalHorizon",
+                      "nome":  "Pixel Decal - Horizon",
+                      "grupo":  "Wall Decoration",
+                      "custo":  1200,
+                      "base":  40,
+                      "tipo":  "wallDecorationItem",
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_PixelDecalHorizon/frente.png"
+                                                                ],
+                                                    "altura":  110
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_PixelDecalSkyline",
+                      "nome":  "Pixel Decal - Skyline",
+                      "grupo":  "Wall Decoration",
+                      "custo":  1200,
+                      "base":  40,
+                      "tipo":  "wallDecorationItem",
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_PixelDecalSkyline/frente.png"
+                                                                ],
+                                                    "altura":  110
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_ArcheoMosaic",
+                      "nome":  "Archeo Mosaic",
+                      "grupo":  "Wall Decoration",
+                      "custo":  2500,
+                      "base":  40,
+                      "tipo":  "wallDecorationItem",
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_ArcheoMosaic/frente.png"
+                                                                ],
+                                                    "altura":  100
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_LouisBiltong",
+                      "nome":  "Louis Biltong",
+                      "grupo":  "Decoration",
+                      "custo":  3000,
+                      "base":  31,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_LouisBiltong/frente.png"
+                                                                ],
+                                                    "altura":  80
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_NewOrleansJazzyDuo",
+                      "nome":  "New Orleans Jazzy Duo",
+                      "grupo":  "Decoration",
+                      "custo":  4000,
+                      "base":  31,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_NewOrleansJazzyDuo/frente.png"
+                                                                ],
+                                                    "altura":  80
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_NewOrleansJukebox",
+                      "nome":  "New Orleans Jukebox",
+                      "grupo":  "Decoration",
+                      "custo":  5000,
+                      "base":  33,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_NewOrleansJukebox/frente.png"
+                                                                ],
+                                                    "altura":  85
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_DirectorGourmetKing",
+                      "nome":  "Director Gourmet King and Assistant",
+                      "grupo":  "Decoration",
+                      "custo":  4000,
+                      "base":  31,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_DirectorGourmetKing/frente.png"
+                                                                ],
+                                                    "altura":  80
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_AlessandraClapper",
+                      "nome":  "Alessandra Clapper",
+                      "grupo":  "Decoration",
+                      "custo":  2500,
+                      "base":  31,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_AlessandraClapper/frente.png"
+                                                                ],
+                                                    "altura":  80
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_FunInACupDispenser",
+                      "nome":  "Fun in a Cup Drink Dispenser",
+                      "grupo":  "Drink",
+                      "custo":  7000,
+                      "base":  36,
+                      "tipo":  "drink",
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_FunInACupDispenser/frente.png"
+                                                                ],
+                                                    "altura":  75
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_TheWateringHole",
+                      "nome":  "The Watering Hole",
+                      "grupo":  "Decoration",
+                      "custo":  12000,
+                      "base":  76,
+                      "sizeX":  2,
+                      "sizeY":  2,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_TheWateringHole/frente.png"
+                                                                ],
+                                                    "altura":  117
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_FailedKnightFigurine",
+                      "nome":  "Failed Knight Figurine",
+                      "grupo":  "Decoration",
+                      "custo":  3500,
+                      "base":  38,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_FailedKnightFigurine/frente.png"
+                                                                ],
+                                                    "altura":  91
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_EvilTree",
+                      "nome":  "Evil Tree",
+                      "grupo":  "Decoration",
+                      "custo":  6000,
+                      "base":  72,
+                      "sizeX":  2,
+                      "sizeY":  2,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_EvilTree/frente.png"
+                                                                ],
+                                                    "altura":  152
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_JungleRuinSink",
+                      "nome":  "Jungle Ruin Fountain",
+                      "grupo":  "Decoration",
+                      "custo":  3500,
+                      "base":  36,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_JungleRuinSink/frente.png"
+                                                                ],
+                                                    "altura":  71
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_JungleRuinTorch",
+                      "nome":  "Jungle Ruin Torch",
+                      "grupo":  "Decoration",
+                      "custo":  2500,
+                      "base":  33,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_JungleRuinTorch/frente.png"
+                                                                ],
+                                                    "altura":  130
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_JungleRuinDivider",
+                      "nome":  "Jungle Ruin Divider",
+                      "grupo":  "Decoration",
+                      "custo":  900,
+                      "base":  36,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_JungleRuinDivider/frente.png"
+                                                                ],
+                                                    "altura":  86
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_JungleRuinDividerCorner",
+                      "nome":  "Jungle Ruin Divider Corner",
+                      "grupo":  "Decoration",
+                      "custo":  900,
+                      "base":  38,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_JungleRuinDividerCorner/frente.png"
+                                                                ],
+                                                    "altura":  81
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_ExplorerGourmetKing",
+                      "nome":  "Explorer Gourmet King",
+                      "grupo":  "Decoration",
+                      "custo":  3000,
+                      "base":  31,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_ExplorerGourmetKing/frente.png"
+                                                                ],
+                                                    "altura":  85
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_CheeseyVarities",
+                      "nome":  "Cheesey Varities",
+                      "grupo":  "Decoration",
+                      "custo":  2500,
+                      "base":  38,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_CheeseyVarities/frente.png"
+                                                                ],
+                                                    "altura":  80
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_MarbyLotusPool",
+                      "nome":  "Marby Lotus Pool",
+                      "grupo":  "Decoration",
+                      "custo":  5000,
+                      "base":  59,
+                      "sizeX":  1,
+                      "sizeY":  2,
+                      "deslocX":  -20,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_MarbyLotusPool/frente.png"
+                                                                ],
+                                                    "altura":  71
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  },
+                  {
+                      "classe":  "RCR_LibertyBell",
+                      "nome":  "Liberty Bell",
+                      "grupo":  "Decoration",
+                      "custo":  3000,
+                      "base":  31,
+                      "vistas":  {
+                                     "frente":  {
+                                                    "imagens":  [
+                                                                    "RCR_LibertyBell/frente.png"
+                                                                ],
+                                                    "altura":  85
+                                                }
+                                 },
+                      "angulos":  [
+                                      {
+                                          "vista":  "frente"
+                                      },
+                                      {
+                                          "vista":  "frente",
+                                          "espelhar":  true
+                                      }
+                                  ],
+                      "fonte":  "Behance Andreas Polyviou"
+                  }
+              ]
+}

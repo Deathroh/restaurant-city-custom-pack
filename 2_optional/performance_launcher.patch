@@ -1,0 +1,156 @@
+diff --git a/public/game.html b/public/game.html
+index cce913e..78ea3de 100644
+--- a/public/game.html
++++ b/public/game.html
+@@ -44,24 +44,35 @@
+     background: #050607;
+     border: 6px solid var(--steel);
+     border-radius: 16px;
+-    box-shadow: 0 4px 0 var(--steel-dk), 0 22px 50px rgba(29,84,120,.4);
++    box-shadow: 0 4px 0 var(--steel-dk), 0 12px 30px rgba(29,84,120,.25);
+     overflow: hidden;
+     display: grid;
+     place-items: center;
++    contain: layout paint;
++    transform: translateZ(0);
++    will-change: transform;
+   }
+   .stage:fullscreen, .stage:-webkit-full-screen {
+     width: 100% !important; height: 100% !important;
+     border: none; border-radius: 0; box-shadow: none;
+     display: grid; place-items: center;
+   }
+-  .stage-inner { display: block; }
++  .stage-inner { display: block; width: 100%; height: 100%; }
+   object, embed { display: block; width: 100% !important; height: 100% !important; border: 0; }
+   /* Whatever element Ruffle mounts inside the box (it replaces <object> with
+      ruffle-object/ruffle-player and hosts the canvas in shadow DOM) — glue it
+      to the box so zoom/resize changes are followed after load. */
+   .stage-inner > * { display: block; width: 100% !important; height: 100% !important; }
+-  .stage canvas { display: block; width: 100% !important; height: 100% !important; }
+-  .stage ruffle-player, .stage-inner ruffle-player { display: block; width: 100% !important; height: 100% !important; }
++  .stage canvas {
++    display: block;
++    width: 100% !important;
++    height: 100% !important;
++    image-rendering: -webkit-optimize-contrast;
++    transform: translateZ(0);
++    will-change: transform;
++    backface-visibility: hidden;
++  }
++  .stage ruffle-player, .stage-inner ruffle-player { display: block; width: 100% !important; height: 100% !important; contain: strict; }
+   /* The in-game full-screen button fullscreens Ruffle's element directly —
+      give it a black stage so its letterbox bars look like ours. */
+   .stage ruffle-player:fullscreen, .stage ruffle-player:-webkit-full-screen {
+@@ -92,6 +103,31 @@
+   }
+ </style>
+ <script>
++  // High-performance preset configuration
++  const rcPerfPreset = localStorage.getItem("rc_perf_preset") || "ultrafast";
++  const rcQuality = (rcPerfPreset === "high") ? "high" : (rcPerfPreset === "balanced" ? "medium" : "low");
++
++  // On Windows high-DPI displays (125%-200%), Ruffle scales the WebGL canvas
++  // buffer by window.devicePixelRatio, resulting in 2.25x-4x more pixels to rasterize.
++  // Clamping DPR to 1.0 in Ultrafast and Balanced modes eliminates up to 75% of fill-rate load!
++  const nativeDpr = window.devicePixelRatio || 1;
++  if (rcPerfPreset !== "high") {
++    try {
++      Object.defineProperty(window, "devicePixelRatio", {
++        get: () => 1.0,
++        configurable: true,
++      });
++    } catch {}
++    try {
++      if (typeof Window !== "undefined" && Window.prototype) {
++        Object.defineProperty(Window.prototype, "devicePixelRatio", {
++          get: () => 1.0,
++          configurable: true,
++        });
++      }
++    } catch {}
++  }
++
+   window.RufflePlayer = window.RufflePlayer || {};
+   window.RufflePlayer.config = {
+     autoplay: "on",
+@@ -99,6 +135,10 @@
+     splashScreen: false,
+     warnOnUnsupportedContent: false,
+     allowFullscreen: true,
++    quality: rcQuality,
++    letterbox: "on",
++    wmode: "opaque",
++    maxExecutionDuration: 30,
+   };
+   // Ground-truth fullscreen state + control for the game's fullscreen button.
+   // Ruffle's virtual stage.displayState can lag the browser, so the page makes
+@@ -131,6 +171,14 @@
+   <a class="rc-brand" href="/"><span class="rc-plate"></span><span class="rc-wordmark">Restaurant City Reborn</span></a>
+   <span class="game-status" id="accountStatus">Checking login…</span>
+   <div style="flex:1"></div>
++  <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:#eafaff;font-weight:700">
++    <label for="qualitySelect" style="cursor:pointer">⚡ Desempenho:</label>
++    <select id="qualitySelect" class="rc-btn ghost small" style="padding:4px 10px;font-size:12px;font-weight:700;border-radius:6px;background:rgba(5,15,22,.75);color:#eafaff;cursor:pointer">
++      <option value="ultrafast">⚡ Ultrarrápido (Baixa / DPR 1x - Máx FPS)</option>
++      <option value="balanced">⚖️ Equilibrado (Média / DPR 1x)</option>
++      <option value="high">🎨 Alta Definição (Alta / DPR Nativo)</option>
++    </select>
++  </div>
+   <nav style="display:flex;gap:10px">
+     <a id="discordLinkTop" class="rc-btn ghost small" href="/auth/discord?intent=link&next=/game">Link Discord</a>
+     <a class="rc-btn ghost small" href="/leaderboards">Leaderboards</a>
+@@ -270,6 +318,23 @@ window.addSendGiftIFrame = (...args) => {
+ // Obsolete non-social Facebook surfaces complete without opening UI.
+ window.addBookmark = window.callBookmark = window.addPermission = () => rcFlashCallback(false);
+ 
++// Wire up graphics performance preset selector
++const qSelect = document.getElementById("qualitySelect");
++if (qSelect) {
++  qSelect.value = localStorage.getItem("rc_perf_preset") || "ultrafast";
++  qSelect.addEventListener("change", () => {
++    localStorage.setItem("rc_perf_preset", qSelect.value);
++    if (qSelect.value === "high") {
++      localStorage.setItem("rc_quality", "high");
++    } else if (qSelect.value === "balanced") {
++      localStorage.setItem("rc_quality", "medium");
++    } else {
++      localStorage.setItem("rc_quality", "low");
++    }
++    location.reload();
++  });
++}
++
+ init();
+ 
+ async function init() {
+@@ -329,7 +394,7 @@ function showGame(account) {
+   logoutButton.classList.remove("hidden");
+   main.innerHTML = "";
+ 
+-  const swfUrl = `/game.swf?account=${encodeURIComponent(account.networkUid)}`;
++  const swfUrl = `/game.swf?v=20261023-opt-fast&account=${encodeURIComponent(account.networkUid)}`;
+   const SWF_W = 760;
+   const SWF_H = 600;
+ 
+@@ -352,15 +417,18 @@ function showGame(account) {
+     param.value = value;
+     object.append(param);
+   };
++  const activeQuality = (localStorage.getItem("rc_perf_preset") === "high") ? "high" : (localStorage.getItem("rc_perf_preset") === "balanced" ? "medium" : "low");
+   addParam("movie", swfUrl);
+-  addParam("quality", "high");
++  addParam("quality", activeQuality);
++  addParam("wmode", "opaque");
+   addParam("scale", "showall");
+   addParam("allowFullScreen", "true");
+   addParam("allowScriptAccess", "always");
+ 
+   const embed = document.createElement("embed");
+   embed.src = swfUrl;
+-  embed.quality = "high";
++  embed.quality = activeQuality;
++  embed.wmode = "opaque";
+   embed.scale = "showall";
+   embed.allowFullScreen = "true";
+   embed.allowScriptAccess = "always";

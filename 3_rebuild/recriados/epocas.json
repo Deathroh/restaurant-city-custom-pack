@@ -1,0 +1,26 @@
+{
+  "comentario": "Itens de epoca do catalogo original: fora da janela (de/ate, MM-DD, pela data do computador do jogador) somem da loja; quem ja tem continua com eles. Lido por scripts/aplicar_catalogo.cjs, que poe rcrEpoca=\"de:ate\" no item; o ItemChooser do game.swf (recriados/codigo) esconde. Lista montada em 2026-10-29 pelo bloco de ids de cada lancamento e pelo blog oficial (Halloween out/2009, Natal dez/2009, Valentine fev/2010). O tema japones fica sempre.",
+  "epocas": [
+    {
+      "nome": "Halloween",
+      "de": "10-01",
+      "ate": "11-07",
+      "ids": [3000041, 3000042, 3010017, 3020102, 3020103, 3020104, 3020105, 3020106, 3020110, 3030025, 3040022, 3070005, 3070007, 3500072],
+      "itens": "Monster Clock, Halloween Window, Halloween Door, Gothic Divider, Jar of Eyeballs, Tentacle Jar, Evil Pumpkin Decor, Gravestone, Gothic Divider Block, Gothic Table, Gothic Chair, Cauldron Stove, Halloween Stove, Brain Jar"
+    },
+    {
+      "nome": "Natal",
+      "de": "12-01",
+      "ate": "01-06",
+      "ids": [3000047, 3000048, 3010019, 3010020, 3020127, 3020128, 3020129, 3020130, 3020131, 3020132, 3020133, 3020134, 3020135, 3020136, 3020137, 3020138, 3020139, 3020140, 3020141, 3020142, 3020143, 3030031, 3030032, 3030034, 3040028, 3040029, 3040030, 3040032, 3500081, 3500086, 3500087, 3500088, 3500089, 3500090, 3500091, 3050038, 3050039, 3050040, 3060036, 3060037, 3060038, 3060039, 3070008, 3110002, 3120008],
+      "itens": "Gingerbread Window, Igloo Window, Gingerbread Double Door, Igloo Door, Festive Tree, Giant Festive Tree, Red/White/Blue/Green/Gold/Pink/Giant Present, Candy Pole, Gingerbread Divider Block, Gingerbread Divider, Ice Sculpture, Festive FirePlace, Santa's Boot, Ice Tree, Giant Snow Globe, Festive Table, Candy Table, Icy Table, Festive Chair, Festive Bench, Candy Chair, Icy Chair, Frosty the Snowman, Gingerbread Basin, Gingerbread Toilet, Gingerbread Bed, Snow Machine, Reindeer, Santa Statue, Snowy Floor, Gingerbread Floor, Icy Floor, Festive Wallpaper, Gingerbread Wall, Iceblock Wallpaper, Tinsel Wallpaper, Festive Stove, Festive Fridge, Snowy Pine Tree"
+    },
+    {
+      "nome": "Valentine",
+      "de": "02-01",
+      "ate": "02-21",
+      "ids": [3000062, 3000064, 3000065, 3010023, 3020193, 3020194, 3020196, 3020197, 3020198, 3020199, 3020200, 3020201, 3020202, 3020203, 3020204, 3020205, 3020206, 3020207, 3020208, 3030041, 3030042, 3030043, 3040043, 3040044, 3040045, 3050054, 3060045, 3060046, 3060047, 3070010, 3110004, 3120020, 3120021],
+      "itens": "Heart Wreath, Pink Heart Window, White Heart Window, Valentine Door, Red/Turquoise Valentine Present, Purple/Red Heart Balloon, Rose Bucket, Rose Bunch, Single Rose, Valentine Decor, Romantic Cats, Romantic Swans, Romantic Table Lamp, Valentine Present, Heart Divider Block, Heart Divider, Heart Divider Corner, Red/White Valentine Table, Romantic Table, Red/White Valentine Chair, Romantic Chair, Hearts Tile, Hearts Wallpaper, Red Bow Wallpaper, Pink Bow Wallpaper, Valentine Stove, Valentine Fridge, Romantic Tree, Heart Tree"
+    }
+  ]
+}
