@@ -1,312 +1,215 @@
 ---
-tags: [restaurant-city, instalacao, itens-recriados]
+tags: [restaurant-city, instalacao, itens-recriados, julho-2010]
 fontes:
-  - "recriados/manifesto.json e scripts/aplicar_itens.ps1 (Restaurant City Arquivo)"
+  - "recriados/manifesto.json, recriados/julho2010/ e scripts/aplicar_itens.ps1 (Restaurant City Arquivo)"
   - "restaurant-city-server (fork de Dippys/Restaurant-City-Server, commit cdef695)"
 criado: 2026-10-28
-atualizado: 2026-10-29
+atualizado: 2026-11-04
 ---
 
-# Restaurant City Reborn: Guia de Instalação dos Itens Recriados
+# Restaurant City Reborn: Guia de Instalação (itens recriados + build de julho/2010)
 
-> 🇺🇸 **For the installation guide in English, [click here (README.md)](README.md).**
+> 🇺🇸 **English guide: [README.md](README.md).**
 
 Compatível com o servidor [Dippys/Restaurant-City-Server](https://github.com/Dippys/Restaurant-City-Server) (testado no commit `cdef695`).
 
+Versão do pacote: **2026-11-04**. A anterior era a de 2026-10-29.
+
 ---
 
-## ⚠️ AVISOS DE SEGURANÇA E CUIDADOS (LEIA ANTES DE TUDO)
+## 🆕 O que mudou desde o pacote de 29/10
+
+- **Build oficial de julho de 2010.** Entram **494 itens oficiais** que a build 0.9.143a do servidor não tinha: Lounge Bar, Wedding, Underwater, Alice no País das Maravilhas, tema japonês, Primavera, México, Espaço, os bichinhos e o Sushi Bar. A arte e os dados vêm dos arquivos de julho/2010 que o projeto Restaurant Origins preservou. Os itens usam o **id original da Playfish**. Também foram atualizados os valores de 53 itens que já existiam.
+- **As recriações viraram os originais.** 77 itens que tínhamos recriado (Monster Robot, Cherry Blossom Tree, Zen Table, Magic Water, Sofa Corner...) agora são os itens oficiais de julho. **Quem instalou o pacote de 29/10 precisa migrar o banco** (veja o aviso 1 abaixo).
+- **Receitas de sushi.** Entram as 7 receitas da cadeia do Sushi Bar (Miso Soup, Yaki Gyoza, Seaweed Salad, Salmon Sashimi, Sushi Selection, Salmon Handrolls, Sakura Mochi) e os ingredientes Salmon e Seaweed. Por isso o pacote agora substitui **9 arquivos**, não mais 5.
+- **Correções no `game.swf`:**
+  - **Garçons:** o cálculo de rotas do garçom ficou rápido. Antes, um salão com muitas mesas longe da cozinha travava o jogo ao abrir ("A script in this movie has taken too long").
+  - **Arcos de passar por baixo:** o Sunken Ruins Arch e o Wedding Trellis agora aparecem montados certo, e o cliente passa pelo bloco do meio.
+  - **Itens de época:** os de Halloween, Natal e Valentine só aparecem na loja na época deles.
+  - **Itens de julho com efeito:** os bichinhos andam, o Magic Water liga as bordas, a Rain Cloud faz chover, o Pet Cheshire Cat aparece e some, os enfeites que soltam pétalas, borboletas ou notas funcionam, e há os bônus de demanda.
+- **Loja sem repetidos.** Saíram da loja o Teppanyaki Grill de julho (fica o `3080048`, com a animação original, 10 fishcash e 10% mais rápido), o Bonsai Tree, o Bamboo Flooring e o Multi Tile recriados, porque repetiam itens originais. Quem já tem um deles continua com ele.
+- **Retirado:** o Japanese Divider Corner (`3080089`), que tínhamos feito nós mesmos. A migração apaga as cópias que estiverem no banco.
+- **Novo patch opcional do servidor:** `block_stacks.patch`. Ele impede que o servidor apague as pilhas de blocos iguais no mesmo bloco, um truque clássico de decoração.
+
+---
+
+## ⚠️ AVISOS (LEIA ANTES DE TUDO)
 
 > [!CAUTION]
-> **1. Conflito de IDs (3080001 a 3080146)**  
-> Os itens deste pacote utilizam estritamente esta faixa de identificadores. Se o seu servidor já possui itens próprios cadastrados nesses IDs, **NÃO INSTALE**, pois haverá colisão e os itens se misturarão no catálogo.
+> **1. Instalou o pacote de 29/10? Migre o banco ANTES de abrir o jogo.**  
+> Os ids das 77 recriações que viraram originais deixaram de existir no catálogo. Sem a migração, os itens guardados e colocados com esses ids somem ou travam o restaurante. Com o servidor **parado**, dentro da pasta `3_rebuild`:
+> ```powershell
+> node scripts\migrar_inventario_julho2010.cjs --servidor "C:\caminho\do\servidor"
+> node scripts\migrar_inventario_julho2010.cjs --servidor "C:\caminho\do\servidor" --aplicar
+> ```
+> O primeiro comando só conta o que vai mudar. O segundo faz um backup do `dev.db` em `backups\` e troca os ids no inventário, no salão, nos pisos, nas cartas e nas trocas pendentes, conferindo no fim se o total de itens continuou o mesmo. Ele também apaga as cópias do Japanese Divider Corner. Precisa do Node 20+ e do servidor com `npm install` já feito (o script usa o `better-sqlite3` dele). Quem nunca instalou o pacote de 29/10 pode pular este passo.
+
+> [!CAUTION]
+> **2. Conflito de ids.**  
+> Os itens recriados usam a faixa `3080001` a `3080146`. Os itens de julho usam os ids originais da Playfish que não existem na build 0.9.143a: decoração e móveis entre `3000066` e `3500130`, as receitas `5000031`–`5000033`, `5100043`–`5100045` e `5200033`, e os ingredientes `4000103`/`4000104`. Se o seu servidor já cadastrou itens próprios nesses ids (ou já trouxe os itens de julho de outro jeito), **não instale**: as linhas vão se misturar no catálogo.
 
 > [!WARNING]
-> **2. Backup Obrigatório dos 5 Arquivos**  
-> A instalação substitui 5 arquivos centrais do servidor. Antes de copiar qualquer arquivo, faça uma cópia de segurança deles em uma pasta separada (eles são o seu ponto de restauração para desfazer):
+> **3. Faça backup dos 9 arquivos.**  
+> A instalação substitui estes arquivos. Guarde uma cópia deles numa pasta separada; é o seu ponto de volta:
 > - `public/swf/indoor_asset.swf`
 > - `public/swf/game.swf`
-> - `public/data/restaurant.xml`
-> - `public/data/restaurant.bin`
+> - `public/data/restaurant.xml` e `public/data/restaurant.bin`
 > - `public/data/lang_en.bin`
+> - `public/data/recipe.xml` e `public/data/recipe.bin`
+> - `public/data/ingredient.xml` e `public/data/ingredient.bin`
 
 > [!IMPORTANT]
-> **3. Reinício Obrigatório do Servidor**  
-> O servidor mantém o catálogo e os preços em cache na memória RAM. Após copiar os arquivos, **reiniciar o servidor é obrigatório** (`npm run start:built` ou `start.bat`). Sem reiniciar, os itens novos não aparecerão ou serão cobrados com valores desatualizados.
+> **4. Reinicie o servidor.**  
+> O servidor guarda o catálogo, as receitas e os preços em cache na memória. Depois de copiar os arquivos, **reinicie** (`npm run start:built` ou `start.bat`). Sem isso, os itens novos não aparecem ou saem com preço antigo.
 
 > [!NOTE]
-> **4. Limpeza de Cache dos Jogadores (Ctrl + F5)**  
-> O Flash Player / Ruffle grava o arquivo SWF no navegador dos usuários. Todo jogador precisa recarregar a página do jogo com **Ctrl + F5** para carregar os novos gráficos e comportamentos.
+> **5. Ctrl + F5 nos navegadores.**  
+> O Flash Player / Ruffle guarda o SWF no navegador. Todo jogador precisa recarregar a página do jogo com **Ctrl + F5**.
 
 ---
 
-## 🛍️ Catálogo de Itens por Abas (Na Ordem da Loja do Jogo)
+## 🛍️ O que vem no pacote
 
-### 1. Cadeiras (Chairs) (2 itens)
-
-* **Zen Chair** (ID `3080030`) — 700 moedas
-* **White Zen Chair** (ID `3080031`) — 700 moedas
-
-### 2. Mesas (Tables) (4 itens)
-
-* **Zen Table** (ID `3080020`) — 8 Playfish Cash — *★ Custa Cash, Mesa de 2 blocos (atende 2 clientes)*
-* **Small Zen Table** (ID `3080021`) — 1.200 moedas
-* **Sushi Table** (ID `3080026`) — 1.200 moedas
-* **Long Sushi Table** (ID `3080027`) — 8 Playfish Cash — *★ Custa Cash, Mesa de 2 blocos (atende 2 clientes)*
-
-### 3. Eletrodomésticos de Cozinha (Kitchen Appliances) (2 itens)
-
-* **Ceremonial Drink Set** (ID `3080023`) — 6 Playfish Cash — *★ Custa Cash, Bônus de velocidade (+10% rapidez nas bebidas)*
-* **Teppanyaki Grill** (ID `3080048`) — 10 Playfish Cash — *★ Custa Cash*
-
-### 4. Pisos (Floor Tiles) (53 itens)
-
-* **Tatami Mat** (ID `3080016`) — 20 moedas
-* **Zen Circle Tile** (ID `3080049`) — 40 moedas
-* **Zen Stripe Tile** (ID `3080050`) — 40 moedas
-* **Zen Tile** (ID `3080051`) — 40 moedas
-* **Magic Floor Tile** (ID `3080094`) — 40 moedas
-* **Cloud Flooring** (ID `3080095`) — 40 moedas
-* **Clubs Tile** (ID `3080096`) — 40 moedas
-* **Diamond Tile** (ID `3080097`) — 40 moedas
-* **Multi Tile** (ID `3080098`) — 40 moedas
-* **Spades Tile** (ID `3080099`) — 40 moedas
-* **Dark Blue Floor** (ID `3080100`) — 40 moedas
-* **Bamboo Flooring** (ID `3080101`) — 40 moedas
-* **Terracotta Tile** (ID `3080102`) — 40 moedas
-* **Wonderland Tile - Red** (ID `3080103`) — 40 moedas
-* **Grass Tile** (ID `3080104`) — 40 moedas
-* **Garden Path Tile 1** (ID `3080105`) — 40 moedas
-* **Garden Path Tile 2** (ID `3080106`) — 40 moedas
-* **Garden Path Tile 3** (ID `3080107`) — 40 moedas
-* **Garden Path Tile 4** (ID `3080108`) — 40 moedas
-* **Garden Path Tile 5** (ID `3080109`) — 40 moedas
-* **Garden Path Tile 6** (ID `3080110`) — 40 moedas
-* **Turkish Stone Tile** (ID `3080111`) — 40 moedas
-* **Sand Tile** (ID `3080112`) — 40 moedas
-* **Sand Tile 2** (ID `3080113`) — 40 moedas
-* **Sand Tile 3** (ID `3080114`) — 40 moedas
-* **Sports Court Tile 1** (ID `3080115`) — 40 moedas
-* **Sports Court Tile 2** (ID `3080116`) — 40 moedas
-* **Sports Court Tile 3** (ID `3080117`) — 40 moedas
-* **Sports Court Tile 4** (ID `3080118`) — 40 moedas
-* **Sports Court Tile 5** (ID `3080119`) — 40 moedas
-* **Oktoberfest Tile** (ID `3080120`) — 40 moedas
-* **Sun God Tile** (ID `3080121`) — 40 moedas
-* **Magic Chocolate Tile** (ID `3080122`) — 40 moedas
-* **Sports Court Tile 6** (ID `3080125`) — 40 moedas
-* **Sports Court Tile 7** (ID `3080126`) — 40 moedas
-* **Magic Water Corner 1** (ID `3080127`) — 60 moedas
-* **Magic Water Corner 2** (ID `3080128`) — 60 moedas
-* **Magic Water Corner 3** (ID `3080129`) — 60 moedas
-* **Magic Water Corner 4** (ID `3080130`) — 60 moedas
-* **Magic Water (Plain)** (ID `3080131`) — 60 moedas
-* **Magic Water Edge 1** (ID `3080137`) — 60 moedas
-* **Magic Water Edge 2** (ID `3080138`) — 60 moedas
-* **Magic Water Edge 3** (ID `3080139`) — 60 moedas
-* **Magic Water Edge 4** (ID `3080140`) — 60 moedas
-* **Dark Magic Water Corner 1** (ID `3080132`) — 60 moedas
-* **Dark Magic Water Corner 2** (ID `3080134`) — 60 moedas
-* **Dark Magic Water Corner 3** (ID `3080135`) — 60 moedas
-* **Dark Magic Water Corner 4** (ID `3080136`) — 60 moedas
-* **Dark Magic Water (Plain)** (ID `3080133`) — 60 moedas
-* **Dark Magic Water Edge 1** (ID `3080141`) — 60 moedas
-* **Dark Magic Water Edge 2** (ID `3080142`) — 60 moedas
-* **Dark Magic Water Edge 3** (ID `3080143`) — 60 moedas
-* **Dark Magic Water Edge 4** (ID `3080144`) — 60 moedas
-
-### 5. Papel de Parede (Wallpapers) (2 itens)
-
-* **Sakura Wallpaper** (ID `3080084`) — 1.200 moedas
-* **Shoji Screen Wallpaper** (ID `3080085`) — 1.000 moedas
-
-### 6. Portas (Doors) (1 itens)
-
-* **Japanese Sliding Door** (ID `3080086`) — 1.200 moedas — *Animado (abre e fecha ao passar clientes)*
-
-### 7. Decoração Interior (Decorations) (49 itens)
-
-* **Fish Tank (Taste of Asia)** (ID `3080004`) — 2.500 moedas
-* **Japanese Pond** (ID `3080009`) — 10.000 moedas — *Animado (efeito contínuo de cascata e água)*
-* **Bonsai Tree** (ID `3080010`) — 1.600 moedas
-* **Stone Lantern** (ID `3080011`) — 2.000 moedas
-* **Daruma** (ID `3080012`) — 1.800 moedas
-* **Gong** (ID `3080013`) — 2.000 moedas
-* **Bamboo Water Feature** (ID `3080014`) — 2.000 moedas
-* **Samurai Armor** (ID `3080015`) — 4.000 moedas
-* **Katana Decor** (ID `3080017`) — 1.200 moedas
-* **Samurai Sword Decor** (ID `3080022`) — 1.200 moedas
-* **Zen Garden** (ID `3080028`) — 3.000 moedas
-* **Zen Rock** (ID `3080029`) — 2.200 moedas
-* **Zen Stone** (ID `3080032`) — 900 moedas
-* **Zen Pebble** (ID `3080033`) — 500 moedas
-* **Garden Fireplace** (ID `3080034`) — 1.500 moedas
-* **Garden Lamp** (ID `3080035`) — 1.200 moedas
-* **Japanese Fishpond** (ID `3080036`) — 8.000 moedas
-* **Japanese Garden Pond** (ID `3080037`) — 10.000 moedas — *Animado (lótus flutuando na água, 3x3)*
-* **Octopus Statue** (ID `3080039`) — 3.000 moedas
-* **Prawn Sushi Decor** (ID `3080040`) — 600 moedas
-* **Salmon Sushi Decor** (ID `3080041`) — 600 moedas
-* **Yellow Maki Decor** (ID `3080042`) — 500 moedas
-* **Green Maki Decor** (ID `3080043`) — 500 moedas
-* **Red Maki Decor** (ID `3080044`) — 700 moedas
-* **Sakura Mochi Decor** (ID `3080045`) — 700 moedas
-* **Ad Divider** (ID `3080046`) — 2.000 moedas
-* **Ad Post** (ID `3080047`) — 1.800 moedas
-* **Melon Rug** (ID `3080053`) — 1.500 moedas
-* **Strawberry Rug** (ID `3080054`) — 1.500 moedas
-* **Kiwi Rug** (ID `3080055`) — 1.500 moedas
-* **Potted Melon Divider** (ID `3080056`) — 1.200 moedas
-* **Nosy Squirrel** (ID `3080057`) — 2.500 moedas
-* **Camouflage Bear** (ID `3080058`) — 4.000 moedas
-* **Ghost Story Arcade** (ID `3080060`) — 9.000 moedas
-* **Louis Biltong** (ID `3080067`) — 3.000 moedas
-* **New Orleans Jazzy Duo** (ID `3080068`) — 4.000 moedas
-* **New Orleans Jukebox** (ID `3080069`) — 5.000 moedas
-* **Alessandra Clapper** (ID `3080071`) — 2.500 moedas
-* **The Watering Hole** (ID `3080073`) — 6.000 moedas
-* **Failed Knight Figurine** (ID `3080074`) — 3.500 moedas
-* **Evil Tree** (ID `3080075`) — 6.000 moedas
-* **Cheesey Varities** (ID `3080081`) — 2.500 moedas
-* **Liberty Bell** (ID `3080083`) — 3.000 moedas
-* **Japanese Divider** (ID `3080088`) — 600 moedas
-* **Japanese Divider Corner** (ID `3080089`) — 600 moedas
-* **Spring Divider** (ID `3080090`) — 400 moedas
-* **Spring Divider Block** (ID `3080091`) — 800 moedas
-* **White Sofa Corner** (ID `3080145`) — 800 moedas — *Sofá de canto em V (conecta sofás modernos)*
-* **Black Sofa Corner** (ID `3080146`) — 800 moedas — *Sofá de canto em V (conecta sofás modernos)*
-
-### 8. Decoração de Parede (Wall Decorations) (7 itens)
-
-* **Shuriken Wall Decor** (ID `3080018`) — 800 moedas
-* **Sushi Sign** (ID `3080019`) — 1.500 moedas
-* **Delicious Sign Decor** (ID `3080024`) — 900 moedas
-* **Japanese Garden Picture** (ID `3080025`) — 2.500 moedas — *Painel largo de 4 blocos*
-* **Pixel Decal - Fruit Punch** (ID `3080061`) — 800 moedas
-* **Pixel Decal - Gooey Monster** (ID `3080062`) — 800 moedas
-* **Pixel Decal - Potato <3** (ID `3080063`) — 800 moedas
-
-### 9. Itens Funcionais (Functional) (2 itens)
-
-* **Monster Robot** (ID `3080001`) — 25 Playfish Cash — *★ Custa Cash, Animado (anda pelo restaurante)*
-* **Cherry Blossom Tree** (ID `3080007`) — 15 Playfish Cash — *★ Custa Cash, Animado (solta pétalas de cerejeira)*
-
-### ⭐ Aba Especial: Itens que Custam Playfish Cash (6 itens)
-
-> *Estes itens também estão listados em suas respectivas categorias acima.*
-
-* **Monster Robot** (ID `3080001`) — **25 Playfish Cash** (Aba: Functional) — *★ Custa Cash, Animado (anda pelo restaurante)*
-* **Cherry Blossom Tree** (ID `3080007`) — **15 Playfish Cash** (Aba: Functional) — *★ Custa Cash, Animado (solta pétalas de cerejeira)*
-* **Zen Table** (ID `3080020`) — **8 Playfish Cash** (Aba: Table) — *★ Custa Cash, Mesa de 2 blocos (atende 2 clientes)*
-* **Ceremonial Drink Set** (ID `3080023`) — **6 Playfish Cash** (Aba: Kitchen Appliance) — *★ Custa Cash, Bônus de velocidade (+10% rapidez nas bebidas)*
-* **Long Sushi Table** (ID `3080027`) — **8 Playfish Cash** (Aba: Table) — *★ Custa Cash, Mesa de 2 blocos (atende 2 clientes)*
-* **Teppanyaki Grill** (ID `3080048`) — **10 Playfish Cash** (Aba: Kitchen Appliance) — *★ Custa Cash*
-
-### ✨ Aba Especial: Itens com Animação / Efeitos Visuais (5 itens)
-
-> *Estes itens também estão listados em suas respectivas categorias acima.*
-
-* **Monster Robot** (ID `3080001`) — 25 Playfish Cash (Aba: Functional) — *★ Custa Cash, Animado (anda pelo restaurante)*
-* **Cherry Blossom Tree** (ID `3080007`) — 15 Playfish Cash (Aba: Functional) — *★ Custa Cash, Animado (solta pétalas de cerejeira)*
-* **Japanese Pond** (ID `3080009`) — 10.000 moedas (Aba: Decoration) — *Animado (efeito contínuo de cascata e água)*
-* **Japanese Garden Pond** (ID `3080037`) — 10.000 moedas (Aba: Decoration) — *Animado (lótus flutuando na água, 3x3)*
-* **Japanese Sliding Door** (ID `3080086`) — 1.200 moedas (Aba: Door) — *Animado (abre e fecha ao passar clientes)*
-
----
-
-## 🚀 Qual Caminho de Instalação Seguir?
-
-| Sua Situação Atual | Caminho Recomendado | Tempo Estimado |
-|---|---|---|
-| **Nunca alterou** o `game.swf`, `restaurant.xml` ou textos do servidor | **Caminho A: Copiar e Colar** | ~3 minutos |
-| **Já modificou** o `game.swf`, adicionou itens próprios ou editou textos (`lang_en.bin`) | **Caminho B: Reconstruir** (Mescla sem perder suas alterações) | ~5 minutos |
-
----
-
-## Caminho A: Instalação Direta (Copiar e Colar)
-
-### 1. Pare o servidor e faça o backup
-Finalize a execução do seu servidor e copie os 5 arquivos originais citados no aviso do topo para uma pasta de backup.
-
-### 2. Copie os arquivos prontos
-Copie os arquivos da pasta `1_arquivos_prontos` e cole-os na pasta raiz do seu servidor, **substituindo** os arquivos existentes:
-
-| Origem no Pacote | Destino no Servidor |
+| | Quantidade |
 |---|---|
-| `1_arquivos_prontos/public/swf/indoor_asset.swf` | `public/swf/indoor_asset.swf` |
-| `1_arquivos_prontos/public/swf/game.swf` | `public/swf/game.swf` |
-| `1_arquivos_prontos/public/data/restaurant.xml` | `public/data/restaurant.xml` |
-| `1_arquivos_prontos/public/data/restaurant.bin` | `public/data/restaurant.bin` |
-| `1_arquivos_prontos/public/data/lang_en.bin` | `public/data/lang_en.bin` |
+| Itens recriados por nós (ids `3080xxx`) | 44 no catálogo, 41 à venda |
+| Itens oficiais de julho/2010 | 494 (106 custam fishcash) |
+| Receitas novas | 7 (cadeia do Sushi Bar) |
+| Ingredientes novos | 2 (Salmon, Seaweed) |
 
-### 3. Reinicie o servidor
-Inicie novamente o servidor (`npm run start:built`, serviço em segundo plano ou `start.bat`). Peça a todos os jogadores para recarregarem a página com **Ctrl + F5**.
+A lista completa, aba por aba, com id, preço, efeito e tamanho de cada item, está em **[ITENS.md](ITENS.md)**.
+
+### Itens recriados à venda (41)
+
+- **Cozinha:** Teppanyaki Grill (`3080048`, 10 fishcash, 10% mais rápido, animação original de julho).
+- **Pisos (19):** Garden Path Tile 1–6, Turkish Stone Tile, Sand Tile 2 e 3, Sports Court Tile 1–7, Oktoberfest Tile, Sun God Tile, Magic Chocolate Tile.
+- **Decoração (18):** Fish Tank (Taste of Asia), Japanese Fishpond, Melon/Strawberry/Kiwi Rug, Potted Melon Divider, Nosy Squirrel, Camouflage Bear, Ghost Story Arcade, Louis Biltong, New Orleans Jazzy Duo, New Orleans Jukebox, Alessandra Clapper, The Watering Hole, Failed Knight Figurine, Evil Tree, Cheesey Varities, Liberty Bell.
+- **Decoração de parede (3):** Pixel Decal - Fruit Punch, Gooey Monster e Potato <3.
+
+### Fora da loja (quem tem continua usando)
+
+| Id | Item | Por quê |
+|---|---|---|
+| `3070020` | Teppanyaki Grill (julho) | repetido: fica o `3080048` |
+| `3080010` | Bonsai Tree (recriado) | repetia o Bonsai original `3020288` |
+| `3080101` | Bamboo Flooring (recriado) | repetia o Bamboo Floor original `3050063` |
+| `3080098` | Multi Tile (recriado) | repetia o Cards Tile original `3050061` |
+
+### Itens de julho que ainda não têm efeito
+
+Aparecem, decoram e podem ser comprados, mas a função especial ainda não foi escrita:
+- **Tiny Door** (`ShrinkCustomerDoor`): os clientes deveriam encolher ao passar.
+- **Night Sculpture** (`NightTimeRoad`): a rua deveria ficar de noite.
+- **Tiki Statue, Hotel City Sign, Alien Monolith e Football Wall TV:** atraem clientes fantasiados, mas as roupas de julho não existem no jogo.
 
 ---
 
-## Caminho B: Reconstruir Sobre os Seus Arquivos
+## 🚀 Qual caminho seguir?
 
-*Requisitos: Windows com PowerShell, **Java 17+** e **Node 20+** instalados.*
+| A sua situação | Caminho | Tempo |
+|---|---|---|
+| **Nunca mexeu** no `game.swf`, no catálogo ou nos textos do servidor (ou só instalou o pacote de 29/10) | **Caminho A: copiar e colar** | ~3 minutos |
+| **Já modificou** o `game.swf`, cadastrou itens próprios ou mudou o `lang_en.bin` | **Caminho B: reconstruir** por cima dos seus arquivos | ~5 minutos |
 
-1. Pare o servidor e faça o backup dos 5 arquivos do Passo 1.
-2. Copie a pasta `3_reconstruir` inteira para uma pasta no seu computador (ex.: `C:\rc_itens\`).
-3. Abra o terminal PowerShell dentro dessa pasta e execute o comando abaixo (ajustando o caminho para a pasta `public` do seu servidor):
+Nos dois caminhos, quem instalou o pacote de 29/10 roda antes a migração do aviso 1.
+
+---
+
+## Caminho A: copiar e colar
+
+1. **Pare o servidor e faça o backup** dos 9 arquivos do aviso 3.
+2. **Se instalou o pacote de 29/10**, rode a migração (aviso 1).
+3. **Copie** o conteúdo de `1_ready_files` para a pasta do servidor, **substituindo** os arquivos:
+
+   | No pacote | No servidor |
+   |---|---|
+   | `1_ready_files/public/swf/indoor_asset.swf` | `public/swf/indoor_asset.swf` |
+   | `1_ready_files/public/swf/game.swf` | `public/swf/game.swf` |
+   | `1_ready_files/public/data/restaurant.xml` e `.bin` | `public/data/restaurant.xml` e `.bin` |
+   | `1_ready_files/public/data/lang_en.bin` | `public/data/lang_en.bin` |
+   | `1_ready_files/public/data/recipe.xml` e `.bin` | `public/data/recipe.xml` e `.bin` |
+   | `1_ready_files/public/data/ingredient.xml` e `.bin` | `public/data/ingredient.xml` e `.bin` |
+
+4. **Reinicie o servidor** e peça **Ctrl + F5** a todos os jogadores.
+
+O `game.swf` desta pasta vem **sem** o botão de troca de ingredientes no próprio restaurante (ele precisa de um patch no servidor; veja os opcionais).
+
+---
+
+## Caminho B: reconstruir por cima dos seus arquivos
+
+*Precisa de: Windows com PowerShell, **Java 17+** e **Node 20+**.*
+
+1. Pare o servidor, faça o backup dos 9 arquivos e, se for o caso, rode a migração.
+2. Copie a pasta `3_rebuild` inteira para uma pasta no computador (ex.: `C:\rc_itens\`).
+3. Abra o PowerShell dentro dela e rode, com o caminho da pasta `public` do seu servidor:
    ```powershell
    powershell -ExecutionPolicy Bypass -File scripts\aplicar_itens.ps1 -Servidor "C:\caminho\do\servidor\public" -SemTroca
    ```
-   *(Remova o `-SemTroca` somente se você for habilitar o opcional de troca de ingredientes).*
-4. Aguarde a mensagem final: `Pronto. Reinicie o servidor`. Se houver erro de compilação no FFDec, verifique sua versão do Java com `java -version`.
-5. Reinicie o servidor e solicite **Ctrl + F5** aos jogadores.
+   Tire o `-SemTroca` só se for instalar também a troca de ingredientes (cliente e patch do servidor).
+4. Espere a mensagem `Pronto. Reinicie o servidor`. Se aparecer erro de compilação do FFDec, confira o Java com `java -version`.
+5. Reinicie o servidor e peça **Ctrl + F5** aos jogadores.
 
-> 💡 **Nota sobre a pasta base:** O script cria e mantém a pasta `3_reconstruir\recriados\base\` com os arquivos originais do seu servidor. Não a delete, pois aplicações futuras partem dessa base.
+O que o script faz:
+- **Primeira execução:** guarda os originais do seu servidor em `3_rebuild\recriados\base\`. As execuções seguintes sempre partem desses originais, então **não apague essa pasta**.
+- **Arte de julho:** copia para o `indoor_asset.swf` a arte de julho/2010, que vem de `3_rebuild\recuperado\restaurant_origins\`.
+- **Itens recriados:** injeta a arte e as linhas de catálogo dos itens recriados (`recriados\manifesto.json`).
+- **Catálogo:** aplica os valores de julho, as épocas (`recriados\epocas.json`) e os itens fora da loja (`recriados\fora_da_loja.json`).
+- **Receitas:** grava as receitas e os ingredientes de sushi.
+- **Jogo:** recompila no `game.swf` as classes de `recriados\codigo\`.
+
+Para tirar outro item da loja, acrescente uma linha em `recriados\fora_da_loja.json` e rode de novo.
 
 ---
 
-## 🧩 Recursos Opcionais
+## 🧩 Opcionais
 
-### 1. Troca de Ingredientes no Próprio Restaurante (3 por 1)
-Adiciona um botão de troca ao lado do Mercado: o jogador seleciona 3 ingredientes próprios e recebe 1 novo ingrediente à escolha, sem depender de vizinhos.
-
-Para funcionar, é **obrigatório** instalar o cliente e o patch do servidor juntos:
-1. **No cliente:** Copie `2_opcionais/troca_de_ingredientes/game.swf` para `public/swf/game.swf` *(substitui o game.swf padrão)*.
-2. **No servidor:** Abra o terminal na pasta do servidor e execute:
+### 1. Troca de ingredientes no próprio restaurante (3 por 1)
+Um botão ao lado do Mercado: o jogador escolhe 3 ingredientes seus e recebe 1 à escolha, sem precisar de vizinho. Cliente e servidor vão **juntos**:
+1. **Cliente:** copie `2_optional/ingredient_exchange/game.swf` para `public/swf/game.swf` (no lugar do `game.swf` padrão).
+2. **Servidor:** na pasta do servidor (faça backup de `src/db/rpc-store.ts` antes):
    ```bash
-   git apply --ignore-whitespace caminho\do\pacote\2_opcionais\troca_de_ingredientes\troca_de_ingredientes.patch
-   copy caminho\do\pacote\2_opcionais\troca_de_ingredientes\own-ingredient-exchange.test.cjs test\
+   git apply --ignore-whitespace caminho\do\pacote\2_optional/ingredient_exchange\ingredient_exchange.patch
+   copy caminho\do\pacote\2_optional/ingredient_exchange\own-ingredient-exchange.test.cjs test\
    npm run build
    ```
-   *(Faça backup prévio de `src/db/rpc-store.ts`)*.
 
-> ⚠️ **Atenção:** Instalar o `game.swf` com o botão sem aplicar o patch do servidor fará a troca sempre falhar com erro de rede.
+> ⚠️ Com o `game.swf` com botão e sem o patch do servidor, a troca sempre falha com erro de rede.
 
-### 2. Seletor de Resolução / Desempenho (Ruffle)
-Adiciona um menu na página `public/game.html` com três perfis (Ultrarrápido, Equilibrado e Alta Definição) para reduzir travamentos em computadores modestos e telas de alta densidade (HiDPI).
-- Na pasta do servidor, aplique:
-  ```bash
-  git apply --ignore-whitespace caminho\do\pacote\2_opcionais\launcher_desempenho.patch
-  npm run build
-  ```
+### 2. Pilhas de blocos (servidor)
+O truque clássico de empilhar blocos iguais (por exemplo, 3 White Room Divider Block num bloco só, para fazer pilares) funciona no jogo, mas o servidor do Dippy trata as cópias iguais no mesmo bloco como duplicatas e as apaga na próxima vez que o restaurante carrega. O patch faz o servidor ignorar os itens do tipo `surface` nessa limpeza. Na pasta do servidor (backup de `src/db/item-catalog.ts` e `src/db/profile-store.ts` antes):
+```bash
+git apply --ignore-whitespace caminho\do\pacote\2_optional\block_stacks.patch
+npm run build
+```
+
+### 3. Seletor de desempenho (Ruffle)
+Um menu em `public/game.html` com três ajustes (Ultrarrápido, Equilibrado e Alta Definição), para reduzir o travamento em máquinas fracas e telas HiDPI:
+```bash
+git apply --ignore-whitespace caminho\do\pacote\2_optional\performance_launcher.patch
+npm run build
+```
 
 ---
 
-## ↩️ Como Desfazer a Instalação
+## ↩️ Como desfazer
 
-- **Se usou o Caminho A:** Copie os 5 arquivos do seu backup de volta para a pasta `public/` e reinicie o servidor.
-- **Se usou o Caminho B:** No PowerShell de `3_reconstruir`, execute:
+- **Caminho A:** devolva os 9 arquivos do backup para `public/` e reinicie o servidor.
+- **Caminho B:** no PowerShell, dentro de `3_rebuild`:
   ```powershell
   powershell -ExecutionPolicy Bypass -File scripts\aplicar_itens.ps1 -Servidor "C:\caminho\do\servidor\public" -Restaurar
   ```
   e reinicie o servidor.
-- **Se aplicou Patches:** Reverta via terminal com `git apply -R <patch>` e execute `npm run build`.
+- **Migração:** o backup do banco está em `backups\` do servidor, com o nome `dev.db.<data>_antes_julho2010_<número>`. Para voltar, pare o servidor e copie esse arquivo por cima do `dev.db`.
+- **Patches:** `git apply -R <patch>` e `npm run build`.
 
 ---
 
-## ✅ Como Conferir se a Instalação Deu Certo
+## ✅ Como conferir no jogo
 
-Abra o restaurante no jogo e verifique:
-1. **Aba Functional:** O *Monster Robot* (25 Playfish Cash) deve estar na loja e, quando colocado no salão com o jogo rodando, caminha livremente entre as mesas.
-2. **Aba Functional:** A *Cherry Blossom Tree* (15 Playfish Cash) solta pétalas de cerejeira no ar continuamente.
-3. **Aba Table:** A *Zen Table* e a *Long Sushi Table* (8 Playfish Cash, 2 blocos) devem acomodar 2 cadeiras e 2 clientes ao mesmo tempo.
-4. **Aba Kitchen Appliance:** Ao passar o mouse sobre o *Ceremonial Drink Set*, aparece a legenda *"Serves drinks 10% faster"*.
-5. **Aba Floor Tile:** As peças de *Magic Water* encaixadas formam uma piscina contínua sem linhas de grade.
-6. **Aba Decoration:** O *White Sofa Corner* ou *Black Sofa Corner* unem dois sofás modernos em formato de L.
+1. **Loja, aba Cozinha:** aparece um Teppanyaki Grill só (10 fishcash).
+2. **Loja, aba Funcionais:** o Monster Robot anda pelo salão e a Cherry Blossom Tree solta pétalas.
+3. **Loja, aba Decoração:** o Sunken Ruins Arch e o Wedding Trellis aparecem inteiros; o cliente passa por baixo.
+4. **Cardápio:** as receitas de sushi aparecem na lista de pratos para aprender.
+5. **Salão grande:** um layout com 50+ cadeiras abre sem travar (no teste, 59 cadeiras abriram em 0,7 s).
+6. **Quem migrou:** os itens recriados que você tinha aparecem como os originais de julho, nos mesmos lugares.

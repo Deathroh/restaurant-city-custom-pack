@@ -21,6 +21,10 @@ package com.playfish.games.cooking
    import flash.display.MovieClip;
    import flash.events.*;
    import flash.geom.Rectangle;
+   import flash.net.URLLoader;
+   import flash.net.URLRequest;
+   import flash.system.Capabilities;
+   import flash.system.System;
    import flash.utils.*;
    
    public class WorldRestaurantPlay extends WorldRestaurant
@@ -982,6 +986,7 @@ package com.playfish.games.cooking
          PerfTrace.mark("WorldRestaurantPlay.showNotify begin visitMode=" + this.visitMode);
          super.showNotify();
          instance = this;
+         rcrMedidorLigar();
          if(this.visitMode)
          {
             _loc6_ = getTimer();
@@ -1648,7 +1653,7 @@ package com.playfish.games.cooking
             {
                break;
             }
-            _loc3_ = getInteractiveItemUserTile(_loc6_);
+            _loc3_ = rcrInteractiveUserTile(_loc6_);
             if(isWalkable(_loc3_.x,_loc3_.y))
             {
                _loc4_ = new PathFinder(param1.tileX,param1.tileY,_loc3_.x,_loc3_.y,this);
@@ -2310,6 +2315,7 @@ package com.playfish.games.cooking
       {
          var _loc1_:int = getTimer();
          PerfTrace.mark("WorldRestaurantPlay.hideNotify begin");
+         rcrMedidorDesligar();
          super.hideNotify();
          if(this.visitMode)
          {
@@ -2472,7 +2478,12 @@ package com.playfish.games.cooking
          var _loc4_:MovieClip = param1.getChildMovieClipInstance("mc_content");
          if(_loc4_)
          {
-            _loc4_.gotoAndPlay(param2);
+            // RCR (2026-11-03): o Sushi Bar de julho/2010 so tem o rotulo "on" (a esteira gira sempre); sem
+            // "off"/"broken" o gotoAndPlay dava erro #2109. Rotulo que nao existe: a animacao segue como esta.
+            if(rcrTemRotulo(_loc4_,param2))
+            {
+               _loc4_.gotoAndPlay(param2);
+            }
             if(param1.subItemAutoSplit)
             {
                _loc3_ = 0;
@@ -2484,13 +2495,315 @@ package com.playfish.games.cooking
             }
          }
          _loc4_ = param1.getChildMovieClipInstance("mc_contentReverse");
+         // RCR (2026-11-03): a Pink Bunny Arcade Machine (julho/2010) chama o lado de tras de mc_content1, sem
+         // mc_contentReverse; sem isto esse lado ficava sempre "off"
+         if(_loc4_ == null)
+         {
+            _loc4_ = param1.getChildMovieClipInstance("mc_content1");
+         }
          var _loc5_:int = 1;
          while(_loc4_)
          {
-            _loc4_.gotoAndPlay(param2);
+            if(rcrTemRotulo(_loc4_,param2))
+            {
+               _loc4_.gotoAndPlay(param2);
+            }
             _loc4_ = param1.getChildMovieClipInstance("mc_content" + _loc5_);
             _loc5_++;
          }
+      }
+
+      // ---- RCR (2026-11-03): medidor de desempenho -------------------------------------------------------
+      // Enquanto o restaurante esta na tela, mede cada quadro e a cada 10 s manda um resumo ao servidor como
+      // GET /rcr-perf/<campos> (responde 404, mas o servidor registra o caminho no log). Nada de conteudo do jogo:
+      // so tempos e contagens. Campos: tipo do player, fps, intervalo medio e maximo entre quadros (ms), quadros
+      // acima de 100 ms, tempo medio no ENTER_FRAME (logica do jogo + atores), entre ENTER_FRAME e EXIT_FRAME
+      // (scripts das animacoes), o resto do quadro (desenho na tela + espera), clientes, objetos na sala, memoria.
+      private static var rcrMed:Object = null;
+
+      // true liga o perfil por tipo de objeto ([RCR-PERFIL] no console: ms de tick por classe na sala).
+      // Custa um getQualifiedClassName por objeto por quadro; deixar false no uso normal.
+      private static const RCR_PERFIL:Boolean = false;
+
+      // URLLoader (o sendToURL nao chegava ao servidor no Ruffle); o 404 da resposta e ignorado
+      private static var rcrLoader:flash.net.URLLoader = rcrNovoLoader();
+
+      private static function rcrNovoLoader() : flash.net.URLLoader
+      {
+         var _loc1_:flash.net.URLLoader = new flash.net.URLLoader();
+         _loc1_.addEventListener(IOErrorEvent.IO_ERROR,function(param1:Event):void
+         {
+         });
+         _loc1_.addEventListener(SecurityErrorEvent.SECURITY_ERROR,function(param1:Event):void
+         {
+         });
+         return _loc1_;
+      }
+
+      private function rcrMedidorLigar() : void
+      {
+         var _loc1_:* = Engine.instance != null ? Engine.instance.stage : null;
+         PerfTrace.mark("[RCR-MED] ligar stage=" + (_loc1_ != null) + " ja=" + (rcrMed != null));
+         if(_loc1_ == null)
+         {
+            return;
+         }
+         if(rcrMed != null)
+         {
+            rcrMed.mundo = this;
+            if(RCR_PERFIL)
+            {
+               BaseObject.rcrAlvo1 = this;
+               BaseObject.rcrAlvo2 = this.room;
+            }
+            return;
+         }
+         if(RCR_PERFIL)
+         {
+            BaseObject.rcrAlvo1 = this;
+            BaseObject.rcrAlvo2 = this.room;
+            BaseObject.rcrPerfil = {};
+         }
+         rcrMed = {"ini":getTimer(),"ant":0,"a":0,"q":0,"soma":0,"max":0,"lentos":0,"ent":0,"scr":0,"x":0,"mundo":this};
+         _loc1_.addEventListener(Event.ENTER_FRAME,rcrAntes,false,10000);
+         _loc1_.addEventListener(Event.ENTER_FRAME,rcrDepois,false,-10000);
+         _loc1_.addEventListener(Event.EXIT_FRAME,rcrSaida,false,-10000);
+      }
+
+      private function rcrMedidorDesligar() : void
+      {
+         var _loc1_:* = Engine.instance.stage;
+         if(rcrMed == null || _loc1_ == null)
+         {
+            return;
+         }
+         _loc1_.removeEventListener(Event.ENTER_FRAME,rcrAntes);
+         _loc1_.removeEventListener(Event.ENTER_FRAME,rcrDepois);
+         _loc1_.removeEventListener(Event.EXIT_FRAME,rcrSaida);
+         rcrMed = null;
+         BaseObject.rcrAlvo1 = null;
+         BaseObject.rcrAlvo2 = null;
+         BaseObject.rcrPerfil = null;
+      }
+
+      private static function rcrAntes(param1:Event) : void
+      {
+         var _loc2_:int = getTimer();
+         var _loc3_:int = 0;
+         if(rcrMed == null)
+         {
+            return;
+         }
+         if(rcrMed.ant == 0)
+         {
+            PerfTrace.mark("[RCR-MED] primeiro quadro");
+         }
+         if(rcrMed.ant > 0)
+         {
+            _loc3_ = _loc2_ - rcrMed.ant;
+            rcrMed.q++;
+            rcrMed.soma += _loc3_;
+            if(_loc3_ > rcrMed.max)
+            {
+               rcrMed.max = _loc3_;
+            }
+            if(_loc3_ > 100)
+            {
+               rcrMed.lentos++;
+            }
+         }
+         rcrMed.ant = _loc2_;
+         rcrMed.a = _loc2_;
+         if(_loc2_ - rcrMed.ini >= 10000 && rcrMed.q > 0)
+         {
+            rcrEnviar(_loc2_);
+         }
+      }
+
+      private static function rcrDepois(param1:Event) : void
+      {
+         if(rcrMed != null)
+         {
+            rcrMed.x = getTimer();
+            rcrMed.ent += rcrMed.x - rcrMed.a;
+         }
+      }
+
+      private static function rcrSaida(param1:Event) : void
+      {
+         if(rcrMed != null && rcrMed.x > 0)
+         {
+            rcrMed.scr += getTimer() - rcrMed.x;
+            rcrMed.x = 0;
+         }
+      }
+
+      private static function rcrEnviar(param1:int) : void
+      {
+         var _loc2_:Object = rcrMed;
+         var _loc3_:Number = _loc2_.soma / _loc2_.q;
+         var _loc4_:Number = _loc2_.ent / _loc2_.q;
+         var _loc5_:Number = _loc2_.scr / _loc2_.q;
+         var _loc6_:WorldRestaurantPlay = _loc2_.mundo;
+         var _loc7_:String = "";
+         try
+         {
+            _loc7_ = [String(flash.system.Capabilities.playerType + "-" + flash.system.Capabilities.version).replace(/[^A-Za-z0-9.,-]/g,"_"),"fps" + (1000 / _loc3_).toFixed(1),"med" + _loc3_.toFixed(0),"max" + _loc2_.max,"lentos" + _loc2_.lentos,"logica" + _loc4_.toFixed(1),"anim" + _loc5_.toFixed(1),"resto" + (_loc3_ - _loc4_ - _loc5_).toFixed(1),"clientes" + _loc6_.customers.length,"objs" + (_loc6_.room != null ? _loc6_.room.baseObjects.length : -1),"mem" + Math.round(flash.system.System.totalMemory / 1048576),"fotos" + IsoCacher.rcrFotos,"fotoms" + IsoCacher.rcrMs,"tickms" + rcrTickMs,"arvorems" + rcrArvoreMs,"clientems" + rcrClienteMs,"q" + Engine.instance.stage.quality,_loc6_.visitMode ? "visita" : (_loc6_.restaurantClosed ? "fechado" : "aberto")].join("_");
+            PerfTrace.mark("[RCR-MED] " + _loc7_);
+            if(RCR_PERFIL)
+            {
+               PerfTrace.mark("[RCR-PERFIL] " + rcrResumoPerfil(_loc6_));
+            }
+            if(!_loc2_.diag)
+            {
+               _loc2_.diag = true;
+               PerfTrace.mark("[RCR-DIAG] " + rcrDiagItens(_loc6_));
+            }
+            rcrLoader.load(new flash.net.URLRequest("/rcr-perf/" + _loc7_));
+         }
+         catch(ex:Error)
+         {
+            PerfTrace.mark("[RCR-MED] erro " + ex.message);
+         }
+         IsoCacher.rcrFotos = 0;
+         IsoCacher.rcrMs = 0;
+         rcrTickMs = 0;
+         rcrArvoreMs = 0;
+         rcrClienteMs = 0;
+         _loc2_.ini = param1;
+         _loc2_.q = 0;
+         _loc2_.soma = 0;
+         _loc2_.max = 0;
+         _loc2_.lentos = 0;
+         _loc2_.ent = 0;
+         _loc2_.scr = 0;
+      }
+
+      // diagnostico (2026-11-03): no painel do app os moveis nao aparecem; mostra o estado de alguns RoomItem
+      private static function rcrDiagItens(param1:WorldRestaurantPlay) : String
+      {
+         var _loc2_:String = "";
+         var _loc3_:int = 0;
+         var _loc4_:* = undefined;
+         var _loc5_:flash.display.DisplayObject = null;
+         if(param1.room == null)
+         {
+            return "sem room";
+         }
+         _loc2_ = "sala=" + param1.numTilesX + "x" + param1.numTilesY + " fora=" + param1.numOutsideTilesX + "x" + param1.numOutsideTilesY + " roomFilhos=" + param1.room.numChildren + " floorIdx=" + (param1.floorLayer != null && param1.floorLayer.parent == param1.room ? param1.room.getChildIndex(param1.floorLayer) : -1) + " roomVis=" + param1.room.visible + " roomAlpha=" + param1.room.alpha + " roomMask=" + (param1.room.mask != null) + " roomScrollRect=" + (param1.room.scrollRect != null) + " | ";
+         for each(_loc4_ in param1.room.baseObjects)
+         {
+            if(_loc4_ is RoomItem && _loc3_ < 8)
+            {
+               _loc5_ = _loc4_ as flash.display.DisplayObject;
+               _loc2_ += getQualifiedClassName(_loc4_.itemConfig ? _loc4_.itemConfig.className : _loc4_) + "[" + RoomItem(_loc4_).itemConfig.className + " vis=" + _loc5_.visible + " a=" + _loc5_.alpha + " pai=" + (_loc5_.parent == param1.room) + " idx=" + (_loc5_.parent ? _loc5_.parent.getChildIndex(_loc5_) : -1) + " xy=" + Math.round(_loc5_.x) + "," + Math.round(_loc5_.y) + " wh=" + Math.round(_loc5_.width) + "x" + Math.round(_loc5_.height) + " cab=" + _loc5_.cacheAsBitmap + " filhos=" + (_loc5_ as flash.display.DisplayObjectContainer).numChildren + "] ";
+               _loc3_++;
+            }
+         }
+         return _loc2_;
+      }
+
+      // tipos de objeto que mais gastaram tempo de tick na janela (ms) e quantos ha de cada um na sala; zera o perfil
+      private static function rcrResumoPerfil(param1:WorldRestaurantPlay) : String
+      {
+         var _loc2_:Object = BaseObject.rcrPerfil;
+         var _loc3_:Array = [];
+         var _loc4_:String = null;
+         var _loc5_:Object = {};
+         var _loc6_:* = undefined;
+         var _loc7_:String = null;
+         if(_loc2_ == null)
+         {
+            return "sem perfil";
+         }
+         if(param1.room != null)
+         {
+            for each(_loc6_ in param1.room.baseObjects)
+            {
+               _loc7_ = "r:" + getQualifiedClassName(_loc6_).replace(/^.*::/,"");
+               _loc5_[_loc7_] = (_loc5_[_loc7_] || 0) + 1;
+            }
+         }
+         for(_loc4_ in _loc2_)
+         {
+            _loc3_.push({"k":_loc4_,"ms":_loc2_[_loc4_]});
+         }
+         _loc3_.sortOn("ms",Array.NUMERIC | Array.DESCENDING);
+         _loc4_ = "";
+         var _loc8_:int = 0;
+         while(_loc8_ < _loc3_.length && _loc8_ < 12)
+         {
+            _loc4_ += _loc3_[_loc8_].k + "=" + _loc3_[_loc8_].ms + (_loc5_[_loc3_[_loc8_].k] ? "(x" + _loc5_[_loc3_[_loc8_].k] + ")" : "") + " ";
+            _loc8_++;
+         }
+         BaseObject.rcrPerfil = {};
+         return _loc4_;
+      }
+
+      // RCR (2026-11-03): itens interativos de julho/2010 (Foosball Table, Sushi Bars...) marcam na arte onde o
+      // cliente fica: mc_customer0, mc_customer1 (o tapete no chao). Fevereiro so conhecia o bloco na frente do
+      // item (getInteractiveItemUserTile), que no pebolim cai na ponta curta da mesa ("tenis de mesa").
+      // Escolhe ao acaso um tapete livre e andavel; sem tapete, o bloco de sempre.
+      public function rcrInteractiveUserTile(param1:RoomItem) : Object
+      {
+         var _loc2_:Array = [];
+         var _loc3_:int = 0;
+         var _loc4_:MovieClip = null;
+         var _loc5_:Object = null;
+         while((_loc4_ = param1.getChildMovieClipInstance("mc_customer" + _loc3_)) != null)
+         {
+            _loc5_ = {
+               "x":param1.tileX + getTileIndexX(_loc4_.x,_loc4_.y),
+               "y":param1.tileY + getTileIndexY(_loc4_.x,_loc4_.y)
+            };
+            if(isWalkable(_loc5_.x,_loc5_.y))
+            {
+               _loc2_.push(_loc5_);
+            }
+            _loc3_++;
+         }
+         if(_loc2_.length > 0)
+         {
+            return _loc2_[Engine.rnd(0,_loc2_.length)];
+         }
+         return getInteractiveItemUserTile(param1);
+      }
+
+      // giro (0..3, como o de item) para o cliente parado em (param2,param3) olhar para o item
+      public function rcrInteractiveFacing(param1:RoomItem, param2:int, param3:int) : int
+      {
+         if(param3 >= param1.tileY + param1.numTilesY)
+         {
+            return 3;
+         }
+         if(param3 < param1.tileY)
+         {
+            return 1;
+         }
+         if(param2 >= param1.tileX + param1.numTilesX)
+         {
+            return 2;
+         }
+         if(param2 < param1.tileX)
+         {
+            return 0;
+         }
+         return (param1.getRotationCount() + 2) % 4;
+      }
+
+      private static function rcrTemRotulo(param1:MovieClip, param2:String) : Boolean
+      {
+         var _loc3_:Array = param1.currentLabels;
+         var _loc4_:int = 0;
+         while(_loc4_ < _loc3_.length)
+         {
+            if(_loc3_[_loc4_].name == param2)
+            {
+               return true;
+            }
+            _loc4_++;
+         }
+         return false;
       }
       
       public function onButtonChangeMenuClick(param1:MouseEvent) : void
@@ -2657,7 +2970,31 @@ package com.playfish.games.cooking
          _loc2_.show();
       }
       
+      // RCR (2026-11-03): medicao do tick do restaurante (logica dos clientes, garcons, cozinha; os atores
+      // tambem rodam aqui via super.tick)
+      private static var rcrTickMs:int = 0;
+
+      // arvore inteira do restaurante (atores, itens e o tick acima)
+      private static var rcrArvoreMs:int = 0;
+
+      // soma dos Customer.tick (Customer.as soma aqui)
+      public static var rcrClienteMs:int = 0;
+
+      override public function tickBase(param1:uint) : void
+      {
+         var _loc2_:int = getTimer();
+         super.tickBase(param1);
+         rcrArvoreMs += getTimer() - _loc2_;
+      }
+
       override public function tick(param1:uint) : void
+      {
+         var _loc1_:int = getTimer();
+         this.rcrTick0(param1);
+         rcrTickMs += getTimer() - _loc1_;
+      }
+
+      private function rcrTick0(param1:uint) : void
       {
          var _loc2_:int = 0;
          var _loc3_:int = 0;
@@ -3251,15 +3588,79 @@ package com.playfish.games.cooking
          IsoCacherQueue.clearQueue();
       }
       
+      // RCR (2026-11-04): memoria das rotas dentro de um calculateServableTables. O original refazia a mesma
+      // busca de rota (PathFinder) para cada par cozinheiro x garcom x cadeira; a resposta so depende do bloco
+      // de partida e do destino, que nao mudam durante o calculo. Com 30+ cadeiras longe dos garcons (ex.: salao
+      // do layout 2 com a cozinha no jardim) o calculo passava de 15 s e o Ruffle matava o script.
+      // O resultado e o mesmo do original: so deixa de repetir buscas iguais.
+      private var rcrRotas:Object = null;
+
+      // RCR (2026-11-04): o bloco de passagem dos arcos de julho/2010 (mc_walkable, ver RoomItem.rcrPassagens)
+      // conta como livre para andar no modo de jogo. Para colocar itens (isValid) ele continua ocupado.
+      override public function isWalkable(param1:int, param2:int) : Boolean
+      {
+         var _loc3_:Array = null;
+         var _loc4_:int = 0;
+         var _loc5_:int = 0;
+         if(super.isWalkable(param1,param2))
+         {
+            return true;
+         }
+         if(isTileOutOfBound(param1,param2))
+         {
+            return false;
+         }
+         _loc4_ = getTileIndex(param1,param2);
+         if(wallMap[_loc4_] != null)
+         {
+            return false;
+         }
+         _loc3_ = itemMap[_loc4_];
+         if(_loc3_ == null || _loc3_.length == 0)
+         {
+            return false;
+         }
+         while(_loc5_ < _loc3_.length)
+         {
+            if(!(_loc3_[_loc5_] is RoomItem) || !RoomItem(_loc3_[_loc5_]).rcrPassavelEm(param1,param2))
+            {
+               return false;
+            }
+            _loc5_++;
+         }
+         return true;
+      }
+
+      private function rcrTemRotaCadeira(param1:int, param2:int, param3:int) : Boolean
+      {
+         var _loc4_:String = "c" + param1 + "," + param2 + ":" + param3;
+         if(this.rcrRotas[_loc4_] === undefined)
+         {
+            this.rcrRotas[_loc4_] = this.hasPathToCustomerChair(param1,param2,this.chairs[param3]);
+         }
+         return this.rcrRotas[_loc4_];
+      }
+
+      private function rcrTemRotaAte(param1:Waitor, param2:int, param3:int) : Boolean
+      {
+         var _loc4_:String = "a" + param1.tileX + "," + param1.tileY + ":" + param2 + "," + param3;
+         if(this.rcrRotas[_loc4_] === undefined)
+         {
+            this.rcrRotas[_loc4_] = param1.getPathTo(param2,param3,true) != null;
+         }
+         return this.rcrRotas[_loc4_];
+      }
+
       private function calculateServableTables() : void
       {
          var _loc1_:ChefActor = null;
          var _loc2_:Number = NaN;
          var _loc3_:Waitor = null;
-         var _loc4_:Array = null;
+         var _loc4_:Boolean = false;
          var _loc5_:Number = NaN;
          var _loc6_:RoomItem = null;
          var _loc7_:Number = 0;
+         this.rcrRotas = new Object();
          while(_loc7_ < this.chefs.length)
          {
             this.chefs[_loc7_].clearServableChairs();
@@ -3288,7 +3689,7 @@ package com.playfish.games.cooking
                _loc3_ = this.waitors[_loc2_];
                if(_loc3_.tileX > 0 && _loc3_.tileY > 0)
                {
-                  _loc4_ = _loc3_.getPathTo(_loc1_.kitchen.tileX,_loc1_.kitchen.tileY,true);
+                  _loc4_ = this.rcrTemRotaAte(_loc3_,_loc1_.kitchen.tileX,_loc1_.kitchen.tileY);
                   if(_loc4_)
                   {
                      _loc3_.addReachableKitchenItems(_loc1_.kitchen);
@@ -3297,7 +3698,7 @@ package com.playfish.games.cooking
                   while(_loc5_ < this.chairs.length)
                   {
                      _loc6_ = this.chairs[_loc5_];
-                     if(this.hasPathToCustomerChair(_loc3_.tileX,_loc3_.tileY,_loc6_))
+                     if(this.rcrTemRotaCadeira(_loc3_.tileX,_loc3_.tileY,_loc5_))
                      {
                         _loc3_.addServableChair(_loc6_);
                         if(_loc4_)
@@ -3320,14 +3721,14 @@ package com.playfish.games.cooking
             _loc2_ = 0;
             while(_loc2_ < this.drinkItems.length)
             {
-               if(_loc3_.getPathTo(this.drinkItems[_loc2_].tileX,this.drinkItems[_loc2_].tileY,true) != null)
+               if(this.rcrTemRotaAte(_loc3_,this.drinkItems[_loc2_].tileX,this.drinkItems[_loc2_].tileY))
                {
                   _loc3_.addReachableDrinkItems(this.drinkItems[_loc2_]);
                   _loc5_ = 0;
                   while(_loc5_ < this.chairs.length)
                   {
                      _loc6_ = this.chairs[_loc5_];
-                     if(!_loc6_.canOrderDrink && this.hasPathToCustomerChair(_loc3_.tileX,_loc3_.tileY,_loc6_))
+                     if(!_loc6_.canOrderDrink && this.rcrTemRotaCadeira(_loc3_.tileX,_loc3_.tileY,_loc5_))
                      {
                         _loc6_.canOrderDrink = true;
                      }
@@ -3338,6 +3739,7 @@ package com.playfish.games.cooking
             }
             _loc7_++;
          }
+         this.rcrRotas = null;
       }
    }
 }

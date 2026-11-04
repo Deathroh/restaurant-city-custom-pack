@@ -37,6 +37,9 @@ package com.playfish.games.cooking.actors
 
       public var robot:Boolean = false;
 
+      // modo bicho (2026-11-03, funcao "MovingActor"): mesmo passeio do robo, mas a arte e a do proprio item
+      public var petArt:Boolean = false;
+
       private var robotSteps:int = 0;
 
       private var robotDir:int = 2;
@@ -198,7 +201,8 @@ package com.playfish.games.cooking.actors
          this.state = STATE_IDLE;
          if(this.robot)
          {
-            this.idleTimer = Engine.rnd(1000,3001);
+            // bicho com pose parada (quadros 5+): fica mais tempo, para a animacao da pose aparecer
+            this.idleTimer = this.petArt && content.totalFrames >= 6 ? Engine.rnd(2500,5001) : Engine.rnd(1000,3001);
             this.robotShow(false,this.robotDir);
             return;
          }
@@ -218,6 +222,17 @@ package com.playfish.games.cooking.actors
          this.robotDir = (param1 % 4 + 4) % 4 + 1;
          this.robotSteps = Engine.rnd(4,8);
          this.idle();
+      }
+
+      // Bichos de julho/2010 (funcao "MovingActor"). A arte do item tem um quadro por giro, ja com o desenho
+      // andando (a peca de dentro anima sozinha): 1 = frente para baixo-direita, 2 = frente para baixo-esquerda,
+      // 3 = costas para cima-esquerda, 4 = costas para cima-direita, a mesma ordem das direcoes 1..4 do robo.
+      // Pose parada: quadros 5-8 (um por direcao, Monster Robot) ou 5-6 (so de frente: Alien Pets, Chick, Bunny);
+      // sem esses quadros (Sea Horse) fica no quadro da direcao.
+      public function startPet(param1:int = 0) : void
+      {
+         this.petArt = true;
+         this.startRobot(param1);
       }
 
       // Comeca na casa livre mais perto do item (anel por anel, ate 10 casas); sem nenhuma, numa casa livre qualquer.
@@ -279,6 +294,20 @@ package com.playfish.games.cooking.actors
       // Sem troca de quadro: no Ruffle, gotoAndStop entre quadros de angulo as vezes nao trocava o desenho.
       private function robotShow(param1:Boolean, param2:int) : void
       {
+         var _loc8_:int = param2;
+         if(this.petArt)
+         {
+            if(!param1 && (content.totalFrames >= 8 || content.totalFrames >= 6 && param2 <= 2))
+            {
+               _loc8_ = param2 + 4;
+            }
+            content.scaleX = 1;
+            if(content.currentFrame != _loc8_)
+            {
+               content.gotoAndStop(_loc8_);
+            }
+            return;
+         }
          var _loc3_:Boolean = param2 == WALK_LEFT || param2 == WALK_UP;
          var _loc4_:String = (param1 ? "mc_a" : "mc_p") + (_loc3_ ? "c" : "f");
          var _loc5_:Array = ["mc_af","mc_ac","mc_pf","mc_pc"];

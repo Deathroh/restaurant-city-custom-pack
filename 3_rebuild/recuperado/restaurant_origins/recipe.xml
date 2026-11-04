@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe.xsd">	
+	<group name="Starter">
+		<item className="FoodItem2" cost="2" hash="LjIN18D.JT5A2IM98nC7P4E1TGqvwiEIgWs_iXS88h6yiR9Egc2SRxQbmGaNOfqX" id="5000000" ingredients="Tomato" initial="true" name="Tomato and Basil Soup"/>
+		<item className="FoodItem21" cost="2" hash="jvHIr9RwSDIty3w4pyEJKvCi9R_hAp3Sv2gG3.T4AtJLJ0tugzlJKaZFQ0U1Umro" id="5000008" ingredients="Salad, Tomato, Egg" initial="true" name="Garden Salad"/>
+		<item className="FoodItem6" cost="2" hash="hZCTH.T8AgK_CtefRwFlPMC9z5WrjsUV0XA8hMv_1D5_Sui78WJ9ED6I_OzjlX9w" id="5000001" ingredients="Chicken, Leek, Leek" name="Chicken and Leek Soup"/>
+		<item className="FoodItem7" cost="2" hash="g8oGwdPRb0xYLPbEMQE4apWLZLRwv0e4HdApcl3v7F4LVzQd8RDBeODsOoqwWBys" id="5000002" ingredients="Mushroom, Milk, Bayleaf" name="Cream of Mushroom Soup"/>
+		<item className="FoodItem8" cost="2" hash="IaUNiNsh8JaaVKWm6BCUxNLQngou94NDb57KKv9fdwzfu_Jk2ljkUJf.KlH6HwFX" id="5000003" ingredients="Milk, Potato, Peas" name="vegetable Chowder"/>
+		<item className="FoodItem9" cost="2" hash="vwB6Ml2ZpMhUnVoiYOfMejF6oS00IO1yRqaWsli2pAYqtpnA.BCApJVNMSyVEFEy" id="5000004" ingredients="Peas,Peas, Bacon" name="Pea and Bacon Soup"/>
+		<item className="FoodItem18" cost="2" hash="NY11yW7dS6hEjQljbUq9Wdbfa5XCrenwNQMVwzy0V3xjaovO4bBNdn6P66M3QwZZ" id="5000005" ingredients="Cheese, Cheese, Bread" name="Camembert baked in a box"/>
+		<item className="FoodItem19" cost="2" hash="CJ3NKS6RKCEqBqeek0ZxnoP6GG2oKA3ERN9_Hv.HkRYXYf_7VBoSglxVQohei0PS" id="5000006" ingredients="Tuna, Flour, Potato" name="Tuna Fishcakes"/>
+		<item className="FoodItem20" cost="2" hash="63vHx6mj9rNiid0onDiryXwl.BIp4D7C3iZd8St9_VlfBfxYUbCJHu5H_K3qP8V0" id="5000007" ingredients="Bread, Tomato, Basil" name="Bruschetta with Tomato and Basil"/>
+		<item className="FoodItem22" cost="2" hash="LurucWPpFUnM7FzcduBei_lSnCQIGruqSoJHXUICzeQxRf0q3pBdhYqTiQN5twx4" id="5000009" ingredients="Lamb, Flour, Bayleaf" name="Lamb Samosas"/>
+		<item className="FoodItem31" cost="2" hash="bvh_82BPH6bHag.k56VJllK1tN8lll8yR7GgOuXSYVyMVfJkyh0Jzx8NciPkHFOq" id="5000010" ingredients="Chicken, Beans, Salad" name="caribbean chicken salad"/>
+		<item className="FoodItem38" cost="2" hash="0RVyUojsIKqOETnJalZqt9kM41Ed7SwBsjzGBUQFAfP0M7uiTTcjKv0SrCFOu57f" id="5000011" ingredients="Lobster, Butter, Lemon" name="Lobster Soup"/>
+		<item className="FoodItem40" cost="2" hash="PAJMoUHfPUbRQTYXaVsY4H9DHSK0KiM5Phv0EYBvt.9WJaXzD4jIINJXou6_XzOd" id="5000012" ingredients="Pumpkin, Cream, Chili" name="Pumpkin Soup"/>
+		<item className="FoodItem10" cost="2" hash="bS6Ku3CeVKvmiDC14XjiDu4emCwQjhawI40AzKuzIGeOoCU9aM8qMqzLvHkGpvnB" id="5000013" ingredients="Sweetcorn, Cream, Egg" name="Sweetcorn Soup"/>
+		<item className="FoodItem42" cost="2" hash="ooGCXZto4.b0RNnOXJL9Jd8T923bS8I3YsY3ZAOUTll5pPvDygrJyqGIdYUcR4mU" id="5000015" ingredients="Lamb, Garlic, Lemon" name="Lamb Skewers"/>
+		<item className="FoodItem43" cost="2" hash="mJU9YI9yUG8rBpHZCRlpRY_VLALQd3vVI49TG8S78smjpGUSbHbzsuVP9Bi6JtnY" id="5000014" ingredients="Onion, Garlic, Bayleaf" name="Onion Soup"/>
+		<item className="FoodItem52" cost="2" hash="xo_qpdQ_Ul1b05nX_eo6paNFekgZ6AH4Vy7ZPRVujIjb_coqpunLDuA_MdsrM.gb" id="5000016" ingredients="Prawn, Garlic, Lime" name="Tiger Prawn Platter"/>
+		<item className="FoodItem64" cost="2" hash="7VefkvyCoBtr0GLLvx3N5Bpvs0z9uzR3s54rBLSwjWo.wKa_jAyvCo9nCbO4GcHw" id="5000017" ingredients="Prawn, Pork, Flour" name="Dimsum"/>
+		<item className="FoodItem68" cost="2" hash="V26_1RoJnHcwHIcKYkBZq5ZvSNw4840RJxSe44PcTONpEk7zHsCYFSS4ztJ3DZZ5" id="5000018" ingredients="Pumpkin, Onion, Cream, Bayleaf" isLimited="true" name="Scary Pumpkin Soup"/>
+		<item className="FoodItem70" cost="2" expireDate="01/12/2009" hash="hJZmFUEzPLv7DHvAy2JS0jRpciItDaJswtujGsVL6ivEEi06l76GZR7LDDNceEKd" id="5000019" ingredients="Sweetcorn, Sweetcorn, Butter, Oregano" isLimited="true" name="Corn on the Cob"/>
+		<item className="FoodItem58" cost="2" hash="0.glXAZHCfeRcrlK1Rt8tHVaH32PYgTjEXCRIpOH9zloCQoJnN65plWvv3nTFtqz" id="5000020" ingredients="Pepperoni, Sausage, Pork, Bread" name="Meat Platter"/>
+		<item className="FoodItem74" cost="2" expireDate="05/01/2010" hash="RjWE6r8ndqVxJu66dMrfW.i2oUWGg.4MAgof3uqmszJRxGa.RLsZxezFuJ56p46k" id="5000021" ingredients="Potato, Potato, Egg, Onion" isLimited="true" name="Latkas"/>
+		<item className="FoodItem75" cost="2" expireDate="05/01/2010" hash="33NSL0_kGpJVXdRtQysLD1WCdsdz.n0t29JAV3uttJqNcI1Af79P.EP6Gwb_YsXj" id="5000022" ingredients="Carrot, Carrot, Carrot, Carrot" isLimited="true" name="Reindeer's Favorite"/>
+		<item className="FoodItem80" cost="2" expireDate="05/01/2010" hash="lDipCcGabLt..o9p1wmi9bFDZ3cgfp9s3LpDFygT3AWbmDtD81dOjOfRSa_O7tqQ" id="5000023" ingredients="Orange, Sugar, Chocolate, Ginger" isLimited="true" name="Santa's Hat of Treats"/>
+		<item className="FoodItem83" cost="2" expireDate="09/02/2010" hash="FIcN2ugZ.kDOB6Zai7elDwMxGjN7tdMhxx4pDcJWIqXveKoijMimkqV1AX_P.QZf" id="5000024" ingredients="Chicken, Butter, Chili, Carrot" isLimited="true" name="Spicy Buffalo Wings"/>
+		<item className="FoodItem84" cost="2" expireDate="09/02/2010" hash="Aox8EZskptSGX_DqFTrox6aOv95VzyWNJbZfwCHGJ8np7Lzkp1PIbqbAjpXumEMP" id="5000025" ingredients="Bread, Beef, Tomato, Salad" isLimited="true" name="Mini Burgers"/>
+		<item className="FoodItem94" cost="2" hash="nGO04YxtnA0HmU.pYZfjSFQVZp7Hh2uM6I0.15MyEgWjtoo6UG9b.hWGGMRTdWyj" id="5000026" ingredients="Pomegranate, Pepperoni, Wasabi, Dragon Fruit" name="Rainbow Soup"/>
+		<item className="FoodItem96" cost="2" hash="SH39lG2ChU.SyEfCwl92IfwmD.D40TTPk6UhQ4FMEBDwWl.SaMa2D2_yd84Bte5_" id="5000027" ingredients="Lobster, Tomato, Coriander, Salad" name="Lobster Salad"/>
+		<item className="FoodItem98" cost="2" hash="5l48D0KrG2ZNXvJyq7zr6DbY0VRuiTZyZY2NOnePuBPXvus1B2cLROYTXi9Py3.a" id="5000028" ingredients="Sweetcorn, Chili, Cheese, Cream" name="Mega Nachos"/>
+		<item className="FoodItem100" cost="2" expireDate="13/04/2010" hash="N5SAdA2dEW9ATFCaFTL7Upfx5zfnQUPVsD.cn44qKpH5Stfx4_yxIQGYcbw0HLVb" id="5000029" ingredients="Flour, Butter, Water" isLimited="true" name="Giant Pretzel"/>
+		<item className="FoodItem104" cost="2" expireDate="27/04/2010" hash="qAsIug6H16ZCoChIY0tNm.C9Zo0FSEVmsiFYEtvg7IxH0lGePn2eSwYwTjitXaXE" id="5000030" ingredients="Coconut, Pineapple, Mango, Banana" isLimited="true" level10Reward="3000103" name="Zero Gravity Salad"/>
+		<item className="FoodItem108" cost="2" hash="DRW25PuvDbwD_K_5dUhmMDZyBEH5zqwYdqpS.gtUb4.2raSMUydg547Po4ilGzso" id="5000031" ingredients="Seaweed, Beans, Tofu, Water" name="Miso Soup"/>
+		<item className="FoodItem110" cost="2" hash="ow8CDjNeoUmeCz9NjIXZYhvZk9_kSBAHg.D0_xdPfcgaCRNUYFalAZjaAk4vAG.j" id="5000032" ingredients="Pork, Ginger, Garlic" name="Yaki Gyoza"/>
+		<item className="FoodItem113" cost="2" hash="x8vLfPHhOF6u0h1OpRj5UbzSd8ZD6MYAB_t7HCD0FRtH0M4MbWOeX2v0G6A6_BKb" id="5000033" ingredients="Seaweed, Ginger, Chili" name="Seaweed Salad"/>
+		<item className="FoodItem117" cost="2" expireDate="19/05/2010" hash="yrfsGHc6fhNJYgXanYBoMI7K10.1Mugir.hm9JCkml7VCucxK09oPFxMs_8fROT7" id="5000034" ingredients="Beans, Flour, Tomato, Chicken" isLimited="true" name="Tostadas"/>
+		<item className="FoodItem122" cost="2" expireDate="09/06/2010" hash="uaL.kj5YzvaHyMTBfHsqDnXWu3RnSnnWnskfH0xng1bmyEQp_CLErIVwqyHpaBzy" id="5000035" ingredients="Salmon, Coriander, Pork, Pineapple" isLimited="true" name="Canapes"/>
+		<item className="FoodItem123" cost="2" hash="jRXDGFF3rBgKnOnbbYbKgseZtYNOEAZyu5iPKH9XesaIh9laUfKUUpK..xGdDuR7" id="5000036" ingredients="Prawn, Garlic, Lemon, Butter" name="Garlic and Butter Prawns"/>
+		<item className="FoodItem125" cost="2" expireDate="23/06/2010" hash="IfAeMFEHSGBQcLCcb8Wivot7xMxdi_f0PqfhEQgn8TmhrF.L.VjMKBPjOHrRO.BL" id="5000037" ingredients="Seaweed, Salmon, Crab" isLimited="true" name="Softshell Crab Roll"/>
+	</group>
+
+
+	<group name="Main">
+		<item className="FoodItem16" cost="2" hash="aDTeJAFvIEUdEoE4Cf5ktqbepmZiYQ8BmnyzJ5rVDAFE2TUkrzUxF4TiaJ7P4XLT" id="5100003" ingredients="Beef, Potato" initial="true" name="Burger and Fries"/>
+		<item className="FoodItem5" cost="2" hash="d1aBdWb8LjfhXCM4.hLEhfLyHE0adqEWWVw6TzyyxLee_sOyco75p0qiDwYLC.N6" id="5100000" ingredients="Cheese, Tomato, Flour" name="Margarita Pizza"/>
+		<item className="FoodItem34" cost="2" hash="TapMjAqwTnFe9q4psrcoXUPq.gFGqhnWtv74NCbQj1zO4PKh1mP.JtJqFzdor9Pm" id="5100001" ingredients="Chicken, Potato, Salad" name="Roast Chicken"/>
+		<item className="FoodItem17" cost="2" hash="rYnQZjuqpfRZb8f_sElDSlchjKKkXW5SFHGeSyUhv6wInOJNQcdo3qNZbySZeCxt" id="5100002" ingredients="Sausage, Bread, Potato" name="Hotdog and Fries"/>
+		<item className="FoodItem0" cost="2" hash="uSbXsxuGmn0V7aRGNS4GDZyVKJhLbYj8GucUhDjXeLqNY3v77L6OJ17al4xFVoS." id="5100004" ingredients="Pepperoni, Cheese, Tomato" name="Pepperoni Pizza"/>
+		<item className="FoodItem1" cost="2" hash="cjAIzKV3W1o2qF2D3soUHWNzw_GGBHHG2LpLBgirZyJdpD1AoltTZRMTP_PFsDFe" id="5100005" ingredients="Beef, Carrot, Salad" name="Roast Beef"/>
+		<item className="FoodItem3" cost="2" hash="wLRbjZLoJNLBcZl6J.GZanT4br.9MHAZ0NqRvgbmRWRTg.LkIfBHQ1_t_c8EfnrT" id="5100006" ingredients="Tuna, Potato, Carrot" name="Tuna Steak With vegetables"/>
+		<item className="FoodItem11" cost="2" hash="6Eoh8EuMrN_fvNqaRDS2MuqlIE.xh0fONNIKi9mKg6zIRIrM3VIcMAqsEQgQfVbd" id="5100007" ingredients="Pasta, Bacon, Egg" name="Spaghetti carbonara"/>
+		<item className="FoodItem12" cost="2" hash="lw11L66nSIjOrzGWgdYBD4EMPMoqaZGUAztUj9PrIdcpMF0GubynU35htzg.GslK" id="5100008" ingredients="Pasta, Beef, Tomato" name="Spaghetti bolognese"/>
+		<item className="FoodItem13" cost="2" hash="eNZO3ZlcsL1lUYE.i3hMCSmmSNym2Xza6345QOqHUBI.QQdWn5QoiF2.6xG.PAcG" id="5100009" ingredients="Chicken, Rice, Bayleaf" name="Chicken tikka masala"/>
+		<item className="FoodItem14" cost="2" hash="J4lTnFcztWbCVRmw8BOm3AtgenKHZilksTsDaccc.C9V4QZtVKmj9MXGdiv2MbFp" id="5100010" ingredients="Tuna, Rice, Wasabi" name="Tuna Sushi"/>
+		<item className="FoodItem15" cost="2" hash="Hm._7yz28D4iyq.JcxIAEO7kjoYAGT7wH4F6pBxtQgiQZsl9V.t7UEgCoSAw_DDd" id="5100011" ingredients="Sausage, Potato, Butter" name="Sausages and Mash"/>
+		<item className="FoodItem33" cost="2" hash="cjO4OJ1AqBAe5a.u46xH57NEI1a0Czdx_wNLoywYBlqUEYyuW7T_LfQME6fpKWY2" id="5100012" ingredients="Chili, Beans, Rice" name="Chili Con Carne"/>
+		<item className="FoodItem36" cost="2" hash="BTDgYAOyxAd9fyx5Xmks3JvDI.cP.8PDNafVyRy.M3BoxpOGVSXespgOxYlDShdJ" id="5100013" ingredients="Beef, Cheese, Pasta" name="Lasagna"/>
+		<item className="FoodItem35" cost="2" hash="GnUMTHHJvxQ6cN.lHjSFjMwlqCfhdgsHr3a7yhzEv8cuMhruYcZ37eZljotYpui4" id="5100014" ingredients="Salad, Bread, Egg" name="Caesar Salad"/>
+		<item className="FoodItem37" cost="2" hash="SXQF8fjcRkhggXPHjzyv4Xn1Cj0wwOJIYYr44XjoNgeg4IUacchbWbfu4klZoddT" id="5100015" ingredients="Rice, Tofu, Leek, Mushroom" name="Vegetarian Fried Rice"/>
+		<item className="FoodItem39" cost="2" hash="its14MYU3hnbfD8M_TdafHN5rpbQbGRMfRHKoeUzhW44pDNhxNrI07ILNQVCeAlw" id="5100016" ingredients="Lobster, Butter, Salad" name="Lobster"/>
+		<item className="FoodItem41" cost="2" hash="Gw7_O6dOajN80GKqmOTd2AmZEuRWozIdOwnuv8JQ3zgsXA11HCLu8Y6CRXgpdJ8I" id="5100017" ingredients="Beef, Potato, Salad" name="Grilled Rump Steak"/>
+		<item className="FoodItem48" cost="2" hash="MHk_dC.Tw.BHWcSBoUCaAdxAxuhTBpR3g2WzKEWPzhkIhPLu90xQeZPsknchVN7Q" id="5100018" ingredients="Noodles, Pork, Onion" name="Yakibuta Ramen"/>
+		<item className="FoodItem51" cost="2" hash="z3mI5wkNBT4ysu5vDUUfEE7Tbz8eNqfCnKWGaeVKoLsIBkJFn4KZyRQfscWu6_Ee" id="5100019" ingredients="Rice, Saffron, Prawn" name="Seafood Paella"/>
+		<item className="FoodItem49" cost="2" hash="2090xxmj6H6uZkss8tqcu9Sscj0vSa4Y6CkIX0bUukaUzlEMSOGq.tTCGigAdku4" id="5100020" ingredients="Tofu, Rice, Chili" name="Mapo Tofu"/>
+		<item className="FoodItem50" cost="2" hash="kHW.1Qwb4wFCx3TxvTg5QDqo8PtflxSUDzoH4PjXEcTL9gwi9.B0tH7z7QRQ..G." id="5100021" ingredients="Pork, Apple, Onion" name="Pork And Apple Chops"/>
+		<item className="FoodItem60" cost="2" hash="7ITAFjZR_bEgxC0P_j5zdBcoI_.CVgeKmCXY6nkH2uPo_lRcVs2UdeKy0w5hteNK" id="5100022" ingredients="Coriander, Pork, Garlic" name="Bak Kut Teh"/>
+		<item className="FoodItem61" cost="2" hash="i1y.KfCL7oP6h_qR2XtklOB9Ntnb2JrTw4.pSaGB_FU6P7IKQf5lJfVXCcFFaM3o" id="5100023" ingredients="Ginger, Basil, Chicken" name="Three-cup Chicken"/>
+		<item className="FoodItem63" cost="2" hash="YT31kd6Jo_0GgEICYn93spMVhRPEmgy501UypEYFp4s.pzLizkOtDwuVyC2mgMBH" id="5100024" ingredients="Rice, Mushroom, Oregano" name="Mushroom Risotto"/>
+		<item className="FoodItem66" cost="2" hash="h.e5xKnKupsAGYr2zc2HpqfQFggo1R0JlMWNxSq0FeX02z_KVOMut0UZC3wltLvQ" id="5100025" ingredients="Lamb, Pomegranate, Garlic" name="Lamb with Pomegranate Sauce"/>
+		<item className="FoodItem67" cost="2" hash="fVga2eDFVfTGoDNsgNWT1WhZJoFw5hncgeS0SFVgwFRk0PPZHE.56OiPKrlES01i" id="5100026" ingredients="Pumpkin, Rice, Cheese, Basil" isLimited="true" name="Spooky Pumpkin Risotto"/>
+		<item className="FoodItem71" cost="2" expireDate="01/12/2009" hash="7noO.HEk63E1jowRk45YSv6DXtaiK74tQXYa5cNde10_1hMSZ3k1pEvgvo5X.aeY" id="5100027" ingredients="Turkey, Bread, Onion, Oregano" isLimited="true" name="Roast Turkey"/>
+		<item className="FoodItem55" cost="2" hash="exfPCwo6ntJw_gCFlmI5aEg_RLc6M0r0Bg9v3NHB4JNRNy7OuhT0cNTF5kIbqqKM" id="5100028" ingredients="Noodles, Mushroom, Tofu, Coriander" name="Vegetarian Soup Noodles"/>
+		<item className="FoodItem53" cost="2" hash="HG4lm2QXLC5blROX_KmMncDpmCaEdFLY.Z6LJ8nZwIfqBgOO1nkT5fF2VyGBQC9r" id="5100029" ingredients="Sweetcorn, Chicken, Onion, Salad" name="Chicken Tacos"/>
+		<item className="FoodItem72" cost="2" expireDate="05/01/2010" hash="hDj19idpDuaGhIyDFPK5cq77C3zxfATXn7ouH05xMADBSqrnFwsDWGLlU2skfgIs" id="5100030" ingredients="Pork, Bayleaf, Butter, Orange" isLimited="true" name="Festive Glazed Ham"/>
+		<item className="FoodItem76" cost="2" expireDate="05/01/2010" hash="zcgEDqsmFuLpGp.IbQhFxb77MMoH.ASbOoVfh01CmhA4qNygQoebuSeH.oMEiiKF" id="5100031" ingredients="Ginger, Flour, Sugar, Egg" isLimited="true" name="Gingerbread House"/>
+		<item className="FoodItem78" cost="2" expireDate="05/01/2010" hash="pZGtSu9PUXyUB0gXAdavYOBww_aJo964YoMlx_V3WpSIIWmuaa3rmisuTQlxO.fR" id="5100032" ingredients="Turkey, Orange, Butter, Bacon" isLimited="true" name="Festive Turkey"/>
+		<item className="FoodItem86" cost="2" expireDate="16/02/2010" hash="xRgekw2c4Al4oaHQjt60nnS..GQNdrr3qt_ICcibdP6M0RBpcWXj_mnO9XclYEZV" id="5100033" ingredients="Rice, Egg, Beef, Carrot" isLimited="true" name="Dolsot Bibimbap"/>
+		<item className="FoodItem87" cost="2" expireDate="09/03/2010" hash="FKjUTiHYdJzL2Udyn5fWfZs8dBcxcscBj_ThuoGW_cinuAM1lESBt_KXXe3X32A." id="5100034" ingredients="Noodles, Prawn, Lime, Coriander" isLimited="true" name="Pad Thai"/>
+		<item className="FoodItem88" cost="2" expireDate="02/03/2010" hash="eMBLRpvoV.BImbrl8Ov5llWiaDTYivKKCAlLAwBhMLbbVoSNheIu_GTMTws2X6T." id="5100035" ingredients="Bread, Pork, Cheese, Salad" isLimited="true" name="Ham And Cheese Sandwich"/>
+		<item className="FoodItem91" cost="2" expireDate="23/02/2010" hash="6lBLQYFdoxoDUdIjf8mIr0nKn8j1n5Ft3n8_STGfz9LsMLauBL5CF64RDJDXDfMk" id="5100036" ingredients="Beef, Carrot, Butter, Salad" isLimited="true" name="Lovely Steak"/>
+		<item className="FoodItem93" cost="2" expireDate="23/02/2010" hash="RGTsZz3hsAFazvU8izGvEswA8jvu3PtVJ5hi2VvQVWhY926ohe46bAVsiiOl_nWL" id="5100037" ingredients="Bacon, Peach, Dragon Fruit, Tofu" isLimited="true" name="Cosmic Bacon Orb"/>
+		<item className="FoodItem97" cost="2" hash="X58FXoE3PBhcgOlpm2i1AiniFaRzgsL_dVTz35Lg0w_zVXSkmri5QrjoVJ5.V6dN" id="5100038" ingredients="Beef, Beef, Cheese, Potato" name="Monster Burger"/>
+		<item className="FoodItem99" cost="2" expireDate="06/04/2010" hash="SkarG6fSOlUMQgZ4d3CKjQfagL0Zpz9FOdNbnCgY1uihe1Gy0q72TtaLKkGbF0zx" id="5100039" ingredients="Cheese, Tomato, Pineapple, Pork" isLimited="true" name="Hawai'ian Pizza"/>
+		<item className="FoodItem101" cost="2" expireDate="06/04/2010" hash="8ry7aLKaMcUjg3EJco1nDw0fsKw6HXSpQTwNYcarQgrB26fmnu7EPAHdk11ZJ5dT" id="5100040" ingredients="Beef, Coriander, Garlic, Bread" isLimited="true" name="Pastrami Sandwich"/>
+		<item className="FoodItem105" cost="2" expireDate="27/04/2010" hash="UEg634o5q8AhAqtV0OH3X6kCKJahjilyVPUvyKf3DDer8QaE1vtfiNygqvOq0pIN" id="5100041" ingredients="Easter Spices, Easter Egg, Chocolate Bunny, Chick Figurine" isLimited="true" name="Cute Chocolate Egg"/>
+		<item className="FoodItem107" cost="2" expireDate="27/04/2010" hash="tygwG0zasS4aFgyGsidym0a2VWgMl6oxZq0Q39gb6VAbH0gKn1nqcMyO9Qe8NMot" id="5100042" ingredients="Lamb, Easter Spices, Easter Egg, Chick Figurine" isLimited="true" name="Easter Lamb With Herbs"/>
+		<item className="FoodItem109" cost="2" hash="wly9cYvAAOFn.S0TsXtyZgC9x5wiDt7A86oYJ_5WCdstPpCgtiA5MFVFyHV9PaBu" id="5100043" ingredients="Salmon, Seaweed, Prawn, Tuna" name="Sushi Selection"/> 
+		<item className="FoodItem111" cost="2" hash="j748cLOWbhIGWecqJ3pqmV8Yqo_3EZhSGWHyR62ZuEirsrNLO7fG42RJQ0kK6TOV" id="5100044" ingredients="Salmon, Salmon, Wasabi" level10Reward="3500117" name="Salmon Sashimi"/>
+		<item className="FoodItem114" cost="2" hash="5FgAgVzNd3BwgeXoE6yhbD_GLKQkcnX0r17FKOiHoYC.dHgZPG.XkPUUCFDEBDlL" id="5100045" ingredients="Salmon, Rice, Seaweed" name="Salmon Handrolls"/>
+		<item className="FoodItem116" cost="2" hash="8qi1NxJdVBPzsnxv6DTBeJMmnflIDHIThyqJkeErexAIankcfhVLdYlH1YBk7dWn" id="5100046" ingredients="Chili, Cheese, Beef" name="Beef Enchilada"/>
+		<item className="FoodItem124" cost="2" hash="lormR4Z3H_qrPGtwTS1M7aroDlF_4BesL.wZd60pJVwUfZQexcwP0fdS6h8mHcge" id="5100047" ingredients="Crab, Crab, Chili" level10Reward="3020362" name="Chili Crabs"/> <!-- Unlocks Sunken Ship Prow -->
+		<item className="FoodItem126" cost="2" expireDate="23/06/2010" hash="RpxMm5JU0Nw8Sx68piLbXx2v1CPmWIlo5DaYM24fdEne7b_lIg0mskOXJPdlrBbh" id="5100048" ingredients="Salmon, Prawn, Crab, Lobster" isLimited="true" name="Seafood Platter"/>
+		<item className="FoodItem127" cost="2" expireDate="23/06/2010" hash="2PkUevCDOPhKwpD_c6si73nZbswaLZXh7yn16IUE62aSOdgiIRWthvWoY.Ewo3Wx" id="5100049" ingredients="Bacon, Sausage, Egg, Mushroom" isLimited="true" name="Full English"/>
+	</group>
+
+
+	<group name="Dessert">
+		<item className="FoodItem32" cost="2" hash="NYHUvah.eG0TWzorH0M55QnGD.66sYkJH04tBH0CQu4yRF73EmOuussRRCKFR_8n" id="5200000" ingredients="Strawberry, Apple" initial="true" name="Fruit Selection"/>
+		<item className="FoodItem4" cost="2" hash="hEk1Ru.prwDxSzVheecUF7nNSPuBDC1xzKsM4rI.vx4g307p6t3VxOxk8.nLT14Y" id="5200001" ingredients="Strawberry, Flour, Butter, Sugar" name="Strawberry Cake"/>
+		<item className="FoodItem23" cost="2" hash="riMG8108uAGgA8qKJWSQTwRS0_.7npAO25VEzwh4j2ipuPGS83kwD8kjMuuBx8sa" id="5200002" ingredients="Chocolate, Flour, Icecream" name="Chocolate Cake with Icecream"/>
+		<item className="FoodItem24" cost="2" hash="RHRhXW9FrsJu0LV98NxeyHT4AKDIZJ7N2sBNFrKylpEMrz68RZX6xb_CBmVMBi0W" id="5200003" ingredients="Strawberry, Cheese, Flour" name="Strawberry Cheese Cake"/>
+		<item className="FoodItem25" cost="2" hash="YLljnDnB0o7OqzPfQnBsVc0Q1mGuZeqIKaHgsotURzGpSgp1FW72eLN7ISvcaI2l" id="5200004" ingredients="Flour, Egg, Butter" name="Pancakes"/>
+		<item className="FoodItem26" cost="2" hash="zm.QroLbOqvX95qDRQLbEtt8UywrhzJK8oXLo0JmrJ6Ftu44fTlXKku4JVP5imrV" id="5200005" ingredients="Egg, Cream, Sugar" name="Creme Brulee"/>
+		<item className="FoodItem27" cost="2" hash="AF4DHVnODSXstyo0HoeGou0XDVuRLwBpC1KxnBcZhHX5X.Gi6zhRUm4iLTTIM8ib" id="5200006" ingredients="Pumpkin, Flour, Sugar" name="Pumpkin Pie"/>
+		<item className="FoodItem28" cost="2" hash="ofKBa0eyp1jVUwrxFB1URXmDUfHYevzJN684ipfu8RQbrlowoTUTsd1azyk_idAJ" id="5200007" ingredients="Cheese, Cheese, Cheese" name="Cheese Board"/>
+		<item className="FoodItem29" cost="2" hash="L_W100xn7dlwfX_p67DGIX.1i3S9ANaIxy9GB1oPOT8.KSimC4hrXuZFYjsQ3Wvy" id="5200008" ingredients="Banana, Cream, Icecream" name="Banana Split"/>
+		<item className="FoodItem30" cost="2" hash=".0XaJUVpGQ8sNl25JUvv.oFdZHKN_KZLLKPINDfziYlqW3b1bVcCw271BY0c4KE9" id="5200009" ingredients="Icecream, Chocolate, Cream" name="Sundae"/>
+		<item className="FoodItem45" cost="2" hash="WUJlsCPTjEpl82tCrRZUzR.K8zaQ2O4TvJ16u161yEqFzzp3lLj7FnOKUC_.cqyK" id="5200010" ingredients="Mango, Milk, Lime" name="Mango Pudding"/>
+		<item className="FoodItem47" cost="2" hash="QckneJZm6sxrfEm4WBORt3ZbJeHydFAgCrmXzboUyR_.R1knui32mLvihE9Nw8lq" id="5200011" ingredients="Kiwi, Lemon, Sugar" name="Kiwi Sorbet"/>
+		<item className="FoodItem44" cost="2" hash="oci87Em6OZLCd8HNNFtdmVccmnH6t7QreXGmBJqS46q2Vk6t5mghRlnt0v_77JL4" id="5200012" ingredients="Dragon Fruit, Mango, Kiwi" name="Exotic Fruit Skewers"/>
+		<item className="FoodItem46" cost="2" hash="rVpFL73U3wwYuss3bAjSr7luMD0tlTX15LozxV_qQ1BPtjCD6t8tVWma5.2I6Wpn" id="5200013" ingredients="Pomegranate, Cream, Egg" name="Pomegranate Parfait"/>
+		<item className="FoodItem62" cost="2" hash="j_cDMeRH.nXv2HUQicdof74gil4MP1Xlmej6VMEB3NPn65xEJl5oJudvXmijsxGO" id="5200014" ingredients="Vanilla, Sugar, Milk" name="Vanilla Panna Cotta"/>
+		<item className="FoodItem65" cost="2" hash="1MpFHcwbhAET0ojLly6fM8a_ntwZNQAozZGSS3GUlGY_aRR_tNSOoKF51Q6blV73" id="5200015" ingredients="Egg, Cream, Coffee Beans" name="Tiramisu"/>
+		<item className="FoodItem69" cost="2" hash="6IDt1P_L9yKhdEL8tEn9km43Fl2QbQW_F1PxnVS5QfFUqL1uvoPYkkzS3J.KM_js" id="5200016" ingredients="Sugar, Pumpkin, Vanilla, Flour" isLimited="true" name="Halloween Treats"/>
+		<item className="FoodItem57" cost="2" expireDate="01/12/2009" hash="H1W10HL3XiI5N18f8cKud65W9zLUf3m4m5fcA2TSj4ZR8xVhgjI0XgDuPTQczj1C" id="5200017" ingredients="Apple, Sugar, Flour, Vanilla" isLimited="true" name="Apple Pie"/>
+		<item className="FoodItem56" cost="2" fanPageFeed="true" hash="1loG8yH7mBEXvgVqaNDbcX5uh6b7NQhqZrcotUYNrhEZypgX8XUQIKM7WvXhCIC1" id="5200018" ingredients="Carrot, Sugar, Flour, Cream" name="Carrot Cake"/>
+		<item className="FoodItem54" cost="2" hash="VHW_5FydtrNGduCERDMQWrw0zqsqfku.ANUCNHVgjaIFzdBoY4E6FNGCSAFVLeFX" id="5200019" ingredients="Chocolate, Sugar, Egg, Pomegranate" name="Chocolate Mousse"/>	
+		<item className="FoodItem73" cost="2" expireDate="05/01/2010" hash="mtId5CsM3pkO9833f8fzVubOVZDktOxJYCm12oHYF3_AaLGjGJojuC1EI8OnPHN_" id="5200020" ingredients="Flour, Egg, Apple, Raisins" isLimited="true" name="Mince Pie"/>
+		<item className="FoodItem77" cost="2" expireDate="05/01/2010" hash="dps3rGUt9PB5ckz2ZiSU0e3wfOk8DTtHGqmAVf1fVR5LLjq98U2BXzOnqslx9KWn" id="5200021" ingredients="Sugar, Raisins, Flour, Orange" isLimited="true" name="Festive Pudding"/>
+		<item className="FoodItem79" cost="2" expireDate="05/01/2010" hash="4_ldKRWAaOgF5bSnhBLqYn9O9p9y64fXUPnbrEKL_SG5uw9DWYB2VGnkRXPTHPs8" id="5200022" ingredients="Chocolate, Flour, Cream, Sugar" isLimited="true" name="Yule Log"/>
+		<item className="FoodItem81" cost="2" expireDate="05/01/2010" hash="Ar5RlhI164ZDoWFsnVG_0Oh0FtuUIGSYSxsYyTQ4V9feypkUULWouVg4khins9CP" id="5200023" ingredients="Carrot, Raisins, Sugar, Chocolate" isLimited="true" name="Snowman"/>
+		<item className="FoodItem82" cost="2" expireDate="05/01/2010" hash="hrZyK4AASJf7I8rcIkX2KcnZoakLr5wAN1GWE7Lck80gsOxBGHZCGqoLiTbJy0ON" id="5200024" ingredients="Chocolate, Egg, Flour, Cream" isLimited="true" name="2010 Cake"/>
+		<item className="FoodItem85" cost="2" expireDate="23/02/2010" hash="qeYfpXi9rfVsfYjuujvDuXHyhbzw6Cc6va25dnicTH3oroyKCe7kk9lU3VB8v5Pv" id="5200025" ingredients="Flour, Chocolate, Egg" isLimited="true" name="Chocolate Chip Cookies"/>
+		<item className="FoodItem90" cost="2" hash="BgB153x2VG36Hs4StW9S.WNePHdSn_7T5qJEUtMH9Jk0oVWKWbL9L4flcsj_9AmL" id="5200026" ingredients="Rice, Rice, Sugar" name="Sweet Rice Cake"/>
+		<item className="FoodItem89" cost="2" expireDate="16/02/2010" hash="O1hetzxcGTWSVRC1ZZXthnXZQPSVTZU2qwDa6gh5c0woNE2Ven20mZUC9RugqOcE" id="5200027" ingredients="Chocolate, Strawberry, Egg" isLimited="true" name="Sweet Heart Mousse"/>
+		<item className="FoodItem92" cost="2" expireDate="02/03/2010" hash="FzinfHDlqRkFKra0ip2NsoxfnWpi4LLlApAbDrbgJfeVRHJRJhDl2kssgkWDT33Q" id="5200028" ingredients="Strawberry, Chocolate, Vanilla" isLimited="true" name="Valentine Cake"/>
+		<item className="FoodItem95" cost="2" hash="U1Lt2jolC_D53ejQZZPLZ0wD0QhXkxq_lvflGE1IyIVpfC8FJZAy6.aIkOwgFD7m" id="5200029" ingredients="Chocolate, Vanilla, Cream, Kiwi" name="Chocolate Dream"/>
+		<item className="FoodItem103" cost="2" expireDate="13/04/2010" hash="12QW7UOiuTFPCUnf2G3qwI6qktWZz4w8x5C_g0rxBY4B_t3WSDF5y.2Uqg4Q2RbN" id="5200030" ingredients="Chocolate, Coconut, Vanilla" isLimited="true" name="Chocolate Meteor"/>
+		<item className="FoodItem102" cost="2" expireDate="20/04/2010" hash="pEQGRd3._VFzhzschRUPTuCprjYBWbVyEliV2PnbhRU0q27TVf.wBVS8oBIwduNu" id="5200031" ingredients="Cheese, Sugar, Cream" isLimited="true" name="Moon Cheese Cake"/>
+		<item className="FoodItem106" cost="2" expireDate="27/04/2010" hash="68ZKyAl7veaX.6Ai7dEi2n4.Ogy0lUrLTlF9pJwX3wGXerOF9ZmFDUXQkFMy.UO9" id="5200032" ingredients="Easter Spices, Raisins, Chick Figurine, Bread" isLimited="true" name="Hot Cross Bun"/>
+		<item className="FoodItem112" cost="2" hash="w0EigC3zH0yXACxlrgbUTlOQPA4Oq2dLt9ZadOpGbnFBQtPKsxCw9yDZXozOO6HE" id="5200033" ingredients="Rice, Sugar, Beans" name="Sakura Mochi"/>
+		<item className="FoodItem115" cost="2" expireDate="19/05/2010" hash="U6kUWab_D7IcTEqCVs_J4a1MA3IiRqF..esSHqQLmQHQW5AnRpqVOZDHOvyZVI1p" id="5200034" ingredients="Egg, Sugar, Vanilla" isLimited="true" name="Mexican Flan"/>
+		<item className="FoodItem120" cost="2" expireDate="26/05/2010" hash="0bAwdw0iHeEsUJCoiqk7cvRrI4KxDpIyrBnjQMRdJVIfMbwxbSJ9Y5UssZNjnTso" id="5200035" ingredients="Egg, Flour, Strawberry" isLimited="true" name="Tea Cakes Selection"/>
+		<item className="FoodItem119" cost="2" hash="gYJav6ZMcKb6FPbfaSgk3BTSHmmXgX0H7OeDQbjARsNA7zpKxgDct2FtCA7WgS2g" id="5200036" ingredients="Saffron, Apple, Vanilla, Sugar" level10Reward="3500125" name="Eat Me"/>
+		<item className="FoodItem121" cost="2" expireDate="09/06/2010" hash="dc_ODt1ZBxKJxF5.0tYATr7Ff40GJjvZ7r6vPaY2oetIdjju0DglVV7ub6UR1KZN" id="5200037" ingredients="Chocolate, Cream, Sugar" isLimited="true" name="Slice of Happiness"/>
+		<item className="FoodItem128" cost="2" foodKingFeed="true" hash="dS10PB7jmwKu4_Olg0qGxaJ.dsKFz3oAMiyYYEMsOlAU8ATJgyv4gpyScYsPrPHg" id="5200038" ingredients="Chocolate, Cream, Vanilla" name="Football Cake"/>
+	</group>
+	
+	<group name="Drink">
+		<item className="DrinkItem01" cost="2" hash="SFhkhUUcxmjz0UAda0NkYOyoeOiTKmUJWvTDt0IjlMZCSA6MW6o5qF2VVrfTEHXJ" id="5300000" ingredients="Water, Ice, Lime" initial="true" name="Glass of Water"/>
+		<item className="DrinkItem02" cost="2" hash="uo9fq5SQ6UfSFaDZv82KiuDsQ2NIo_I4yuZ_3XKesNSbYwc_FQj3Mg6BnNg8mWoa" id="5300001" ingredients="Coffee Beans, Coffee Beans, Water" name="Espresso"/>
+		<item className="DrinkItem03" cost="2" hash="JsgFg9c7OU1V24tbRLCtzcj0AY0gg7WnrUfQ0i.sagb4uJunuYd6VgIXSAFOnQwR" id="5300002" ingredients="Coffee Beans, Sugar, Milk" name="Coffee"/>
+		<item className="DrinkItem04" cost="2" hash="fDSam2vVGsrpzlWdnzhf7RCOFVwtDtjjY7Ot50gkGNxwZ7HSjFGjeS_bwCtpKg.0" id="5300003" ingredients="Tea Leaves, Sugar, Water" name="Tea"/>
+		<item className="DrinkItem05" cost="2" hash="sl4DNuU1DUP0dxYfwX.bo9Iv6a70F_FKK4TYjedUyqt3QjeRQtigp6rHcQKUHgfd" id="5300004" ingredients="Chocolate, Icecream, Milk" name="Chocolate Milkshake"/>
+		<item className="DrinkItem06" cost="2" hash="GzhHqtPY1JEa_tlS3pRoHVNWEibAPy8SpryuB4qJE0PzRFYllolVMRR7VGbgeKVK" id="5300005" ingredients="Strawberry, Icecream, Milk" name="Strawberry Milkshake"/>
+		<item className="DrinkItem07" cost="2" hash="Zk2j76R8hXnVv_f0CBSYLapiGoiYebHQ4Jg3kFtycIwqN5rpZyhdNC39lOvtsvYi" id="5300006" ingredients="Lemon, Ice, Water" name="lemonade"/>
+		<item className="DrinkItem08" cost="2" hash="KhnvXNZKAmSmFFJdDMt0yohfGEI6mMd0MraD.Ar.FpBh1hKPkL3CV114k557TWmt" id="5300007" ingredients="Peach, Tea Leaves, Water" name="Peach Iced Tea"/>
+		<item className="DrinkItem09" cost="2" hash="MYZSyu8vVYq_wT5rt40_8puy9s9nsg4em0xgYF6yL7qmKQiK1DXglVmupRpev5MB" id="5300008" ingredients="Tea Leaves, Milk, Sugar" name="Bubble Tea"/>
+		<item className="DrinkItem10" cost="2" hash="fynnMIZrBsY8mx3Aup.VQaEEzLMjtOIOdNDq64xQsHhCWVKZXDqXkbcL67llPcuS" id="5300009" ingredients="Ice, Strawberry, Banana" name="Fruit Smoothie"/>
+		<item className="DrinkItem11" cost="2" hash="EVeJLbgD4F1oVRsmezVMo6f4NpUVAzJ2F8bwFkVsLnPzIr10TmAtRtnqtg0Fbzo0" id="5300010" ingredients="Ginger, Sugar, Icecream" name="Ginger Beer Float"/>
+		<item className="DrinkItem12" cost="2" hash="d52HsnPm39OmTF3.F1oxMogJpaFL3lQQFTDVNa1CV9EwQI5lkaFORqkxVHsifZ37" id="5300011" ingredients="Vanilla, Chocolate, Cream" name="Vanilla Hot Chocolate"/>
+		<item className="DrinkItem13" cost="2" hash="b6yAygSFDYId8WMQefEs_VeqN4_FHx5A0thR1AYchrG_P67qYDyIPmGTtDAEBrcv" id="5300012" ingredients="Saffron, Tea Leaves, Water" name="Saffron Tea"/>
+		<item className="DrinkItem14" cost="2" hash="XoL0BgcDId.i_G9jhnOlZjMIOVUZR4tku7ZEThoGPwITjQUi84SUW3I3qvmYqlFv" id="5300013" ingredients="Lime, Sugar, Kiwi, Water" isLimited="true" name="Witch's Brew"/>
+		<item className="DrinkItem15" cost="2" expireDate="01/12/2009" hash="1rXlG1GmrMnFXGFKgMPcIVWY6qtcV.EcocIpjH2ckF59Ye6nbNhntg.AMhPwG9B5" id="5300014" ingredients="Pumpkin, Apple, Ice, Water" isLimited="true" name="Pilgrim's Harvest"/>
+		<item className="DrinkItem16" cost="2" expireDate="05/01/2010" hash="PcwKCN4szSlYdTa4.MGlkNiNlXsCb2fUTl0.NOxxyTzyT62upj6mUOlRyyP.UOjy" id="5300015" ingredients="Egg, Vanilla, Cream, Milk" isLimited="true" name="Eggnog"/>
+		<item className="DrinkItem17" cost="2" expireDate="05/01/2010" hash="EYm8f3QVQANPCRyk.yoDAnn_0cFZ6KNSx6M8rdXLrHhfw4LDq4GArvfJHjsC1AIs" id="5300016" ingredients="Chocolate, Vanilla, Cream, Milk" isLimited="true" name="Festive Hot Chocolate"/>
+		<item className="DrinkItem18" cost="2" expireDate="05/01/2010" hash="rEC0IDD8.jDMHB_HIXoUo3bNuRYAqNzG1mNgyLLH6fT0n0oIzDs1jKPxbgPDhiD." id="5300017" ingredients="Ginger, Vanilla, Icecream, Milk" isLimited="true" name="Gingerbread Milkshake"/>
+		<item className="DrinkItem19" cost="2" hash="JxygVSaewOlm8yrGnNx8jkPgVozylLWTNCft.eI7Ded057rNBh.K0GxOg39wWKl3" id="5300018" ingredients="Orange" name="Orange Juice"/>
+		<item className="DrinkItem20" cost="2" expireDate="09/03/2010" hash="yYhB9w6jkvWInw0elusubwlsLKJLg4ANpGdGCw_vGmjcXU1rcrJcA6Q1HvlNTX9z" id="5300019" ingredients="Strawberry, Vanilla, Saffron" isLimited="true" name="Love Potion"/>
+		<item className="DrinkItem21" cost="2" expireDate="09/03/2010" hash="GoW_snd41XsfFczY3Z4tEy9l5bBvv77poAdAC8E5paoI8XBPiQH87C647En443cQ" id="5300020" ingredients="Sausage, Wasabi, Mango, Oregano" isLimited="true" name="Magic Potion"/>
+		<item className="DrinkItem22" cost="2" hash="0up0566UcLfIP4aUfJ.fTGQucfZtMOGqGnETYVH1JLFr3byElZbdWZJuogy3Ygo0" id="5300021" ingredients="Pineapple, Coconut, Banana, Mango" name="Pineapple Smoothie"/>
+		<item className="DrinkItem23" cost="2" expireDate="27/04/2010" hash="6n2hN4XLmPReNXx0R0rxW7.9uKHO2HW5jsAL5iPSSkHX5q1DtnHJpc8h7jgaFM_O" id="5300022" ingredients="Chocolate Bunny, Chocolate Bunny, Easter Egg, Chick Figurine" isLimited="true" name="Hot Easter Chocolate"/>
+		<item className="DrinkItem24" cost="2" hash="FT5et7xayIJ7ZDNbRDgy6xNbl4nK1jiK9GqCxArt1LCpN2ZpbRZLMG36L7Kn.HvG" id="5300023" ingredients="Tea Leaves, Tea Leaves, Water" name="Green Tea"/> 
+		<item className="DrinkItem25" cost="2" functions="ShrinkCustomer" hash="x0H3RMUVNNfz9x37lBZ2AfCU1dHzShmncSCNYOSDjqC_nrS.uwhIzhNVn1K3f4c2" id="5300024" ingredients="Sugar, Water, Pineapple, Chili" level10Function="ShrinkCustomer" name="Drink Me"/> 
+		<item className="DrinkItem26" cost="2" expireDate="02/06/2010" hash="GIXObu9CqAGgE4BrhJjBdguTSzkIN_7OTimFTlugCNFWcZSvc.W1jp7k9aybA.P." id="5300025" ingredients="Tea Leaves, Milk, Water" isLimited="true" name="High Tea"/> 
+		<item className="DrinkItem27" cost="2" hash="Rip9myOyLBMt8Pp2cegnItz3E_.hHK0gQxVezvv3S9VPpsF.nCbyOl968G0Lgd78" id="5300026" ingredients="Pineapple, Coconut, Cherry" level10Reward="3070031" name="Coco Colada"/> <!-- The Bar Lounge -->
+		<item className="DrinkItem28" cost="2" hash="WUWNk595jkKFrmS.mNBfrKou81hQffRitRSrUqGIg.8tUbaiWCHbj7uM9umyGpRg" id="5300027" ingredients="Pomegranate, Peach, Orange, Cherry" level10Function="BarSnacks" name="Tropical Sunrise"/> 
+		<item className="DrinkItem29" cost="2" hash="dFXUeDqCigFBjtyUZGJ5MOovSo0kTGubHDeTAzNc_NcpXDkhpqJ2aKkcH6ZtQE3J" id="5300028" ingredients="Strawberry, Sugar, Lime, Ice" level10Function="BarExtraStaff" name="Strawberry Heaven"/> 
+		<item className="DrinkItem30" cost="2" hash="mzguoSPFyi9X6qEoco9KQeNNHCzZG6ZyMJKzB8TKZwqu7t9O4QUztAEMLlFau7_p" id="5300029" ingredients="Coffee Beans, Cream, Ice" level10Function="BarExtraSeat" name="Russian Cappuccino"/> 
+		<item className="DrinkItem31" cost="2" hash="WdYn7N62o6hmGu6EVk9OmCmil7imBzmzEHE2IG3wzN5y0H7HWGSgJoJlmlXoUhy2" id="5300030" ingredients="Mint, Mint, Lime, Sugar" level10Function="BarExtraSeat" name="Mint Breeze"/> 
+		<item className="DrinkItem32" cost="2" hash="IK.LtmYvTpVTo4s2q3bAFQW_sL6XxAwy5.gSTCxOFmZNmmJ93.ntsJpGqPxk4bVL" id="5300031" ingredients="Ginger, Water, Icecream, Vanilla" level10Reward="3500039" name="Boston Cooler"/> 
+		<item className="DrinkItem33" cost="2" hash="r663PCcy4zvYWPUe2g0YAPGUd6zd5BYbtnEkrb89yYXV3m_JbTTXDWM3SzDqAbNC" id="5300032" ingredients="Strawberry, Lemon, Lime" level10Function="BarTapGreen" name="Pink Lemonade"/> 
+		<item className="DrinkItem34" cost="2" hash="HuhfV2Qhy5V9Kd0by8.8eLqoOEUpzd6MoMgk.lv0TIsEP7STQlP6TS6Xznvj6StD" id="5300033" ingredients="Mango, Mango, Cherry, Mint" isNew="true" level10Function="BarTapRed" name="Mango Tango"/>
+		<item className="DrinkItem35" cost="2" hash="pUDCBrUMMbSWYCaFOFLa5hFnO4YQmQf5nqksPVlcA5W2tql1YssXYxL46stqKbKD" id="5300034" ingredients="Kiwi, Sugar, Lime, Mint" isNew="true" level10Function="BarMixer" name="Kiwi Twist"/> 
+	</group>
+</database>

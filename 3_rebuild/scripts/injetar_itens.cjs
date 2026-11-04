@@ -367,6 +367,13 @@ function main() {
   let id = swf.maxId;
   const novas = [], simbolos = [];
   for (const it of manifesto.itens) {
+    // arteDe (2026-11-03): a arte deste item e uma copia de um simbolo original de julho/2010, feita por
+    // copiar_julho2010.cjs (ex.: RCR_TeppanyakiGrill com a arte de JapaneseStove01). Aqui nao se monta nada;
+    // o catalogo e os textos continuam vindo do manifesto.
+    if (it.arteDe) {
+      if (!existentes.has(it.classe)) throw new Error(`${it.classe}: arteDe ${it.arteDe}, mas a copia nao esta no SWF de entrada`);
+      continue;
+    }
     if (existentes.has(it.classe)) throw new Error(`classe ja existe no SWF: ${it.classe}`);
     const base = it.base ?? 31, repetir = it.repetir ?? 5;
     if (it.animPorta || it.porta) {

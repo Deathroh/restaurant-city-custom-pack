@@ -1,0 +1,387 @@
+{
+ "3080001": {
+  "para": 3500116,
+  "rcr": "RCR_MonsterRobot",
+  "original": "RoboGodzzila"
+ },
+ "3080007": {
+  "para": 3500114,
+  "rcr": "RCR_CherryBlossomTree",
+  "original": "CherryBlossomTree"
+ },
+ "3080009": {
+  "para": 3020293,
+  "rcr": "RCR_JapanesePond",
+  "original": "JapanesePondDecor"
+ },
+ "3080011": {
+  "para": 3020303,
+  "rcr": "RCR_StoneLantern",
+  "original": "StoneLantern"
+ },
+ "3080012": {
+  "para": 3020306,
+  "rcr": "RCR_Daruma",
+  "original": "Daruma"
+ },
+ "3080013": {
+  "para": 3020314,
+  "rcr": "RCR_Gong",
+  "original": "Gong"
+ },
+ "3080014": {
+  "para": 3020302,
+  "rcr": "RCR_BambooWaterFeature",
+  "original": "BambooWaterFeature"
+ },
+ "3080015": {
+  "para": 3020291,
+  "rcr": "RCR_SamuraiArmor",
+  "original": "SamuraiArmor"
+ },
+ "3080016": {
+  "para": 3050071,
+  "rcr": "RCR_TatamiMat",
+  "original": "TatamiMat"
+ },
+ "3080017": {
+  "para": 3020289,
+  "rcr": "RCR_KatanaDecor",
+  "original": "KatanaDecor"
+ },
+ "3080018": {
+  "para": 3000084,
+  "rcr": "RCR_ShurikenDecor",
+  "original": "ShurikenDecor"
+ },
+ "3080019": {
+  "para": 3000083,
+  "rcr": "RCR_SushiSignDecor",
+  "original": "SushiSignDecor"
+ },
+ "3080020": {
+  "para": 3030057,
+  "rcr": "RCR_ZenTable",
+  "original": "ZenTable"
+ },
+ "3080021": {
+  "para": 3030061,
+  "rcr": "RCR_SmallZenTable",
+  "original": "ZenTableSmall"
+ },
+ "3080022": {
+  "para": 3020290,
+  "rcr": "RCR_SamuraiSwordDecor",
+  "original": "SamuraiSwordDecor"
+ },
+ "3080023": {
+  "para": 3070021,
+  "rcr": "RCR_CeremonialDrinkSet",
+  "original": "CeremonialDrinkSet"
+ },
+ "3080024": {
+  "para": 3000085,
+  "rcr": "RCR_DeliciousSignDecor",
+  "original": "DeliciousSignDecor"
+ },
+ "3080025": {
+  "para": 3000086,
+  "rcr": "RCR_JapaneseGardenPicture",
+  "original": "JapaneseGardenPicture"
+ },
+ "3080026": {
+  "para": 3030058,
+  "rcr": "RCR_SushiTable",
+  "original": "SushiTable"
+ },
+ "3080027": {
+  "para": 3030060,
+  "rcr": "RCR_LongSushiTable",
+  "original": "SushiTableLong"
+ },
+ "3080028": {
+  "para": 3020301,
+  "rcr": "RCR_ZenGarden",
+  "original": "ZenGarden"
+ },
+ "3080029": {
+  "para": 3020298,
+  "rcr": "RCR_ZenRock",
+  "original": "ZenRock"
+ },
+ "3080030": {
+  "para": 3040059,
+  "rcr": "RCR_ZenChair",
+  "original": "ZenChair"
+ },
+ "3080031": {
+  "para": 3040061,
+  "rcr": "RCR_WhiteZenChair",
+  "original": "WhiteZenChair"
+ },
+ "3080032": {
+  "para": 3020299,
+  "rcr": "RCR_ZenStone",
+  "original": "ZenStone"
+ },
+ "3080033": {
+  "para": 3020300,
+  "rcr": "RCR_ZenPebble",
+  "original": "ZenPebble"
+ },
+ "3080034": {
+  "para": 3020296,
+  "rcr": "RCR_GardenFireplace",
+  "original": "GardenFirePlace"
+ },
+ "3080035": {
+  "para": 3020295,
+  "rcr": "RCR_GardenLamp",
+  "original": "GardenLamp"
+ },
+ "3080037": {
+  "para": 3020293,
+  "rcr": "RCR_JapaneseGardenPond",
+  "original": "JapanesePondDecor"
+ },
+ "3080039": {
+  "para": 3020305,
+  "rcr": "RCR_OctopusStatue",
+  "original": "OctopusCook"
+ },
+ "3080040": {
+  "para": 3020307,
+  "rcr": "RCR_PrawnSushiDecor",
+  "original": "PrawnSushiDecor"
+ },
+ "3080041": {
+  "para": 3020309,
+  "rcr": "RCR_SalmonSushiDecor",
+  "original": "SalmonSushiDecor"
+ },
+ "3080042": {
+  "para": 3020310,
+  "rcr": "RCR_YellowMakiDecor",
+  "original": "YellowMakiDecor"
+ },
+ "3080043": {
+  "para": 3020312,
+  "rcr": "RCR_GreenMakiDecor",
+  "original": "GreenMakiDecor"
+ },
+ "3080044": {
+  "para": 3020311,
+  "rcr": "RCR_RedMakiDecor",
+  "original": "RedMakiDecor"
+ },
+ "3080045": {
+  "para": 3020308,
+  "rcr": "RCR_SakuraMochiDecor",
+  "original": "SakuraMochiDecor"
+ },
+ "3080046": {
+  "para": 3020315,
+  "rcr": "RCR_AdDivider",
+  "original": "AdDivider"
+ },
+ "3080047": {
+  "para": 3020313,
+  "rcr": "RCR_AdPost",
+  "original": "JapanesePost"
+ },
+ "3080049": {
+  "para": 3050073,
+  "rcr": "RCR_ZenCircleTile",
+  "original": "ZenCircleTile"
+ },
+ "3080050": {
+  "para": 3050074,
+  "rcr": "RCR_ZenStripeTile",
+  "original": "ZenStripeTile"
+ },
+ "3080051": {
+  "para": 3050072,
+  "rcr": "RCR_ZenTile",
+  "original": "ZenTile"
+ },
+ "3080084": {
+  "para": 3060063,
+  "rcr": "RCR_SakuraWallpaper",
+  "original": "SakuraWallpaper"
+ },
+ "3080085": {
+  "para": 3060064,
+  "rcr": "RCR_ShojiScreenWallpaper",
+  "original": "ShojiScreenWallpaper"
+ },
+ "3080086": {
+  "para": 3010025,
+  "rcr": "RCR_JapaneseSlidingDoor",
+  "original": "JapaneseSlidingDoor"
+ },
+ "3080088": {
+  "para": 3020292,
+  "rcr": "RCR_SmallJapaneseDivider",
+  "original": "JapaneseDivider"
+ },
+ "3080090": {
+  "para": 3020284,
+  "rcr": "RCR_SpringDivider",
+  "original": "SpringDivider"
+ },
+ "3080091": {
+  "para": 3020283,
+  "rcr": "RCR_SpringDividerBlock",
+  "original": "SpringDividerBlock"
+ },
+ "3080094": {
+  "para": 3050055,
+  "rcr": "RCR_MagicFloorTile",
+  "original": "FloorTile56"
+ },
+ "3080095": {
+  "para": 3050056,
+  "rcr": "RCR_CloudFlooring",
+  "original": "FloorTile57"
+ },
+ "3080096": {
+  "para": 3050060,
+  "rcr": "RCR_ClubsTile",
+  "original": "FloorTile61"
+ },
+ "3080097": {
+  "para": 3050059,
+  "rcr": "RCR_DiamondTile",
+  "original": "FloorTile60"
+ },
+ "3080099": {
+  "para": 3050058,
+  "rcr": "RCR_SpadesTile",
+  "original": "FloorTile59"
+ },
+ "3080100": {
+  "para": 3050062,
+  "rcr": "RCR_DarkBlueFloor",
+  "original": "FloorTile63"
+ },
+ "3080102": {
+  "para": 3050075,
+  "rcr": "RCR_TerracottaTile",
+  "original": "TerracottaTile"
+ },
+ "3080103": {
+  "para": 3050077,
+  "rcr": "RCR_WonderlandTileRed",
+  "original": "AliceTileRed"
+ },
+ "3080104": {
+  "para": 3050028,
+  "rcr": "RCR_GrassTile",
+  "original": "FloorTile29"
+ },
+ "3080112": {
+  "para": 3050026,
+  "rcr": "RCR_SandTile",
+  "original": "FloorTile27"
+ },
+ "3080127": {
+  "para": 3020242,
+  "rcr": "RCR_MagicWaterCorner1",
+  "original": "MagicWaterTile"
+ },
+ "3080128": {
+  "para": 3020242,
+  "rcr": "RCR_MagicWaterCorner2",
+  "original": "MagicWaterTile"
+ },
+ "3080129": {
+  "para": 3020242,
+  "rcr": "RCR_MagicWaterCorner3",
+  "original": "MagicWaterTile"
+ },
+ "3080130": {
+  "para": 3020242,
+  "rcr": "RCR_MagicWaterCorner4",
+  "original": "MagicWaterTile"
+ },
+ "3080131": {
+  "para": 3020242,
+  "rcr": "RCR_MagicWaterPlain",
+  "original": "MagicWaterTile"
+ },
+ "3080132": {
+  "para": 3020385,
+  "rcr": "RCR_DarkMagicWaterCorner1",
+  "original": "DarkMagicWaterTile"
+ },
+ "3080133": {
+  "para": 3020385,
+  "rcr": "RCR_DarkMagicWaterPlain",
+  "original": "DarkMagicWaterTile"
+ },
+ "3080134": {
+  "para": 3020385,
+  "rcr": "RCR_DarkMagicWaterCorner2",
+  "original": "DarkMagicWaterTile"
+ },
+ "3080135": {
+  "para": 3020385,
+  "rcr": "RCR_DarkMagicWaterCorner3",
+  "original": "DarkMagicWaterTile"
+ },
+ "3080136": {
+  "para": 3020385,
+  "rcr": "RCR_DarkMagicWaterCorner4",
+  "original": "DarkMagicWaterTile"
+ },
+ "3080137": {
+  "para": 3020242,
+  "rcr": "RCR_MagicWaterEdge1",
+  "original": "MagicWaterTile"
+ },
+ "3080138": {
+  "para": 3020242,
+  "rcr": "RCR_MagicWaterEdge2",
+  "original": "MagicWaterTile"
+ },
+ "3080139": {
+  "para": 3020242,
+  "rcr": "RCR_MagicWaterEdge3",
+  "original": "MagicWaterTile"
+ },
+ "3080140": {
+  "para": 3020242,
+  "rcr": "RCR_MagicWaterEdge4",
+  "original": "MagicWaterTile"
+ },
+ "3080141": {
+  "para": 3020385,
+  "rcr": "RCR_DarkMagicWaterEdge1",
+  "original": "DarkMagicWaterTile"
+ },
+ "3080142": {
+  "para": 3020385,
+  "rcr": "RCR_DarkMagicWaterEdge2",
+  "original": "DarkMagicWaterTile"
+ },
+ "3080143": {
+  "para": 3020385,
+  "rcr": "RCR_DarkMagicWaterEdge3",
+  "original": "DarkMagicWaterTile"
+ },
+ "3080144": {
+  "para": 3020385,
+  "rcr": "RCR_DarkMagicWaterEdge4",
+  "original": "DarkMagicWaterTile"
+ },
+ "3080145": {
+  "para": 3020407,
+  "rcr": "RCR_WhiteSofaCorner",
+  "original": "BarBeigeCornerChair"
+ },
+ "3080146": {
+  "para": 3020418,
+  "rcr": "RCR_BlackSofaCorner",
+  "original": "BarSmokeCornerChair"
+ }
+}

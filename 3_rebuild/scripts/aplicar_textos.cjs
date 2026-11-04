@@ -4,6 +4,7 @@
 // passar o mouse no item da loja (ex.: Valentine Stove, ItemToolTipStove14 = "Cooks 8% faster").
 // Uso: node aplicar_textos.cjs <manifesto.json> <lang_en.bin original> <lang_en.bin de saida>
 const fs = require('fs');
+const path = require('path');
 const zlib = require('zlib');
 const [, , arqManifesto, entrada, saida] = process.argv;
 const manifesto = JSON.parse(fs.readFileSync(arqManifesto, 'utf8').replace(/^﻿/, ''));
@@ -11,6 +12,15 @@ let xml = zlib.inflateSync(fs.readFileSync(entrada)).toString('utf8');
 const esc = (v) => String(v).replace(/&/g, '&amp;').replace(/</g, '&lt;');
 
 const linhas = [];
+// janelas (i) dos itens da build de julho/2010 (recriados/julho2010/textos.json, de preparar_julho2010.cjs);
+// o texto vem do lang_en deles ja com as entidades escritas
+const arqJulho = path.join(path.dirname(arqManifesto), 'julho2010', 'textos.json');
+if (fs.existsSync(arqJulho)) {
+  for (const t of JSON.parse(fs.readFileSync(arqJulho, 'utf8').replace(/^﻿/, ''))) {
+    if (xml.includes(`<text id="${t.id}">`)) throw new Error(`${t.id} ja existe no lang_en`);
+    linhas.push(`\t\t<text id="${t.id}">\r\n\t\t\t${t.texto}\r\n\t\t</text>\r\n`);
+  }
+}
 for (const it of manifesto.itens) {
   for (const [campo, prefixo] of [['descricao', 'ItemDescription'], ['efeito', 'ItemFunction'], ['dica', 'ItemToolTip']]) {
     if (!it[campo]) continue;

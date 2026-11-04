@@ -1,0 +1,9 @@
+{
+  "nota": "Itens que saem da loja (invisible=\"true\"): quem ja tem continua vendo no inventario e as copias colocadas continuam valendo. Lido por scripts/aplicar_catalogo.cjs. Pedido da dona em 2026-11-04: itens repetidos fora da loja.",
+  "itens": [
+    { "id": 3070020, "nome": "Teppanyaki Grill (julho/2010)", "motivo": "repetido: fica o 3080048 (mesma arte original JapaneseStove01, 10 fishcash, 10% mais rapido)" },
+    { "id": 3080010, "nome": "Bonsai Tree (RCR)", "motivo": "repetido: recriacao do Bonsai original de julho (3020288, Bonzai)" },
+    { "id": 3080101, "nome": "Bamboo Flooring (RCR)", "motivo": "repetido: recriacao do Bamboo Floor original (3050063, FloorTile64)" },
+    { "id": 3080098, "nome": "Multi Tile (RCR)", "motivo": "repetido: recriacao do Cards Tile original (3050061, FloorTile62)" }
+  ]
+}

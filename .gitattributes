@@ -1,0 +1,5 @@
+# arquivos prontos do jogo: guardados byte a byte (o restaurant.xml tem que bater com o restaurant.bin)
+1_ready_files/** -text
+*.swf binary
+*.bin binary
+*.patch -text

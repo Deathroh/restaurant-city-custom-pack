@@ -1,0 +1,8948 @@
+{
+ "AchievementPanel": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AchievementPanelAnim": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AFMintMarbleSink": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AFPhotbooth_mask_asset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AFPhotobooth": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AFRedMarbleSink": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AirGeyser": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AlienEgg": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AlienMonolith": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AlienPetBlue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AlienPetPurple": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AlienStatue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AlienStatues": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AllamandaFlowerBasket": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AnimatedFlame": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Anthurium": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AppleCore": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AppleCoreOutline": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ArcadeAssetBlue01": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "36": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "ArcadeAssetBlue02": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ],
+   "5": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "ArcadeMachine": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ArcadeMachineBlue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ArcadeMachineSnake": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AutumnTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AvatarContainer": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardAvatarBronze": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardAvatarGold": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardAvatarSilver": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardDishBronze": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardDishGold": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardDishSilver": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardGardenBronze": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardGardenGold": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardGardenSilver": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardGiftBronze": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardGiftGold": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardGiftSilver": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardHelpBronze": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardHelpGold": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardHelpSilver": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardIndoorBronze": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardIndoorGold": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardIndoorSilver": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardOutdoorBronze": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardOutdoorGold": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardOutdoorSilver": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardPlatesBronze": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardPlatesGold": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardPlatesSilver": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardRatingBronze": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardRatingGold": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardRatingSilver": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardRepairBronze": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardRepairGold": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardRepairSilver": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardSpendBronze": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardSpendGold": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardSpendSilver": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardToiletBronze": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardToiletGold": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardToiletSilver": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardTradeBronze": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardTradeGold": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardTradeSilver": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardTrashBronze": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardTrashGold": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardTrashSilver": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardVisitBronze": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardVisitGold": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AwardVisitSilver": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BackgammonTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BalloonYellow": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Balsamine": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BambooPlant": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BambooSidetable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BambooTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BambooWallScroll": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BananaPeel": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BananaPeelOutline": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarFifaBigTV": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Barrel": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarrelWithTap": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BasicMattressBedRed": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BasilGrown": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BasinCabinet": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BassDrum": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BayGrown": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Bear": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Bench": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BgBitmap": {
+  "base": "BitmapData",
+  "quadros": {}
+ },
+ "BlackBasinCabinet": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlackCeramicVase": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlackDrapery": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlackDrinkDispencer": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlackHoleDoor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlackObelisk": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlackPiano": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlackRoundSideTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlackSideTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlackTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlackTableCloth": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlackWall": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlackWallCorner": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlackWallCross": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlackWallT": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Bloblian": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BloomingBush": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BloomingCactus": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlueButterfly": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlueChipTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlueClock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlueClockHourArm": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlueClockMinuteArm": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlueDaisy": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlueDrapery": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlueEgg": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Blueflowers": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlueIris": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BluePowerCoreBase": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BluePresent": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlueTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlushWall": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlushWallCorner": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlushWallCross": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlushWallT": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BongoDrums": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BorderBitmap": {
+  "base": "BitmapData",
+  "quadros": {}
+ },
+ "BottleDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BrainJar": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BrickPillar": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BroadwayPosters": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BrownCeramicVase": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BrownDrapery": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BubbleTubeBlackAnim": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BubbleTubeGold": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BubbleTubeRed": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BubbleTubeSilver": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BulletHoles": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ButterflyShadow": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CactiJoe": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CallaLily": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CamelFigurine": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CandleHolder": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Candles": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CandyCanePole": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CandyJar": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CandyTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Cannon": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CannonBalls": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CardsWallDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CatTails": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CaveBackgroundBitmap": {
+  "base": "BitmapData",
+  "quadros": {}
+ },
+ "CaveBubblesBitmap": {
+  "base": "BitmapData",
+  "quadros": {}
+ },
+ "CaveClickScreenBitmap": {
+  "base": "BitmapData",
+  "quadros": {}
+ },
+ "CaveFarBackgroundFish": {
+  "base": "BitmapData",
+  "quadros": {}
+ },
+ "CaveFishBitmap": {
+  "base": "BitmapData",
+  "quadros": {}
+ },
+ "CaveFoodBitmap": {
+  "base": "BitmapData",
+  "quadros": {}
+ },
+ "CaveForegroundBitmap": {
+  "base": "BitmapData",
+  "quadros": {}
+ },
+ "CaveGameOverBitmap": {
+  "base": "BitmapData",
+  "quadros": {}
+ },
+ "CaveNumbersBitmap": {
+  "base": "BitmapData",
+  "quadros": {}
+ },
+ "CaveSmallTrophyBitmap": {
+  "base": "BitmapData",
+  "quadros": {}
+ },
+ "CaveSparkleBitmap": {
+  "base": "BitmapData",
+  "quadros": {}
+ },
+ "CaveTitleBitmap": {
+  "base": "BitmapData",
+  "quadros": {}
+ },
+ "CeremonialDrinkSet": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CeremonialDrinkSetBackAsset": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "19": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "CeremonialDrinkSetFrontAsset": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "19": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "Chair01": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair01Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair02": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair02Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair03": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair03Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair04": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair04Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair05": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair05Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair06": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair06Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair07": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair07Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair08": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair08Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair09": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair09Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair10": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair10Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair11": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair11Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair12": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair12Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair13": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair13Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair14": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair14Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair15": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair15Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair16": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair16Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair17": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair17Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair18": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair18Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair19": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair19Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair20": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair20Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair21": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair21Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair22": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair22Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair23": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair23Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair24": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair24Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair25": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair25Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair26": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair26Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair27": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair27Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair28": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair28Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair29": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair29Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair30": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair30Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair31": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair31Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair32": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair32Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair33": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair33Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair34": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair34Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair35": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair35Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair36": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair36Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair37": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair37Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair38": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair38Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair39": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair39Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair40": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair40Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair41": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair41Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair42": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair42Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair43": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair43Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair44": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair44Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair45": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair45Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair46": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair46Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair47": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair47Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair48": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair48Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair49": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair49Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair50": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair50Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair51": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair51Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair52": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair52Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair53": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair53Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair54": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair54Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair55": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair55Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair56": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair56Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair57": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair57Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair58": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair58Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair59": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair59Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair60": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair60Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair61": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair61Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair62": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair62Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair63": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair63Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair64": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair64Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair64_asset1": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair65": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair65Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair65_asset2": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair66": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair66Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair67": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair67Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair68": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair68Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair69": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair69Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair70": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair70Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair71": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair71Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair72": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair72Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair73": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Chair73Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ChefFloor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ChestnutPicture": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ChickDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ChickenLeg": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ChickenLegOutline": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ChiliPeppersPicture": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ChineseTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ChromeBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ChromeGlassWall": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ChromeTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ChromeWall": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CityscapePainting": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClaimRewardButton": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClassicBlackBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClassicBlackBookshelf": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClassicBlackDivider": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClassicBlackDivider_asset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClassicBlackWall": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClassicBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClassicBookshelf": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClassicFireplace": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClassicFloorLamp": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClassicWall": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClassicWhiteBookshelf": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClassicWhiteDivider": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClassicWhiteDividerBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClassicWhiteFireplace": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClassyBlackTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClassyBush": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClassyPlant": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClassyStove": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClassyTableLamp": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClawMachine": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ClawMachine01": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "53": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "ClawMachine01B": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "53": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "ClawMachine02": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "53": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "ClawMachine02B": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "53": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "Clean": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CoconutTree": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CoffeeGrown": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ColorfulCrystals": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ColumnDivider": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ColumnDividerBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CoralReefMermaidStatue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CorianderGrown": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CoverBlank": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CoverClassical": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CoverDefault": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CoverIrish": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CoverLounge": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CoverMexican": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CoverOriental": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Crate": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DaffodilDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Daffodils": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DarkGreekColumn": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DarkMagicWaterTile": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DartBoard": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DecorateEgg": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DeerWallDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DelicateBush": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DesertPalm": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Digsite": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DjembeDrum": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Door": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Door2": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Door3": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Door3Night": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Door4": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Door5": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Door6": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Door7": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Door8": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Door9": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DoorNorenAnimation": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "22": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "DoorSolidGlassnAnimation": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "22": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "DoorwayAnimation": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "22": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "DoorwayDoubleMask": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DoorwayDoubleMask2": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DoorwayDoubleMask3": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DoorwayDoubleMask4": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DoorwayDoubleMask5": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DoorwayDoubleMask6": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DoorwayHalloweenMask": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DoorWayMask": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DoorWayMask2": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DoubleGlassDoor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DoubleSaloonDoorAnim": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "20": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "Dragon": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DragonDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DragonVase": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DrinkFridgeAnim1": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "19": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "DrinkFridgeAnim2": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "19": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "DrinksFridge": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DrinksFridgeVday": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DrinkShelf01": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "19": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "DrinkShelf02": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "19": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "DrinksShelf": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DrumSet": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DrumTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "EasterVaseDecoration": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "EbonyDivider": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "EbonyDividerBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "EbonyDivider_asset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "EcruWall": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "EcruWallCorner": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "EcruWallCross": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "EcruWallT": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "EggTree": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "EgyptianDivider": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "EgyptianDividerBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "EgyptianObelisk": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "EgyptianPainting": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "EgyptianPot": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "EgyptianTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "EgyptianWallDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ElectricGuitar": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ElegantPine": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ElegantRopeBarrier": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ElephantFigurine": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "EqyptianCandleStand": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "EqyptianPillar": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "EvilPumpkinDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FakeSkeletonDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FallWreath": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FanStatue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FemaleToiletSign": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FestiveDrinkFridgeAnim1": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "19": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "FestiveDrinkFridgeAnim2": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "19": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "FestiveDrinkFridgeDoor2": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FestiveDrinksFridge": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FestiveFireplace": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FestiveTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FestiveTree": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FineTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FineTableLamp": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FineTallMirror": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FireAnim": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FireHydrantDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Fish4": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Fishpond": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FishTankHuge": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FishTankHugeAnim": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FishTankLarge": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FishTankSmall": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FlatScreenTv": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloatingFish01": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloatingFish02": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloatingFish03": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloatingPlanet": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile10": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile11": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile12": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile13": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile14": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile15": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile16": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile17": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile18": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile19": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile2": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile20": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile21": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile22": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile23": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile24": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile25": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile26": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile27": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile28": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile29": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile3": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile30": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile31": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile32": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile33": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile34": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile35": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile36": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile37": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile38": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile39": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile4": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile40": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile41": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile42": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile43": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile44": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile45": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile46": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile47": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile48": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile49": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile5": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile50": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile51": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile52": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile53": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile54": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile55": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile56": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile57": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile58": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile59": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile6": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile60": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile61": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile62": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile63": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile64": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile65": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile66": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile67": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile68": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile69": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile7": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile70": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile71": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile8": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloorTile9": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FlourishingPine": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FlowerDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FloweringBonsai": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FlowerPot": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FlowerPot1": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FoldingScreen2": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FoodBitmap": {
+  "base": "BitmapData",
+  "quadros": {}
+ },
+ "FoodCounter": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FootballStove": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FootballStoveRotations": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FortuneTellerDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FryingPan": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FryingPanAnim": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FuOrangeBasket": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "FuOrangeTree": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GameOverBitmap": {
+  "base": "BitmapData",
+  "quadros": {}
+ },
+ "GardenPlot": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GarlicGrown": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Gem01": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Gem01Outline": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Gem02": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Gem02Outline": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Gem03": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Gem03Outline": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Gem04": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Gem04Outline": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GiantBeanStalk": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GiantCactus": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GiantCarrot": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GiantChocolateEgg": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GiantCrystal": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GiantCrystalAsset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GiantFestiveTree": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GiantPresent": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GiantRedDice": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GiantSnowglobe": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GiantTV": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GiantWhiteDice": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GigCymbals": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GigMicrophone": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GigSpeaker": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GingerbreadBasin": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GingerbreadBed": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GingerbreadBedOverlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GingerbreadDivider": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GingerbreadDividerBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GingerbreadDoor03": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GingerbreadDoubleDoorAnim": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "20": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "GingerbreadDoubleDoors": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GingerGrown": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GlamoursTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GlassTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GlowTubeBlue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GlowTubeGreen": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GlowTubePink": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Goldbars": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GoldDoubloons": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GoldenCobraCandlelight": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GoldenFanDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GoldenGreekColumn": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GoldenHatDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GoldenTableCloth": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GoldIngot": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GoldMirror": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GoldPresent": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GoldRecord": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GoodFortuneCalligraphy": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GothicDivider": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GothicDividerBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GothicTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Graffiti": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Gravestone": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GreekColumn": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GreekPot": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GreekTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GreenBush": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GreenDrapery": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GreenEgg": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Greenlocker": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GreenPowerCore": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GreenPowerCoreBase": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GreenPresent": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GreenTableCloth": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Greg": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GregPicnic": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GregPlate": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GregWalkAnimation": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GreyFireplace": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HaitiPoster": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HalloweenDoor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HalloweenDoorAnimation": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "22": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "HalloweenStove01": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HalloweenStove01Down": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "HalloweenStove01Up": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "HalloweenStoveRotations": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Hammock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HappyEgg": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HarvestAnim": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HeartAssetAnim": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HeartBalloonPurple": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HeartBalloonRed": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HeartDivider": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HeartDividerBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HeartDividerCorner": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HeartTree": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HeartWreath": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HerbGarden": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HerbGarden_Lampset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HerbGarden_Night": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HotelCitySign": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HourglassDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HypnoticArtifact": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "IceSculpture": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "IceTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "IceTree": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "IgloDoor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ILoveRcPoster": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "InDoor10": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "indoor_asset_fla.AFPhotobooth2_594": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ],
+   "5": [
+    [
+     "gotoAndPlay",
+     "broken"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.AFPhotobooth_591": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "34": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ],
+   "36": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.ArcadeSnakeAsset01_587": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "34": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ],
+   "36": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.ArcadeSnakeAsset02_588": {
+  "base": "MovieClip",
+  "quadros": {
+   "2": [
+    [
+     "stop"
+    ]
+   ],
+   "4": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.BlackDrinkDis_back_844": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "19": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.BlackDrinkDis_front_845": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "19": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.BlackHoleDoorAnim_1186": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "15": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.ClassyStoveDown_621": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.ClassyStoveRotations_619": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "indoor_asset_fla.ClassyStoveUp_620": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.DarkWoodDoubleDoorsAnimNight_1165": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "20": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.DarkWoodDoubleDoorsAnim_1160": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "20": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.DoorAnimation2_1154": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "20": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.DoorAnimationMedieval_1104": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "22": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.DoorAnimation_1095": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "22": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.DoorBrownAnimation_1124": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "22": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.DoorGlassAnimation_1120": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "22": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.DoorGreenAnimation_1112": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "22": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.DoorRedAnimation_1116": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "22": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.DoubleGlassDoorAnim_1190": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "20": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.DrinkFridgeVdayAnim1_838": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "19": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.DrinkFridgeVdayAnim2_836": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "19": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.FootballStoveDown_627": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.FootballStoveUp_624": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Luck7SlotmachineAsset_1780": {
+  "base": "MovieClip",
+  "quadros": {
+   "23": [
+    [
+     "gotoAndPlay",
+     "off"
+    ]
+   ],
+   "60": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ],
+   "62": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Lucky7SlotmachineAsset2_1783": {
+  "base": "MovieClip",
+  "quadros": {
+   "23": [
+    [
+     "gotoAndPlay",
+     "off"
+    ]
+   ],
+   "60": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ],
+   "62": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.ManlyStove03Down_771": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.ManlyStove03Up_768": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.ManlyStove04Down_712": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.ManlyStove04Up_709": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.MetalDoubleDoorsAnim_1181": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "20": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.PinkArcadeAsset01_580": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "36": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.PinkArcadeAsset02_581": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "5": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.pirateDoorAnimation_1132": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "22": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.RedRetailDoubleDoorsAnim_1175": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "20": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.SeedAnim_349": {
+  "base": "MovieClip",
+  "quadros": {
+   "35": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.SlotmachineAsset2_1777": {
+  "base": "MovieClip",
+  "quadros": {
+   "23": [
+    [
+     "gotoAndPlay",
+     "off"
+    ]
+   ],
+   "60": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ],
+   "62": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.SlotmachineAsset_1774": {
+  "base": "MovieClip",
+  "quadros": {
+   "23": [
+    [
+     "gotoAndPlay",
+     "off"
+    ]
+   ],
+   "60": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ],
+   "62": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove01Down_616": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove01Up_614": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove03Down_764": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove03Up_762": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove04Down_705": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove04Up_699": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove05Down_715": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove05Up_717": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove06Down_727": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove06Up_728": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove07Down_739": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove07Up_743": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove08Down_746": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove08Up_747": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove09Down_750": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove09Up_751": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove11Down_639": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove11Rotations_635": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "indoor_asset_fla.Stove11Up_636": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove14Down_731": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove14Up_734": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove15Down_678": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove15Rotations_673": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "indoor_asset_fla.Stove15Up_674": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove16Rotations_680": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "indoor_asset_fla.Stove17Down_721": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove17Up_723": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove18Down_643": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove18Up_642": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove19Down_671": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove19Up_668": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove20Down_653": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove20Up_646": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove21Down_665": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.Stove21Up_659": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.StoveMintBaseDown_607": {
+  "base": "MovieClip",
+  "quadros": {
+   "8": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "16": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "21": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.StoveMintBaseUp_608": {
+  "base": "MovieClip",
+  "quadros": {
+   "8": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "16": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "22": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.StoveRedBaseDown_596": {
+  "base": "MovieClip",
+  "quadros": {
+   "8": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "16": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "21": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.StoveRedBaseUp_603": {
+  "base": "MovieClip",
+  "quadros": {
+   "8": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "16": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "22": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.VdayDoorsAnim_1170": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "20": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset_fla.WishingWellAsset_146": {
+  "base": "MovieClip",
+  "quadros": {
+   "24": [
+    [
+     "gotoAndPlay",
+     "off"
+    ]
+   ],
+   "49": [
+    [
+     "gotoAndPlay",
+     "off"
+    ]
+   ],
+   "51": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "InkBottleDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "InsertCoinBitmap": {
+  "base": "BitmapData",
+  "quadros": {}
+ },
+ "InsideDoor10": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "InsidePalmtree": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Iris": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "JackalStatue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "JapaneseLamp": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "JapaneseLight": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "JapaneseStove01": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "JapaneseStove01Downcopy": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "JapaneseStove01Up": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "JapaneseStoveRotations": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "JarOfEyeballs": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "JarTentacle": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "JukeBox": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Keyboard": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "KingTutWallDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "KiwiSliceTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "KnightShield": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "KnightsLance": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "LargeBubble": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "LargeChocolateEgg": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "LargeFlowerPot": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "LargeOceanPainting": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "LargePresent": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "LargeSheild": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "LargeWhiteChocolateEgg": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "LetterBox": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "LilyFlower": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "LongSpringTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Lucky7Slotmachine": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "LuckyCatDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "LuckyChineseTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "LuckyPotOfGold": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "LuckyWallSticker": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "LushBush": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "LuxuriousBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "LuxuriousWall": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MagicalUnicorn": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MagicCurtain": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MagicWaterTile": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MagicWaterTileEffect01": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MagicWaterTileEffect02": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MagicWaterTileEffect03": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MaleToiletSign": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Manhole": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ManlyStove03": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ManlyStove04": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ManlyStoveRotations3": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ManlyStoveRotations4": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ManlyTeleportAnim": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Marlin": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MaskArc": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MenuHolder": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MetalDoubleDoor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Meteor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MingVase": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MinitureShipModel": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MissingCrateItem": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ModernFireplace": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MoebiusStripSculpture": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MoneyBag": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MonkeyStatue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MonsterClock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MonsterClockBase": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MonsterClockHourArm": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MonsterClockMinuteArm": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MoroccanDoorAnimation": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "22": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "MorrocanDoorway": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Mushrooms": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MushroomTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MusicalNote": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MusicNote01": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MusicNote02": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MusicNote03": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MusicNote04": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MusicStereo": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MysteryCrateItemAnim": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MysteryCrateItemAnimOutside": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "NuclearGlowAnim": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "NuclearIcon": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "NumberBitmap": {
+  "base": "BitmapData",
+  "quadros": {}
+ },
+ "OldOilLamp": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "OldPiano": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "OrangeButterfly": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "OrangeEgg": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "OrangeSliceTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "OreganoGrown": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "OutsideAreaSign": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Owl": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PalmTreeGarden": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Pansy": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ParkingSign": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ParkTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PartyBalloons": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Pengu": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "penguin": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PersianWallRug": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PicnicTableCloth": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Picture": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PinballCrazyPlanet01": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "21": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "PinballCrazyPlanet02": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "21": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "PinballMachine": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PineTree": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PinkArcadeMachine": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PinkBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PinkDrapery": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PinkEgg": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PinkPresent": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PinkTableCloth": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PinkTiger": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PinkTigerCub": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PinkTulips": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PinkWall": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PinkWallGuitar": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PirateDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PirateFlag": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PirateTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PizzaSlice": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PizzaSliceOutline": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PlantPicture": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PleasantPalm": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PoisonousMushroom": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PokerCardsDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PoolTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PoshNightDoor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PoshNightDoubleDoor": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "20": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "PoshStatue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PostBox01": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "PostBox02": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "PotionDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PottedPalmtree": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PowerCoreRingGreen": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Primula": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PrimulaVialli": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PrincessTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PurpleEasternTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PurpleEgg": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RainCloud": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RainDrop": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RainDropIndoor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RainDropSplash": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ReadyBitmap": {
+  "base": "BitmapData",
+  "quadros": {}
+ },
+ "RedAndGreenTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RedBerryBush": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RedChipTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RedDrapery": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RedEasternTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RedEgg": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RedHibiscusBush": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RedPowerCore": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RedPowerCoreBase": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RedPresent": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RedRetailDoubleDoors": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RedRopeBarrier": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RedRose": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RedSink": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RedValentinesPresent": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RedVase": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Reindeer": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RockBarrier": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RocketDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RockingHorseDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RockStarTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RockTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RomanticCats": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RomanticChocolateFountain": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RomanticSwans": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RomanticTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RomanticTableLamp": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RomanticTree": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RoseBucket": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RoseBunch": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Roulette": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RoundAntiqueTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RoundGlassTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RusticFireplace": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SaffronGrown": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SakeKeg": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SaloonDivider": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SaloonDividerBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SaloonDoubleDoor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SaloonTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SandDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SandTower": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SantasBoot": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SantaStatue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ScaryPlant": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Scifi01": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "19": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "Scifi02": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "19": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "ScifiDrinkDispencer": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ScifiTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Scooter01": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Scooter01Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ScubaGear": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SeaShell01": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SeaShell01Outline": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SeaShell02": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SeaShell02Outline": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Seaweed1": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Seaweed2": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Seaweed3": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Seed": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ShamrockTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SharkFin": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ShipDoor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ShipRailing": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ShipRailingBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ShipWheelDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ShojiFoldingScreen": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SignalProjector": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Signpost": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SilverMirror": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SingleRose": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Skunk": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SkunkBase": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SkunkItem": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SkylinePicture": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Slime01": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Slime01Outline": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Slime02": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Slime02Outline": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Slime03": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Slime03Outline": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Slime04": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Slime04Outline": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SlimeContainer": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Slotmachine": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SmallKitchen": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SmallWaterFountain": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SnakeBitmap": {
+  "base": "BitmapData",
+  "quadros": {}
+ },
+ "SnakeSplashBitmap": {
+  "base": "BitmapData",
+  "quadros": {}
+ },
+ "SnareDrum": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SnowMachine": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Snowman": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SnowmanIndoorEffect": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SnowyDividerBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SnowyPineTree": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SnowyWall": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SodaCan": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SodaCanOutline": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SodaDispenser": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SpaceDoor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SpaceDoorAnimation": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "22": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "SparkAnimation": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Speaker": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SpecialsChalkboard": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Sphinx": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SpitJar": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SpringDivider": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SpringDividerBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SpringDrinkDispenser": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SpringDrinkDispenser01": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "19": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "SpringDrinkDispenser02": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "19": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "SpringEffect": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SpringGoddessStatue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SpringTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StackOfLeaves": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StackOfLeavesEffect": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StageCrate": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StageLights": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StageLightsColumn": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StainlessSteelKitchenCabinet": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StainlessSteelKitchenCounter": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StainlessSteelKitchenDrawer": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Starfish": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StarfishDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StarfishOutline": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StatueOfCookery": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove01": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove02": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove03": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove04": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove10": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove10Up": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "Stove11": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove13": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove13Rotations": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove13Up": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "Stove14": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove15": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove16": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove16Down": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "Stove16Up": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "14": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "Stove17": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove18": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove18Rotations": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove19": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove19Rotations": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove20": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove20Rotations": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove21": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove21Rotations": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove5": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove6": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove7": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove8": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Stove9": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StoveBaseUp3": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StoveMint": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StoveMintRotations": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StoveRedRotations": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StoveRotations": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StoveRotations10": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StoveRotations14": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StoveRotations17": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StoveRotations3": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StoveRotations4": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StoveRotations5": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StoveRotations6": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StoveRotations7": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StoveRotations8": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StoveRotations9": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StylishVase": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SugarCaneGrown": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Sunflowers": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Surfboard": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SwordsWallDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Table": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TableLamp": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TableLampBlue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TableLampPink": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TallVase": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TeaGrown": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Tiger": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TigerCub": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TikiStatue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TinyEggNest": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Toilet01": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Toilet01Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Toilet02": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Toilet02Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Toilet03": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Toilet03Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Toilet04": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Toilet04Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Toilet05": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Toilet05Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Toilet06": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Toilet06Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Toilet07": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Toilet07Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Toilet08": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Toilet08Overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Toilet09": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ToiletWater": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ToyFigurine": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TraditionalBrickFireplace": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TrafficCone": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Trash": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TreasureChest": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TreeTrunkTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TribalMask": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TribalShield": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TropicalDrinkDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TurkeyDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TurquoiseValentinesPresent": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Turtle": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "VanillaGrown": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "VdayDecorHeart": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "VdayDoor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "VdayDoorMask": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "VdayPresent": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "VdayRedTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "VdayWhiteTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Vent": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "VentPropeller": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ViolinCase": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "VisitFireItem": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Vriesea": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WagonWheel": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall1": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall10": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall11": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall12": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall13": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall14": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall15": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall16": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall17": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall18": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall19": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall2": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall20": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall21": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall22": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall23": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall24": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall25": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall26": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall27": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall28": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall29": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall3": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall30": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall31": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall32": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall33": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall34": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall35": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall36": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall37": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall38": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall39": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall4": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall40": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall41": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall42": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall43": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall44": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall45": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall46": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall47": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall48": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall49": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall5": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall50": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall51": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall52": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall53": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall54": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall55": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall56": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall57": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall58": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall59": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall6": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall60": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall61": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall62": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall63": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall64": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall7": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall8": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Wall9": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WallCorner": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WallMountedCowSkull": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WallMountedOilLamp": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WallOilLamp": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WallTriCandleHolder": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WallWaterFeature": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WasabiGrown": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WaterFountain": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WateringAnim": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WaterLeakItem": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WaterleakTile": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WealthStatue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WeddingCake": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WeddingIndoorEffect": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteBrickPillar": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteButterfly": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteButterflyAnimation": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteCeramicVase": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteDinerTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteDivider": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteDividerBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteDivider_asset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteDrapery": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteEgg": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteFlowerBush": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteFlowers": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteOrchid": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhitePinkTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhitePresent": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteRoundSideTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteSink": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteTable1x1": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteTable1x2": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteTableCloth": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteTiger": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteTigerCub": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteTrashCabinet": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteUnicorn": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteWall": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteWallCorner": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteWallCross": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteWallGuitar": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteWallT": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside10": {
+  "base": "MovieClip",
+  "quadros": {
+   "0": [
+    [
+     "naoSuportado",
+     "wall = true"
+    ]
+   ]
+  }
+ },
+ "WindowInside11": {
+  "base": "MovieClip",
+  "quadros": {
+   "0": [
+    [
+     "naoSuportado",
+     "wall = true"
+    ]
+   ]
+  }
+ },
+ "WindowInside12": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside13": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside14": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside15": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside16": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside17": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside18": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside19": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside2": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside20": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside21": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside22": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside23": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside24": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside3": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside4": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside5": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside6": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside7": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside8": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowInside9": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WindowMask1": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WishingWell": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WoodenBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WoodenPillar": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WoodenTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WoodenTableBlue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WoodenTablePink": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WoodenTrashCabinet": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WoodenWall": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "YellowDaisy": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "YellowHibiscusBush": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "YellowPowerCoreBase": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AdDivider": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AFDiscoBall": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AFDJArcadeMachine": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AFDrinkDispenser": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AFJadeWallpaper": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AFMintMarbleToilet": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AFMintMarbleToiletOverlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AFPalmTree": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AFRedMarbleToilet": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AFRedMarbleToiletOverlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AFRocketDecorUSA": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AFStarTile": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AFWashingtonMonument": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AirportTileArrival": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AirportTileCafe": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AirportTileDeparture": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceBlackCardDivider": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceBlueWallpaper": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceBunny": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceBunnyClock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceBunny_asset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceCardsBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceCaterpillar": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceDoorMask": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceDoublePlateCookiesDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceFlamingo": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceFlower": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceFlowers": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceFlower_Asset1": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceGiantTeaPot": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceLampPost": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceMadHatter": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceMouseTeapot": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceMysteriousTree": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AlicePicnic": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceRedCardDivider": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceRedCardDivider_front": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceRedChair": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceRedChairOverlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceRedKing": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceRedQueen": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceRedQueen_asset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceRedRosesDivider": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceRedWallpaper": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceSmallDoor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Alicetable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceTeaSet": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceTileBlue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceTileRed": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceWhiteChair": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceWhiteChairOverlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceWhiteRosesDivider": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceWhiteTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AliceWhiteTableRound": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Alice_Caterpillar_animation_asset2": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "AmericanFlag": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "American_Flag_asset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Astro1": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Astro2": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Astro3": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Astro4": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Astro5": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Astro6": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Astro7": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BambooWaterFeature": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Bar01": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Bar01_Backwall": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Bar01_Backwall_All": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Bar01_chair1": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Bar01_chairs_All": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Bar01_drinks": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Bar01_Front_All": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarBeefyBouncer": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarBeigeCornerChair": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarBlueFoozballStatue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarCandles1": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarCandles2": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarCandles3": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarCandles4": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarChandelierFloorLamp": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarChandelierWallLamp": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarDecorativePool": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarDecorativePool_ripple": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarElegantFlower": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarElegantRedFlower": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarFirePillar": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarFirePillar_asset2": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarFootBall": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarFootballGoal": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarFoozball": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarFoozball_front": {
+  "base": "MovieClip",
+  "quadros": {
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "73": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ],
+   "114": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "BarGlassTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarGlossyTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarGoldStatue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarGreenLavaLamp": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarHost": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarJazzSinger": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarJazzSinger_asset10": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarJazzSinger_asset5": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarJazzSinger_asset9": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarLoungeWallpaper": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarLoungeWaterFeature": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarMidnightNeonTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarModernFloorLamp": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarModernSculpture": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarModernTableLamp": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarModernWallLamp": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarNightSculpture": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarNightSculpture_asset1": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarPineBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarPineDivider": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarPineDivider_asset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarPinkLavaLamp": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarRedFoozballStatue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarRedStool": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarRoundTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarSaxaPhonePlayer": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarSmokeCornerChair": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BarTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlackUnicorn": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlackUnicorn_asset1": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlueDiscoTile": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "BlueSeabedTile": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Bonzai": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CactiJose": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CactusChair": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CactusChairOverlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CactusDispenser": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CactusJuice": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CherryBlossomTree": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CherryBlossomTreeAsset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CheshireCatInside1": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CheshireCatInside2": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CheshireCatInside3": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CheshireCatInside_1": {
+  "base": "MovieClip",
+  "quadros": {
+   "44": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "101": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "129": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "CheshireCatInside_2": {
+  "base": "MovieClip",
+  "quadros": {
+   "45": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "87": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "CheshireCatInside_3": {
+  "base": "MovieClip",
+  "quadros": {
+   "45": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "87": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "ChickenCoop": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ChicWallpaper": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ChiliWallDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CMAmethyst": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CMAquamarine": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CMBlush": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CMJade": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CMLilac": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CMMeringue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CMMint": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CMOnyx": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CMPeach_asset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CMSapphire": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CMSky": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CMTurquoise": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CoralDoor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CWAloe": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CWAloe_asset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CWArcadeAsset01": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "36": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "CWArcadeMachine1": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CWBlueberry": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CWBlueberry_asset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CWGrapefruit": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CWGrapefruit_asset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CWLemon": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CWPeach": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CWPeach_asset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CWPrune": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CWPrune_asset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CWWheatgrass": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "CWWheatgrass_asset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Daruma": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DeepSeaWallpaper": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DeepSeaWallpaperAnimated": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "DeliciousSignDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Flag01": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Flag02": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Flag03": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Flag04": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Flag05": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Flag06": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Flag07": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Flag08": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Flag09": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Flag10": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Flag10_asset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Flag11": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Flag12": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Flag13": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Flag14": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Flag15": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GardenFirePlace": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GardenLamp": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Gong": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GreenDiscoTile": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "GreenMakiDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HackIcon": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HighTechToilet": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HighTechToiletOverlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HotelTileApple": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HotelTileBlush": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HotelTileChocolate": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HotelTileGrape": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "HotelTileMidnight": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "indoor_asset2_fla.AFDJAracadeMachine_asset_199": {
+  "base": "MovieClip",
+  "quadros": {
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "74": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ],
+   "114": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset2_fla.AFDJAracadeMachine_asset_backview_206": {
+  "base": "MovieClip",
+  "quadros": {
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "74": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ],
+   "114": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset2_fla.AliceSmallDoor_asset_872": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "22": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset2_fla.Bar01_Backwall_asset2_91": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "indoor_asset2_fla.BarSodaTap_asset1a_88": {
+  "base": "MovieClip",
+  "quadros": {
+   "4": [
+    [
+     "stop"
+    ]
+   ],
+   "26": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "indoor_asset2_fla.BarSodaTap_asset1_86": {
+  "base": "MovieClip",
+  "quadros": {
+   "4": [
+    [
+     "stop"
+    ]
+   ],
+   "32": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "indoor_asset2_fla.BarSodaTap_asset2a_84": {
+  "base": "MovieClip",
+  "quadros": {
+   "4": [
+    [
+     "stop"
+    ]
+   ],
+   "26": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "indoor_asset2_fla.BarSodaTap_asset2_82": {
+  "base": "MovieClip",
+  "quadros": {
+   "4": [
+    [
+     "stop"
+    ]
+   ],
+   "24": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "indoor_asset2_fla.CactusDispenser_backview_animation_asset_880": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "openidle"
+    ]
+   ]
+  }
+ },
+ "indoor_asset2_fla.Cactus_dispenser_front_animation_875": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "19": [
+    [
+     "gotoAndPlay",
+     "openidle"
+    ]
+   ]
+  }
+ },
+ "indoor_asset2_fla.CWArcadeAsset02_901": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ],
+   "5": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset2_fla.JJRBackViewAnimation_217": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "34": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "indoor_asset2_fla.JJRBackViewAnimation_small_222": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "34": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "indoor_asset2_fla.JJRBaseAnimation_211": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "34": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "indoor_asset2_fla.JJRBaseAnimation_small_224": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "34": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "indoor_asset2_fla.JJRBaseBackAnimation_213": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "34": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "indoor_asset2_fla.JJRFrontAnimation_214": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "34": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "indoor_asset2_fla.JJRFrontAnimation_small_221": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "34": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "indoor_asset2_fla.JJRMachineSmallBase_223": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "indoor_asset2_fla.Pinata_front_185": {
+  "base": "MovieClip",
+  "quadros": {
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "73": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ],
+   "114": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset2_fla.RedRoseBush_asset_196": {
+  "base": "MovieClip",
+  "quadros": {
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "72": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ],
+   "114": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset2_fla.RedRoseBush_asset_backview_197": {
+  "base": "MovieClip",
+  "quadros": {
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "71": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ],
+   "114": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "indoor_asset2_fla.UWOsterFarm_asset2_193": {
+  "base": "MovieClip",
+  "quadros": {
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "73": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ],
+   "114": [
+    [
+     "gotoAndPlay",
+     "broken"
+    ]
+   ]
+  }
+ },
+ "indoor_asset2_fla.UWOysterFarm_asset_front_189": {
+  "base": "MovieClip",
+  "quadros": {
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "73": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ],
+   "114": [
+    [
+     "gotoAndPlay",
+     "broken"
+    ]
+   ]
+  }
+ },
+ "Insect": {
+  "base": "MovieClip",
+  "quadros": {
+   "8": [
+    [
+     "stop"
+    ]
+   ],
+   "30": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "Insects": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "JapaneseDivider": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "JapaneseDividerBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "JapaneseDoorAnimation": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "22": [
+    [
+     "stop"
+    ]
+   ]
+  }
+ },
+ "JapaneseDoorWayMask2": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "JapaneseFountain": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "JapaneseGardenPicture": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "JapaneseGazebo": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "JapanesePondDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "JapanesePost": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "JapaneseSlidingDoor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "JJRMachine": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "JJRMachineSmall": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "JJRMachineSmallBody": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "KatanaDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "m2_body": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MaracasWallDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MariachiBand": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ModernistDividerApple": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ModernistDividerBlush": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ModernistDividerChocolate": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ModernistDividerOchre": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ModernistDividerPink": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ModernistDividerSky": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MotherHen": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "MothersDayChocolates": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "OctopusCook": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PetBunny": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PetChick": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Pinata": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PocketWatchStove": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PocketWatchStoveRotations": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PocketWatchStove_Animation": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "44": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "51": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "PocketWatchStove_Animation_backview": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "44": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "51": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "PocketWatchStove_Silver": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PocketWatchStove_Silver_Animation": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "44": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "51": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "PocketWatchStove_Silver_Animation_backview": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "44": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "51": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "PocketWatchStove_Silver_Rotations": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "PrawnSushiDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "Rake": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RedDiscoTile": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RedMakiDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RedRoseBush": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RedShellChair": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RedShellChairOverlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RoboGodzzila": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RoundBarStool": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RoundBarStoolOverlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "RusticPillar": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SakuraMochiDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SakuraTreeLeaf01": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SakuraTreeLeaf02": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SakuraTreeLeaf03": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SakuraWallpaper": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SalmonSushiDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SamuraiArmor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SamuraiSwordDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SeashellSink": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SerapeTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SerapeTableAsset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ShojiScreenWallpaper": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ShurikenDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SpanishGuitar": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SpiceRack": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StepTile": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StoneChair": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StoneChairOverlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StoneLantern": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StoneTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StuccoWallVanilla": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StuccoWallYellow": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "StuccoWallYellowLights": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SushiBelt": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SushiBeltBlue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SushiBelt_Animation": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SushiBelt_Animation_Blue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SushiSignDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SushiTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "SushiTableLong": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TatamiMat": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TerracottaTile": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TortillaStove": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TortillaStoveRotations": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "TortillaStove_Animation": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "18": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "29": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "ToyBunnyDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ToyEggMachine": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ToyEggMachineBackViewAnimation": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "34": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "ToyEggMachineFrontAnimation": {
+  "base": "MovieClip",
+  "quadros": {
+   "1": [
+    [
+     "stop"
+    ]
+   ],
+   "3": [
+    [
+     "stop"
+    ]
+   ],
+   "34": [
+    [
+     "gotoAndPlay",
+     "on"
+    ]
+   ]
+  }
+ },
+ "UnderwaterStove_Animation": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "62": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "64": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "UnderwaterStove_Animation_backview": {
+  "base": "MovieClip",
+  "quadros": {
+   "5": [
+    [
+     "gotoAndPlay",
+     "idle"
+    ]
+   ],
+   "62": [
+    [
+     "gotoAndPlay",
+     "cooking"
+    ]
+   ],
+   "64": [
+    [
+     "gotoAndPlay",
+     "done"
+    ]
+   ]
+  }
+ },
+ "UWAnchor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWAtlantisDivider": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWAtlantisDividerBlock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWCave": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWCoralGarden": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWCrabDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWDiver": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWDrummer": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWFishBass": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWFishBass_asset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWFishClarinet": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWGiantClam": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWHermit": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWHermitCrabDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWJellyFishLamps": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWLobster": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWLobster_decor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWMermaid": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWMiniRockGeyser": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UwMiniRockGeyser_asset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWOctopusPillar": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UwOctopusPillar_asset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWOysterFarm": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWPoseidonStatue": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWSeabedRock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWSeaHorse": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWSeashellDrinkDispenser": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWSeashellToilet": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWSmallSeabedRock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWStoveRotations": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWSunkenRuinsArch": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWSunkenRuinsArch_overlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWSunkenShipProw": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWSunkenShipStern": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWSunkenTreasure": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWVolcanoStove": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "UWWallDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WallCarpet": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WeddingArch": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WeddingArchOverlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WeddingBottle": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WeddingBottle_asset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WeddingCandles": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WeddingCandlesSmall": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WeddingCandlesSmall_as": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WeddingChair": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WeddingChairOverlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WeddingDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WeddingDrinkFountain": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WeddingGazebo": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WeddingHarp": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WeddingPodium": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WeddingSwan": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WeddingTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WeddingTableCandles": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WeddingTableCandles_as": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WeddingVase": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteZenChair": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteZenChairAsset": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "WhiteZenChairOverlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "YellowDiscoTile": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "YellowMakiDecor": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "YellowShellChair": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "YellowShellChairOverlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ZenChair": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ZenChairOverlay": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ZenCircleTile": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ZenGarden": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ZenPebble": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ZenRock": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ZenStone": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ZenStripeTile": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ZenTable": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ZenTableSmall": {
+  "base": "MovieClip",
+  "quadros": {}
+ },
+ "ZenTile": {
+  "base": "MovieClip",
+  "quadros": {}
+ }
+}

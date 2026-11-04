@@ -9,6 +9,7 @@ package com.playfish.games.cooking.actors
    import flash.display.MovieClip;
    import flash.events.MouseEvent;
    import flash.text.TextField;
+   import flash.utils.getTimer;
    
    public class Customer extends AvatarActor
    {
@@ -293,7 +294,15 @@ package com.playfish.games.cooking.actors
          }
       }
       
+      // RCR (2026-11-03): medicao, soma em WorldRestaurantPlay.rcrClienteMs
       override public function tick(param1:uint) : void
+      {
+         var _loc1_:int = flash.utils.getTimer();
+         this.rcrTick0(param1);
+         WorldRestaurantPlay.rcrClienteMs += flash.utils.getTimer() - _loc1_;
+      }
+
+      private function rcrTick0(param1:uint) : void
       {
          var _loc2_:int = 0;
          var _loc3_:Object = null;
@@ -438,7 +447,9 @@ package com.playfish.games.cooking.actors
                }
                else if(this.interactiveItem)
                {
-                  _loc6_ = (this.interactiveItem.getRotationCount() + 2) % 4;
+                  // RCR (2026-11-03): olha para o item a partir do bloco onde parou (tapete mc_customer dos
+                  // interativos de julho); nos de fevereiro da o mesmo giro de antes
+                  _loc6_ = restaurantPlay.rcrInteractiveFacing(this.interactiveItem,tileX,tileY);
                   setDirection(WorldRestaurant.getActorDirectionFromItemRotation(_loc6_));
                   restaurantPlay.setRoomItemState(this.interactiveItem,"on");
                   setAnimation(Avatar3D.ANIMATION_COOKING);

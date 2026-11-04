@@ -210,7 +210,43 @@ package com.playfish.games.cooking
       public var operateTimePercentage:int = 100;
       
       public var wallItem:Boolean = false;
-      
+
+      // RCR (2026-11-04): pecas anexas (mc_attach0..) dos arcos de julho/2010 (Sunken Ruins Arch, Wedding Trellis),
+      // portado do cliente do Restaurant Origins (recuperado/restaurant_origins/codigo_game, RoomItem.as).
+      // Cada mc_attachN vira um sub-item proprio no bloco certo (com fatias por fileira para a profundidade);
+      // antes a peca ia junto do item cortado em fileiras e aparecia solta, um bloco fora do lugar.
+      public static const RCR_SOBRA_PECA:Number = 24;
+
+      public var attachParts:Boolean = false;
+
+      public var attachIndex:int = -1;
+
+      public var attachRow:int = 0;
+
+      public var attachBase:RoomItem = null;
+
+      // blocos de passagem (mc_walkable0..), relativos ao bloco do item no giro atual: o cliente passa por baixo
+      // do arco (WorldRestaurantPlay.isWalkable). Sem isso o bloco do meio ficava bloqueado.
+      public var rcrPassagens:Array = null;
+
+      public function rcrPassavelEm(param1:int, param2:int) : Boolean
+      {
+         var _loc3_:int = 0;
+         if(this.rcrPassagens == null)
+         {
+            return false;
+         }
+         while(_loc3_ < this.rcrPassagens.length)
+         {
+            if(this.tileX + this.rcrPassagens[_loc3_][0] == param1 && this.tileY + this.rcrPassagens[_loc3_][1] == param2)
+            {
+               return true;
+            }
+            _loc3_++;
+         }
+         return false;
+      }
+
       public function RoomItem(param1:Object, param2:UserItem, param3:String = null)
       {
          var _loc4_:int = 0;
@@ -246,6 +282,7 @@ package com.playfish.games.cooking
          {
             content.mc_mask.visible = false;
          }
+         this.rcrSyncPartes();
          var _loc5_:Rectangle = getBounds(this);
          this.numTilesX = Math.max(1,Math.round(_loc5_.right / WorldRestaurant.tileWidthHalf));
          this.numTilesY = Math.max(1,Math.round(_loc5_.bottom / WorldRestaurant.tileHeightHalf) - this.numTilesX);
@@ -261,9 +298,16 @@ package com.playfish.games.cooking
          this.fullGridSizeX = this.numTilesX;
          this.fullGridSizeY = this.numTilesY;
          this.itemHeight = -_loc5_.top + (WorldRestaurant.tileHeight * this.numTilesY - _loc5_.bottom);
-         if(!this.isAnimated(content,true))
+         // RCR (2026-11-03): ?semcache=1 na pagina do jogo desliga o cacheAsBitmap dos itens (diagnostico:
+         // no painel do app os itens com cache nao apareciam)
+         if(!this.isAnimated(content,true) && !rcrSemCache())
          {
             cacheAsBitmap = true;
+         }
+         // RCR (2026-11-04) diagnostico: area calculada do Washington Monument (a dona viu o gramado cortado)
+         if(param3 == "AFWashingtonMonument")
+         {
+            PerfTrace.mark("[RCR-DIAG] " + param3 + " bounds=" + Math.round(_loc5_.left) + "," + Math.round(_loc5_.top) + "," + Math.round(_loc5_.right) + "," + Math.round(_loc5_.bottom) + " numTiles=" + this.numTilesX + "x" + this.numTilesY + " itemHeight=" + Math.round(this.itemHeight) + " frames=" + content.totalFrames);
          }
          Debug.out(param3 + " numTileX=" + this.numTilesX + " numTileY=" + this.numTilesY + " itemHeight=" + this.itemHeight + " cacheAsBitmap=" + cacheAsBitmap);
       }
@@ -324,6 +368,10 @@ package com.playfish.games.cooking
             }
             return _loc3_;
          }
+         if(_loc11_.content["mc_attach0"])
+         {
+            return rcrCriarPecasAnexas(_loc11_,param1,param2);
+         }
          if(_loc11_.numTilesX > 1 || _loc11_.numTilesY > 1)
          {
             _loc11_.subItemAutoSplit = true;
@@ -378,6 +426,158 @@ package com.playfish.games.cooking
          return _loc11_;
       }
       
+      private static function rcrCriarPecasAnexas(param1:RoomItem, param2:Object, param3:UserItem) : RoomItem
+      {
+         var _loc4_:int = 0;
+         var _loc5_:MovieClip = null;
+         var _loc6_:RoomItem = null;
+         var _loc7_:int = 0;
+         var _loc8_:int = Math.max(int(param2.sizeX),int(param2.sizeY));
+         if(_loc8_ < 1)
+         {
+            _loc8_ = 1;
+         }
+         param1.attachParts = true;
+         param1.subItems = new Array();
+         while(true)
+         {
+            _loc5_ = param1.content["mc_attach" + _loc4_];
+            if(!_loc5_)
+            {
+               break;
+            }
+            _loc6_ = rcrFatiaAnexa(param1,param2,_loc5_,_loc4_,0,null);
+            _loc7_ = 1;
+            while(_loc7_ < _loc8_)
+            {
+               rcrFatiaAnexa(param1,param2,_loc5_,_loc4_,_loc7_,_loc6_);
+               _loc7_++;
+            }
+            _loc4_++;
+         }
+         param1.rcrSyncAnexas();
+         if(param3)
+         {
+            param1.setUserItem(param3);
+         }
+         return param1;
+      }
+
+      private static function rcrFatiaAnexa(param1:RoomItem, param2:Object, param3:MovieClip, param4:int, param5:int, param6:RoomItem) : RoomItem
+      {
+         var _loc7_:RoomItem = new RoomItem(param2,null,getQualifiedClassName(param3));
+         _loc7_.mouseEnabled = false;
+         _loc7_.mouseChildren = false;
+         _loc7_.setGridSize(0,0);
+         _loc7_.parentItem = param1;
+         _loc7_.attachIndex = param4;
+         _loc7_.attachRow = param5;
+         _loc7_.attachBase = param6;
+         if(param5 > 0)
+         {
+            _loc7_.content.x = -WorldRestaurant.getScreenX(0,param5);
+            _loc7_.content.y = -WorldRestaurant.getScreenY(0,param5);
+            _loc7_.visible = false;
+         }
+         param1.subItems.push(_loc7_);
+         return _loc7_;
+      }
+
+      // poe cada peca anexa no bloco e no quadro (giro) do item; as fatias de tras (attachRow > 0) recebem
+      // a mascara da fileira, como os itens grandes cortados pelo jogo
+      public function rcrSyncAnexas() : void
+      {
+         var _loc1_:int = 0;
+         var _loc2_:RoomItem = null;
+         var _loc3_:MovieClip = null;
+         var _loc4_:Rectangle = null;
+         var _loc5_:Shape = null;
+         var _loc6_:RoomItem = null;
+         this.rcrPassagens = new Array();
+         while((_loc3_ = content["mc_walkable" + _loc1_] as MovieClip) != null)
+         {
+            _loc3_.visible = false;
+            this.rcrPassagens.push([Math.round((_loc3_.x + 2 * _loc3_.y) / WorldRestaurant.tileWidth),Math.round((2 * _loc3_.y - _loc3_.x) / (2 * WorldRestaurant.tileHeight))]);
+            _loc1_++;
+         }
+         PerfTrace.mark("[RCR] pecas anexas " + itemConfig.className + " giro=" + this.rotationCount + " passagem=" + this.rcrPassagens.join(";"));
+         if(this.subItems == null)
+         {
+            return;
+         }
+         _loc1_ = 0;
+         while(_loc1_ < this.subItems.length)
+         {
+            _loc2_ = this.subItems[_loc1_];
+            if(_loc2_.attachRow == 0)
+            {
+               _loc3_ = content["mc_attach" + _loc2_.attachIndex] as MovieClip;
+               if(_loc3_)
+               {
+                  _loc3_.stop();
+                  _loc3_.visible = false;
+                  _loc2_.subItemTileOffsetX = Math.round((_loc3_.x + 2 * _loc3_.y) / WorldRestaurant.tileWidth);
+                  _loc2_.subItemTileOffsetY = Math.round((2 * _loc3_.y - _loc3_.x) / (2 * WorldRestaurant.tileHeight));
+               }
+               if(_loc2_.content.totalFrames >= content.currentFrame)
+               {
+                  _loc2_.content.gotoAndStop(content.currentFrame);
+               }
+               else
+               {
+                  _loc2_.content.gotoAndStop(1);
+               }
+               _loc4_ = _loc2_.getBounds(_loc2_);
+               _loc2_.fullGridSizeX = Math.max(1,Math.ceil((_loc4_.right - RCR_SOBRA_PECA) / WorldRestaurant.tileWidthHalf));
+               if(_loc2_.subItemTileOffsetX + _loc2_.fullGridSizeX > this.numTilesX)
+               {
+                  _loc2_.fullGridSizeX = Math.max(1,this.numTilesX - _loc2_.subItemTileOffsetX);
+               }
+               _loc2_.fullGridSizeY = Math.max(1,Math.round(_loc4_.bottom / WorldRestaurant.tileHeightHalf) - _loc2_.fullGridSizeX);
+               if(_loc2_.subItemTileOffsetY + _loc2_.fullGridSizeY > this.numTilesY)
+               {
+                  _loc2_.fullGridSizeY = Math.max(1,this.numTilesY - _loc2_.subItemTileOffsetY);
+               }
+               _loc2_.itemHeight = -_loc4_.top + (WorldRestaurant.tileHeight * _loc2_.fullGridSizeY - _loc4_.bottom);
+               _loc2_.setTilePosition(this.tileX + _loc2_.subItemTileOffsetX,this.tileY + _loc2_.subItemTileOffsetY);
+            }
+            _loc1_++;
+         }
+         _loc1_ = 0;
+         while(_loc1_ < this.subItems.length)
+         {
+            _loc2_ = this.subItems[_loc1_];
+            if(_loc2_.attachRow > 0 && _loc2_.attachBase != null)
+            {
+               _loc6_ = _loc2_.attachBase;
+               _loc2_.content.gotoAndStop(_loc6_.content.currentFrame);
+               _loc2_.subItemTileOffsetX = _loc6_.subItemTileOffsetX;
+               _loc2_.subItemTileOffsetY = _loc6_.subItemTileOffsetY + _loc2_.attachRow;
+               _loc2_.itemHeight = _loc6_.itemHeight;
+               _loc2_.fullGridSizeX = _loc6_.fullGridSizeX;
+               _loc2_.fullGridSizeY = _loc6_.fullGridSizeY;
+               if(_loc2_.content.mask)
+               {
+                  _loc2_.content.removeChild(_loc2_.content.mask);
+                  _loc2_.content.mask = null;
+               }
+               if(_loc2_.attachRow < _loc6_.fullGridSizeY)
+               {
+                  _loc5_ = getRowMask(_loc6_,_loc2_.attachRow);
+                  _loc2_.content.addChild(_loc5_);
+                  _loc2_.content.mask = _loc5_;
+                  _loc2_.visible = true;
+               }
+               else
+               {
+                  _loc2_.visible = false;
+               }
+               _loc2_.setTilePosition(this.tileX + _loc2_.subItemTileOffsetX,this.tileY + _loc2_.subItemTileOffsetY);
+            }
+            _loc1_++;
+         }
+      }
+
       private static function getLeftHalfMask(param1:RoomItem) : Shape
       {
          var _loc2_:int = Math.max(param1.fullGridSizeX,param1.fullGridSizeY);
@@ -420,6 +620,12 @@ package com.playfish.games.cooking
       
       public function setRotation(param1:int) : void
       {
+         // RCR (2026-11-03): item sem giro (Magic Water Tile) ignora o giro salvo
+         if(this.getMaxRotationCount() <= 1)
+         {
+            return;
+         }
+         param1 %= this.getMaxRotationCount();
          var _loc2_:int = this.getRotationCount();
          var _loc3_:int = 0;
          if(param1 > _loc2_)
@@ -511,6 +717,12 @@ package com.playfish.games.cooking
          else
          {
             content.nextFrame();
+         }
+         this.rcrSyncPartes();
+         if(this.attachParts)
+         {
+            this.rcrSyncAnexas();
+            return;
          }
          if(this.subItems != null)
          {
@@ -692,9 +904,25 @@ package com.playfish.games.cooking
       
       public function getMaxRotationCount() : int
       {
+         if(this.attachParts)
+         {
+            return content.totalFrames;
+         }
          if(this.subItems != null && !this.subItemAutoSplit)
          {
             return 4;
+         }
+         // RCR (2026-11-03), itens de julho/2010 cujo clip tem quadros que nao sao giros:
+         // bichos (MovingActor): quadros 1-4 sao os giros, 5+ sao poses de parado;
+         // Magic Water Tile: os 16 quadros sao as bordas (escolhidas pelo efeito), entao nao gira.
+         var _loc1_:String = itemConfig != null && itemConfig.functions ? String(itemConfig.functions) : "";
+         if(_loc1_.indexOf("MagicWaterTile") >= 0)
+         {
+            return 1;
+         }
+         if(_loc1_.indexOf("MovingActor") >= 0)
+         {
+            return Math.min(4,content.totalFrames);
          }
          return content.totalFrames;
       }
@@ -828,6 +1056,48 @@ package com.playfish.games.cooking
          }
       }
       
+      // RCR (2026-11-03): pecas de passar por baixo da build de julho/2010 (Sunken Ruins Arch, Wedding Trellis,
+      // Lounge Bar). mc_walkable0.. e so o marcador verde do bloco de passagem: fica escondido. mc_attach0.. e a
+      // parte de cima, com um quadro por giro e sem stop (ficava piscando entre os giros): para no quadro do giro
+      // atual. Chamado na criacao e a cada rotate(); nos itens sem essas pecas nao faz nada.
+      private static function rcrSemCache() : Boolean
+      {
+         try
+         {
+            return Engine.instance != null && Engine.instance.loaderInfo != null && Engine.instance.loaderInfo.parameters["semcache"] == "1";
+         }
+         catch(e:Error)
+         {
+         }
+         return false;
+      }
+
+      // RCR (2026-11-03): poe o clip do item num quadro (Magic Water Tile: o quadro diz quais bordas aparecem)
+      public function rcrQuadro(param1:int) : void
+      {
+         if(content != null && param1 >= 1 && param1 <= content.totalFrames && content.currentFrame != param1)
+         {
+            content.gotoAndStop(param1);
+         }
+      }
+
+      private function rcrSyncPartes() : void
+      {
+         var _loc1_:int = 0;
+         var _loc2_:MovieClip = null;
+         while((_loc2_ = content["mc_walkable" + _loc1_] as MovieClip) != null)
+         {
+            _loc2_.visible = false;
+            _loc1_++;
+         }
+         _loc1_ = 0;
+         while((_loc2_ = content["mc_attach" + _loc1_] as MovieClip) != null)
+         {
+            _loc2_.gotoAndStop(content.currentFrame <= _loc2_.totalFrames ? content.currentFrame : 1);
+            _loc1_++;
+         }
+      }
+
       private function isAnimated(param1:MovieClip, param2:Boolean = false) : Boolean
       {
          var _loc3_:DisplayObject = null;

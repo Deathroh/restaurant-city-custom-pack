@@ -12,15 +12,15 @@
 		<item className="WindowInside8" cost="1500" hash="NTewa.Onr4LkkjYSaIxTaG" id="3000008" name="Porthole Window"/>
 		<item className="WindowInside9" cost="700" hash="hNGIxOQ4jkCzglpL0H2HqW" id="3000009" name="Chinese Window"/>
 		<item className="WindowInside10" cost="600" hash="GxcEgx4utde7f_9_ad1xpW" id="3000010" name="Arced Bamboo Window"/>
-		<item className="Picture" cost="3000" functions="ClockArms" hash="zt4_KZeJckJvcSLQavuMuq" id="3000000" name="Blue Clock"/>
+		<item className="Picture" cost="3000" functions="ClockArms" hash="zt4_KZeJckJvcSLQavuMuq" id="3000000" name="Blue Clock" infoText="true"/>
 		<item className="ChiliPeppersPicture" cost="3000" hash="yT2W.9z26dUFKU30r0rDwW" id="3000012" name="Spicy Picture"/>
 		<item className="WindowInside12" cost="1000" hash="VkC9GFNkznB.eJFUGblIAW" id="3000013" name="Morrocan Window"/>
 		<item className="WindowInside13" cost="900" hash="2F695XUZ97H.KCW273tQUG" id="3000014" name="Noren Window"/>
 		<item className="SpecialsChalkboard" cost="1400" hash="O2BSOhwSW_ztAGBKwqR6pa" id="3000015" name="Specials Chalkboard"/>
-		<item className="DartBoard" cost="800" hash="W54NgKvieOMQtCPbvu9t6W" id="3000016" name="Dart Board"/>
+		<item className="DartBoard" cost="800" hash="W54NgKvieOMQtCPbvu9t6W" id="3000016" name="Dart Board" referralGift="true"/>
 		<item className="BambooWallScroll" cost="2200" hash="4fdUcm43Ll1tBmp0UslRsa" id="3000017" name="Bamboo Wall Scroll"/>
 		<item className="ClassicFireplace" cost="1300" hash="szp4ErpzOR8C_iXQyyM1LG" id="3000018" name="Classic Fireplace"/>
-		<item className="SilverMirror" cost="2500" hash="hBlyTCW8SXK05X8LOosKwW" id="3000019" name="Silver Mirror"/>
+		<item className="SilverMirror" cost="2000" hash="hBlyTCW8SXK05X8LOosKwW" id="3000019" name="Silver Mirror"/>
 		<item className="FemaleToiletSign" cost="250" hash="Zx13P20Ybu_lHmwk7HCZ7q" id="3000021" name="Female Toilet Sign"/>
 		<item className="MaleToiletSign" cost="250" hash="yOfmaE2rP9v2dKm6F1.QPW" id="3000022" name="Male Toilet Sign"/>
 		<item className="RedDrapery" cost="1500" hash="foa4fXfnzf.ySp194SNbNq" id="3000020" name="Red Drapery"/>
@@ -34,7 +34,7 @@
 		<item className="TribalMask" cost="1350" hash="AKwoQ_pLIU6ixCdRA1tExa" id="3000030" name="Tribal Mask"/>
 		<item className="TribalShield" cost="1500" hash="VeAJdy7ouF4ATTDW0RsJSG" id="3000031" name="Tribal Shield"/>
 		<item className="KnightShield" cost="2200" hash="lQHzNd4m6Tzu6vNPrPK8sG" id="3000032" name="Knight's Shield"/>
-		<item className="WallTriCandleHolder" cost="1000" hash="k32yWFdr1MT.2DWkJqcC0G" id="3000033" name="Wall Candles"/>
+		<item className="WallTriCandleHolder" cost="900" hash="k32yWFdr1MT.2DWkJqcC0G" id="3000033" name="Wall Candles"/>
 		<item className="FlowerDecor" cost="850" hash="ryROW.LKEmUTZSB.nOjfja" id="3000034" name="Hanging Flower Pot"/>
 		<item className="PersianWallRug" cost="1500" hash="7Bm8Bfk.SlKJzo.0HWBGkW" id="3000035" name="Persian Wall Rug"/>
 		<item className="Vent" cost="700" hash="X1odFxKxGalBxqXwCnTtXG" id="3000036" name="Vent"/>
@@ -42,7 +42,7 @@
 		<item className="ClassicWhiteFireplace" cost="1150" hash="rMAbxqk9rgM0woKPKibLQq" id="3000038" name="White Classic Fireplace"/>
 		<item className="WindowInside14" cost="600" hash="lojRhn9DueOq2X8opBCXQG" id="3000039" name="Red Retail Window"/>
 		<item className="DeerWallDecor" cost="1900" hash="mkIN0EDYA7AL5lTGyE8rGW" id="3000040" name="Deer Wall Decor"/>
-		<item className="MonsterClock" cost="2300" functions="ClockArms" hash="041hNlSewFw1AorMd1odqG" id="3000041" isNew="true" name="Monster Clock" rcrEpoca="10-01:11-07"/>
+		<item className="MonsterClock" cost="2300" functions="ClockArms" hash="041hNlSewFw1AorMd1odqG" id="3000041" isNew="true" name="Monster Clock" infoText="true" rcrEpoca="10-01:11-07"/>
 		<item className="WindowInside15" cost="800" hash="mCyq9eyUMHZzCavUUyJakW" id="3000042" isNew="true" name="Halloween Window" rcrEpoca="10-01:11-07"/>
 		<item className="LargeSheild" cost="4500" hash="rO76ckColaXdgyoQ_MkFEa" id="3000043" name="Large Shield" sizeX="1" sizeY="2"/>
 		<item className="LargeOceanPainting" cost="10000" hash="7LSaq44CFbU9SYHPhv9l_a" id="3000044" name="Large Ocean Painting"/>
@@ -67,10 +67,60 @@
 		<item className="PinkDrapery" cost="1500" hash="iFckACPy2ELGkyz1R92V5q" id="3000063" isNew="true" name="Pink Drapery"/>
 		<item className="WindowInside20" cost="1000" hash="StU4lJMLhxcUmaV42L1IsG" id="3000064" isNew="true" name="Pink Heart Window" rcrEpoca="02-01:02-21"/>
 		<item className="WindowInside21" cost="900" hash="R2zA1Dmf9mmYDtmUjog3vG" id="3000065" isNew="true" name="White Heart Window" rcrEpoca="02-01:02-21"/>
-			<item className="RCR_ShurikenDecor" cost="800" hash="TIQ8D4BxurZgONmI2ZJeIt" id="3080018" isNew="true" name="Shuriken Wall Decor" type="wallDecorationItem"/>
-			<item className="RCR_SushiSignDecor" cost="1500" hash="OfDm5DarY_zI_TbEeceQq_" id="3080019" isNew="true" name="Sushi Sign" type="wallDecorationItem"/>
-			<item className="RCR_DeliciousSignDecor" cost="900" hash="GIE1N4uFzlv8uwFqLE9WGQ" id="3080024" isNew="true" name="Delicious Sign Decor" type="wallDecorationItem"/>
-			<item className="RCR_JapaneseGardenPicture" cost="2500" hash="syKTtrYj99gF6nz6xXShMt" id="3080025" isNew="true" name="Japanese Garden Picture" sizeX="1" sizeY="4" type="wallDecorationItem"/>
+			<item className="WindowInside22" cost="1200" hash="J6DBZzWjDyze0npaaLq9Gq" id="3000066" name="Magic Window"/>
+			<item className="MagicCurtain" cost="1200" hash="ut8Sdm0L3HL8Eb.2YgSu9q" id="3000067" name="Magic Curtain"/>
+			<item cash="2" className="WallWaterFeature" hash="yadAg_UBAZGvxFVarn4vXa" id="3000068" name="Wall Waterfeature"/>
+			<item className="CardsWallDecor" cost="1500" hash="Fvp_tGyi2Sib9FsDoSrtja" id="3000069" name="Cards Wall Decor"/>
+			<item className="GoldRecord" cost="10000" hash="VdxQT4hRU07Shm.cwT5GMG" id="3000070" name="Gold Record"/>
+			<item className="WhiteWallGuitar" cost="1800" hash="JxGJuV73Hqxwvi5SnydS8a" id="3000071" name="White Wall Mounted Guitar" sizeX="1" sizeY="2"/>
+			<item className="PinkWallGuitar" cost="1200" hash="hq_kYhHx0PqhkNYiJrJdWa" id="3000072" name="Pink Wall Mounted Guitar" sizeX="1" sizeY="2"/>
+			<item className="WindowInside23" cost="1200" hash="RKPUgd_x6BboTIyAc5jVAa" id="3000073" name="Bamboo Window"/>
+			<item className="Marlin" cost="25000" hash="X8nJtbAu9vUhx6Va.omRoG" id="3000074" name="Marlin" sizeX="1" sizeY="3"/>
+			<item className="ScubaGear" cost="2800" hash="meL34hBAeZnuu5TGMu3GXa" id="3000075" name="Scuba Gear"/>
+			<item className="HaitiPoster" cost="0" fanPageFeed="true" hash="yhyjc76m8TmPU3O.r8nIKq" id="3000076" infoText="true" name="Haiti Poster"/>
+			<item className="ILoveRcPoster" cost="0" hash="BsXiNJLOwAqnctD6RKL8QG" id="3000077" name="I Love RC Poster"/>
+			<item className="FineTallMirror" cost="1400" hash="wCyz4petRWYL0LwuPx6f2a" id="3000078" name="Fine Tall Mirror"/>
+			<item className="SkylinePicture" cost="1000" hash="tFtBZlOcf9k8U91rYqfTYW" id="3000079" name="Skyline Picture"/>
+			<item className="Graffiti" cost="850" hash="ccwFaBUnNH425lvFLcaota" id="3000080" name="Graffiti" sizeX="1" sizeY="2"/>
+			<item className="CityscapePainting" cost="6000" hash="LixHUFzIuLozwwE_G.9xra" id="3000081" name="Cityscape Painting" sizeX="1" sizeY="2"/>
+			<item cash="4" className="BroadwayPosters" hash="Squ0NGXaGUooYCNQ5vQ9ia" id="3000082" name="Broadway Posters" sizeX="1" sizeY="3"/>
+			<item className="SushiSignDecor" cost="1100" hash="KCk4bsuXvcoXs1vxwOSJVG" id="3000083" name="Sushi Sign Decor"/>
+			<item className="ShurikenDecor" cost="650" hash="rmlpeiNz6PQsE8XausqDqq" id="3000084" name="Shuriken Decor"/>
+			<item className="DeliciousSignDecor" cost="2000" hash="ARR.L_a3AOjAA6pNkW2HRG" id="3000085" name="Delicious Sign Decor"/>
+			<item className="JapaneseGardenPicture" cost="30000" hash="DwH_C81SDOIE58ZCPG_57W" id="3000086" name="Japanese Garden Picture" sizeX="1" sizeY="2"/>
+			<item className="MaracasWallDecor" cost="900" hash="mefFye3LcYnaoFBTSt21kG" id="3000087" name="Maracas Wall Decor"/>
+			<item className="WallCarpet" cost="4000" hash="9R_2pBZkgRA8Fo6jata8qa" id="3000088" name="Serape Wall Hanging"/>
+			<item className="ChiliWallDecor" cost="400" hash="fU75ggLMlYIAvQkKu1Xy_G" id="3000089" name="String of Chilis Decor"/>
+			<item className="WeddingDecor" cost="1400" hash="nr9xAvkrij0zaAVlyXVeFW" id="3000090" name="Floral Garland"/>
+			<item cash="10" className="UWWallDecor" hash="5c__kf5xPZXEtWGX6YfOIW" id="3000091" name="Moving Deep Sea Picture" sizeX="1" sizeY="3"/>
+			<item className="GoldMirror" cost="8000" hash="sK0BTFDkpB0jwvZ4G0ErSa" id="3000092" name="Gold Mirror" unlockLevel="8"/>
+			<item className="CWLemon" cost="1650" hash="jDAAI7RvLTvL_UQDOYZlba" id="3000093" name="Lemon Drapery"/>
+			<item className="CWPeach" cost="1650" hash="gJL_FUdlV2nRaX1vOX8s.q" id="3000094" name="Peach Drapery"/>
+			<item className="CWGrapefruit" cost="1650" hash="jKVqugj.yFPMSu.xcDdS3G" id="3000095" name="Grapefruit Drapery"/>
+			<item className="CWBlueberry" cost="1650" hash="cks9jncily8KnkRkqBYH0a" id="3000096" name="Blueberry Drapery"/>
+			<item className="CWAloe" cost="1650" hash="wktMl6_HtwY6qlcEQh9f4G" id="3000097" name="Aloe Drapery"/>
+			<item className="CWWheatgrass" cost="1650" hash="yyIu3SX2eZQamGVnVU5p_W" id="3000098" name="Wheatgrass Drapery"/>
+			<item className="CWPrune" cost="1650" hash="rYum4LO59d2b4NUQo3OLPq" id="3000099" name="Prune Drapery"/>
+			<item cash="4" className="Flag01" foodKingFeed="true" hash="s.EokZ3gwGtkH5CShujTkq" id="3000100" name="Italian Flag"/>
+			<item cash="4" className="Flag02" foodKingFeed="true" hash=".W1rJUxvtqppByY53_WeJG" id="3000117" name="Argentinian Flag"/>
+			<item cash="4" className="Flag03" foodKingFeed="true" hash="bZJylMZd6zV8G5sFGL3aMG" id="3000118" name="Spanish Flag"/>
+			<item cash="4" className="Flag04" foodKingFeed="true" hash="PPha_wRfANMjq_qCENBnyW" id="3000119" name="Danish Flag"/>
+			<item cash="4" className="Flag05" foodKingFeed="true" hash="Cy9pvJmhlfx8D8ENH7.y4q" id="3000120" name="Holland Flag"/>
+			<item cash="4" className="Flag06" foodKingFeed="true" hash="CmvO.DCxvXRWpraHVr_NTq" id="3000115" name="Ivory Coast Flag"/>
+			<item cash="4" className="Flag07" foodKingFeed="true" hash=".cA2gqja01Y6JukMXJ8CxG" id="3000121" name="USA Flag"/>
+			<item cash="4" className="Flag08" foodKingFeed="true" hash="JbJBz4trtOpIhC9zSzuiJq" id="3000122" name="Mexican Flag"/>
+			<item cash="4" className="Flag09" foodKingFeed="true" hash="h7NNYaJLoVr_YDCWhTMNkq" id="3000123" name="Brazilian Flag"/>
+			<item cash="4" className="Flag10" foodKingFeed="true" hash="Y2ApPdVCvZmZ6COkdaGjMq" id="3000124" name="Chilian Flag"/>
+			<item cash="4" className="Flag11" foodKingFeed="true" hash="NrI.o3BniwrwyMCqJOA8RG" id="3000125" name="French Flag"/>
+			<item cash="4" className="Flag12" foodKingFeed="true" hash="j22nIMdD6CdAiNA21OcJIa" id="3000111" name="English Flag"/>
+			<item cash="4" className="Flag13" foodKingFeed="true" hash="Ma.qn_HbTxST.SIS.t1cyq" id="3000112" name="Portuguese Flag"/>
+			<item cash="4" className="Flag14" foodKingFeed="true" hash="eGP1xQ6eCtFEABbyQnCptG" id="3000113" name="Australian Flag"/>
+			<item cash="4" className="Flag15" foodKingFeed="true" hash="LfmYCgWV0SZJrunZDot6eq" id="3000114" name="German Flag"/>
+			<item className="BarLoungeWaterFeature" cost="20000" hash="ZkyEZEU3rk6e5B2MiTX4Uq" id="3000116" name="Lounge Water Feature" sizeX="1" sizeY="2" unlockLevel="20"/>
+			<item className="WindowInside24" cost="5000" hash="hA.w2l0Ew0Ewbt6ANLByXa" id="3000127" name="Posh Night Window" sizeX="1" sizeY="2"/>
+			<item className="BarModernWallLamp" cost="1500" hash="GVxcxnSY6B2qEuUJwe0m8q" id="3000128" name="Modern Wall Lamp" sizeX="1" sizeY="1"/>
+			<item className="BarChandelierWallLamp" cost="8000" emailOnly="true" hash="fN4FTra7t5nDkbaS9i6xqq" id="3000129" name="Chandelier Wall Lamp"/>
+			<item className="AFDiscoBall" cost="5000" emailOnly="true" hash="RLbqTQ3WADrQT4_ln6wuYa" id="3000130" name="Disco Ball"/>
 			<item className="RCR_PixelDecalFruitPunch" cost="800" hash="DNbWVjqoiPNzmCpUa.5syr" id="3080061" isNew="true" name="Pixel Decal - Fruit Punch" type="wallDecorationItem"/>
 			<item className="RCR_PixelDecalGooeyMonster" cost="800" hash="HVFM5.ywlgbZxsIRVgokcI" id="3080062" isNew="true" name="Pixel Decal - Gooey Monster" type="wallDecorationItem"/>
 			<item className="RCR_PixelDecalPotato" cost="800" hash="obwqkeEEMNpDSgq0Ez656w" id="3080063" isNew="true" name="Pixel Decal - Potato &lt;3" type="wallDecorationItem"/>
@@ -99,7 +149,12 @@
 		<item className="SaloonDoubleDoor" cost="1300" hash="zoDnB78ogkhJtOe.u5mUVG" id="3010021" name="Saloon Door"/>
 		<item className="ShipDoor" cost="700" hash="5NCzN85.Cwmj9hQibJo1Sq" id="3010022" name="Ship Door"/>
 		<item className="VdayDoor" cost="1500" hash="k01P.kOCChGMq5YD6QAnsG" id="3010023" isNew="true" name="Valentine Door" rcrEpoca="02-01:02-21"/>
-			<item className="RCR_JapaneseSlidingDoor" cost="1200" hash="Q2Hqb_XOu8hgIIJnOOAe8_" id="3080086" isNew="true" name="Japanese Sliding Door" sizeX="1" sizeY="2" type="doorItem,wallDecorationItem"/>
+			<item className="BlackHoleDoor" cost="4500" hash="F0t1gYC4C0PBzlhtSeHQsa" id="3010024" name="Black Hole Door" sizeX="1" sizeY="2"/>
+			<item className="JapaneseSlidingDoor" cost="3800" hash="PKz0vZTTdNtjlbcDY0iMeq" id="3010025" name="Japanese Sliding Door" sizeX="1" sizeY="2"/>
+			<item cash="5" className="AliceSmallDoor" functions="ShrinkCustomerDoor" hash="BiHJfxKOCd_HQEFYMpMPPG" id="3010026" infoText="true" name="Tiny Door"/>
+			<item className="CoralDoor" cost="2000" emailOnly="true" hash="Sk1AcJT52yu6YGGSouxH9q" id="3010027" name="Coral Door"/>
+			<item className="Door3Night" cost="3000" hash="fmegt_ut3ZHYIv4gTf83RG" id="3010028" name="Classy Night Double Door" sizeX="1" sizeY="2"/>
+			<item className="PoshNightDoor" cost="4000" hash="dJKCFagaaIbRg2DgpLAjFq" id="3010029" name="Posh Night Double Door" sizeX="1" sizeY="2"/>
 	</group>
 	
 
@@ -108,16 +163,16 @@
 		<item className="LushBush" cost="300" hash="j3aC1CT383UyAO9sMGRyLa" id="3020001" name="LushBush" type="stackable"/>
 		<item className="ElegantPine" cost="600" hash="ETMRgLrvBnanc.Q5Ju1Grq" id="3020002" name="ElegantPine" type="stackable"/>
 		<item className="DelicateBush" cost="600" hash="UumRUrxm72lDW88BB5HwEG" id="3020003" name="DelicateBush" type="stackable"/>
-		<item className="PleasantPalm" cost="600" hash="p07eh8HV3TdAX51nw.KWwq" id="3020004" name="PleasantPalm" type="stackable"/>
+		<item className="PleasantPalm" cost="600" hash="p07eh8HV3TdAX51nw.KWwq" id="3020004" name="PleasantPalm" type="stackable" referralGift="true"/>
 		<item className="CatTails" cost="600" hash="JdN8zt5kIzVaU6UE3gLPPq" id="3020005" name="CatTails" type="stackable"/>
 		<item className="FlourishingPine" cost="700" hash="U_R5HehMuw1zJNuiAqyo7W" id="3020006" name="FlourishingPine" type="stackable"/>
 		<item className="FishTankSmall" cost="3000" hash="0ufIAJT_12zF8.Mjhc.3dG" id="3020008" name="Tiny Fish Tank" sizeX="1" sizeY="1"/>
-		<item className="Speaker" cost="1500" hash="61WUSJ1X3DZtUrjZi88Xra" id="3020009" name="Speaker" type="stackable"/>
+		<item className="Speaker" cost="1000" hash="61WUSJ1X3DZtUrjZi88Xra" id="3020009" name="Speaker" type="stackable"/>
 		<item className="TableLamp" cost="500" hash="30ppER_PIkGNnlixgwUSEW" id="3020011" name="White Table Lamp"/>
 		<item className="TableLampBlue" cost="600" hash="dggYxsdfmy735MDyhR6_iG" id="3020012" name="Blue Table Lamp"/>
 		<item className="TableLampPink" cost="500" hash="qVK4LYanXUY3LTDzHiuUPG" id="3020013" name="Pink Table Lamp"/>
-		<item className="BubbleTubeSilver" cost="3600" hash="pERd6dvAYqyIZQTExNFChW" id="3020014" name="Silver Bubble Tube"/>
-		<item className="BubbleTubeGold" cost="5000" hash="5xnN4iOgIdznJQAC7gThkq" id="3020015" name="Gold Bubble Tube"/>
+		<item className="BubbleTubeSilver" cost="3000" hash="pERd6dvAYqyIZQTExNFChW" id="3020014" name="Silver Bubble Tube"/>
+		<item className="BubbleTubeGold" cost="4000" hash="5xnN4iOgIdznJQAC7gThkq" id="3020015" name="Gold Bubble Tube"/>
 		<item className="PinkBlock" cost="400" hash="lSm1NVneW6hRaglftNJQ8q" id="3020016" name="White Room Divider Block" type="surface"/>
 		<item className="PinkWall" cost="200" hash="voNvhmQe5ogIYR21dTGXJa" id="3020017" name="White Room Divider"/>
 		<item className="WoodenBlock" cost="300" hash="gUcXJHl0JqC1uwEElvg8iq" id="3020018" name="Oak Room Divider Block" type="surface"/>
@@ -137,9 +192,9 @@
 		<item className="WhiteTrashCabinet" cost="400" hash="mj9yMUbMiADe2QLDh8MmSa" id="3020032" name="White Trash Cabinet"/>
 		<item className="WoodenTrashCabinet" cost="300" hash="ycxsxOfqhVN9kZx2rNpsBW" id="3020033" name="Wooden Trash Cabinet"/>
 		<item className="RusticFireplace" cost="2000" hash="lxlphTjyMsZHGLPU5onDja" id="3020035" name="Rustic Fireplace"/>
-		<item className="ModernFireplace" cost="4000" hash="OIKnKACqMN5qIpt_ioUfOW" id="3020036" name="Modern Fireplace"/>	
+		<item className="ModernFireplace" cost="3000" hash="OIKnKACqMN5qIpt_ioUfOW" id="3020036" name="Modern Fireplace"/>	
 		<item className="TraditionalBrickFireplace" cost="2500" hash="s_Wq7Kj.yBpAE3ur_lTo1a" id="3020037" name="Traditional Brick Fireplace"/>			
-		<item className="MingVase" cost="8000" hash="dglecyjcOaItcPxMUVPCAa" id="3020038" name="Ming Vase" type="stackable"/>
+		<item className="MingVase" cost="5500" hash="dglecyjcOaItcPxMUVPCAa" id="3020038" name="Ming Vase" type="stackable"/>
 		<item className="DragonVase" cost="5000" hash="OHwqgoGB2u31qRQZ3yz7Qa" id="3020039" name="Dragon Vase" type="stackable"/>
 		<item className="WhiteCeramicVase" cost="400" hash="VzQf44woM30gv1arLBG3Ka" id="3020040" name="White Ceramic Vase" type="stackable"/>	
 		<item className="BlackCeramicVase" cost="500" hash="rKIVtk1umbL0xP4903WPUW" id="3020041" name="Black Ceramic Vase" type="stackable"/>		
@@ -163,7 +218,7 @@
 		<item className="BlueIris" cost="600" hash="wlZG6Q347.C19CzRKI1CLa" id="3020062" name="Blue Iris" type="stackable"/>
 		<item className="CallaLily" cost="900" hash="kFaGwPxMBH9ATVLwm9mrCq" id="3020063" name="Calla Lily" type="stackable"/>
 		<item className="WhiteRoundSideTable" cost="350" hash="Ke4MdRxnVvhKrnWORR8ylW" id="3020065" name="White Round Side Table" type="surface"/>
-		<item className="BlackRoundSideTable" cost="450" hash="7p3Ix4HJ8OkYjq5RDqV71W" id="3020066" name="Black Round Side Table" type="surface"/>
+		<item className="BlackRoundSideTable" cost="450" hash="7p3Ix4HJ8OkYjq5RDqV71W" id="3020066" name="Black Round Side Table" type="surface" referralGift="true"/>
 		<item className="BambooPlant" cost="700" hash="nIhh8m7gRMv5qGj9sVKZEG" id="3020067" name="Bamboo Plant" type="stackable"/>
 		<item className="GoldenFanDecor" cost="650" hash="bHYEcz4qCArEY8vnNozU1q" id="3020068" name="Golden Fan Decor" type="stackable"/>
 		<item className="StainlessSteelKitchenCounter" cost="650" hash="IsPcZy19_V4WuqBX2FrQUG" id="3020069" name="Stainless Steel Counter" type="surface"/>
@@ -185,9 +240,9 @@
 		<item className="FlowerPot1" cost="900" hash="3.MGjY4WnXJkLzNBe8mgiG" id="3020085" name="Yellow Rose Trellis"/>
 		<item className="WaterFountain" cost="12500" hash="JVuJu82ip9kh.oTLn7Lira" id="3020086" name="Water Fountain" sizeX="3" sizeY="3"/>
 		<item className="FishTankHuge" cost="10000" hash="D8MaJfFcaj0Y1WvUyTiMdG" id="3020087" name="Huge Fish Tank" sizeX="2" sizeY="2"/>
-		<item className="PottedPalmtree" cost="1100" hash="1aEcdGin5C3MtCe2pFXPDW" id="3020088" name="Potted Palm"/>
+		<item className="PottedPalmtree" cost="1100" hash="1aEcdGin5C3MtCe2pFXPDW" id="3020088" name="Potted Palm" referralGift="true"/>
 		<item className="LargeFlowerPot" cost="550" hash="TvptQO.F2MfcSwoQST4Gfa" id="3020089" name="Large Flower Pot"/>
-		<item className="CandleHolder" cost="700" hash="fRjv560u2eHbUf1iANsDTG" id="3020090" name="Candle Holder" type="stackable"/>
+		<item className="CandleHolder" cost="700" hash="fRjv560u2eHbUf1iANsDTG" id="3020090" name="Candle Holder" type="stackable" referralGift="true"/>
 		<item className="SmallWaterFountain" cost="3800" hash="y.PHkJA0A1ukadMeCPrWLa" id="3020091" name="Small Water Fountain"/>
 		<item className="LuckyCatDecor" cost="2300" hash="vz5.g9895QY5LN6m2UZ0aa" id="3020092" name="Lucky Cat Decor" type="stackable"/>
 		<item className="CamelFigurine" cost="1600" hash="iM6q3Q3MoH3YE33U6G_nrW" id="3020093" name="Camel Figurine" type="stackable"/>
@@ -202,7 +257,7 @@
 		<item className="JarTentacle" cost="500" hash="9f4Ez6Y1_N8wjaxneJ5m0G" id="3020104" isNew="true" name="Tentacle Jar" type="stackable" rcrEpoca="10-01:11-07"/>
 		<item className="EvilPumpkinDecor" cost="1500" hash="zbmqLVo8KAs5jlnwYKTfoq" id="3020105" isNew="true" name="Evil Pumpkin Decor" type="stackable" rcrEpoca="10-01:11-07"/>
 		<item className="Gravestone" cost="1300" hash="pAWv9M5dtIDMVJDaEEXwfW" id="3020106" isNew="true" name="Gravestone" rcrEpoca="10-01:11-07"/>
-		<item className="BlackPiano" cost="4800" hash="7JAT98rAG9l0jFOZMPJdVG" id="3020107" name="Black Piano"/>
+		<item className="BlackPiano" cost="4200" hash="7JAT98rAG9l0jFOZMPJdVG" id="3020107" name="Black Piano"/>
 		<item className="BubbleTubeRed" cost="4500" hash="yZOwU6iSO8iJWkQXh7FnQq" id="3020108" name="Black Bubble Tube"/>
 		<item className="Candles" cost="500" hash="7hpDph7FjYEwrwyZiafxpq" id="3020109" isNew="true" name="Candles" type="stackable"/>
 		<item className="GothicDividerBlock" cost="850" hash="tipiZrAP.3ZK7xwgLuXFiG" id="3020110" isNew="true" name="Gothic Divider Block" rcrEpoca="10-01:11-07"/>
@@ -238,10 +293,10 @@
 		<item className="FestiveFireplace" cost="1200" hash="zJRU9QCbSAUcT43JofzBra" id="3020140" name="Festive FirePlace" rcrEpoca="12-01:01-06"/>
 		<item className="SantasBoot" cost="400" hash="RludvvYog5fWfoOxUpz7LG" id="3020141" name="Santa's Boot" type="stackable" rcrEpoca="12-01:01-06"/>
 		<item className="IceTree" cost="2200" hash="z6XiJvfEBgL7WBazw3fAfW" id="3020142" name="Ice Tree" rcrEpoca="12-01:01-06"/>
-		<item className="GiantSnowglobe" cost="1" hash="U9OpwS.UatsK5NgLcvVOia" id="3020143" name="Giant Snow Globe" sizeX="2" sizeY="2" rcrEpoca="12-01:01-06"/>
-		<item className="GlowTubePink" cost="2100" hash="Ys0.Vyi59iRbh85lENc7Aa" id="3020144" name="Pink Glow Tube"/>
-		<item className="GlowTubeBlue" cost="1600" hash="8I_qZ63e5qK87rVZefvd.G" id="3020145" name="Blue Glow Tube"/>
-		<item className="GlowTubeGreen" cost="1800" hash="9hBZnADCJgqYQIur7jGRLa" id="3020146" name="Green Glow Tube"/>
+		<item className="GiantSnowglobe" cost="3900" hash="U9OpwS.UatsK5NgLcvVOia" id="3020143" name="Giant Snow Globe" sizeX="2" sizeY="2" rcrEpoca="12-01:01-06"/>
+		<item className="GlowTubePink" cost="1600" hash="Ys0.Vyi59iRbh85lENc7Aa" id="3020144" name="Pink Glow Tube"/>
+		<item className="GlowTubeBlue" cost="1200" hash="8I_qZ63e5qK87rVZefvd.G" id="3020145" name="Blue Glow Tube"/>
+		<item className="GlowTubeGreen" cost="1300" hash="9hBZnADCJgqYQIur7jGRLa" id="3020146" name="Green Glow Tube"/>
 		<item className="GoldenHatDecor" cost="1900" hash="v07o7Rv034Ag4lwffD02GW" id="3020147" name="Golden Hat Decor" type="stackable"/>
 		<item className="RocketDecor" cost="2200" hash="BouoNXlM_QeJsWYL0.2m2q" id="3020148" name="Rocket Decor"/>
 		<item className="BottleDecor" cost="900" hash="o9f6KZXrpxMfHrZq8alu8G" id="3020149" name="Bottle Decor" type="stackable"/>
@@ -249,14 +304,14 @@
 		<item className="EgyptianDivider" cost="900" hash="ElG032iq_h9NKs2ygaIhjW" id="3020151" name="Egyptian Divider"/>
 		<item className="EqyptianPillar" cost="1100" hash="55_GdC6Dx6Ky9Z3PwESKYW" id="3020152" name="Egyptian Pillar"/>
 		<item className="EqyptianCandleStand" cost="1400" hash="qXy4pak998aKOxrZwLw2PW" id="3020153" name="Egyptian Candle Stand"/>
-		<item className="GoldenCobraCandlelight" cost="1250" hash="qaYsa4wZSYWw7mpNXGMBRa" id="3020154" name="Golden Cobra Candlelight"/>
+		<item className="GoldenCobraCandlelight" cost="1000" hash="qaYsa4wZSYWw7mpNXGMBRa" id="3020154" name="Golden Cobra Candlelight"/>
 		<item className="EgyptianPot" cost="800" hash="d3qF._nd_CaAIb1Tim3fZq" id="3020155" name="Egyptian Pot" type="stackable"/>
 		<item className="JackalStatue" cost="2900" hash="U0Wx7vAFgVBqlRoU7HlS3q" id="3020156" name="Jackal Statue"/>
 		<item className="OldPiano" cost="3500" hash="yB4hb7OqrjdqY4SnaJJ5.a" id="3020157" name="Old Piano"/>
 		<item className="SpitJar" cost="400" hash="of3bE9nQqq8k1X5_aTPUWq" id="3020158" name="Spit Jar" type="stackable"/>
 		<item className="SaloonDivider" cost="900" hash="bFeBmnucWuUG5d0gqelPcq" id="3020159" name="Saloon Divider"/>
 		<item className="SaloonDividerBlock" cost="1200" hash="lPmC30Ui8LgoFgHYIQGf4G" id="3020160" name="Saloon Divider Block" type="surface"/>
-		<item className="CactiJoe" cost="1900" hash="P_DpFcWr7gt9wRQfqlftRq" id="3020161" name="Cacti Joe"/>
+		<item className="CactiJoe" cost="1900" hash="P_DpFcWr7gt9wRQfqlftRq" id="3020161" name="Cacti Joe" type="stackable"/>
 		<item className="OldOilLamp" cost="1400" hash="iznUreYcx8ly5JeFitbHCG" id="3020162" name="Old Oil Lamp" type="stackable"/>
 		<item className="Cannon" cost="2000" hash="wbjgyXDtHcydrfIPstdLsG" id="3020163" name="Cannon" sizeX="2" sizeY="1"/>
 		<item className="ShipRailing" cost="400" hash="t16pbA20Z_FJKRHhfnXPoq" id="3020164" name="Ship Railing"/>
@@ -268,7 +323,7 @@
 		<item className="Digsite" cost="800" hash="sWaZJmIrnvwmx6M0keNB_q" id="3020170" name="Dig Site"/>
 		<item className="PirateDecor" cost="1800" hash="XYuZxcfM9NEy3y1OazDoFW" id="3020171" name="Pirate Decoration" type="stackable"/>
 		<item className="ClassicBlackBookshelf" cost="4400" hash="GYdy8_JrD29KD_hkYFblAa" id="3020172" name="Classic Black Bookshelf" sizeX="1" sizeY="2"/>
-		<item className="PokerCardsDecor" cost="800" hash="jvy5_VSHXuk7YhcLwlMoHW" id="3020173" name="Poker Cards Decor" type="stackable"/>
+		<item className="PokerCardsDecor" cost="800" hash="jvy5_VSHXuk7YhcLwlMoHW" id="3020173" name="Poker Cards Decor" type="stackable" referralGift="true"/>
 		<item className="Goldbars" cost="3800" hash="WMJ58NtnvXSczPOX_NGB7G" id="3020174" name="Gold Bars" type="stackable"/>
 		<item className="MoneyBag" cost="1800" hash="2cnHsa3tMg2JcoxX9PBYJG" id="3020175" name="Money Bag" type="stackable"/>
 		<item className="Crate" cost="700" hash="8mY0VJE6hw1g_NOgNkynNa" id="3020176" name="Crate" type="surface,stackable"/>
@@ -277,9 +332,9 @@
 		<item className="ViolinCase" cost="1600" hash="eMYtXnQ.ZAiSLpLMD1GdlG" id="3020179" name="Violin Case" sizeX="1" sizeY="1" type="stackable"/>
 		<item className="ClassicBlackWall" cost="1200" hash="M4VnB7phk3j9pune0hA59q" id="3020180" name="Black Divider"/>
 		<item className="ClassicBlackBlock" cost="1300" hash="svl91mi.Myf2381z.L9oba" id="3020181" name="Black Divider Block" type="surface,stackable"/>
-		<item className="ClassyTableLamp" cost="600" hash="Kc1GEqeq_R9eHh530ZZmsG" id="3020182" name="Classy Table Lamp" type="stackable"/>
+		<item className="ClassyTableLamp" cost="600" hash="Kc1GEqeq_R9eHh530ZZmsG" id="3020182" name="Classy Table Lamp" type="stackable" referralGift="true"/>
 		<item className="ClassyPlant" cost="800" hash="OSRXcuKHRixePhJsjDo77G" id="3020183" name="Classy Plant" type="stackable"/>
-		<item className="ClassyBush" cost="600" hash="X3PTHvUh87uAD1zEynhjwW" id="3020184" name="Classy Bush" type="stackable"/>
+		<item className="ClassyBush" cost="600" hash="X3PTHvUh87uAD1zEynhjwW" id="3020184" name="Classy Bush" type="stackable" referralGift="true"/>
 		<item className="ElegantRopeBarrier" cost="900" hash="OhAq4jjl6RKw4Th2t07CpG" id="3020185" name="Elegant Rope Barrier"/>
 		<item className="FuOrangeBasket" cost="600" hash="tm2toXRBoWZrwWyNyp5i.W" id="3020186" name="Fu Orange Basket" type="stackable"/>
 		<item className="WealthStatue" cost="800" hash="pHxuzTkWOs_m2gz54ouL9G" id="3020187" name="Wealth Statue" type="stackable"/>
@@ -292,11 +347,11 @@
 		<item className="TurquoiseValentinesPresent" cost="600" hash="EZ0hJEJN6sTwv9WdmSFamG" id="3020194" isNew="true" name="Turquoise Valentine Present" type="stackable" rcrEpoca="02-01:02-21"/>
 		<item className="FuOrangeTree" cost="1000" hash="EkgrKBnoaZzQIPrEgoPQga" id="3020195" name="Fu Orange Tree" type="stackable"/>
 		
-		<item className="HeartBalloonPurple" cost="850" foodKingFeed="true" hash="9KqvGEuQyhpl6fGdhRovSa" id="3020196" isNew="true" name="Purple Heart Balloon" type="stackable" rcrEpoca="02-01:02-21"/>
-		<item className="HeartBalloonRed" cost="850" foodKingFeed="true" hash="irekKt0RuQxgUa2UOsaa3G" id="3020197" isNew="true" name="Red Heart Balloon" type="stackable" rcrEpoca="02-01:02-21"/>
-		<item className="RoseBucket" cost="600" foodKingFeed="true" hash="ng3eoV8ykCooZk0Gd.QCJq" id="3020198" isNew="true" name="Rose Bucket" type="stackable" rcrEpoca="02-01:02-21"/>
+		<item className="HeartBalloonPurple" cost="850" hash="9KqvGEuQyhpl6fGdhRovSa" id="3020196" isNew="true" name="Purple Heart Balloon" type="stackable" rcrEpoca="02-01:02-21"/>
+		<item className="HeartBalloonRed" cost="850" hash="irekKt0RuQxgUa2UOsaa3G" id="3020197" isNew="true" name="Red Heart Balloon" type="stackable" rcrEpoca="02-01:02-21"/>
+		<item className="RoseBucket" cost="600" hash="ng3eoV8ykCooZk0Gd.QCJq" id="3020198" isNew="true" name="Rose Bucket" type="stackable" rcrEpoca="02-01:02-21"/>
 		<item className="RoseBunch" cost="800" hash="xr9WwxrJwu9Ed7unD2.q_G" id="3020199" isNew="true" name="Rose Bunch" type="stackable" rcrEpoca="02-01:02-21"/>
-		<item className="SingleRose" cost="600" foodKingFeed="true" hash="nWGcDasFR5LBUIhvwU16UG" id="3020200" isNew="true" name="Single Rose" type="stackable" rcrEpoca="02-01:02-21"/>
+		<item className="SingleRose" cost="600" hash="nWGcDasFR5LBUIhvwU16UG" id="3020200" isNew="true" name="Single Rose" type="stackable" rcrEpoca="02-01:02-21"/>
 		<item className="VdayDecorHeart" cost="400" hash="VhrVWdfs6DOY35JFSwWvSG" id="3020201" isNew="true" name="Valentine Decor" type="stackable" rcrEpoca="02-01:02-21"/>
 		<item className="RomanticCats" cost="2500" hash="WlPga2Cp.EL7mgSp_BcBNq" id="3020202" isNew="true" name="Romantic Cats" type="stackable" rcrEpoca="02-01:02-21"/>
 		<item className="RomanticSwans" cost="2000" hash="Ko3OqNG2_VniCQaZ2neDFq" id="3020203" isNew="true" name="Romantic Swans" type="stackable" rcrEpoca="02-01:02-21"/>
@@ -307,33 +362,226 @@
 		<item className="HeartDividerCorner" cost="400" hash="WkVRGGDAqgGbU3G3Ti2P7a" id="3020208" isNew="true" name="Heart Divider Corner" rcrEpoca="02-01:02-21"/>
 		
 		<!--<item name="Garden Pond"				id="3020100"	className="GardenPond"			cost="1" isNew="true"/>-->
+			<item className="HourglassDecor" cost="400" hash="N2RKMlAXbMUB5yiBZz3tRG" id="3020209" name="Hourglass Decor" type="stackable"/>
+			<item className="PotionDecor" cost="4500" hash="Jy9m3aBs4w7kjRSyN_G2Iq" id="3020210" name="Potion Decor" type="stackable"/>
+			<item cash="1" className="FortuneTellerDecor" hash="zIXMlSXGV1.E.anpALQudW" id="3020211" name="Fortune Teller Decor"/>
+			<item className="Dragon" cost="1500" fanPageFeed="true" hash="p2.1u43QUcqBqZ0IBND3Wa" id="3020212" name="Dragon" type="stackable"/>
+			<item className="InkBottleDecor" cost="800" hash="1U5kgTRsS8DBHUiIZhPiaW" id="3020213" name="Ink Bottle" type="stackable"/>
+			<item className="ColorfulCrystals" cost="1500" hash="WLZATC.Nu7zK.OCUpH7fPq" id="3020214" name="Colorful Crystals" type="stackable"/>
+			<item className="ToyFigurine" cost="1200" hash="7CNXiCo0TvaK8hVu6aApcq" id="3020215" name="Toy Figurine" type="stackable"/>
+			<item className="Owl" cost="600" hash="oLw.pN0M_jLgpSm1pN0yuG" id="3020216" name="Owl" type="stackable"/>
+			<item className="WhiteTiger" cost="4500" hash="tmTLeuG5vn43zkI90lmvTG" id="3020217" name="White Tiger" sizeX="2" sizeY="1"/>
+			<item className="WhiteTigerCub" cost="1200" fanPageFeed="true" hash="0TFjmVbdX1T7aGlE3lWJka" id="3020218" name="White Tiger Cub" type="stackable"/>
+			<item className="PoolTable" cost="5000" hash="xqQQD84PQl31DKKSwYB22W" id="3020219" name="Pooltable" sizeX="2" sizeY="1"/>
+			<item className="GiantRedDice" cost="800" hash="rJkyHTTBKRddymrsT8A27W" id="3020220" name="Giant Red Dice" type="surface,stackable"/>
+			<item className="GiantWhiteDice" cost="800" hash="AfhwJji.NHoloFo5EWxDOG" id="3020221" name="Giant White Dice" type="surface,stackable"/>
+			<item cash="2" className="Roulette" hash="h_6Dq98TAjgzjzLq_IuTra" id="3020222" name="Roulette" type="stackable"/>
+			<item className="GigSpeaker" cost="900" hash="8vh3VISKiNfjTLvnDy9pOW" id="3020223" name="Gig Speaker" type="stackable"/>
+			<item className="GigCymbals" cost="800" hash="7ED2Vvi.85NVLEEcQE78.a" id="3020224" name="Cymbals" type="stackable"/>
+			<item className="StageLightsColumn" cost="6000" hash="Z6tLaA90X1itsoWdqnX8Pq" id="3020225" name="Stage Lights Column" type="stackable"/>
+			<item className="StageCrate" cost="400" hash="TwQurk1YkZ8bhTRRUgMSQa" id="3020226" name="Stage Crate" type="surface,stackable"/>
+			<item className="SnareDrum" cost="800" hash="nfXwn0DcxtygMn1MQrI.MG" id="3020227" name="Snare Drum" type="stackable"/>
+			<item cash="1" className="StageLights" hash="ObXxLnkI7JbuSU9NaI_VXa" id="3020228" name="Stage Lights"/>
+			<item className="BassDrum" cost="1200" hash="XeiLumAeyK_rKgJwFDVQQG" id="3020229" name="Bass Drum" type="stackable"/>
+			<item className="ElectricGuitar" cost="1600" hash="PNyRS57flLFpEN0nWW19Tq" id="3020230" name="Electric Guitar" type="stackable"/>
+			<item className="DrumSet" cost="2200" hash="2Rrbedm0B0TyGBJ9njK2Lq" id="3020231" name="Drum Set" sizeX="2" sizeY="1"/>
+			<item className="GigMicrophone" cost="800" hash="10ygG9RzeGL_akuprEG8aa" id="3020232" name="Gig Microphone" type="stackable"/>
+			<item className="BongoDrums" cost="700" hash="AeA3euSG0uP5bEMkHlv_2W" id="3020233" name="Bongo Drums" type="stackable"/>
+			<item className="RockBarrier" cost="400" hash="SxRcFHPQxW2MIe4RsnSg4G" id="3020234" name="Barrier"/>
+			<item className="Keyboard" cost="2500" hash="N6XRHcgrNt06IrOoHXE3Kq" id="3020235" name="Keyboard" type="stackable"/>
+			<item className="RedHibiscusBush" cost="1600" hash="mIRc8pKQH7n8iVpOdHGq7q" id="3020236" name="Red Hibiscus Bush" type="stackable"/>
+			<item className="YellowHibiscusBush" cost="1600" hash="1LW2a_.98QhcW310XBBbka" id="3020237" name="Yellow Hibiscus Bush" type="stackable"/>
+			<item className="BambooSidetable" cost="200" hash="E6q77IlAKrlG8Hbpl2VdMW" id="3020238" name="Bamboo Sidetable" type="surface"/>
+			<item className="TropicalDrinkDecor" cost="500" hash="Q.qSG1X2TUt6nifTqPuQVW" id="3020239" name="Tropical Drink Decor" type="stackable"/>
+			<item cash="2" className="CoconutTree" hash="iUCguSIo39ke995tkHjp_G" id="3020240" name="Coconut Tree" sizeX="2" sizeY="2" type="stackable"/>
+			<item className="Hammock" cost="5500" hash="ZO5zKySmGoRs7wLOID12oa" id="3020241" name="Hammock" sizeX="2" sizeY="2" type="stackable"/>
+			<item className="MagicWaterTile" cost="100" functions="MagicWaterTile" hash="kf6caf875SVLUZ.n4X1ujG" id="3020242" infoText="true" name="Magic Water Tile" referralGift="true" type="surface"/>
+			<item className="LuckyPotOfGold" cost="1500" fanPageFeed="true" hash="uGdo1xe2gtsTwvCwBgHDAG" id="3020243" name="Lucky Pot Of Gold" sizeX="2" sizeY="2"/>
+			<item className="SharkFin" cost="2500" hash="5vWY4rJbqeOgSUSAXrQWMa" id="3020244" name="Shark Fin" type="stackable"/>
+			<item className="Turtle" cost="800" hash="cnL.e4O4l2VlyYwtVZyuUG" id="3020245" name="Turtle" type="stackable"/>
+			<item className="SandDecor" cost="1200" hash=".dZ9sUrEYi99TZbCaTLA0a" id="3020246" name="Sand Decor" type="stackable"/>
+			<item className="SandTower" cost="1400" hash="Ikdvyy0xAhUrWtufOQeupa" id="3020247" name="Sand Tower Decor" type="stackable"/>
+			<item className="StarfishDecor" cost="1800" hash="4pk1_BceUR0XN9HzJdHnUa" id="3020248" name="Starfish" type="stackable"/>
+			<item className="Surfboard" cost="1500" hash="FrvaHfAOV6vOZKDZ3nBfYW" id="3020249" name="Surfboard Decor" type="stackable"/>
+			<item className="TrafficCone" cost="500" hash="ZdO3mn525GxP2wj0YkzI9W" id="3020250" name="Traffic Cone" type="stackable"/>
+			<item className="FireHydrantDecor" cost="1600" hash="GX7a_bEb15ot_mcpoTsCIG" id="3020251" name="Fire Hydrant" type="stackable"/>
+			<item className="Manhole" cost="2000" emailOnly="true" hash="mRPDRQ18aqJSIHiraWLoPW" id="3020252" name="Manhole" type="stackable"/>
+			<item className="Signpost" cost="1000" hash="dyQPVcvu5S8KcMcsWb6Grq" id="3020253" name="Signpost" type="stackable"/>
+			<item className="FineTableLamp" cost="600" hash="S2i_AQng78SM6HADxWuouW" id="3020254" name="Fine Table Lamp" type="stackable"/>
+			<item className="StylishVase" cost="4800" hash="OxDrAFs0kViLEkkKcqK3Mq" id="3020255" name="Stylish Vase" type="stackable"/>
+			<item className="LargeChocolateEgg" cost="600" hash="2p0K6mQA_fkSHPHHXcaREa" id="3020256" name="Chocolate Egg" type="stackable"/>
+			<item className="LargeWhiteChocolateEgg" cost="600" hash="qEWrYrNV0CqFadQZ4wbeUG" id="3020257" name="White Chocolate Egg" type="stackable"/>
+			<item className="TinyEggNest" cost="800" hash="qfbE9VteZTvzraDo6WFV3G" id="3020258" name="Egg Nest" type="stackable"/>
+			<item className="DecorateEgg" cost="3000" hash="kIknasVSPXxFeJrnf8i90W" id="3020259" name="Decorative Egg"/>
+			<item className="SlimeContainer" cost="650" hash="u0lPnXc7DVvmB2IRzI1i7q" id="3020260" name="Slime Container" type="stackable"/>
+			<item className="MoebiusStripSculpture" cost="14000" hash="jKgoRTegUSZFQYXkPO7LTW" id="3020261" name="Mobius Strip Sculpture" type="stackable"/>
+			<item className="Meteor" cost="600" hash="WpGPknHRIj0pyaVG0bn1xW" id="3020262" name="Meteor" type="stackable"/>
+			<item className="AlienEgg" cost="800" hash="w4tEBIsrc.An6DhWPck.cq" id="3020263" name="Alien Egg" type="stackable"/>
+			<item cash="4" className="FloatingPlanet" hash="DB9__fnmAKEUPkQsYQS71q" id="3020264" name="Floating Planet" type="stackable"/>
+			<item className="SignalProjector" cost="4000" hash="7gBbhMqLYgVSLB7em89Bpq" id="3020265" name="Signal Projector" type="stackable"/>
+			<item className="Bloblian" cost="1000" fanPageFeed="true" hash="EwkD1emIUIQdQLBIi.sOpW" id="3020266" name="Bloblian" type="stackable"/>
+			<item className="AlienStatues" cost="1600" hash="qvA2mu1xov_nP_6x.bUVTq" id="3020267" name="Alien Statues" type="stackable"/>
+			<item className="BlueEgg" cost="600" hash="5BKa6ppEoZ2qFXUyvfWVNa" id="3020268" name="Blue Egg" type="stackable"/>
+			<item className="GreenEgg" cost="600" hash="9EksDy_i.QUQEcGHYRAeSa" id="3020269" name="Green Egg" type="stackable"/>
+			<item className="HappyEgg" cost="600" hash="Hz1iknHFYOdBShBl0_HsxW" id="3020270" name="Happy Egg" type="stackable"/>
+			<item className="OrangeEgg" cost="600" hash="7fu5NsREkPxeRucd4tpyMG" id="3020271" name="Orange Egg" type="stackable"/>
+			<item className="WhiteEgg" cost="600" hash="lzO3uuzEE8ZpjpB59R3Jeq" id="3020272" name="White Egg" type="stackable"/>
+			<item className="RedEgg" cost="600" hash="VWCJIiXND_XBRcFteewI6G" id="3020273" name="Red Egg" type="stackable"/>
+			<item className="PinkEgg" cost="600" hash="AXsQ58J.Q_w1GrPErv_oTa" id="3020274" name="Pink Egg" type="stackable"/>
+			<item className="DaffodilDecor" cost="700" hash="cvd_1eOsj1cvk94qoECF1a" id="3020275" name="Daffodil Decor" type="stackable"/>
+			<item className="EasterVaseDecoration" cost="500" hash="SMsr15hZfbusELkNi_4fva" id="3020277" name="Easter Vase Decoration" type="stackable"/>
+			<item className="PurpleEgg" cost="600" hash="pmq.U2CGO5VaZyZjuCE_Wq" id="3020281" name="Purple Egg" type="stackable"/>
+			<item className="GiantChocolateEgg" cost="4000" emailOnly="true" hash="j6mGe1YrjgXyt0RKwgRRHG" id="3020282" name="Giant Chocolate Egg" sizeX="2" sizeY="2"/>
+			<item className="SpringDividerBlock" cost="900" hash="wxFQjRa9Fa7uBNzhG2KU7G" id="3020283" name="Spring Divider Block" type="stackable, surface"/>
+			<item className="SpringDivider" cost="700" hash="njnHCtWfTQ2WA16vJdgi0G" id="3020284" name="Spring Divider" type="stackable"/>
+			<item cash="8" className="ChickenCoop" hash="vqBjD7MIIJxizF0peD3Fpa" id="3020285" name="Chicken Coop" sizeX="2" sizeY="2"/>
+			<item className="MotherHen" cost="2600" hash="oRwijlZBNDOntju10PWSxq" id="3020286" name="Mother Hen" type="stackable"/>
+			<item className="ChickDecor" cost="1300" fanPageFeed="true" hash="Ki.CvFpi1tCv0eM2xw838W" id="3020287" name="Chick Decor" type="stackable"/>
+			<item className="Bonzai" cost="1700" fanPageFeed="true" hash="n.BbgYbwg81HS9AFAmE2Ba" id="3020288" name="Bonsai" type="stackable"/>
+			<item className="KatanaDecor" cost="12000" fanPageFeed="true" hash="m56TV_G.4ouTmOcOmlruya" id="3020289" name="Katana Decor" type="stackable"/>
+			<item className="SamuraiSwordDecor" cost="5500" hash="bx3ttfgHgTMjBG2yHMzf0W" id="3020290" name="Samurai Sword Decor" type="stackable"/>
+			<item cash="7" className="SamuraiArmor" fanPageFeed="true" hash="xDK_H0O9d_swNMpodvKK3G" id="3020291" name="Samurai Armor"/>
+			<item className="JapaneseDivider" cost="750" hash="uTu3ZRiejrRKII7vPY3rbq" id="3020292" name="Japanese Divider"/>
+			<item cash="17" className="JapanesePondDecor" hash="yJsKbTW6.jF6dd0gs8P.yG" id="3020293" name="Zen Garden Pond" sizeX="3" sizeY="3"/>
+			<item cash="19" className="JapaneseGazebo" hash="5fx9hxaAFxo5zb9241jsYa" id="3020294" name="Zen Gazebo" sizeX="3" sizeY="3"/>
+			<item className="GardenLamp" cost="1900" hash="NOx.SilyF458By83ydt6ja" id="3020295" name="Garden Lamp"/>
+			<item className="GardenFirePlace" cost="750" hash="cMCK5adPMh52dKJJp1M8mW" id="3020296" name="Garden Fireplace"/>
+			<item className="JapaneseFountain" cost="40000" hash="XSdXgh2sGANc5MT6RF6m4q" id="3020297" name="Zen Waterfall" sizeX="3" sizeY="2"/>
+			<item className="ZenRock" cost="1200" hash="c6Hdz2e1xIEzPmfjpkm.ca" id="3020298" name="Zen Rock" sizeX="2" sizeY="2"/>
+			<item className="ZenStone" cost="800" hash="BgZpBf8g09kuDqKH8ywWSW" id="3020299" name="Zen Stone"/>
+			<item className="ZenPebble" cost="400" hash="OYMNfZQ8avWHnBJT66.MnW" id="3020300" name="Zen Pebble"/>
+			<item className="ZenGarden" cost="9000" hash="4uEHNAYtmxiX.anQHb5mvW" id="3020301" name="Zen Garden"/>
+			<item className="BambooWaterFeature" cost="7500" hash="cefWBuSMrtDLQGlwkHGGQa" id="3020302" name="Bamboo Water Feature"/>
+			<item className="StoneLantern" cost="1900" hash="LIMfmO46an9S3gI4hFrvUq" id="3020303" name="Stone Lantern"/>
+			<item className="Rake" cost="700" hash="48i3gJzm94.lXEHjYpZrSa" id="3020304" name="Zen Rake"/>
+			<item className="OctopusCook" cost="1500" hash="I7HD3KB2ClONBi2_bVzpZq" id="3020305" name="Octopus Statue" type="stackable"/>
+			<item className="Daruma" cost="6000" hash="dvChRQsjqtrOAJf0IH2xbG" id="3020306" name="Daruma" type="stackable"/>
+			<item className="PrawnSushiDecor" cost="500" hash="apE4sso0LB4RaVFt5FdOLG" id="3020307" name="Giant Prawn Sushi Decor" sizeX="2" sizeY="1" visitFriendFeed="true"/>
+			<item className="SakuraMochiDecor" cost="300" freeGiftUnlockLevel="-10" hash="KaEmZ7JbElzCKVFW28daOW" id="3020308" name="Giant Sakura Mochi Decor" type="stackable"/>
+			<item className="SalmonSushiDecor" cost="500" hash="URptUley5egiOoidA03wJG" id="3020309" name="Giant Salmon Sushi Decor" sizeX="2" sizeY="1" visitFriendFeed="true"/>
+			<item className="YellowMakiDecor" cost="400" hash="ThWmEjCeVAH3XoYXyEKn8W" id="3020310" name="Giant Yellow Maki Decor" type="stackable"/>
+			<item className="RedMakiDecor" cost="300" hash="cD48CEl4279bAY59ILzcYq" id="3020311" name="Giant Red Maki Decor" type="stackable"/>
+			<item className="GreenMakiDecor" cost="400" hash="xl_RAswenNsAfpLguoAZ5q" id="3020312" name="Giant Green Maki Decor" type="stackable"/>
+			<item cash="6" className="JapanesePost" hash="RdRzuQt3katqmq1OWX6tXW" id="3020313" name="Ad Post"/>
+			<item className="Gong" cost="800" hash="FzrFNz0skE1QvNDvcWdE7G" id="3020314" name="Gong"/>
+			<item className="AdDivider" cost="2600" hash="xJB4stsp7lypaDLeoKiJ_W" id="3020315" name="Ad Divider" sizeX="2" sizeY="1"/>
+			<item className="ToyBunnyDecor" cost="9000" hash="sFpeX5.r843gDbPXYcqBGG" id="3020316" name="Hello Bunny"/>
+			<item className="JapaneseDividerBlock" cost="1400" hash="6POYC.e3NK03kbqvrc9sQq" id="3020317" name="Japanese Divider Block" type="surface"/>
+			<item className="SpanishGuitar" cost="2600" fanPageFeed="true" hash="YOo6ZSYnZsVsMeFTjgg3PW" id="3020318" name="Acoustic Guitar"/>
+			<item className="SpiceRack" cost="1600" hash="NK3pEM6jDkpE00UMhZF2Ea" id="3020319" name="Mexican Spice Rack"/>
+			<item className="CactiJose" cost="4000" fanPageFeed="true" hash="DpbVjK08nwNVmexakzggVG" id="3020320" name="Cacti Jose"/>
+			<item className="RusticPillar" cost="3000" hash="pcsX.4i5YP_LEj9Kyk0hTG" id="3020321" name="Rustic Red Brick Pillar"/>
+			<item className="CactusJuice" cost="400" hash="Nx255ebzWkoK_zk2nLlz6W" id="3020322" name="Cactus Juice" type="stackable"/>
+			<item className="AliceDoublePlateCookiesDecor" cost="850" hash="Qhl_HC3fdkH9FUzeMPl8.a" id="3020323" name="Tea Cakes Tower" type="stackable"/>
+			<item className="AliceBunnyClock" cost="4600" fanPageFeed="true" hash="VmjR8VQM8ifUpQy6F1Q38W" id="3020324" name="White Rabbit" type="stackable"/>
+			<item cash="8" className="AliceRedQueen" hash="K8Ma3XZ7lRkanYQkqgBjwq" id="3020325" name="Queen of Hearts" sizeX="2" sizeY="2"/>
+			<item className="AliceBunny" cost="9500" hash="EK4i65Gj68c8LCfxwkGuaa" id="3020326" name="March Hare" sizeX="1" sizeY="2"/>
+			<item className="Alicetable" cost="23000" hash="JGUNG7IlsFSzTNKmyfvxPW" id="3020327" name="Tea Party Decor" sizeX="1" sizeY="3" unlockLevel="15"/>
+			<item cash="6" className="AliceMadHatter" hash="Q7B4zcpwn96NSGYrogEIVq" id="3020328" name="Mad Hatter"/>
+			<item className="AliceFlamingo" cost="1100" hash="rvUizBhNBGYuqhq2OMUVRG" id="3020329" name="Flamingo" referralGift="true"/>
+			<item className="AliceTeaSet" cost="700" hash="HonsPnh.qqYqiPTW_QoFvW" id="3020330" name="Tea Set" type="stackable"/>
+			<item className="MothersDayChocolates" cost="760" hash="wsvmG_kef1tOKCqoj6ta_a" id="3020331" name="Mother's Day Chocolates" type="stackable"/>
+			<item className="AliceRedKing" cost="14000" hash="LMvqq3QTY4JCVH8DMdwata" id="3020332" name="King of Hearts" unlockLevel="15"/>
+			<item cash="4" className="AliceMouseTeapot" hash="IPyWXb9LItt8E5gO4lmUpq" id="3020333" name="Dormouse"/>
+			<item cash="8" className="AliceCaterpillar" hash=".yi97GsYwpyaODW0mXlN6W" id="3020334" name="Caterpillar"/>
+			<item className="AliceGiantTeaPot" cost="18000" hash="76XHpRP6o6UEcWSWytOVza" id="3020335" name="Giant Teapot" sizeX="2" sizeY="2"/>
+			<item className="AliceFlower" cost="3700" hash="HqP5mZh_rWC4ndUBLQtaba" id="3020336" name="Singing Flowers"/>
+			<item className="AliceCardsBlock" cost="3300" hash="H5eURj9eLxov.uzKJe2SbG" id="3020337" name="Card Sentry"/>
+			<item className="AliceFlowers" cost="1300" hash="cHAQcgo9Fk2eDiwi_NRSUW" id="3020338" name="Lupine Decor"/>
+			<item className="AliceRedCardDivider" cost="1100" hash="VY2OCDIi8vqHda3DwUpgia" id="3020339" name="Hearts Guard"/>
+			<item className="AliceBlackCardDivider" cost="1300" hash="WN3IZIZzCFv_LqBD8dq_ja" id="3020340" name="Spades Guard"/>
+			<item className="AliceWhiteRosesDivider" cost="1100" hash="ikY4GjC23lInarDlGkMwFq" id="3020341" name="White Flower Hedge"/>
+			<item className="AliceRedRosesDivider" cost="1300" hash="NRdkBgBkuDDaiHSaBnKS.W" id="3020342" name="Red Flower Hedge"/>
+			<item className="AliceMysteriousTree" cost="8000" hash=".BgUBj1GL7.9PA02w6eBeG" id="3020343" name="Mysterious Tree" sizeX="2" sizeY="2"/>
+			<item className="AlicePicnic" cost="700" hash="0l3xENWCEoGRb3ADGsFkkq" id="3020344" name="Picnic Basket" type="stackable"/>
+			<item className="AliceLampPost" cost="4600" hash="NttyGa7CXL29.wGUst2bgG" id="3020345" name="Victorian Lamp Post"/>
+			<item className="WeddingPodium" cost="1200" hash="MA6.m5uQfRF3rRqL4oeicq" id="3020346" name="Podium"/>
+			<item className="WeddingArch" cost="40000" hash="BsozxB.ELV6prMsIsZT09W" id="3020347" infoText="true" name="Wedding Trellis" sizeX="1" sizeY="3" unlockLevel="17"/>
+			<item cash="17" className="WeddingGazebo" hash="pjEK8o.nW3a2Je3OQLa2da" id="3020348" name="Wedding Gazebo" sizeX="2" sizeY="2"/>
+			<item cash="8" className="WeddingHarp" hash="qnfI75yBKUcwdiRGH6G.9a" id="3020349" name="Wedding Harpist" sizeX="2" sizeY="1"/>
+			<item className="WeddingVase" cost="5000" hash="tTAK8EzEhJa695Qq1wi56q" id="3020351" name="Wedding Flowers" type="stackable"/>
+			<item className="WeddingTableCandles" cost="900" freeGiftUnlockLevel="-10" hash="Z4JtgnkI8lGC9J9Lbe1OhG" id="3020352" name="Wedding Candles" type="stackable"/>
+			<item className="WeddingBottle" cost="1100" hash="71gVqW0xhULKeINce0emqa" id="3020353" name="Celebration Drink" type="stackable"/>
+			<item className="WeddingCandlesSmall" cost="800" hash="CSToKwBJMlQgJmVp8VdexG" id="3020354" name="Wedding Candlestand Small" type="stackable"/>
+			<item className="WeddingCandles" cost="5000" hash="JV_x11wAGnGBPha4hjPkbq" id="3020355" name="Wedding Candlestand" type="stackable"/>
+			<item className="UWCrabDecor" cost="2000" hash="eBM3GnphfRPWS7_JpPYPOq" id="3020357" name="Crab Decor" type="stackable"/>
+			<item cash="4" className="UWJellyFishLamps" hash="UojxS7RodT3VwO3TC_oita" id="3020358" name="Jellyfish Lamps"/>
+			<item className="UWMermaid" cost="13000" hash="BnMXMKeukgjK_0EtnYSYhG" id="3020359" name="Mermaid" unlockLevel="13"/>
+			<item className="UWOctopusPillar" cost="3800" emailOnly="true" hash="vR4GPDlQF8FZVw4xXYhySW" id="3020360" name="Octopus Pillar" sizeX="1" sizeY="1"/>
+			<item className="UWDiver" cost="9000" hash="ANzmIwgJoreibKvlHtsCcW" id="3020361" name="Diver"/>
+			<item className="UWSunkenShipProw" cost="35000" hash="KhZZtpKE7deQzdvhYUJMJa" id="3020362" infoText="true" name="Sunken Ship Prow" sizeX="2" sizeY="2"/>
+			<item className="UWSunkenShipStern" cost="35000" hash="1_YPKUqL_NtzaZ7V7CPKhW" id="3020363" name="Sunken Ship Stern" sizeX="2" sizeY="2" unlockLevel="18"/>
+			<item className="UWSunkenTreasure" cost="5700" hash="RN6GWcYuyNQ7Do.kzD194G" id="3020364" name="Sunken Treasure" type="stackable"/>
+			<item className="UWAnchor" cost="2000" emailOnly="true" hash="NTnNW3ONQdFq2aLeb8DFbW" id="3020365" name="Anchor" type="stackable"/>
+			<item className="UWAtlantisDividerBlock" cost="2200" hash="SaCVAJsUDk3vs2ASQwhzPW" id="3020366" name="Atlantis Divider Block"/>
+			<item className="UWAtlantisDivider" cost="1000" hash="I6RZNVoQ1j1fECHmoNZnFG" id="3020367" name="Atlantis Divider"/>
+			<item className="UWSeabedRock" cost="1400" hash="cgeJKDNgsWp7M2CZWrrCfG" id="3020368" name="Coral Rock" type="stackable"/>
+			<item className="UWSmallSeabedRock" cost="800" hash="ToBhx_Oen2Hp7xX9HhIgcq" id="3020369" name="Small Coral Rock" type="stackable"/>
+			<item className="AmericanFlag" cost="1000" freeGiftUnlockLevel="-10" hash="eC89et_0tEoX9Q5xxOOnCa" id="3020370" name="Memorial Day Flag " type="stackable"/>
+			<item className="UWFishClarinet" cost="8000" emailOnly="true" hash="q7XJn0SHSl5tTDB5fiDXjq" id="3020371" name="Frankie the Clarinet Player"/>
+			<item className="UWHermit" cost="12000" fanPageFeed="true" hash="rr.yQrgrPvCOKHc8Xybu0a" id="3020372" name="Lenny the Singer" unlockLevel="19"/>
+			<item cash="8" className="UWDrummer" hash="fpwOU.EG1TTXOx7_dEzqzq" id="3020373" name="Tommy the Drummer" sizeX="2" sizeY="1"/>
+			<item className="UWFishBass" cost="18000" hash="vdVK5aNhRXO.d2nFLUw6KG" id="3020374" name="Yuriy the Bass Player" unlockLevel="21"/>
+			<item className="UWHermitCrabDecor" cost="700" hash="VVwFTjfzUjfGkjTA7L_lUW" id="3020375" name="Hermit Crab" type="stackable"/>
+			<item className="UWLobster" cost="1800" hash="JoPtRZlTmyZ1cnmEB9v3bG" id="3020376" name="Lobster" type="stackable"/>
+			<item className="UWCave" cost="5000" hash="CZv2_4gqdKxZpcz8y9q2dW" id="3020377" name="Underwater Cave" sizeX="2" sizeY="2"/>
+			<item className="UWMiniRockGeyser" cost="3500" hash="0G40pTxzm92J10vGpS7yJq" id="3020378" name="Mini Rock Geyser" type="stackable"/>
+			<item className="UWGiantClam" cost="11000" hash="xxVUQXqI0iW.n6.zbdCzAq" id="3020379" name="Giant Clam" type="stackable"/>
+			<item cash="7" className="UWSunkenRuinsArch" hash="XjKa.xf8x6q_aHsq5dB3Ta" id="3020380" infoText="true" name="Sunken Ruins Arch" sizeX="1" sizeY="3"/>
+			<item cash="12" className="BlackUnicorn" hash="2fFDohkhZ_Br7KX3fu9EbW" id="3020381" name="Black Unicorn" sizeX="2" sizeY="1" type="stackable"/>
+			<item className="WhiteUnicorn" cost="2200" hash="aDOcjOBXYGKkZ3ZkqlYTiW" id="3020382" name="White Unicorn" unlockLevel="15" sizeX="2" sizeY="1" type="stackable"/>
+			<item cash="8" className="PinkTiger" hash="YTDHl2aYhy5eOFUf1Pc8eq" id="3020383" name="Pink Tiger" sizeX="2" sizeY="1"/>
+			<item className="PinkTigerCub" cost="2000" emailOnly="true" fanPageFeed="true" hash="nDgK35me50ubTPvDsc5_uq" id="3020384" name="Pink Tiger Cub" type="stackable"/>
+			<item className="DarkMagicWaterTile" cost="900" functions="MagicWaterTile" hash="zziAfPoz5sy2hWLfvwGJIa" id="3020385" infoText="true" name="Dark Magic Water Tile" type="surface"/>
+			<item className="BlackWall" cost="1000" hash="fu07N.CnlOo7xAysW7uSaq" id="3020386" name="Black Wall" type="wallDivider"/>
+			<item className="BlackWallCorner" cost="1000" hash="Abm8b0nhK3NpsgyOrDhdFG" id="3020387" name="Black Wall Corner" type="wallDivider"/>
+			<item className="BlackWallCross" cost="1000" hash="TuvkxVYt9nXwm8vQwiWCzq" id="3020388" name="Black Wall Cross" type="wallDivider"/>
+			<item className="BlackWallT" cost="1000" hash="RHCCEV_iRoLnpTKBOIKOiq" id="3020389" name="Black Wall T" type="wallDivider"/>
+			<item className="BlushWall" cost="800" hash="bluWktIWxdn_kk0S3ONSYq" id="3020390" name="Blush Wall" type="wallDivider"/>
+			<item className="BlushWallCorner" cost="800" hash="UNCR55Yz46rZlxZfvaOeNG" id="3020391" name="Blush Wall Corner" type="wallDivider"/>
+			<item className="BlushWallCross" cost="800" hash="bvNKW2u7evKOrv_oSETpaa" id="3020392" name="Blush Wall Cross" type="wallDivider"/>
+			<item className="BlushWallT" cost="800" hash="Wn0bcVXudoDFR9MB7Ys7nW" id="3020393" name="Blush Wall T" type="wallDivider"/>
+			<item className="EbonyDividerBlock" cost="900" hash="A1S815CMVeBprO1Z3stIhW" id="3020394" name="Ebony Divider Block" type="surface"/>
+			<item className="EbonyDivider" cost="800" hash="bvrx3WemcbhgdpzS3WvGqq" id="3020395" name="Ebony Divider"/>
+			<item className="WhiteDividerBlock" cost="1600" hash="d.N__XOI.Ke4Oj2kHEGVAa" id="3020396" name="White Divider Block" type="surface"/>
+			<item className="WhiteDivider" cost="1400" hash="AetpSS6gavz5FsC95V6gxG" id="3020397" name="White Divider"/>
+			<item className="ClassicBlackDivider" cost="700" hash="ibM5G9DCqoJ9WLNto7Orjq" id="3020398" name="Classic Black Divider"/>
+			<item className="EcruWall" cost="1000" hash="qdnUP5ZMkPy4NTuJ4Y.MKa" id="3020399" name="Ecru Wall" type="wallDivider"/>
+			<item className="EcruWallCorner" cost="1000" hash="poqIHa1EiZybqrMTGjsK2G" id="3020400" name="Ecru Wall Corner" type="wallDivider"/>
+			<item className="EcruWallCross" cost="1000" hash="RoExBlm_Y_koMoG873KhAa" id="3020401" name="Ecru Wall Cross" type="wallDivider"/>
+			<item className="EcruWallT" cost="1000" hash="kR1NhSD9YRn5.d7eF7OA5W" id="3020402" name="Ecru wall T" type="wallDivider"/>
+			<item cash="5" className="BarHost" hash="dIt0qtclSs4dzrSJMuZl2a" id="3020403" name="Host"/>
+			<item cash="9" className="BarDecorativePool" hash="jue_kErRgG6A0N_PbKBdkW" id="3020404" name="Decorative Pool"/>
+			<item className="BarPineBlock" cost="1250" emailOnly="true" hash="QLO5l2U_4Y.cVnW8XWwG8W" id="3020405" name="Pine Block" type="surface"/>
+			<item className="BarPineDivider" cost="1250" emailOnly="true" hash="B0_zdjAMAnTZ6Or4C0o4iG" id="3020406" name="Pine Divider"/>
+			<item className="BarBeigeCornerChair" cost="1100" hash="ko6JOnP__.mLHWbUaB4iBq" id="3020407" name="White Sofa Corner"/>
+			<item className="BarSmokeCornerChair" cost="1300" hash="P.0OZ6gA40ViRvGdWB_wBa" id="3020418" name="Black Sofa Corner"/>
+			<item className="BarCandles1" cost="950" emailOnly="true" freeGiftUnlockLevel="-3" hash="W5Amen_ZIJ4FigpwAoQlqW" id="3020419" name="Pink Candles" type="stackable"/>
+			<item className="BarCandles2" cost="1100" hash="tUSbSouCj4c94XtjYh5pwW" id="3020420" name="Red Candles" type="stackable"/>
+			<item className="BarCandles3" cost="950" freeGiftUnlockLevel="-4" hash="Lhoa0onFTAJXpCDPpu3s.q" id="3020421" name="Blue Candles" type="stackable"/>
+			<item className="BarCandles4" cost="1100" hash="s3Dexse7b8ph7ngFl0pjKa" id="3020422" name="Green Candles" type="stackable"/>
+			<item className="BarGreenLavaLamp" cost="11000" hash="J_BrUf_PZGf9Nh5NCihzYa" id="3020423" name="Green Lava Lamp" type="stackable"/>
+			<item cash="4" className="BarPinkLavaLamp" hash="0uF0EYo6mNqdq.SCtvuBla" id="3020424" name="Pink Lava Lamp" type="stackable"/>
+			<item className="BarGoldStatue" cost="33000" hash="OJ4SzyNK1.2w2X0_d.11NG" id="3020425" name="Gold Statue" type="stackable,notGiftable" unlockLevel="30"/>
+			<item cash="7" className="BarModernSculpture" hash="Pdtj6ZhA5tCAKnVJdGWNXa" id="3020426" name="Modern Sculpture" type="stackable"/>
+			<item cash="6" className="BarFirePillar" hash="nwpLhFFwiYOqgp7fyR1Tbq" id="3020427" name="Fire Pillar"/>
+			<item className="BarChandelierFloorLamp" cost="9500" emailOnly="true" hash="UcPFF4cwqcw9UAuj168B_a" id="3020428" name="Chandelier Floor Lamp" type="stackable"/>
+			<item className="BarBlueFoozballStatue" cost="2700" hash="b_zNh38sZ0Oo23gp.Z_mca" id="3020429" name="Blue Foosball Statue" type="stackable"/>
+			<item className="BarRedFoozballStatue" cost="2700" hash="M.b1kCgTMGkwhcIjsRBhLW" id="3020430" name="Red Foosball Statue" type="stackable"/>
+			<item className="BarFootballGoal" cost="12000" hash="90poCEpcGDvH95vczCwYZa" id="3020431" name="Football Goal"/>
+			<item className="BarSaxaPhonePlayer" cost="20000" hash="Rf1hszOA7u5V3UeAw1pfVa" id="3020432" name="Saxaphone Player" unlockLevel="23"/>
+			<item className="BarBeefyBouncer" cost="8000" hash="mJOvkjoTn8aPWNuue8dFOq" id="3020433" name="Beefy Bouncer" type="stackable"/>
+			<item className="BarElegantFlower" cost="1800" hash="4eve1eV9rKFgWFDeA_vHIG" id="3020434" name="Elegant Flower" type="stackable"/>
+			<item className="BarElegantRedFlower" cost="2500" hash="GPRFdN4V26PFx03bpWqt7a" id="3020435" name="Midnight Vase" type="stackable"/>
+			<item className="BarModernTableLamp" cost="4500" hash="c7zHi_G.npAUN3ehjOrIIq" id="3020436" name="Modern Table Lamp" type="stackable" unlockLevel="14"/>
+			<item className="BarModernFloorLamp" cost="12000" hash="GjcbzXOYUc3gohIIat1KEG" id="3020437" name="Modern Floor Lamp" type="stackable" unlockLevel="7"/>
+			<item className="BarFootBall" cost="1000" emailOnly="true" freeGiftUnlockLevel="-1" hash="Ioc0zK9HzPrg28tdV2_XzG" id="3020438" name="Football Decor" type="stackable"/>
+			<item cash="8" className="BarJazzSinger" hash="UInAciIoqSmG_MHoEQ0JVW" id="3020439" name="Jazz Singer"/>
+			<item cash="2" className="RedDiscoTile" hash="MoPNGbcZlouhDhgldQpsLq" id="3020447" infoText="true" name="Red Hot Disco Tile" type="surface" visitFriendFeed="true"/>
+			<item cash="2" className="YellowDiscoTile" hash="3CBpgd7tMQssVo2At4XdZW" id="3020448" infoText="true" name="Mellow Yellow Disco Tile" type="surface" visitFriendFeed="true"/>
 			<item className="RCR_AsianFishTank" cost="2500" hash="UH9yyEjXKkPlLDAhhtNKId" id="3080004" isNew="true" name="Fish Tank (Taste of Asia)" sizeX="2" sizeY="1"/>
-			<item className="RCR_JapanesePond" cost="10000" hash="EILggKy4.aduCna_kd.Hvt" id="3080009" isNew="true" name="Japanese Pond" sizeX="2" sizeY="2"/>
-			<item className="RCR_Bonsai" cost="1600" hash="5aEYPekMN9aqB.GaXbis7v" id="3080010" isNew="true" name="Bonsai Tree" type="stackable"/>
-			<item className="RCR_StoneLantern" cost="2000" hash="rfxMCPcvpfsJPhZM.xDThQ" id="3080011" isNew="true" name="Stone Lantern"/>
-			<item className="RCR_Daruma" cost="1800" hash="cVTdheKBDE8enbcIPtFYmC" id="3080012" isNew="true" name="Daruma" type="stackable"/>
-			<item className="RCR_Gong" cost="2000" hash="VsDximPrGsquZO8yp9KH8J" id="3080013" isNew="true" name="Gong" type="stackable"/>
-			<item className="RCR_BambooWaterFeature" cost="2000" hash="8nQB2SNl7xBFQefXBii.zM" id="3080014" isNew="true" name="Bamboo Water Feature"/>
-			<item className="RCR_SamuraiArmor" cost="4000" hash="HbWTQ8CdNNksIY0h9QfF9z" id="3080015" isNew="true" name="Samurai Armor"/>
-			<item className="RCR_KatanaDecor" cost="1200" hash="CmHxHXyfCrx7C0bTSEFR8f" id="3080017" isNew="true" name="Katana Decor"/>
-			<item className="RCR_SamuraiSwordDecor" cost="1200" hash="KfIoWBrw9_o5k4AQrRuk77" id="3080022" isNew="true" name="Samurai Sword Decor"/>
-			<item className="RCR_ZenGarden" cost="3000" hash="zztokzFztGdu8dz1UVHoXM" id="3080028" isNew="true" name="Zen Garden" sizeX="1" sizeY="2"/>
-			<item className="RCR_ZenRock" cost="2200" hash="giOHZpjcq81.xCJGrAnKor" id="3080029" isNew="true" name="Zen Rock" sizeX="2" sizeY="2"/>
-			<item className="RCR_ZenStone" cost="900" hash="gaYV7pzygapQRJ5mH5GJS2" id="3080032" isNew="true" name="Zen Stone"/>
-			<item className="RCR_ZenPebble" cost="500" hash="qhju2P9i_WJBnNV8If.gJV" id="3080033" isNew="true" name="Zen Pebble" type="stackable"/>
-			<item className="RCR_GardenFireplace" cost="1500" hash="pa55HFeV1HUMWBT8.4fQ33" id="3080034" isNew="true" name="Garden Fireplace"/>
-			<item className="RCR_GardenLamp" cost="1200" hash="kFdn915ysoYLpAYriMgX1g" id="3080035" isNew="true" name="Garden Lamp" type="stackable"/>
+			<item className="RCR_Bonsai" cost="1600" hash="5aEYPekMN9aqB.GaXbis7v" id="3080010" isNew="true" name="Bonsai Tree" type="stackable" invisible="true"/>
 			<item className="RCR_JapaneseFishpond" cost="8000" hash="JtBiMA4AsYl7wGNp7htZ3V" id="3080036" isNew="true" name="Japanese Fishpond" sizeX="2" sizeY="2"/>
-			<item className="RCR_JapaneseGardenPond" cost="10000" hash="DgHKaFKdq_f3yVgr8arPgl" id="3080037" isNew="true" name="Japanese Garden Pond" sizeX="3" sizeY="3"/>
-			<item className="RCR_OctopusStatue" cost="3000" hash="n_1A4JTtd212Q_xYIQf7EO" id="3080039" isNew="true" name="Octopus Statue"/>
-			<item className="RCR_PrawnSushiDecor" cost="600" hash="mpaFSth3NwjOmhIrk4WIip" id="3080040" isNew="true" name="Prawn Sushi Decor" type="stackable"/>
-			<item className="RCR_SalmonSushiDecor" cost="600" hash="pv9ciyJTlFQ62.qjd.NAW." id="3080041" isNew="true" name="Salmon Sushi Decor" type="stackable"/>
-			<item className="RCR_YellowMakiDecor" cost="500" hash="2BFbNM3s5dSSMkpguxn7pd" id="3080042" isNew="true" name="Yellow Maki Decor" type="stackable"/>
-			<item className="RCR_GreenMakiDecor" cost="500" hash="ShP0oXjekoJNKWb_QR0dhN" id="3080043" isNew="true" name="Green Maki Decor" type="stackable"/>
-			<item className="RCR_RedMakiDecor" cost="700" hash="nQcwra5PbChyMHzqHMSZIt" id="3080044" isNew="true" name="Red Maki Decor" type="stackable"/>
-			<item className="RCR_SakuraMochiDecor" cost="700" hash="o5Izw1PRJb2S_nVYujceeK" id="3080045" isNew="true" name="Sakura Mochi Decor" type="stackable"/>
-			<item className="RCR_AdDivider" cost="2000" hash="xrXoPD1k1q3cMGDPdbX64U" id="3080046" isNew="true" name="Ad Divider" sizeX="2" sizeY="1"/>
-			<item className="RCR_AdPost" cost="1800" hash="gChk0qD_RtNuFPRn2uJ5wo" id="3080047" isNew="true" name="Ad Post"/>
 			<item className="RCR_MelonRug" cost="1500" hash="Kh6hQJpZwmNRcDu0RpGR6R" id="3080053" isNew="true" name="Melon Rug" sizeX="2" sizeY="2"/>
 			<item className="RCR_StrawberryRug" cost="1500" hash="JgmSur8mZJdUohCm0ocrvl" id="3080054" isNew="true" name="Strawberry Rug" sizeX="2" sizeY="2"/>
 			<item className="RCR_KiwiRug" cost="1500" hash="XDN0ny3TXF6dWFRZd429wV" id="3080055" isNew="true" name="Kiwi Rug" sizeX="2" sizeY="2"/>
@@ -350,12 +598,6 @@
 			<item className="RCR_EvilTree" cost="6000" hash="V6VGkucEWl2zOdPkjrwDFc" id="3080075" isNew="true" name="Evil Tree" sizeX="2" sizeY="2"/>
 			<item className="RCR_CheeseyVarities" cost="2500" hash="54J6xc9pizHFIM_EzfOiPS" id="3080081" isNew="true" name="Cheesey Varities" sizeX="2" sizeY="1"/>
 			<item className="RCR_LibertyBell" cost="3000" hash="owPpxG4CnhkqWF.1R9WHrf" id="3080083" isNew="true" name="Liberty Bell"/>
-			<item className="RCR_SmallJapaneseDivider" cost="600" hash="NuqJ8tKlyaPZADc6fzLdKF" id="3080088" isNew="true" name="Japanese Divider"/>
-			<item className="RCR_SmallJapaneseDividerCorner" cost="600" hash="ccWNS12u2G3XMYmSNIBIWD" id="3080089" isNew="true" name="Japanese Divider Corner"/>
-			<item className="RCR_SpringDivider" cost="400" hash="Llw7FzCnqEuSQugLT047xp" id="3080090" isNew="true" name="Spring Divider"/>
-			<item className="RCR_SpringDividerBlock" cost="800" hash="34LbOxKKFOe8IRm.sJHef9" id="3080091" isNew="true" name="Spring Divider Block" type="surface"/>
-			<item className="RCR_WhiteSofaCorner" cost="800" hash="DzFe6nJZ_JSL55t_FXGWyW" id="3080145" isNew="true" name="White Sofa Corner"/>
-			<item className="RCR_BlackSofaCorner" cost="800" hash="1U2kneOXs2otK0I2T1sTtk" id="3080146" isNew="true" name="Black Sofa Corner"/>
 	</group>
 
 
@@ -368,7 +610,7 @@
 		<item className="BlackTable" cost="400" hash="WCtEu9aiA8ZgHRfABYa6oW" id="3030004" name="Black Table"/>
 		<item className="PrincessTable" cost="1000" hash="Caflv0TeAoItbOh92veeFq" id="3030005" name="Princess Table"/>
 		<item className="ChromeTable" cost="1000" hash="A0I4LnQX7nPEtzPdoWshhG" id="3030006" name="Astro Table"/>
-		<item className="GlassTable" cost="1200" hash="8fj.SscvZBi_pNCUbTccsW" id="3030007" name="Glass Table"/>
+		<item className="GlassTable" cost="700" hash="8fj.SscvZBi_pNCUbTccsW" id="3030007" name="Glass Table"/>
 		<item className="ChineseTable" cost="1200" hash="eNWc2DPBq4Upqfzk2VzdwG" id="3030008" name="Chinese Table"/>
 		<item className="PinkTableCloth" cost="1200" hash="hY5jnQtt20blJKP3DOc1Ma" id="3030009" name="Princess Table"/>
 		<item className="WhiteTableCloth" cost="500" hash="CBpq73xMdUO1W7iEXyVpdG" id="3030010" name="White Cloth Table"/>
@@ -400,15 +642,49 @@
 		<item className="EgyptianTable" cost="1400" hash="FTHbX_qQ7Cx9LnXLjlmriG" id="3030036" name="Egyptian Table"/>
 		<item className="SaloonTable" cost="700" hash="V.zF.zi4JstwQajRcmUeVW" id="3030037" name="Saloon Table"/>
 		<item className="PirateTable" cost="600" hash="YHMqMF8HkCqJralXAUvJcq" id="3030038" name="Pirate Table"/>
-		<item className="ClassyBlackTable" cost="1400" hash="Nys8cRXlX_3KdzRGEbI5Lq" id="3030039" name="Classy Black Table"/>
+		<item className="ClassyBlackTable" cost="900" hash="Nys8cRXlX_3KdzRGEbI5Lq" id="3030039" name="Classy Black Table"/>
 		<item className="LuckyChineseTable" cost="650" hash="YHDCszoGwxkx2hXGnGbuga" id="3030040" name="Lucky Chinese Table"/>
 		<item className="VdayRedTable" cost="1200" hash="9N3YB0Tst1ibtmvRBdUF6G" id="3030041" isNew="true" name="Red Valentine Table" rcrEpoca="02-01:02-21"/>
 		<item className="VdayWhiteTable" cost="1500" hash="zh6IxN6mbqwA.NxJ4AuJTa" id="3030042" isNew="true" name="White Valentine Table" rcrEpoca="02-01:02-21"/>
 		<item className="RomanticTable" cost="900" hash="Xq5Nem9KScwHs5fIxrH.Iq" id="3030043" isNew="true" name="Romantic Table" rcrEpoca="02-01:02-21"/>
-			<item cash="8" className="RCR_ZenTable" hash="U8UC0Xfjw.FZJ86B6qBOVZ" id="3080020" isNew="true" name="Zen Table" sizeX="1" sizeY="2" type="tableItem, surface"/>
-			<item className="RCR_SmallZenTable" cost="1200" hash="W223_qSHzCQ28wUnKia9_l" id="3080021" isNew="true" name="Small Zen Table" type="tableItem, surface"/>
-			<item className="RCR_SushiTable" cost="1200" hash="eS4YWJwmI7vFyXdmpUVNsX" id="3080026" isNew="true" name="Sushi Table" type="tableItem, surface"/>
-			<item cash="8" className="RCR_LongSushiTable" hash="IIOY5j8_FPV9T.4qT8Ac9l" id="3080027" isNew="true" name="Long Sushi Table" sizeX="1" sizeY="2" type="tableItem, surface"/>
+			<item className="GlamoursTable" cost="1600" hash="dtQcpd932LbNxq6dMGyI7W" id="3030044" name="Glamours Table"/>
+			<item className="RedChipTable" cost="950" hash="mD.JYYuB2JL8JPnWyVJN2a" id="3030045" name="Red Chip Table"/>
+			<item className="BlueChipTable" cost="950" hash="fIMXbV0KO_ZGtVjhxk7eIa" id="3030046" name="Blue Chip Table"/>
+			<item className="BackgammonTable" cost="950" hash="02Ptbk_PJA17PSlK17Tzdq" id="3030047" name="Backgammon Table"/>
+			<item className="RockStarTable" cost="450" freeGiftUnlockLevel="-10" hash="PsilnLo1MPFzq9XnOIuARa" id="3030048" name="Rock Star Table"/>
+			<item className="DrumTable" cost="1500" hash="OrkW3VeKs669kBNThmnNvG" id="3030049" name="Drum Table"/>
+			<item className="BambooTable" cost="400" hash="fYDWMcOunjGxLvKjaJ3tfa" id="3030050" name="Bamboo Table"/>
+			<item className="ShamrockTable" cost="600" hash="pzygv7stPLzVoHMfHXe7yG" id="3030051" name="Shamrock Table"/>
+			<item className="FineTable" cost="1000" hash="XH977WyBW.qEEgUTDZVIbq" id="3030052" name="Fine Table"/>
+			<item className="ParkTable" cost="850" hash="xYsFGtqeu8tVqlImGxk45a" id="3030053" name="Park Table"/>
+			<item className="ScifiTable" cost="1800" hash="NcJbs7ykNDYgN25pciwB4q" id="3030054" name="Scifi Table"/>
+			<item className="SpringTable" cost="1100" hash="TM_LVwnSsqpPKUJKAQ._zG" id="3030055" name="Spring Table"/>
+			<item cash="5" className="LongSpringTable" hash="Er7R6R_ddATMX2g8eITPMG" id="3030056" name="Long Spring Table" sizeX="1" sizeY="2"/>
+			<item cash="5" className="ZenTable" hash="HogLdTwktOXS3JeLRBcysa" id="3030057" name="Zen Table" sizeX="1" sizeY="2"/>
+			<item className="SushiTable" cost="850" hash="go_GTAFkWYYFHLLtwFuJqG" id="3030058" name="Sushi Table"/>
+			<item className="StoneTable" cost="1300" hash="bPv3O5BtDATEsCOX.uNLMq" id="3030059" name="Stone Table"/>
+			<item cash="5" className="SushiTableLong" hash="1aVYYBDAWlBwbW21aOOFdq" id="3030060" name="Long Sushi Table" sizeX="1" sizeY="2"/>
+			<item className="ZenTableSmall" cost="2000" hash="zjCj9dnIL60l.FDYoC5BWa" id="3030061" name="Small Zen Table"/>
+			<item className="SerapeTable" cost="900" hash="nxK_.xIF4Q.XG6KMYwhD_G" id="3030062" name="Mexican Table"/>
+			<item className="AliceWhiteTable" cost="1350" hash="8AAmg8X_ja91OD0i6gkM6q" id="3030063" name="Tea Table"/>
+			<item className="AliceWhiteTableRound" cost="1700" hash="nykdtHmapc3.lASJZoRg5W" id="3030064" name="Victorian Garden Table"/>
+			<item className="WeddingTable" cost="1700" hash="jsrd.ax2fpeX5oks0MLbLa" id="3030065" name="Wedding Table"/>
+			<item className="CMBlush" cost="1450" hash="xmTg8KwZkoFCY24Y3KHr9W" id="3030066" name="Blush Table"/>
+			<item className="CMAmethyst" cost="1650" hash="OgEtRKHUg6CruIi1sebTCW" id="3030067" name="Amethyst Table"/>
+			<item className="CMSapphire" cost="1650" hash="iftNRM9JOvag74X6tYAaya" id="3030068" name="Sapphire Table"/>
+			<item className="CMTurquoise" cost="1650" hash="77hL__mWKZ9KWdsW3rtl1W" id="3030069" name="Jade Table"/>
+			<item className="CMJade" cost="1650" hash="ZSZGEJixRy.4MGxSgM4ZJa" id="3030070" name="Turqoise Table"/>
+			<item className="CMOnyx" cost="1650" hash="L4PutsmGQ_jbm_SgImd0fq" id="3030071" name="Onyx Table"/>
+			<item className="CMMeringue" cost="1450" hash="5VTnuemau6Efwuce0_.0WW" id="3030072" name="Meringue Table"/>
+			<item className="CMLilac" cost="1450" hash="zrKXIyaIX85lo6g4E1LiOa" id="3030073" name="Lilac Table"/>
+			<item className="CMSky" cost="1450" hash="qseRaaDk_FJUxxacKgh3Eq" id="3030074" name="Sky Table"/>
+			<item className="CMAquamarine" cost="1450" hash="HzLRjSGoodMS1kJA3fHnEq" id="3030075" name="Aquamarine Table"/>
+			<item className="CMMint" cost="1450" hash="u_7In0N0zkGeqYXVT2Pnrq" id="3030076" name="Mint Table"/>
+			<item className="BarGlossyTable" cost="3500" emailOnly="true" hash="5sF7SmiWmytaIv8Y9TX1Kq" id="3030077" name="Glossy Black Table"/>
+			<item className="BarGlassTable" cost="1500" hash="nfJb7XZ3crBCJ3UByR1AAq" id="3030078" name="Small Glass Table"/>
+			<item className="BarTable" cost="3200" hash="CTHPhv9B2iQSwTgp09qQxa" id="3030079" name="Bar Extension"/>
+			<item className="BarRoundTable" cost="3200" hash="9u1BcCRhb8nB1p5XoBgddq" id="3030080" name="Corner Bar Extension"/>
+			<item className="BarMidnightNeonTable" cost="2500" hash="D6l6aVZzQTgn9R8TRX0D5W" id="3030082" name="Midnight Neon Table"/>
 	</group>
 	
 	<group buttonName="Chair" name="Chair" type="chairItem">
@@ -418,20 +694,20 @@
 		<item className="Chair04" cost="700" hash="9uarYUAbzN9rcqyQF4D5Pq" id="3040003" name="Luxurious Chair"/>
 		<item className="Chair05" cost="1200" hash="_zsv_zrgHNS.h_pgxIy0hG" id="3040004" name="Princess Chair"/>
 		<item className="Chair06" cost="550" hash="_mhjONR6y8W8JsodXSFGEa" id="3040005" name="Modern Chair"/>
-		<item className="Chair07" cost="700" hash="aF.icA0FXYxEORrKNWHnKW" id="3040006" name="Astro Chair"/>
+		<item className="Chair07" cost="400" hash="aF.icA0FXYxEORrKNWHnKW" id="3040006" name="Astro Chair"/>
 		<item className="Chair08" cost="650" hash="PH7NSPqwzCpB4yKnCY_2PW" id="3040007" name="Chinese Chair"/>
 		<item className="Chair09" cost="400" hash="8LuGhMMCkIIC6odfQ6qV3a" id="3040008" name="Natural Wooden Chair"/>
 		<item className="Chair10" cost="700" hash="1kCGNOJQDYy7hRlpg0EswW" id="3040009" name="Pink Wooden Chair"/>
 		<item className="Chair11" cost="650" hash="QB5.m71xTfB5lb59HCAzhq" id="3040010" name="Blue Wooden Chair"/>
 		<item className="Chair12" cost="600" hash="tH1o_gOAlt6S0fDmzFOPTq" id="3040011" name="Red Chinese Chair"/>
 		<item className="Chair13" cost="700" hash="WUAH1kkUppTscFjKilMaWW" id="3040012" name="Purple Chinese Chair"/>
-		<item className="Chair14" cost="1200" hash="lRsJu7_M5OXdzWBY4_2OBa" id="3040013" name="White Modern Chair"/>
-		<item className="Chair15" cost="750" hash="MLzF5.kfDvaGP6HTUEPPSG" id="3040014" name="Black Modern Chair"/>
+		<item className="Chair14" cost="700" hash="lRsJu7_M5OXdzWBY4_2OBa" id="3040013" name="White Modern Chair"/>
+		<item className="Chair15" cost="500" hash="MLzF5.kfDvaGP6HTUEPPSG" id="3040014" name="Black Modern Chair"/>
 		<item className="Chair17" cost="500" hash="SO.RqwksvXMOeFWe3EYqoq" id="3040015" name="Red Diner Chair"/>
 		<item className="Chair16" cost="750" hash="VEQqSaf2PzJKQAVpCJe1ZG" id="3040016" name="Chrome Chair"/>
 		<item className="Chair18" cost="1000" hash="zZ0Uoajf8_YhvLYevac1XW" id="3040017" name="Red Diner Sofa"/>
-		<item className="Chair19" cost="900" hash="4vb.b5DndKsPWIaw7feSXa" id="3040018" name="White Modern Sofa"/>
-		<item className="Chair20" cost="1100" hash="xkqRHOexxZkpH3oqkxRcfG" id="3040019" name="Black Modern Sofa"/>
+		<item className="Chair19" cost="500" hash="4vb.b5DndKsPWIaw7feSXa" id="3040018" name="White Modern Sofa"/>
+		<item className="Chair20" cost="700" hash="xkqRHOexxZkpH3oqkxRcfG" id="3040019" name="Black Modern Sofa"/>
 		<item className="Chair21" cost="950" hash="3d6_U3Jsd398QSXjhJrqKq" id="3040020" name="Purple Chair"/>
 		<item className="Chair22" cost="800" hash="IY5aT.jrfBrrYkVQXrj5iW" id="3040021" name="Mushroom Chair"/>
 		<item className="Chair23" cost="900" hash="0YM2cZ1p1TS8NSEQzqZSFq" id="3040022" isNew="true" name="Gothic Chair" rcrEpoca="10-01:11-07"/>
@@ -448,29 +724,65 @@
 		<item className="Chair33" cost="1300" hash="5GcIOnvxASKw_Up9rpBhvG" id="3040033" name="Fancy Red Chair"/>
 		<item className="Chair34" cost="1500" hash="ARW3fTculiTyO69d5q8HXa" id="3040034" name="Pink Bench"/>
 		<item className="Chair36" cost="1100" hash="48m0NjFCe_dXYooIHEGBrW" id="3040035" name="Egyptian Chair"/>
-		<item className="Chair37" cost="400" hash="TPv.xN3hg1Jx5044tqtKgq" id="3040036" name="Stool"/>
+		<item className="Chair37" cost="400" hash="TPv.xN3hg1Jx5044tqtKgq" id="3040036" name="Stool" referralGift="true"/>
 		<item className="Chair38" cost="600" hash="_GtCo4pjJ4b0bUGpo6RE7q" id="3040037" name="Saloon Chair"/>
 		<item className="Chair39" cost="1300" hash="4vpUo2yADJssPBruWCy99G" id="3040038" name="Buffalo Chair"/>
 		<item className="Chair41" cost="850" hash="7sbNrAx0tPtkWeepQ.taDG" id="3040039" name="Captain's Chair"/>
 		<item className="Chair40" cost="400" hash="Q03m4oJ3P5f4fkmNCRIjVq" id="3040040" name="Pirate Chair"/>
-		<item className="Chair42" cost="1100" hash="HxOejAzEzbAEhT1xOSmPLa" id="3040041" name="Classy Black Chair"/>
+		<item className="Chair42" cost="700" hash="HxOejAzEzbAEhT1xOSmPLa" id="3040041" name="Classy Black Chair"/>
 		<item className="Chair43" cost="500" hash="Zzn48vGll2jBkoks5p_GdW" id="3040042" name="Lucky Chinese Chair"/>
 		<item className="Chair44" cost="1000" hash="tc37wnJStOW2ZN29SL9x8W" id="3040043" isNew="true" name="Red Valentine Chair" rcrEpoca="02-01:02-21"/>
 		<item className="Chair45" cost="1300" hash="KY5ytrKMBnHBUG4jm5OvUq" id="3040044" isNew="true" name="White Valentine Chair" rcrEpoca="02-01:02-21"/>
 		<item className="Chair46" cost="700" hash="bkq7sqjX93DRBvyOT9MM3q" id="3040045" isNew="true" name="Romantic Chair" rcrEpoca="02-01:02-21"/>
-			<item className="RCR_ZenChair" cost="700" hash="6agavilw_wMu7uJBzeHx3U" id="3080030" isNew="true" name="Zen Chair" type="chairItem"/>
-			<item className="RCR_WhiteZenChair" cost="700" hash="jo1RWsIrB5.snAeVoX9n2j" id="3080031" isNew="true" name="White Zen Chair" type="chairItem"/>
+			<item className="Chair47" cost="1400" hash="lQsaqvJnpPLBvcTPkyYtBa" id="3040046" name="Glamour Chair"/>
+			<item className="Chair48" cost="850" hash="_qf75Ur0jyvwI0egYr0bdW" id="3040047" name="Red Chip Chair"/>
+			<item className="Chair49" cost="850" hash="8CIfDDnbgCf61eOmT_Vr9G" id="3040048" name="Blue Chip Chair"/>
+			<item className="Chair50" cost="850" hash="8kyZzlLCfQ.wHWbN_O75da" id="3040049" name="Backgammon Chair"/>
+			<item className="Chair51" cost="2000" hash="cG3UglfuuragEOsqwQpqsq" id="3040050" name="Guitar Chair"/>
+			<item className="Chair52" cost="300" hash="gqhDoOr0NUYESphehPaQpG" id="3040051" name="Rock Star Chair"/>
+			<item className="Chair54" cost="600" hash="hKdKf0Zpj4BpdSF3H6e9SG" id="3040052" name="Bamboo Chair" referralGift="true"/>
+			<item className="Chair53" cost="300" hash="JAj1QJW_nUZ6XAr1xxyHRG" id="3040053" name="Shamrock Chair"/>
+			<item className="Chair55" cost="400" hash="254v4DVvrAv7CXu.fo2b3q" id="3040054" name="Beach Chair" referralGift="true"/>
+			<item className="Chair56" cost="800" hash="J9aBfzcnBnVoCi_ZntUg5a" id="3040055" name="Fine Chair"/>
+			<item className="Chair57" cost="700" hash="RFSjM4MeUNR5Qfl.pi1L.q" id="3040056" name="Park Bench"/>
+			<item className="Chair58" cost="2000" hash=".7pGURN1fE7us22yYhm4bq" id="3040057" name="Scifi Chair"/>
+			<item className="Chair59" cost="550" hash="eGo_h1Mt46BDmPTBR90dXW" id="3040058" name="Spring Chair"/>
+			<item className="ZenChair" cost="1050" hash="xV1HLC3K7EWJElrKMSqK4a" id="3040059" name="Zen Chair"/>
+			<item className="StoneChair" cost="800" hash="_r5FtaKAsHgFlGhnHpvQEW" id="3040060" name="Stone Chair"/>
+			<item className="WhiteZenChair" cost="1050" hash="MlXhBfYnxHInHkxQiJRqMa" id="3040061" name="Light Zen Chair"/>
+			<item className="CactusChair" cost="1500" hash="R1yyZmVHNo0dLWwDeDmhxq" id="3040062" name="Cactus Chair"/>
+			<item className="AliceRedChair" cost="1900" hash="Og332ivurZxDFaGYpPpNga" id="3040063" name="Wingback Chair"/>
+			<item className="AliceWhiteChair" cost="1400" hash="drSKRUAvDY9SaSW7w1zszW" id="3040064" name="Victorian Garden Chair"/>
+			<item className="WeddingChair" cost="1300" hash="bINuJe3qXG.Wi7L8n.b_Xq" id="3040065" name="Wedding Chair"/>
+			<item className="Chair65" cost="1400" hash=".gpB01_7VuY4wBRY.4P36G" id="3040066" name="Modern Green Sofa"/>
+			<item className="Chair66" cost="1500" hash="NTXQC2m_OAKx4Yh2cRfoqa" id="3040067" name="Modern Red Sofa"/>
+			<item className="Chair60" cost="1600" hash="OXxZt.mq94v5SpotfHzi_W" id="3040068" name="Green Modern Chair"/>
+			<item className="Chair61" cost="1300" hash="cpiGGqGRGFL8MzTmQ6VR6W" id="3040069" name="Blue Modern Chair"/>
+			<item className="Chair62" cost="1300" hash="FR1UVcA49UKWHdHc21muhq" id="3040070" name="Pink Modern Chair"/>
+			<item className="Chair63" cost="1400" hash="rVh9QnFSIeGl150hsbybkq" id="3040071" name="Shy Romantic Chair"/>
+			<item className="Chair64" cost="1200" hash="bYG8EoBEflyFfrjFJBQnjG" id="3040072" name="Dark Romantic Chair"/>
+			<item className="RoundBarStool" cost="2000" hash="cxDoeT_1a5hAw5Y2zubpeG" id="3040073" name="Modern Stool"/>
+			<item className="BarRedStool" cost="1300" hash="Zdfaj_40Z_yTNcgqasLLFG" id="3040074" name="Red Stool"/>
+			<item className="YellowShellChair" cost="1600" hash="3bIOkSmoaZsOcZ1djr9kQq" id="3040075" name="Yellow Shell Chair"/>
+			<item className="RedShellChair" cost="1800" hash="sFOWepgqAuLJcojxYPQJDG" id="3040076" name="Red Shell Chair"/>
+			<item className="Chair67" cost="1800" hash="ODgHfGtvaQxHTRmeMJ_fyq" id="3040077" name="Funky Midnight Chair"/>
+			<item className="Chair68" cost="1800" hash="6xX4Ea2jgHLaasEDACeU.W" id="3040078" name="Red Leather Sofa Chair"/>
+			<item className="Chair69" cost="1200" hash="XZSVxX5GDHmmHyO4d8YmTG" id="3040079" name="Yellow Leather Sofa Chair"/>
+			<item className="Chair70" cost="1800" hash="M2IlfzvV5gyOZvXKwj3KGW" id="3040080" name="Beige Leather Sofa Chair"/>
+			<item className="Chair71" cost="1800" hash="cnXaEVG0bl8NbZkyiP7RJW" id="3040081" name="Pink Leather Sofa Chair"/>
+			<item className="Chair72" cost="1600" hash="7n9pQ6QhPS.7ELgjTuGATG" id="3040082" name="Brown Leather Sofa Chair"/>
+			<item className="Chair73" cost="1200" hash="T5oEE0Y.zVDrRVfbSq2SCW" id="3040083" name="Green Leather Sofa Chair"/>
 	</group>
 	
 	<!--id 350xxxx-->
 	<group buttonName="Functional" name="Functional" type="">
-		<item breakCount="6" className="ArcadeMachine" cost="1500" hash="oAqsLFVQLLjK8c.pzshM0G" id="3020007" name="Arcade Machine" type="interactive"/>
-		<item arcadeGame="Snake" breakCount="6" className="ArcadeMachineSnake" cost="8000" hash="dF4qHIXzX2p07tpKoW0..W" id="3020043" infoText="true" name="Retro Arcade Machine" type="interactive"/>
-		<item breakCount="4" className="Toilet05" cost="600" hash="nvDyxyZ60U1V3rxenlSPvW" id="3500021" name="Basic Toilet" type="chairItem, toilet"/>
-		<item breakCount="4" className="Toilet01" cost="900" hash="DeUixWe_QnYYGkIB7s3TjW" id="3500017" name="White Toilet" type="chairItem, toilet"/>
-		<item breakCount="4" className="Toilet02" cost="1200" hash="M8bQlmcDcoJ9qp3JIHl_qG" id="3500018" name="Red Toilet" type="chairItem, toilet"/>
-		<item breakCount="4" className="Toilet03" cost="1400" hash="aHUCDtC1AxjR2.ZHYoocgG" id="3500019" name="Black Toilet" type="chairItem, toilet"/>
-		<item breakCount="4" className="Toilet04" cost="1000" hash="M0u7f4376S2dZzUcN9nUiq" id="3500020" name="Pink Toilet" type="chairItem, toilet"/>
+		<item breakCount="6" className="ArcadeMachine" cost="1500" hash="oAqsLFVQLLjK8c.pzshM0G" id="3020007" name="Arcade Machine" type="interactive" appointmentLength="240" maxCoinStorage="1" infoText="true"/>
+		<item arcadeGame="Snake" breakCount="6" className="ArcadeMachineSnake" cost="8000" hash="dF4qHIXzX2p07tpKoW0..W" id="3020043" infoText="true" name="Retro Arcade Machine" type="interactive" appointmentLength="15" maxCoinStorage="30"/>
+		<item breakCount="4" className="Toilet05" cost="600" hash="nvDyxyZ60U1V3rxenlSPvW" id="3500021" name="Basic Toilet" type="chairItem, toilet" infoText="true"/>
+		<item breakCount="4" className="Toilet01" cost="900" hash="DeUixWe_QnYYGkIB7s3TjW" id="3500017" name="White Toilet" type="chairItem, toilet" infoText="true"/>
+		<item breakCount="4" className="Toilet02" cost="1200" hash="M8bQlmcDcoJ9qp3JIHl_qG" id="3500018" name="Red Toilet" type="chairItem, toilet" infoText="true"/>
+		<item breakCount="4" className="Toilet03" cost="1400" hash="aHUCDtC1AxjR2.ZHYoocgG" id="3500019" name="Black Toilet" type="chairItem, toilet" infoText="true"/>
+		<item breakCount="4" className="Toilet04" cost="1000" hash="M0u7f4376S2dZzUcN9nUiq" id="3500020" name="Pink Toilet" type="chairItem, toilet" infoText="true"/>
 		<item className="WhiteSink" cost="2000" hash="kwVDo8xqvU0ygY8A3IR1Sa" id="3020053" name="White Sink" type="sink"/>
 		<item className="BasinCabinet" cost="4000" hash="eH1r_mXT0fOlulnGTjOyjG" id="3020054" name="Basin Cabinet" type="sink"/>	
 		<item className="JukeBox" cost="5000" hash="o4CuDx1qCwSsjQJwkjDVTG" id="3020010" name="Jukebox" type="musicPlayer, stackable"/>
@@ -482,29 +794,77 @@
 		<item cash="12" className="PoshStatue" functions="PoshCustomers" hash="STwvF9X.nEAOQRyuu.VNYa" id="3500074" infoText="true" name="Grandiose Gold Statue"/>
 		<item className="RedSink" cost="2000" hash="cZg_GRvt.apsAc8c.Yj6ta" id="3020100" name="Red Sink" type="sink"/>
 		<item className="BlackBasinCabinet" cost="4000" hash="vmguX4QxS0VgAPfSUq8Voa" id="3020101" name="Black Basin Cabinet" type="sink"/>
-		<item arcadeGame="Cave" breakCount="12" cash="12" className="ArcadeMachineBlue" hash="P8tUrsPybFJzPQWEwVuCPG" id="3500075" infoText="true" name="Deep Sea Arcade" type="interactive"/>
-		<item breakCount="10" cash="8" className="Slotmachine" hash="Dwb1yyaaMATw6DX.qUoUDq" id="3500076" infoText="true" name="Slot Machine" type="interactive"/>
+		<item arcadeGame="Cave" breakCount="9" cash="12" className="ArcadeMachineBlue" hash="P8tUrsPybFJzPQWEwVuCPG" id="3500075" infoText="true" name="Deep Sea Arcade" type="interactive" appointmentLength="240" maxCoinStorage="700"/>
+		<item breakCount="10" cash="8" className="Slotmachine" hash="Dwb1yyaaMATw6DX.qUoUDq" id="3500076" infoText="true" name="Slot Machine" type="interactive" appointmentLength="240" maxCoinStorage="400"/>
 		<item cash="15" className="AirGeyser" functions="BubbleGeyser" hash="Yj9epaxy8BprNOWGfz22ZG" id="3500077" infoText="true" name="Bubble Geyser" sizeX="2" sizeY="2"/>
 		<item cash="8" className="StackOfLeaves" functions="LeafFootprint" hash="KkDt39dPCFLYAm5ybI.EoG" id="3500078" infoText="true" name="Autumn Leaves" sizeX="2" sizeY="2"/>
-		<item breakCount="10" cash="15" className="ClawMachine" hash="bfAIwmK5XRGqqmHErz38wG" id="3500079" infoText="true" name="Pet Society Claw Machine" type="interactive"/>
-		<item breakCount="10" className="PinballMachine" cost="12000" hash="9gJHvpomjig2WmQAqrGSOa" id="3500080" infoText="true" name="Crazy Planets Pinball" sizeX="2" sizeY="1" type="interactive"/>
+		<item breakCount="10" cash="10" className="ClawMachine" hash="bfAIwmK5XRGqqmHErz38wG" id="3500079" infoText="true" name="Pet Society Claw Machine" type="interactive" appointmentLength="240" maxCoinStorage="600"/>
+		<item breakCount="10" className="PinballMachine" cost="12000" hash="9gJHvpomjig2WmQAqrGSOa" id="3500080" infoText="true" name="Crazy Planets Pinball" sizeX="2" sizeY="1" type="interactive" appointmentLength="60" maxCoinStorage="80"/>
 		<item cash="10" className="Snowman" functions="SnowFootprint" hash="cf.mKAahHWofVUlUTKhUYa" id="3500081" infoText="true" name="Frosty the Snowman" rcrEpoca="12-01:01-06"/>
 		<item className="GiantCrystal" cost="60000" functions="CrystalTrash" hash="zLmSVvWJggjNjl9oMt3OSq" id="3500082" infoText="true" name="Floating Crystal" type="notGiftable" unlockLevel="35"/>
 		<item className="GiantTV" cost="120000" functions="AddCustomerWaitTime" hash="31raszAOZ5ac6B4HayIU.a" id="3500083" infoText="true" name="Giant TV" type="notGiftable" unlockLevel="45"/>
-		<item className="WishingWell" cost="240000" hash="vbKns71U5C6e_UFpFHkm9G" id="3500084" infoText="true" name="Wishing Well" sizeX="3" sizeY="3" type="notGiftable, interactive" unlockLevel="55"/>
+		<item className="WishingWell" cost="240000" hash="vbKns71U5C6e_UFpFHkm9G" id="3500084" infoText="true" name="Wishing Well" sizeX="3" sizeY="3" type="notGiftable, interactive" unlockLevel="55" appointmentLength="240" maxCoinStorage="500"/>
 		<item className="EgyptianObelisk" cost="500000" functions="AddMaxDemand2" hash="iK06qvnh2w_xew0K71uxNq" id="3500085" infoText="true" name="Egyptian Obelisk" sizeX="2" sizeY="2" type="notGiftable" unlockLevel="65"/>
 		<item className="GingerbreadBasin" cost="4500" hash="FuboAyAzboH5ekeavy5ujW" id="3500086" name="Gingerbread Basin" type="sink" rcrEpoca="12-01:01-06"/>	
 		<item breakCount="12" className="Toilet06" cost="15000" hash="FGnCYRpw9s8RaFNE.tndKq" id="3500087" infoText="true" name="Gingerbread Toilet" operateTimePercentage="50" type="chairItem, toilet" rcrEpoca="12-01:01-06"/>
-		<item cash="12" className="GingerbreadBed" hash="9GsbQ0gfIdXbnbf.mRQMfW" id="3500088" infoText="true" name="Gingerbread Bed" operateTimePercentage="50" type="bed" rcrEpoca="12-01:01-06"/>
+		<item cash="36" className="GingerbreadBed" hash="9GsbQ0gfIdXbnbf.mRQMfW" id="3500088" infoText="true" name="Gingerbread Bed" operateTimePercentage="50" type="bed" efficiencyBonusPercentage="1,0.5" rcrEpoca="12-01:01-06"/>
 		<item cash="15" className="SnowMachine" functions="SnowGenerator" hash="KPERTg8Yib2gyePb2ETaXG" id="3500089" infoText="true" name="Snow Machine" rcrEpoca="12-01:01-06"/>
 		<item cash="15" className="Reindeer" functions="AddMaxDemand2" hash="OqLEJkqAqWYd.5Sq25JLHa" id="3500090" infoText="true" name="Reindeer" rcrEpoca="12-01:01-06"/>	
 		<item cash="12" className="SantaStatue" functions="SantaElfCustomers" hash="HwaDx874ifOt80Ns40YcrW" id="3500091" infoText="true" name="Santa Statue" rcrEpoca="12-01:01-06"/>	
-		<item className="BasicMattressBedRed" cost="4500" hash="5cXHnVhVroU_YsY6gOs3pG" id="3500092" infoText="true" name="Basic Red Bed" operateTimePercentage="75" type="bed"/>
+		<item className="BasicMattressBedRed" cost="13500" hash="5cXHnVhVroU_YsY6gOs3pG" id="3500092" infoText="true" name="Basic Red Bed" operateTimePercentage="75" type="bed" efficiencyBonusPercentage="0.5,0.2"/>
 		<item className="FanStatue" cost="1" fanPageFeed="true" functions="AddMaxDemand1" hash="SVL.plZzqrs7dHEmsbzxsq" id="3500093" infoText="true" name="3 Million Fans Statue" sizeX="2" sizeY="2"/>	
 		<item cash="12" className="RomanticChocolateFountain" functions="HeartGenerator" hash="6xqOElxo.6ojAFxy0eraeG" id="3500094" infoText="true" isNew="true" name="Chocolate Fountain" sizeX="2" sizeY="2"/>	
 		<!--use id 350xxxx! otherwise you'll use the same id as the items in the decoration category-->
-			<item cash="25" className="RCR_MonsterRobot" functions="RobotWalker" hash="J.5QW0Rt6lNCmdJ37bk14T" id="3080001" infoText="true" isNew="true" name="Monster Robot"/>
-			<item cash="15" className="RCR_CherryBlossomTree" functions="PetalGenerator" hash="xwfUNNaVQ1h1LP.8yG68FB" id="3080007" infoText="true" isNew="true" name="Cherry Blossom Tree" sizeX="2" sizeY="2"/>
+			<item cash="5" className="MagicalUnicorn" functions="ButterflyGenerator" hash="gzyYP_fGsqo7zHJAr8vBRq" id="3500095" infoText="true" name="Magic Unicorn" sizeX="2" sizeY="1"/>
+			<item appointmentLength="240" breakCount="20" cash="10" className="Lucky7Slotmachine" hash="1emFdgIPMKvLFCGeUNcPmq" id="3500096" infoText="true" maxCoinStorage="600" name="Lucky 7 Slot Machine" type="interactive"/>
+			<item cash="5" className="MusicalNote" functions="MusicNoteGenerator" hash="L0gIoGXfSnt29H9tr7GYEq" id="3500097" infoText="true" name="Musical Note" type="stackable"/>
+			<item cash="5" className="TikiStatue" functions="TikkiCustomers" hash="WBEMRhsu9g7kqu_b5oqk3a" id="3500098" infoText="true" name="Tiki Statue"/>
+			<item className="StatueOfCookery" cost="150000" functions="AddCustomerWaitTime" hash="0mb_PtPYu33GvKrKuh9hQq" id="3500099" infoText="true" name="Statue Of Cookery" sizeX="2" sizeY="2"/>
+			<item cash="3" className="RainCloud" functions="RainDropGenerator" hash="CjZThHDDhenO8gYorXMW5W" id="3500100" infoText="true" name="Rain Cloud" type="stackable"/>
+			<item className="HotelCitySign" cost="150" fanPageFeed="true" functions="HotelCityCustomers" hash="Lx76mszijvcQ2h1jL3mEOq" id="3000101" infoText="true" name="Hotel City Sign" sizeX="1" sizeY="3" type="wallDecorationItem"/>
+			<item cash="13" className="AlienMonolith" functions="SpaceCustomers" hash="xskMjMd6Vi8a3hJzfqCw.q" id="3000102" infoText="true" name="Alien Monolith" type="stackable"/>
+			<item cash="20" className="AlienPetBlue" functions="MovingActor" hash="WVYY4rOiI8Mk7jhzAYJYta" id="3000103" infoText="true" name="Blue Alien Pet"/>
+			<item cash="20" className="AlienPetPurple" functions="MovingActor" hash="U17bFJCnMrSMslV7qZrxXG" id="3000104" infoText="true" name="Purple Alien Pet"/>
+			<item cash="10" className="AlienStatue" functions="AlienGooTrash" hash="RgrjU6P6MOBbtbf9M_QAsG" id="3000105" infoText="true" name="Alien Statue" type="stackable"/>
+			<item cash="15" className="HypnoticArtifact" functions="AddCustomerWaitTime" hash="8jStzg7POyfcN6sQUhXu7W" id="3000106" infoText="true" name="Hypnotic Artifact" type="stackable"/>
+			<item breakCount="20" cash="6" className="Toilet07" hash="x0qyzRwVQb._sfFDhHueLa" id="3000107" infoText="true" name="Hover Loo Blue" operateTimePercentage="50" type="chairItem, toilet"/>
+			<item breakCount="20" cash="6" className="Toilet08" hash="SvX7.u9NLiogFlH7Au9hYq" id="3000108" infoText="true" name="Hover Loo Red" operateTimePercentage="50" type="chairItem, toilet"/>
+			<item breakCount="4" className="Toilet09" cost="800" hash="mlDXib9NSBRHd_mvr8lyvG" id="3500109" name="Spring Toilet" type="chairItem, toilet" infoText="true"/>
+			<item cash="12" className="SpringGoddessStatue" functions="FlowerFootprint" hash=".q.WCTo.Bcs9.mINPji3dG" id="3500110" infoText="true" name="Spring Goddess Statue" sizeX="2" sizeY="2"/>
+			<item cash="20" className="PetChick" functions="MovingActor" hash=".tvTjckDUU6vvFWYfUm_aW" id="3500111" infoText="true" name="Country Story Pet Chick"/>
+			<item cash="25" className="PetBunny" functions="MovingActor" hash="YAL1pVgh_ciWlCv_AbFoPa" id="3500112" infoText="true" name="Pet Bunny"/>
+			<item breakCount="16" cash="4" className="HighTechToilet" hash="UbPmuFfQ9rj6c.tEw9kHQW" id="3500113" infoText="true" name="High Tech Smart Toilet" operateTimePercentage="60" type="chairItem, toilet"/>
+			<item cash="12" className="CherryBlossomTree" functions="SakuraLeavesGenerator" hash="cPUap8M.08rALglnQp85nW" id="3500114" infoText="true" name="Cherry Blossom Tree" sizeX="2" sizeY="2"/>
+			<item appointmentLength="240" breakCount="12" cash="12" className="ToyEggMachine" hash="NEdrJtg_WzY4_U1d_93Fsa" id="3500115" infoText="true" maxCoinStorage="700" name="Toy Egg Machine" sizeX="1" sizeY="1" type="interactive"/>
+			<item cash="20" className="RoboGodzzila" functions="MovingActor" hash="83oZP2DHZ6NY6iy8_Sa_za" id="3500116" infoText="true" name="Monster Robot"/>
+			<item appointmentLength="240" className="SushiBelt" functions="SushiBelt" hash="4pclfQN7Hvg6BNqbFGxctW" id="3500117" infoText="true" maxCoinStorage="400" name="Sushi Bar" sizeX="2" sizeY="3" type="interactive, notSellable, notGiftable, unique" cash="8"/>
+			<item appointmentLength="240" breakCount="15" cash="15" className="JJRMachineSmall" hash="1WTkgmr5Bb2PZbXCdUvV0G" id="3500118" infoText="true" maxCoinStorage="850" name="Dance Arcade" type="interactive"/>
+			<item appointmentLength="60" breakCount="4" cash="12" className="Pinata" hash="8hoWgdS9EwzrEZsRvsDwsa" id="3500119" infoText="true" maxCoinStorage="300" name="Piñata" sizeX="1" sizeY="1" type="interactive"/>
+			<item className="MariachiBand" cost="90000" functions="AddCustomerWaitTime" hash="UyBe2P7oo06D68itFWcsfW" id="3500122" infoText="true" name="Mariachi Band" sizeX="1" sizeY="3" unlockLevel="40"/>
+			<item appointmentLength="240" breakCount="12" cash="10" className="RedRoseBush" hash="PMOZfMe0kzEG2W2DFM_HnW" id="3500123" infoText="true" maxCoinStorage="600" name="Red Rose Bush" sizeX="1" sizeY="1" type="interactive"/>
+			<item appointmentLength="240" cash="30" className="SushiBeltBlue" functions="SushiBelt" hash="Cyz9LfVcKzeG4vyo1VXfZW" id="3500034" infoText="true" maxCoinStorage="1500" name="Neon Sushi Bar" sizeX="2" sizeY="3" type="interactive"/>
+			<item cash="23" className="CheshireCatInside1" functions="CheshireCatFunction" hash="4ogYn1te6gQOoakHUMbpCW" id="3500125" infoText="true" name="Pet Cheshire Cat"/>
+			<item className="WeddingDrinkFountain" cost="130000" functions="AddCustomerWaitTime" hash="4aEDQzD7mnZHyJM1bUfy.a" id="3500126" infoText="true" name="Bubbly Drink Tower" sizeX="2" sizeY="2" unlockLevel="50"/>
+			<item cash="12" className="WeddingSwan" functions="RosePetalFootprint" hash="f2lkz1eoVWx30AvldiIToa" id="3500127" infoText="true" name="Ice Swans Sculpture" sizeX="2" sizeY="2"/>
+			<item cash="15" className="UWPoseidonStatue" functions="AddMaxDemand2" hash="J3QfHi8cFlNq3kegxbVlIW" id="3500128" infoText="true" name="Poseidon Statue" unlockLevel="37" sizeX="1" sizeY="2"/>
+			<item cash="20" className="UWCoralGarden" functions="FishSchoolGenerator" hash="lx2fyO2eMnEv7aOIz3hkca" id="3500129" infoText="true" name="Coral Garden" sizeX="1" sizeY="2"/>
+			<item appointmentLength="240" breakCount="12" cash="8" className="UWOysterFarm" hash="_tCmRstnTOiTyj_bUD4awa" id="3500130" infoText="true" maxCoinStorage="400" name="Oyster Farm" sizeX="1" sizeY="1" type="interactive"/>
+			<item breakCount="4" className="UWSeashellToilet" cost="3500" hash="y_kxxC.3Ml9NzBu2IRdyAq" id="3500031" name="Seashell Toilet" type="chairItem, toilet" infoText="true"/>
+			<item className="SeashellSink" cost="4000" hash="CFkCDzo2LktKOzfu343Gma" id="3500032" name="Seashell Sink" type="sink"/>
+			<item cash="16" className="UWSeaHorse" functions="MovingActor" hash="ft3llykbm1OsOKeOCWefmq" id="3500033" infoText="true" name="Pet Sea Horse"/>
+			<item appointmentLength="240" breakCount="10" className="CWArcadeMachine1" cost="18000" hash="rI2tp7cRfHj954Mb19cQhq" id="3500035" infoText="true" maxCoinStorage="120" name="Blue Retro Arcade Machine" sizeX="1" sizeY="1" type="interactive"/>
+			<item className="BlackObelisk" cost="750000" functions="AddMaxDemand25" hash="rD.4xeWTX.Z_7.oxQBPcta" id="3500036" infoText="true" name="Onyx Obelisk" sizeX="2" sizeY="2" type="notGiftable" unlockLevel="75"/>
+			<item className="Sphinx" cost="350000" functions="AddCustomerWaitTime" hash="LbVEGXRan_akeHWCKttfPq" id="3500037" infoText="true" name="Sphinx" sizeX="2" sizeY="2" type="notGiftable" unlockLevel="60"/>
+			<item appointmentLength="240" breakCount="15" cash="15" className="PinkArcadeMachine" hash="1o.wapEPcR2y14Irr.9TWa" id="3500038" infoText="true" maxCoinStorage="850" name="Pink Bunny Arcade Machine" sizeX="1" sizeY="1" type="interactive"/>
+			<item cash="20" className="BarNightSculpture" functions="NightTimeRoad" hash="XdJJAnj5nQ7qwEeXUe8c_W" id="3500039" infoText="true" name="Night Sculpture" sizeX="1" sizeY="1"/>
+			<item appointmentLength="240" cash="35" className="BarFoozball" hash="vk3DfSKzWXlQVb3axUVdrW" id="3500040" infoText="true" maxCoinStorage="1700" name="Foosball Table" sizeX="2" sizeY="1" type="interactive"/>
+			<item breakCount="16" cash="5" className="AFRedMarbleToilet" hash="WGlq0q.7cVJe0hR8gYJvba" id="3500041" infoText="true" name="Red Marble Toilet" operateTimePercentage="60" type="chairItem, toilet"/>
+			<item breakCount="4" className="AFMintMarbleToilet" cost="8000" hash="uouzxrctWp2pQ7wme8A62q" id="3500042" name="Mint Marble Toilet" type="chairItem, toilet" unlockLevel="12" infoText="true"/>
+			<item className="AFRedMarbleSink" cost="6000" hash="qCSI1rjQElBBOr0wXif10W" id="3500043" name="Red Marble Sink" type="sink" unlockLevel="16"/>
+			<item className="AFMintMarbleSink" cost="5000" hash="Lk0uOJJGtEiRNFGlpfgwWq" id="3500044" name="Mint Marble Sink" type="sink" unlockLevel="12"/>
+			<item appointmentLength="240" breakCount="15" cash="15" className="AFDJArcadeMachine" hash="y5hPv.XVrE8APrZY22RH3q" id="3500045" infoText="true" maxCoinStorage="850" name="DJ Arcade Machine" sizeX="1" sizeY="2" type="interactive"/>
+			<item cash="22" className="AFWashingtonMonument" functions="AddMaxDemand1" hash="dRWMawMIt0LZ9b1hCSS_fW" id="3500048" infoText="true" name="Washington Monument"/>
+			<item cash="12" className="BarFifaBigTV" functions="FootballCustomers" hash="ijM8QnzoThRBORK6Zew_ia" id="3500049" infoText="true" name="Football Wall TV" sizeX="1" sizeY="2" type="wallDecorationItem,stackable"/>
 	</group>
 	
 	<group buttonName="FloorTile" name="Floor Tile" type="floorTileItem">
@@ -562,22 +922,41 @@
 		<item className="FloorTile52" cost="15" hash="hiRC3dVRv_fMKLX4GeAubG" id="3050051" isNew="true" name="Pink Carpet"/>
 		<item className="FloorTile53" cost="15" hash="qXQbPzchuLfpsnGXjQCMua" id="3050052" isNew="true" name="Red Carpet"/>
 		<item className="FloorTile54" cost="15" hash="VzTaqPefLdhElxQcm4.GTG" id="3050053" isNew="true" name="Purple Carpet"/>
-		<item className="FloorTile55" cost="40" hash="NzBKsNs0k7.qGmq6hC_uwq" id="3050054" isNew="true" name="Hearts Tile" rcrEpoca="02-01:02-21"/>
-			<item className="RCR_TatamiMat" cost="20" hash="UeD7UUDuFmnMeLYFneQ1tN" id="3080016" isNew="true" name="Tatami Mat" type="floorTileItem"/>
-			<item className="RCR_ZenCircleTile" cost="40" hash="bmK4Bbo34Z1peEEjUeRWQS" id="3080049" isNew="true" name="Zen Circle Tile" type="floorTileItem"/>
-			<item className="RCR_ZenStripeTile" cost="40" hash="8pmaT0KHMxpghDU6SIUVrU" id="3080050" isNew="true" name="Zen Stripe Tile" type="floorTileItem"/>
-			<item className="RCR_ZenTile" cost="40" hash="PTnb1LU5.6GHesXdqKYu4P" id="3080051" isNew="true" name="Zen Tile" type="floorTileItem"/>
-			<item className="RCR_MagicFloorTile" cost="40" hash="lCCVKv87gXc0KGzbdfJWQY" id="3080094" isNew="true" name="Magic Floor Tile" type="floorTileItem"/>
-			<item className="RCR_CloudFlooring" cost="40" hash="63HjC6KjS5WxjhKu5yABtY" id="3080095" isNew="true" name="Cloud Flooring" type="floorTileItem"/>
-			<item className="RCR_ClubsTile" cost="40" hash="bjWZ1XsgWDBQ5.AToaZ3kL" id="3080096" isNew="true" name="Clubs Tile" type="floorTileItem"/>
-			<item className="RCR_DiamondTile" cost="40" hash="xpezpqPQRuUufsx5ZNF.wP" id="3080097" isNew="true" name="Diamond Tile" type="floorTileItem"/>
-			<item className="RCR_MultiTile" cost="40" hash="oCfrHwX9x0q7f6lLBbWtxW" id="3080098" isNew="true" name="Multi Tile" type="floorTileItem"/>
-			<item className="RCR_SpadesTile" cost="40" hash="4uMD08s6nobVNtGA7FY23A" id="3080099" isNew="true" name="Spades Tile" type="floorTileItem"/>
-			<item className="RCR_DarkBlueFloor" cost="40" hash="JVd5RM8Wtzq_rsjDXaNExh" id="3080100" isNew="true" name="Dark Blue Floor" type="floorTileItem"/>
-			<item className="RCR_BambooFlooring" cost="40" hash="AOuPegmi8gjOKenadlu63v" id="3080101" isNew="true" name="Bamboo Flooring" type="floorTileItem"/>
-			<item className="RCR_TerracottaTile" cost="40" hash="83JAK2HZOD3TWzWVh4Qfkg" id="3080102" isNew="true" name="Terracotta Tile" type="floorTileItem"/>
-			<item className="RCR_WonderlandTileRed" cost="40" hash="pSJTVEJ9niwGqKH7e.5SFx" id="3080103" isNew="true" name="Wonderland Tile - Red" type="floorTileItem"/>
-			<item className="RCR_GrassTile" cost="40" hash="3_UBLmCckeeMUJe7MauC7G" id="3080104" isNew="true" name="Grass Tile" type="floorTileItem"/>
+		<item className="FloorTile55" cost="40" hash="NzBKsNs0k7.qGmq6hC_uwq" id="3050054" isNew="true" name="Pink Hearts Tile" rcrEpoca="02-01:02-21"/>
+			<item className="FloorTile56" cost="70" hash="xOysc6dtafzPxHgzinnb1G" id="3050055" name="Magic Floor Tile"/>
+			<item className="FloorTile57" cost="45" hash=".aCcIrcW0vy0M7qlUfza.a" id="3050056" name="Cloud Flooring"/>
+			<item className="FloorTile58" cost="40" hash="_X4ZFSbN_kA6cE4RrCJTZa" id="3050057" name="Hearts Tile"/>
+			<item className="FloorTile59" cost="40" hash="Zc4VsqouPX5MusSM3E5QmG" id="3050058" name="Spades Tile"/>
+			<item className="FloorTile60" cost="40" hash="Q2cnad7UDv2DU8hZAQZ7ga" id="3050059" name="Diamonds Tile"/>
+			<item className="FloorTile61" cost="40" hash="XMNX7k_UgY1UPvucJe_GDW" id="3050060" name="Clubs Tile"/>
+			<item className="FloorTile62" cost="40" hash="u6gmjUa_VXIFa9AVZyl0ra" id="3050061" name="Cards Tile"/>
+			<item className="FloorTile63" cost="40" hash="fEZChNjLyUvcYvT_8e_Cya" id="3050062" name="Dark Blue Carpet"/>
+			<item className="FloorTile64" cost="20" hash="kirdil0HQ9wlYuKahZfI7a" id="3050063" name="Bamboo Floor"/>
+			<item className="FloorTile65" cost="30" hash="pVNsNXj2HZ9unnWWTxG8Aa" id="3050064" name="Dark Pavement"/>
+			<item className="FloorTile66" cost="30" hash="DyJrPrgswju9wvQAn7AxsG" id="3050065" name="Light Pavement"/>
+			<item className="FloorTile67" cost="13" hash="RA.5peqdBV5MGWARREkjqq" id="3050066" name="Tarmac Road Tile"/>
+			<item className="FloorTile68" cost="80" hash="LpuTreKUDas3QuEfdGvhTG" id="3050067" name="Moon Crater"/>
+			<item className="FloorTile69" cost="25" hash="EWFPk3SBhkki89JKajECJW" id="3050068" name="Moon Sand"/>
+			<item className="FloorTile70" cost="30" hash="PICrdO6wq61.Su13m73QYW" id="3050069" name="Dark Spring Grass"/>
+			<item className="FloorTile71" cost="30" hash="JX5L1cCzuyjuNFZ24JF5fa" id="3050070" name="Spring Grass"/>
+			<item className="TatamiMat" cost="30" hash="L7a7QAOz41Tdw4WNj9SlpG" id="3050071" name="Tatami Mat"/>
+			<item className="ZenTile" cost="40" hash="vUe7_nB1I4obxAWRCvWvtG" id="3050072" name="ZenTile"/>
+			<item className="ZenCircleTile" cost="80" hash="UtUUhcCewyAoI5zEbPzzzG" id="3050073" name="ZenCircleTile"/>
+			<item className="ZenStripeTile" cost="40" hash="bFor0H8Jp1nKwfwslMnBsG" id="3050074" name="ZenStripeTile"/>
+			<item className="TerracottaTile" cost="45" hash="9zzAYNcLoEFnX8o4EbUZMa" id="3050075" name="Terracotta Tile"/>
+			<item className="AliceTileBlue" cost="35" hash="ItJyVbUPM5fhnWJ6UnGbWG" id="3050076" name="Wonderland Tile"/>
+			<item className="AliceTileRed" cost="40" hash="VOMlqduefKd3OenOGdGGia" id="3050077" name="Wonderland Tile Red"/>
+			<item className="BlueSeabedTile" cost="50" hash="1P_VbmqdPX3iBbp.9icKmW" id="3050078" name="Blue Seabed Tile"/>
+			<item className="Astro1" cost="75" hash="Qm9OTGhaFHDQyfsHbbDDcW" id="3050079" name="Astroturf Top Corner"/>
+			<item className="Astro2" cost="75" hash="lSuXXcVhYySYFXVpGORsLG" id="3050080" name="Astroturf Left Corner"/>
+			<item className="Astro3" cost="75" hash="NzBb0tr.p5imCVMVQwbozq" id="3050081" name="Astroturf Line 1"/>
+			<item className="Astro4" cost="75" hash="AwtBxQQGIssdLgvLmR0Ova" id="3050082" name="Astroturf Line 2"/>
+			<item className="Astro5" cost="75" hash="s0SlYR4tWo6AQscM9zEg2a" id="3050083" name="Astroturf Right Corner"/>
+			<item className="Astro6" cost="75" hash="65Bg6wdO83KUGFmmSWG7FW" id="3050084" name="Astroturf Bottom Corner"/>
+			<item className="Astro7" cost="40" hash="CCsjuzzBXK.moopX1fxaGq" id="3050085" name="Astroturf"/>
+			<item className="AFStarTile" cost="100" hash="HZiSNBYry.Sdpav5KICpXG" id="3050086" name="Star Floor Tile"/>
+			<item className="RCR_MultiTile" cost="40" hash="oCfrHwX9x0q7f6lLBbWtxW" id="3080098" isNew="true" name="Multi Tile" type="floorTileItem" invisible="true"/>
+			<item className="RCR_BambooFlooring" cost="40" hash="AOuPegmi8gjOKenadlu63v" id="3080101" isNew="true" name="Bamboo Flooring" type="floorTileItem" invisible="true"/>
 			<item className="RCR_GardenPathTile1" cost="40" hash="tU7e3QCqRAnAcSlVNv_w45" id="3080105" isNew="true" name="Garden Path Tile 1" type="floorTileItem"/>
 			<item className="RCR_GardenPathTile2" cost="40" hash="QyN1enyUN_Bi2wk7lg2qEB" id="3080106" isNew="true" name="Garden Path Tile 2" type="floorTileItem"/>
 			<item className="RCR_GardenPathTile3" cost="40" hash="Pk.4xHYkDyXxX2UaIpMavF" id="3080107" isNew="true" name="Garden Path Tile 3" type="floorTileItem"/>
@@ -585,7 +964,6 @@
 			<item className="RCR_GardenPathTile5" cost="40" hash="VGgudNJhOqppveadrF43CI" id="3080109" isNew="true" name="Garden Path Tile 5" type="floorTileItem"/>
 			<item className="RCR_GardenPathTile6" cost="40" hash="xIOIS.K4Cym0iA0nFiH2Ux" id="3080110" isNew="true" name="Garden Path Tile 6" type="floorTileItem"/>
 			<item className="RCR_TurkishStoneTile" cost="40" hash="LSYxvC0qI1vy4PSOZIhvtp" id="3080111" isNew="true" name="Turkish Stone Tile" type="floorTileItem"/>
-			<item className="RCR_SandTile" cost="40" hash="FUxUPAszPoQ8xt1lrgi6dm" id="3080112" isNew="true" name="Sand Tile" type="floorTileItem"/>
 			<item className="RCR_SandTile2" cost="40" hash="CwNsGyPB0w9F0PQ78EYIc9" id="3080113" isNew="true" name="Sand Tile 2" type="floorTileItem"/>
 			<item className="RCR_SandTile3" cost="40" hash="mAp_kzrAJBYjm0zMnn_L00" id="3080114" isNew="true" name="Sand Tile 3" type="floorTileItem"/>
 			<item className="RCR_SportsCourtTile1" cost="40" hash="i2qrZn0Bz1JrX7Ipm5VB6Y" id="3080115" isNew="true" name="Sports Court Tile 1" type="floorTileItem"/>
@@ -598,24 +976,6 @@
 			<item className="RCR_MagicChocolateTile" cost="40" hash="JQD1qhW9TZtE4V4VBYHuJ0" id="3080122" isNew="true" name="Magic Chocolate Tile" type="floorTileItem"/>
 			<item className="RCR_SportsCourtTile6" cost="40" hash="QcipZ.f6_A4jNz4wCz5EX4" id="3080125" isNew="true" name="Sports Court Tile 6" type="floorTileItem"/>
 			<item className="RCR_SportsCourtTile7" cost="40" hash="3Oii0kn__4zIwUB0DOCA2X" id="3080126" isNew="true" name="Sports Court Tile 7" type="floorTileItem"/>
-			<item className="RCR_MagicWaterCorner1" cost="60" hash="Yw0KROPGI8IaUPCJ.sDsOz" id="3080127" isNew="true" name="Magic Water Corner 1" type="floorTileItem"/>
-			<item className="RCR_MagicWaterCorner2" cost="60" hash="s3WESrwRdF9qemSC_3s40H" id="3080128" isNew="true" name="Magic Water Corner 2" type="floorTileItem"/>
-			<item className="RCR_MagicWaterCorner3" cost="60" hash="6L_VLnkYQaaG.D487ShR1k" id="3080129" isNew="true" name="Magic Water Corner 3" type="floorTileItem"/>
-			<item className="RCR_MagicWaterCorner4" cost="60" hash="t3jrKGG8EZpcE6ryhry4Hm" id="3080130" isNew="true" name="Magic Water Corner 4" type="floorTileItem"/>
-			<item className="RCR_MagicWaterPlain" cost="60" hash="b4Y_xGJqMedWvGt4cWPqAK" id="3080131" isNew="true" name="Magic Water (Plain)" type="floorTileItem"/>
-			<item className="RCR_MagicWaterEdge1" cost="60" hash="DppPTGrZ9rA_n75i.O7_sY" id="3080137" isNew="true" name="Magic Water Edge 1" type="floorTileItem"/>
-			<item className="RCR_MagicWaterEdge2" cost="60" hash="3fMM3XLtlgPif2.ylJ.UzL" id="3080138" isNew="true" name="Magic Water Edge 2" type="floorTileItem"/>
-			<item className="RCR_MagicWaterEdge3" cost="60" hash="pm4EJNkZ85fblcgfm9uW39" id="3080139" isNew="true" name="Magic Water Edge 3" type="floorTileItem"/>
-			<item className="RCR_MagicWaterEdge4" cost="60" hash="NRJ1F3vNK2bjY0g3jKnWxI" id="3080140" isNew="true" name="Magic Water Edge 4" type="floorTileItem"/>
-			<item className="RCR_DarkMagicWaterCorner1" cost="60" hash="Bs4y9tqyTXUV5OO6Zbac8Y" id="3080132" isNew="true" name="Dark Magic Water Corner 1" type="floorTileItem"/>
-			<item className="RCR_DarkMagicWaterCorner2" cost="60" hash="0QcoLtZQzrneAEcC8Snvkh" id="3080134" isNew="true" name="Dark Magic Water Corner 2" type="floorTileItem"/>
-			<item className="RCR_DarkMagicWaterCorner3" cost="60" hash="IkxCJVbgxdXR_MEYBIdcKO" id="3080135" isNew="true" name="Dark Magic Water Corner 3" type="floorTileItem"/>
-			<item className="RCR_DarkMagicWaterCorner4" cost="60" hash="MNUtG2QQJOEpTg76z9XJRF" id="3080136" isNew="true" name="Dark Magic Water Corner 4" type="floorTileItem"/>
-			<item className="RCR_DarkMagicWaterPlain" cost="60" hash="GvnuFd0a46uj4kQIx30j.X" id="3080133" isNew="true" name="Dark Magic Water (Plain)" type="floorTileItem"/>
-			<item className="RCR_DarkMagicWaterEdge1" cost="60" hash="RqskqIx6T6qxC0MNSX4m.m" id="3080141" isNew="true" name="Dark Magic Water Edge 1" type="floorTileItem"/>
-			<item className="RCR_DarkMagicWaterEdge2" cost="60" hash="EJOFOYDomwD6FIRZG_o2IU" id="3080142" isNew="true" name="Dark Magic Water Edge 2" type="floorTileItem"/>
-			<item className="RCR_DarkMagicWaterEdge3" cost="60" hash="jHlCBqb81FJMZ5zmnLiSFc" id="3080143" isNew="true" name="Dark Magic Water Edge 3" type="floorTileItem"/>
-			<item className="RCR_DarkMagicWaterEdge4" cost="60" hash="EU8usrOeHL3BXnNebQW7Si" id="3080144" isNew="true" name="Dark Magic Water Edge 4" type="floorTileItem"/>
 	</group>
 	
 	
@@ -668,8 +1028,33 @@
 		<item className="Wall47" cost="1000" hash="6eq3sW9ltanw646NaAcoxG" id="3060045" isNew="true" name="Hearts Wallpaper" rcrEpoca="02-01:02-21"/>
 		<item className="Wall48" cost="1200" hash="LfQElRaSWPHvrfEPTGfIOW" id="3060046" isNew="true" name="Red Bow Wallpaper" rcrEpoca="02-01:02-21"/>
 		<item className="Wall49" cost="1400" hash="Sb4IC2nzvwBVlA5Y2kmQsa" id="3060047" isNew="true" name="Pink Bow Wallpaper" rcrEpoca="02-01:02-21"/>
-			<item className="RCR_SakuraWallpaper" cost="1200" hash="UOc3DRU7MjtFwPg_0sK5Rw" id="3080084" isNew="true" name="Sakura Wallpaper" type="wallpaperItem"/>
-			<item className="RCR_ShojiScreenWallpaper" cost="1000" hash="cqZ1Tvj2VMaIOjRDCgsabY" id="3080085" isNew="true" name="Shoji Screen Wallpaper" type="wallpaperItem"/>
+			<item className="Wall50" cost="1600" hash="F0V6guorAa80iHy8LYTM2W" id="3060048" name="Magic Wallpaper"/>
+			<item className="Wall51" cost="600" hash="_j8maeO1WncBK4Lbrras1a" id="3060049" name="Dark Blue Wall"/>
+			<item className="Wall52" cost="1500" hash="BtlB9STIqnpc7PrHSA8.Uq" id="3060050" name="Spiky Wall"/>
+			<item className="Wall53" cost="2500" hash="eQJLGE_tBfeaN4QBPdz3kW" id="3060051" name="Stagelit Wall"/>
+			<item className="Wall55" cost="2500" hash="_GNvxIT4mMNDiQrpo4u_mW" id="3060052" name="Sunrise Wallpaper"/>
+			<item className="Wall54" cost="2500" hash="2Coxp3s1fefQQsTEPi2Viq" id="3060053" name="Sunset Wallpaper"/>
+			<item className="Wall56" cost="900" hash="r5jF6sEBx4zNkdCbb0i_Xa" id="3060054" name="Bamboo Wall"/>
+			<item className="Wall57" cost="900" hash="3mM_7K1CJraDCS1Hn5TgDG" id="3060055" name="Dark Bamboo Wall"/>
+			<item className="Wall58" cost="900" hash="pFhXVDW84U.POdcrMopuQG" id="3060056" name="Shamrock Wallpaper"/>
+			<item className="Wall59" cost="550" hash="NWvglw6K69JrdU3uO20E3W" id="3060057" name="City Wall"/>
+			<item className="Wall60" cost="1700" hash="Fuloi4rrmDfzAAXDKum_RG" id="3060058" name="Taxi Wallpaper"/>
+			<item className="Wall61" cost="1800" hash="9t_qd8Ut_2LPHvPwuFxAaa" id="3060059" name="Skyline Wallpaper"/>
+			<item className="Wall62" cost="2800" hash="B.FJVbSEQ66ZLK.yfYck1W" id="3060060" name="Star Scape Wallpaper"/>
+			<item className="Wall63" cost="2000" hash="QRjQNb2IacCCUOd9lwozUG" id="3060061" name="Metal Panels"/>
+			<item cash="4" className="Wall64" hash="vBBmB7eCwuf2FYM9D9POoa" id="3060062" name="Spring Wallpaper"/>
+			<item className="SakuraWallpaper" cost="2000" hash="zeRyKFdod8wZV3gvTxPsbW" id="3060063" name="Sakura Wallpaper"/>
+			<item className="ShojiScreenWallpaper" cost="900" hash="4j5TvIxSFFd6JcqB90szhq" id="3060064" name="Shoji Screen Wallpaper"/>
+			<item className="StuccoWallYellow" cost="1100" hash="tOWRwp9vTkJ_FuC1WuAjLW" id="3060065" name="Stucco Wallpaper"/>
+			<item className="StuccoWallVanilla" cost="1100" hash="vEF0oR26hFUFEXCpmUYP1G" id="3060066" name="Stucco Wallpaper Light"/>
+			<item className="StuccoWallYellowLights" cost="2400" hash="Fxh0.HUOiuIoEXm8n2nn.G" id="3060067" name="Stucco Wallpaper with Chili Lights"/>
+			<item className="AliceBlueWallpaper" cost="2500" hash="Z7odLGZSgHT0D_ybkyo9Qq" id="3060068" name="Wonderland Wallpaper"/>
+			<item className="AliceRedWallpaper" cost="2700" hash="I9gDdEmTN_hkO5e2Sjct7q" id="3060069" name="Red Wonderland Wallpaper"/>
+			<item className="DeepSeaWallpaper" cost="3300" hash="WpM6sxq2ASAEmsHjYhj0dW" id="3060070" name="Deep Sea Wallpaper"/>
+			<item cash="7" className="DeepSeaWallpaperAnimated" hash="VbMjaQ9pann0bHXdoQMuGq" id="3060071" name="Moving Deep Sea Wallpaper"/>
+			<item className="BarLoungeWallpaper" cost="2600" emailOnly="true" hash="8FiXC5fE35X75T6PoFvSIG" id="3060072" name="Lounge Wallpaper"/>
+			<item className="ChicWallpaper" cost="3800" hash="xzO11IjUbkbfILAS_hT6gG" id="3060073" name="Chic Wallpaper"/>
+			<item className="AFJadeWallpaper" cost="3000" hash="90pvkyX_rRlTJtd.yzuN5a" id="3060074" name="Jade Lounge Wallpaper"/>
 	</group>
 
 
@@ -688,10 +1073,34 @@
 		<item className="DrinksFridge" cost="2400" hash="514KAbSeZyxQes7yi0ETea" id="3110001" name="Drinks Fridge" type="drink"/>
 		<item className="FestiveDrinksFridge" cost="25000" hash="Y8As1aLnz74vAY2N4mwz9W" id="3110002" infoText="true" name="Festive Fridge" operateTimePercentage="90" type="drink" rcrEpoca="12-01:01-06"/>
 		<item className="DrinksShelf" cost="5000" hash="UfJaV4seAlO3wjzzTjkkuW" id="3110003" infoText="true" name="Saloon Drinks Dispenser" operateTimePercentage="95" type="drink"/>
-		<item className="Stove13" cost="10000" hash="jhauxQ4kWDPXB1qf4Fo7Bq" id="3070009" infoText="true" name="Grill" operateTimePercentage="95" type="kitchen"/>
+		<item className="Stove13" cost="10000" hash="jhauxQ4kWDPXB1qf4Fo7Bq" id="3070009" infoText="true" name="Saloon Grill" operateTimePercentage="95" type="kitchen"/>
 		<item cash="12" className="Stove14" hash="QV7CwJGVQfv49GuAqGX8KG" id="3070010" infoText="true" isNew="true" name="Valentine Stove" operateTimePercentage="92" type="kitchen" rcrEpoca="02-01:02-21"/>
 		<item cash="5" className="DrinksFridgeVday" hash="vzQQjMQ7qyY6pB1QbGzMyW" id="3110004" infoText="true" isNew="true" name="Valentine Fridge" operateTimePercentage="92" type="drink" rcrEpoca="02-01:02-21"/>
-			<item cash="6" className="RCR_CeremonialDrinkSet" hash="ZMf5STU1jziJhKvQGYgcWp" id="3080023" infoText="true" isNew="true" name="Ceremonial Drink Set" operateTimePercentage="90" type="drink"/>
+			<item className="BlackDrinkDispencer" cost="2500" hash="QEgrRJQvwIfEW5NplOqtwW" id="3110005" infoText="true" name="Black Drink Dispenser" operateTimePercentage="98" type="drink"/>
+			<item cash="15" className="Stove15" hash="_XbCSdPqzx8rwQchOjopcq" id="3070011" infoText="true" name="Roulette Stove" operateTimePercentage="85" type="kitchen"/>
+			<item cash="5" className="Stove16" hash="q4pW_2d269SQl0JYjCnFma" id="3070012" infoText="true" name="DJ Stove" operateTimePercentage="95" type="kitchen"/>
+			<item className="Stove17" cost="5000" hash="ZhJ.IOQXZe80TKpxBY5smG" id="3070013" infoText="true" name="Bamboo Grill" operateTimePercentage="98" type="kitchen"/>
+			<item cash="25" className="Stove18" hash="HKs7h_V9QGcvyyUdSuKAma" id="3070014" infoText="true" name="Hotdog Stand Stove" operateTimePercentage="80" type="kitchen"/>
+			<item cash="8" className="ScifiDrinkDispencer" hash="ytDkHraXHswcF5HKM27L7q" id="3110015" infoText="true" name="Scifi Drink Dispenser" operateTimePercentage="90" type="drink"/>
+			<item className="Stove19" cost="50000" hash="iSQ8ptIndgx3zbshXktHeq" id="3070016" infoText="true" name="UFO Grill" operateTimePercentage="92" type="kitchen"/>
+			<item cash="30" className="Stove20" hash="CjxaZ53lQMuDdGaVwikYqq" id="3070017" infoText="true" name="Ray Gun Stove" operateTimePercentage="75" type="kitchen"/>
+			<item cash="8" className="SpringDrinkDispenser" hash="4qK7wMrGgQPrsYT0CxCqYG" id="3070018" infoText="true" name="Spring Drink Dispenser" operateTimePercentage="90" type="drink"/>
+			<item cash="15" className="Stove21" hash="10Y3PuhlRVQWL6.Pqd5Snq" id="3070019" infoText="true" name="Spring Stove" operateTimePercentage="85" type="kitchen"/>
+			<item className="JapaneseStove01" cost="9000" hash="Lz2B00mFu9x0f4pGuxykYa" id="3070020" infoText="true" name="Teppanyaki Grill" operateTimePercentage="97" type="kitchen" invisible="true"/>
+			<item cash="6" className="CeremonialDrinkSet" emailOnly="true" hash="7qZkx0t6ORmrDHr.eioXha" id="3070021" infoText="true" name="Ceremonial Drink Set" operateTimePercentage="92" type="drink"/>
+			<item cash="15" className="TortillaStove" hash="aI.RKigCY8DMY9umDETzOG" id="3070022" infoText="true" name="Tortilla Stove" operateTimePercentage="88" type="kitchen"/>
+			<item cash="8" className="CactusDispenser" hash="Agwnu4eAqX0y2T9Sq9ZHDq" id="3070023" infoText="true" name="Cactus Dispenser" operateTimePercentage="90" type="drink"/>
+			<item cash="27" className="PocketWatchStove" hash="up6yQAkcbrVqFi9.rOTwWa" id="3070024" infoText="true" name="Pocketwatch Stove" operateTimePercentage="78" type="kitchen"/>
+			<item cash="20" className="UWVolcanoStove" hash="FXOIBOczKPTVXc8i3skryG" id="3070025" infoText="true" name="Underwater Volcano Stove" operateTimePercentage="75" type="kitchen"/>
+			<item cash="12" className="UWSeashellDrinkDispenser" hash="ZoccGyxwrSc7s6DNcsx1vG" id="3070026" infoText="true" name="Seashell Drink Dispenser" operateTimePercentage="85" type="drink"/>
+			<item className="PocketWatchStove_Silver" cost="4000" emailOnly="true" hash="3nZZnxJPmrLOgIf_KHjTDG" id="3070027" infoText="true" name="24/7 Pocketwatch Stove" operateTimePercentage="98" type="kitchen"/>
+			<item cash="30" className="ManlyStove03" hash="KrkdQldCfu5orTGw4KUzDa" id="3070028" infoText="true" name="Ultra Atomic Stove" operateTimePercentage="75" type="kitchen"/>
+			<item cash="20" className="ManlyStove04" hash="HEJlBSnXWbq6Vr1oqbcphq" id="3070029" infoText="true" name="Blue Teleport Stove" operateTimePercentage="83" type="kitchen"/>
+			<item className="StoveMint" cost="2000" hash="VeiLzqnR_MbSJ4jrhqS3la" id="3070030" infoText="true" name="Mint Stove" operateTimePercentage="99" type="kitchen"/>
+			<item className="Bar01" cost="0" functions="LoungeBar" hash="et3gZ5QNd3NzuZWu.WPCAq" id="3070031" infoText="true" name="Lounge Bar" sizeX="4" sizeY="3" type="notSellable, notGiftable, unique" invisible="true"/>
+			<item cash="20" className="FootballStove" hash="hLZDJZHuXnu7cToAK1AhGW" id="3070032" infoText="true" name="Football Stove" operateTimePercentage="85" type="kitchen"/>
+			<item className="ClassyStove" cost="12000" hash="S1JjjFOd3kQs2FLI50RKsq" id="3070033" infoText="true" name="Classy Stove" operateTimePercentage="96" type="kitchen"/>
+			<item className="AFDrinkDispenser" cost="5000" hash="G_mfHM9kuaQGwGedquX30G" id="3070034" infoText="true" name="Modern Punch Dispenser" operateTimePercentage="97" type="drink"/>
 			<item cash="10" className="RCR_TeppanyakiGrill" hash="f720HZWHxsA6cU76pNldMN" id="3080048" infoText="true" isNew="true" name="Teppanyaki Grill" operateTimePercentage="90" type="kitchen"/>
 	</group>
 	
@@ -723,6 +1132,13 @@
 		<item className="DesertPalm" cost="850" hash="T391c.56OzqgOwQY_65eNW" id="3120019" name="Desert Plant"/>
 		<item className="RomanticTree" cost="1200" hash="_cMRLQoPwtHAB1vAdqUC3a" id="3120020" isNew="true" name="Romantic Tree" rcrEpoca="02-01:02-21"/>
 		<item className="HeartTree" cost="1800" hash="GcjZ27hkfzAAomFkvSfWbq" id="3120021" isNew="true" name="Heart Tree" rcrEpoca="02-01:02-21"/>
+			<item className="GiantBeanStalk" cost="5000" hash="ttkvJhDbP8r4mpkvqhjxzW" id="3120022" name="Giant Beanstalk"/>
+			<item className="ScaryPlant" cost="2500" hash="QtFRKvXq17PKMmCksGrNTq" id="3120023" name="Scary Plant"/>
+			<item className="EggTree" cost="2200" hash="6paIXGHXy4KkSaTQJkXI5q" id="3120024" name="Egg Tree"/>
+			<item className="PrimulaVialli" cost="900" hash="GWAm.VTYZInCG51XeWW.Za" id="3120025" name="Primula Vialli"/>
+			<item className="Primula" cost="700" hash="Yb7LYXMAC3rTED7tiPBA6q" id="3120026" name="Primula"/>
+			<item className="LilyFlower" cost="800" hash="pjqrg_sGoinA2d.p7gvRUa" id="3120027" name="Lily Flower"/>
+			<item className="AFPalmTree" cost="1300" hash="89AmB02Be6sTUg0ZqEr.Ua" id="3120028" name="Sunset Boulevard Palm Tree"/>
 	</group>
 	
 	<group buttonName="Wall" name="Wall" type="wallItem">

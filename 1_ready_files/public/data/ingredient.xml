@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!-- 
+	Attributes and their meanings.
+	
+		plantClassName:		name of the movieclip to represent the ingredient in the garden plot.
+		foodKingFeed:		if true, the ingredient is valid to be given by the foodking
+		fanPageFeed:		if true, the ingredient is valid to be given via the fanpage
+		noDaily:			if true, the ingredient will not appear as a daily ingredient.
+		noFirstTimeVisit:	if true, the ingredient will not appear for visiting a friend for the first time.
+		noQuiz:				if true, the ingredient will never be a reward for getting a quiz correct.
+		noCoinShop:			if true, the ingredient can not be bought from the marketplace COIN shop.
+		initial:			if true, the ingredient is given to a player who starts RC for the first time.
+	
+-->
+<database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ingredient.xsd">
+	<group name="Ingredient">
+		<item cash="8" className="Basil" hash="3U1YuPCFbYYkyDirmWQpva" id="4000000" name="Basil" noDaily="true" noFirstTimeVisit="true" noQuiz="true" plantClassName="BasilGrown" rarity="2"/>
+		<item cash="8" className="Bacon" hash="zTquXNtn68_n.bQGp7XiVa" id="4000001" name="Bacon" rarity="2"/>
+		<item cash="8" className="Banana" fanPageFeed="true" hash="DiaUr54yPWANy48rDe5jwa" id="4000002" name="Banana" rarity="3"/>
+		<item cash="8" className="BayLeaf" hash="RPcD2seOsl2dE6bxk5DjkW" id="4000003" name="Bayleaf" noDaily="true" noFirstTimeVisit="true" noQuiz="true" plantClassName="BayGrown" rarity="1"/>
+		<item cash="4" className="Beans" hash="jn7oj0vkTbuJkKA5QjzGda" id="4000004" name="Beans" rarity="1"/>
+		<item cash="8" className="Beef" hash="hbvbtiywjfbtGr.DGin.uq" id="4000005" initial="1" name="Beef" rarity="4"/>
+		<item cash="8" className="Bread" hash="yj2e.JoKmpGnJVQM10SLQW" id="4000006" name="Bread" rarity="2"/>
+		<item cash="8" className="Butter" hash="q5XhqWJgmBngmjzu.ymSya" id="4000007" name="Butter" rarity="3"/>
+		<item cash="8" className="Cheese" hash="Urt.kKSeJsWEpkO0iflOdG" id="4000008" name="Cheese" rarity="2"/>
+		<item cash="8" className="Chicken" fanPageFeed="true" hash="vYiVhFMDKKWdgUxQ98FtZW" id="4000009" name="Chicken" rarity="3"/>
+		<item cash="8" className="Carrot" fanPageFeed="true" foodKingFeed="true" hash="Yh_WRvH8JigURiYsUirc9W" id="4000010" name="Carrot" rarity="2"/>
+		<item cash="8" className="Chili" hash="qRXXOCSMh2faA5s6xd9w2q" id="4000011" name="Chili" rarity="3"/>
+		<item cash="8" className="Chocolate" fanPageFeed="true" hash="W.bo917EZqpbPNouuPhMHa" id="4000012" name="Chocolate" rarity="4"/>
+		<item cash="8" className="Egg" hash="5citJlTD__mpVTc2nE05UG" id="4000013" initial="2" name="Egg" rarity="2"/>
+		<item cash="8" className="Flour" hash="_nBStRqcTI8v9m4xr0WKla" id="4000014" name="Flour" rarity="1"/>
+		<item cash="8" className="Garlic" hash="Xv.8ssMv2tZ9cc5WmXR2Iq" id="4000015" name="Garlic" noDaily="true" noFirstTimeVisit="true" noQuiz="true" plantClassName="GarlicGrown" rarity="1"/>
+		<item cash="8" className="IceCream" fanPageFeed="true" foodKingFeed="true" hash="OAu6mnnkxfXSW51SwWhbSa" id="4000016" name="Icecream" rarity="4"/>
+		<item cash="8" className="Cream" hash="V_nlx1mW_WQeSsgFOiytfq" id="4000017" name="Cream" rarity="2"/>
+		<item cash="8" className="Lamb" hash="NEZPWCw4WyCBmV9giSny_q" id="4000018" name="Lamb" rarity="3"/>
+		<item cash="8" className="Leek" hash="5LPqrYQS7L3LOzMiVka.UG" id="4000019" name="Leek" rarity="2"/>
+		<item cash="8" className="Lemon" hash="vawlrH.UdpyrRTuzN9LEyG" id="4000020" name="Lemon" rarity="1"/>
+		<item cash="8" className="Lime" hash="1j.NO9lts9rRVGgbZSerUG" id="4000021" name="Lime" rarity="1"/>
+		<item cash="8" className="Lobster" hash="81wnx7e8HLTCwfpyXSucoq" id="4000022" name="Lobster" rarity="5"/>
+		<item cash="8" className="Milk" hash="IaPY28AO_KXHlGpl7rcUIq" id="4000023" name="Milk" rarity="2"/>
+		<item cash="6" className="Mushroom" hash="dn5yovNc6QRAjcTpMYvSva" id="4000024" name="Mushroom" rarity="1"/>
+		<item cash="8" className="Noodles" hash="u3OM38wWhtsLSqprcAdHBG" id="4000025" name="Noodles" rarity="4"/>
+		<item cash="8" className="Onion" hash="2t_9ueJ.X.vk98sTQadymW" id="4000026" name="Onion" rarity="1"/>
+		<item cash="4" className="Pasta" hash="g12aS5vz3twap_bW7BXo6G" id="4000027" name="Pasta" rarity="3"/>
+		<item cash="8" className="Peas" hash="YkysvOqzIjQcufyTv4Tkmq" id="4000028" name="Peas" rarity="1"/>
+		<item cash="4" className="Pepperoni" hash="kPtTEsL0aZ2scsmrGsT4_W" id="4000029" name="Pepperoni" rarity="3"/>
+		<item cash="8" className="Pork" hash="hVk9W9r9kAjWs.aw9TOHCW" id="4000030" name="Pork" rarity="2"/>
+		<item cash="8" className="Potato" hash="E9wAatm8wxz7LUolBIkmza" id="4000031" initial="1" name="Potato" rarity="1"/>
+		<item cash="4" className="Pumpkin" fanPageFeed="true" hash="y0oSKxiZQX_60YcQ45yuUG" id="4000032" name="Pumpkin" rarity="2"/>
+		<item cash="8" className="Rice" hash="bnP1admO0plon7Xkqtmjha" id="4000033" name="Rice" rarity="2"/>
+		<item cash="8" className="Salad" hash="LrUFtkPiXpo_zSaiHthLhq" id="4000034" initial="2" name="Salad" rarity="1"/>
+		<item cash="6" className="Sausage" hash="Zdp5lpWXy4LyX1WMYgnpMG" id="4000035" name="Sausage" rarity="3"/>
+		<item cash="8" className="Strawberry" fanPageFeed="true" foodKingFeed="true" hash="FLX9nQCpwcxt4CA6YNKWRa" id="4000036" initial="1" name="Strawberry" rarity="2"/>
+		<item cash="4" className="SweetCorn" hash="Z3GJTXTRcuN8hldoAJQhxG" id="4000037" name="Sweetcorn" rarity="1"/>
+		<item cash="8" className="Sugar" fanPageFeed="true" hash="CoX70yLtIr8vp72_cWvuJW" id="4000038" name="Sugar" noDaily="true" noFirstTimeVisit="true" noQuiz="true" plantClassName="SugarCaneGrown" rarity="3"/>
+		<item cash="4" className="Tofu" hash="8VHfQaXzI7p5tpGPttXxAG" id="4000039" name="Tofu" rarity="3"/>
+		<item cash="8" className="Tomato" hash="a11cr4xs2o46HX46wfXiTG" id="4000040" initial="2" name="Tomato" rarity="1"/>
+		<item cash="8" className="Tuna" hash="5xNrfaDfB8WqpgysXLr_dq" id="4000041" name="Tuna" rarity="3"/>
+		<item cash="6" className="Pomegranate" hash="xt8i.dlu7JYIlqrb_oBA0W" id="4000042" name="Pomegranate" rarity="4"/>
+		<item cash="6" className="DragonFruit" fanPageFeed="true" foodKingFeed="true" hash="4C60X7UPp1B3BW_Ncv9R5q" id="4000043" name="Dragon Fruit" rarity="5"/>
+		<item cash="8" className="Mango" fanPageFeed="true" hash="V6mUHrTAdrXs97hQ9xh5ba" id="4000044" name="Mango" rarity="3"/>
+		<item cash="6" className="Kiwi" fanPageFeed="true" foodKingFeed="true" hash="I4gvntCI4INXZlK1EkJRPW" id="4000045" name="Kiwi" rarity="4"/>
+		<item cash="6" className="Saffron" hash="5TETHM0jml19hshp6bTm3q" id="4000046" name="Saffron" noDaily="true" noFirstTimeVisit="true" noQuiz="true" plantClassName="SaffronGrown" rarity="5"/>
+		<item cash="8" className="Apple" hash="d6v0VKyH4Kt9lDxiorS_wa" id="4000047" initial="1" name="Apple" rarity="2"/>
+		<item cash="8" className="Prawn" hash="fTxvu_A4F7xHyjmM0.cqbq" id="4000048" name="Prawn" rarity="3"/>
+		<item cash="8" className="WaterIngredient" hash="M4VTY5bbVYr6oy96a6wo1q" id="4000049" name="Water" rarity="1"/>
+		<item cash="6" className="Peach" hash="ZEc0UfingT6OH76I7kauNG" id="4000050" name="Peach" rarity="2"/>
+		<item cash="8" className="Tealeaves" hash="ccvIbwUGvNV9nOaFelD.Iq" id="4000051" name="Tea Leaves" noDaily="true" noFirstTimeVisit="true" noQuiz="true" plantClassName="TeaGrown" rarity="3"/>
+		<item cash="8" className="Ice" hash="4jyUsa1FcmByXrXaif4z0q" id="4000052" name="Ice" rarity="2"/>
+		<item cash="8" className="CoffeeBeans" hash="AJ294ByVrm5osiWhDpNY_q" id="4000053" name="Coffee Beans" noDaily="true" noFirstTimeVisit="true" noQuiz="true" plantClassName="CoffeeGrown" rarity="3"/>
+		<item cash="4" className="Ginger" hash="sXwke7u18tn_GnkcowXr2a" id="4000054" name="Ginger" noDaily="true" noFirstTimeVisit="true" noQuiz="true" plantClassName="GingerGrown" rarity="3"/>
+		<item cash="6" className="Vanilla" hash="K5HB4fhvQzBA1aKt743Jcq" id="4000055" name="Vanilla" noDaily="true" noFirstTimeVisit="true" noQuiz="true" plantClassName="VanillaGrown" rarity="4"/>
+		<item cash="6" className="Oregano" hash="tFLeHHv9RCBYCV.Dfjhx5q" id="4000056" name="Oregano" noDaily="true" noFirstTimeVisit="true" noQuiz="true" plantClassName="OreganoGrown" rarity="2"/>
+		<item cash="4" className="Wasabi" hash="Bv3LgAxeHergmWKgTNJKwW" id="4000057" name="Wasabi" noDaily="true" noFirstTimeVisit="true" noQuiz="true" plantClassName="WasabiGrown" rarity="3"/>
+		<item cash="4" className="Coriander" hash="1nlGARINApVL_zWQaEGBnG" id="4000058" name="Coriander" noDaily="true" noFirstTimeVisit="true" noQuiz="true" plantClassName="CorianderGrown" rarity="1"/>
+		<item cash="6" className="Turkey" hash="bk9CQhkZppJu1SBfo3UFaG" id="4000059" name="Turkey" rarity="4"/>
+		<item cash="4" className="Raisins" fanPageFeed="true" hash="QxrIYu_H97PO5VIFM2_ixq" id="4000060" name="Raisins" noCoinShop="true" noDaily="true" noFirstTimeVisit="true" noQuiz="true" rarity="2"/>
+		<item cash="8" className="Orange" fanPageFeed="true" foodKingFeed="true" hash="CGMx24XSU.DG3t2vRTab8q" id="4000061" name="Orange" noCoinShop="true" noDaily="true" noFirstTimeVisit="true" noQuiz="true" rarity="3"/>
+		
+		<item cash="6" className="Seaweed" hash="C3hG99fxKcpXHeuBZvriDc" id="4000103" name="Seaweed" rarity="2"/>
+		<item cash="8" className="Salmon" hash="reNihc9I26GzhVIoGgKXgC" id="4000104" name="Salmon" rarity="3"/>
+	</group>
+</database>

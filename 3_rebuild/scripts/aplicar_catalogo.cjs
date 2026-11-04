@@ -23,6 +23,42 @@ function hashDe(classe) {
 }
 const esc = (v) => String(v).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
 
+// acrescenta uma linha de item no fim do <group> com esse nome
+function noGrupo(grupo, linha, quem) {
+  const abre = xml.search(new RegExp(`<group\\b[^>]*\\bname="${grupo.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}"`));
+  if (abre < 0) throw new Error(`${quem}: grupo "${grupo}" nao existe no XML`);
+  const fecha = xml.indexOf('</group>', abre);
+  xml = xml.slice(0, fecha) + linha + '\t' + xml.slice(fecha);
+}
+
+// build de julho/2010 (recriados/julho2010/catalogo.json, de preparar_julho2010.cjs): valores novos dos itens
+// que ja temos e os itens que so existiam em julho, com o id, o hash e os atributos originais. Os valores
+// vem do XML deles ja com as entidades escritas (&amp;), por isso entram sem esc().
+const arqJulho = path.join(path.dirname(arqManifesto), 'julho2010', 'catalogo.json');
+if (fs.existsSync(arqJulho)) {
+  const julho = JSON.parse(fs.readFileSync(arqJulho, 'utf8').replace(/^﻿/, ''));
+  for (const v of julho.valores) {
+    const m = xml.match(new RegExp(`<item\\b[^>]*\\bid="${v.id}"[^>]*?/?>`));
+    if (!m || !m[0].includes(`className="${v.classe}"`)) throw new Error(`julho2010: ${v.classe} (${v.id}) nao encontrado no catalogo`);
+    let linha = m[0];
+    for (const [k, val] of Object.entries(v.mudar)) {
+      const reAttr = new RegExp(`\\s${k}="[^"]*"`);
+      if (val === null) linha = linha.replace(reAttr, '');
+      else if (reAttr.test(linha)) linha = linha.replace(reAttr, ` ${k}="${val}"`);
+      else linha = linha.replace(/\s*\/?>$/, (fim) => ` ${k}="${val}"${fim}`);
+    }
+    xml = xml.replace(m[0], linha);
+  }
+  const ids = new Set([...xml.matchAll(/\bid="(\d+)"/g)].map((m) => m[1]));
+  const classes = new Set([...xml.matchAll(/\bclassName="([^"]+)"/g)].map((m) => m[1]));
+  for (const n of julho.novos) {
+    if (ids.has(n.attrs.id) || classes.has(n.attrs.className)) throw new Error(`julho2010: ${n.attrs.className} (${n.attrs.id}) ja existe no catalogo`);
+    noGrupo(n.grupo, `\t\t<item ${Object.entries(n.attrs).map(([k, v]) => `${k}="${v}"`).join(' ')}/>\n`, n.attrs.className);
+    ids.add(n.attrs.id); classes.add(n.attrs.className);
+  }
+  console.log(`catalogo: julho/2010 com ${julho.novos.length} item(ns) novo(s) e ${julho.valores.length} com valor de julho`);
+}
+
 const idsUsados = new Set([...xml.matchAll(/\bid="(\d+)"/g)].map((m) => Number(m[1])));
 let inseridos = 0;
 for (const it of manifesto.itens) {
@@ -43,11 +79,7 @@ for (const it of manifesto.itens) {
   if (it.functions || it.efeito) attrs.infoText = 'true';   // botao (i): textos de aplicar_textos.cjs
   // fora da loja: o jogo (ItemChooser) so mostra quem ja tem no inventario, e as copias colocadas continuam valendo
   if (it.invisivel) attrs.invisible = 'true';
-  const linha = `\t\t<item ${Object.entries(attrs).sort(([a], [b]) => a.localeCompare(b)).map(([k, v]) => `${k}="${esc(v)}"`).join(' ')}/>\n`;
-  const abre = xml.search(new RegExp(`<group\\b[^>]*\\bname="${it.grupo.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}"`));
-  if (abre < 0) throw new Error(`${it.classe}: grupo "${it.grupo}" nao existe no XML`);
-  const fecha = xml.indexOf('</group>', abre);
-  xml = xml.slice(0, fecha) + linha + '\t' + xml.slice(fecha);
+  noGrupo(it.grupo, `\t\t<item ${Object.entries(attrs).sort(([a], [b]) => a.localeCompare(b)).map(([k, v]) => `${k}="${esc(v)}"`).join(' ')}/>\n`, it.classe);
   idsUsados.add(it.id); inseridos++;
   console.log(`${it.id} ${it.nome} -> grupo ${it.grupo}${it.tipo ? ` (type=${it.tipo})` : ''}`);
 }
@@ -67,6 +99,20 @@ if (fs.existsSync(arqEpocas)) {
     }
   }
   console.log(`catalogo: ${marcados} item(ns) de epoca marcados (${epocas.map((e) => `${e.nome} ${e.de} a ${e.ate}`).join(', ')})`);
+}
+// itens fora da loja (recriados/fora_da_loja.json, ao lado do manifesto; desde 2026-11-04): invisible="true".
+// O ItemChooser so mostra quem ja tem no inventario; as copias colocadas continuam valendo.
+const arqFora = path.join(path.dirname(arqManifesto), 'fora_da_loja.json');
+if (fs.existsSync(arqFora)) {
+  const { itens: fora } = JSON.parse(fs.readFileSync(arqFora, 'utf8').replace(/^﻿/, ''));
+  for (const f of fora) {
+    const re = new RegExp(`<item\\b[^>]*\\bid="${f.id}"[^>]*?/?>`);
+    const m = xml.match(re);
+    if (!m) throw new Error(`fora_da_loja.json: id ${f.id} nao existe no catalogo`);
+    if (/\sinvisible="/.test(m[0])) continue;
+    xml = xml.replace(m[0], m[0].replace(/\s*\/?>$/, (fim) => ` invisible="true"${fim}`));
+  }
+  console.log(`catalogo: ${fora.length} item(ns) fora da loja (${fora.map((f) => f.id).join(', ')})`);
 }
 fs.writeFileSync(path.join(pastaData, 'restaurant.xml'), xml, 'utf8');
 fs.writeFileSync(path.join(pastaData, 'restaurant.bin'), zlib.deflateSync(Buffer.from(xml, 'utf8')));

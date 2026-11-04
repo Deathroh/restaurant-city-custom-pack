@@ -1,0 +1,5938 @@
+{
+ "novos": [
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "WindowInside22",
+    "cost": "1200",
+    "hash": "J6DBZzWjDyze0npaaLq9Gq",
+    "id": "3000066",
+    "name": "Magic Window"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "MagicCurtain",
+    "cost": "1200",
+    "hash": "ut8Sdm0L3HL8Eb.2YgSu9q",
+    "id": "3000067",
+    "name": "Magic Curtain"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "cash": "2",
+    "className": "WallWaterFeature",
+    "hash": "yadAg_UBAZGvxFVarn4vXa",
+    "id": "3000068",
+    "name": "Wall Waterfeature"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "CardsWallDecor",
+    "cost": "1500",
+    "hash": "Fvp_tGyi2Sib9FsDoSrtja",
+    "id": "3000069",
+    "name": "Cards Wall Decor"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "GoldRecord",
+    "cost": "10000",
+    "hash": "VdxQT4hRU07Shm.cwT5GMG",
+    "id": "3000070",
+    "name": "Gold Record"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "WhiteWallGuitar",
+    "cost": "1800",
+    "hash": "JxGJuV73Hqxwvi5SnydS8a",
+    "id": "3000071",
+    "name": "White Wall Mounted Guitar",
+    "sizeX": "1",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "PinkWallGuitar",
+    "cost": "1200",
+    "hash": "hq_kYhHx0PqhkNYiJrJdWa",
+    "id": "3000072",
+    "name": "Pink Wall Mounted Guitar",
+    "sizeX": "1",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "WindowInside23",
+    "cost": "1200",
+    "hash": "RKPUgd_x6BboTIyAc5jVAa",
+    "id": "3000073",
+    "name": "Bamboo Window"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "Marlin",
+    "cost": "25000",
+    "hash": "X8nJtbAu9vUhx6Va.omRoG",
+    "id": "3000074",
+    "name": "Marlin",
+    "sizeX": "1",
+    "sizeY": "3"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "ScubaGear",
+    "cost": "2800",
+    "hash": "meL34hBAeZnuu5TGMu3GXa",
+    "id": "3000075",
+    "name": "Scuba Gear"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "HaitiPoster",
+    "cost": "0",
+    "fanPageFeed": "true",
+    "hash": "yhyjc76m8TmPU3O.r8nIKq",
+    "id": "3000076",
+    "infoText": "true",
+    "name": "Haiti Poster"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "ILoveRcPoster",
+    "cost": "0",
+    "hash": "BsXiNJLOwAqnctD6RKL8QG",
+    "id": "3000077",
+    "name": "I Love RC Poster"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "FineTallMirror",
+    "cost": "1400",
+    "hash": "wCyz4petRWYL0LwuPx6f2a",
+    "id": "3000078",
+    "name": "Fine Tall Mirror"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "SkylinePicture",
+    "cost": "1000",
+    "hash": "tFtBZlOcf9k8U91rYqfTYW",
+    "id": "3000079",
+    "name": "Skyline Picture"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "Graffiti",
+    "cost": "850",
+    "hash": "ccwFaBUnNH425lvFLcaota",
+    "id": "3000080",
+    "name": "Graffiti",
+    "sizeX": "1",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "CityscapePainting",
+    "cost": "6000",
+    "hash": "LixHUFzIuLozwwE_G.9xra",
+    "id": "3000081",
+    "name": "Cityscape Painting",
+    "sizeX": "1",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "cash": "4",
+    "className": "BroadwayPosters",
+    "hash": "Squ0NGXaGUooYCNQ5vQ9ia",
+    "id": "3000082",
+    "name": "Broadway Posters",
+    "sizeX": "1",
+    "sizeY": "3"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "SushiSignDecor",
+    "cost": "1100",
+    "hash": "KCk4bsuXvcoXs1vxwOSJVG",
+    "id": "3000083",
+    "name": "Sushi Sign Decor"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "ShurikenDecor",
+    "cost": "650",
+    "hash": "rmlpeiNz6PQsE8XausqDqq",
+    "id": "3000084",
+    "name": "Shuriken Decor"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "DeliciousSignDecor",
+    "cost": "2000",
+    "hash": "ARR.L_a3AOjAA6pNkW2HRG",
+    "id": "3000085",
+    "name": "Delicious Sign Decor"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "JapaneseGardenPicture",
+    "cost": "30000",
+    "hash": "DwH_C81SDOIE58ZCPG_57W",
+    "id": "3000086",
+    "name": "Japanese Garden Picture",
+    "sizeX": "1",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "MaracasWallDecor",
+    "cost": "900",
+    "hash": "mefFye3LcYnaoFBTSt21kG",
+    "id": "3000087",
+    "name": "Maracas Wall Decor"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "WallCarpet",
+    "cost": "4000",
+    "hash": "9R_2pBZkgRA8Fo6jata8qa",
+    "id": "3000088",
+    "name": "Serape Wall Hanging"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "ChiliWallDecor",
+    "cost": "400",
+    "hash": "fU75ggLMlYIAvQkKu1Xy_G",
+    "id": "3000089",
+    "name": "String of Chilis Decor"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "WeddingDecor",
+    "cost": "1400",
+    "hash": "nr9xAvkrij0zaAVlyXVeFW",
+    "id": "3000090",
+    "name": "Floral Garland"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "cash": "10",
+    "className": "UWWallDecor",
+    "hash": "5c__kf5xPZXEtWGX6YfOIW",
+    "id": "3000091",
+    "name": "Moving Deep Sea Picture",
+    "sizeX": "1",
+    "sizeY": "3"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "GoldMirror",
+    "cost": "8000",
+    "hash": "sK0BTFDkpB0jwvZ4G0ErSa",
+    "id": "3000092",
+    "name": "Gold Mirror",
+    "unlockLevel": "8"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "CWLemon",
+    "cost": "1650",
+    "hash": "jDAAI7RvLTvL_UQDOYZlba",
+    "id": "3000093",
+    "name": "Lemon Drapery"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "CWPeach",
+    "cost": "1650",
+    "hash": "gJL_FUdlV2nRaX1vOX8s.q",
+    "id": "3000094",
+    "name": "Peach Drapery"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "CWGrapefruit",
+    "cost": "1650",
+    "hash": "jKVqugj.yFPMSu.xcDdS3G",
+    "id": "3000095",
+    "name": "Grapefruit Drapery"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "CWBlueberry",
+    "cost": "1650",
+    "hash": "cks9jncily8KnkRkqBYH0a",
+    "id": "3000096",
+    "name": "Blueberry Drapery"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "CWAloe",
+    "cost": "1650",
+    "hash": "wktMl6_HtwY6qlcEQh9f4G",
+    "id": "3000097",
+    "name": "Aloe Drapery"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "CWWheatgrass",
+    "cost": "1650",
+    "hash": "yyIu3SX2eZQamGVnVU5p_W",
+    "id": "3000098",
+    "name": "Wheatgrass Drapery"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "CWPrune",
+    "cost": "1650",
+    "hash": "rYum4LO59d2b4NUQo3OLPq",
+    "id": "3000099",
+    "name": "Prune Drapery"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "cash": "4",
+    "className": "Flag01",
+    "foodKingFeed": "true",
+    "hash": "s.EokZ3gwGtkH5CShujTkq",
+    "id": "3000100",
+    "name": "Italian Flag"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "cash": "4",
+    "className": "Flag02",
+    "foodKingFeed": "true",
+    "hash": ".W1rJUxvtqppByY53_WeJG",
+    "id": "3000117",
+    "name": "Argentinian Flag"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "cash": "4",
+    "className": "Flag03",
+    "foodKingFeed": "true",
+    "hash": "bZJylMZd6zV8G5sFGL3aMG",
+    "id": "3000118",
+    "name": "Spanish Flag"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "cash": "4",
+    "className": "Flag04",
+    "foodKingFeed": "true",
+    "hash": "PPha_wRfANMjq_qCENBnyW",
+    "id": "3000119",
+    "name": "Danish Flag"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "cash": "4",
+    "className": "Flag05",
+    "foodKingFeed": "true",
+    "hash": "Cy9pvJmhlfx8D8ENH7.y4q",
+    "id": "3000120",
+    "name": "Holland Flag"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "cash": "4",
+    "className": "Flag06",
+    "foodKingFeed": "true",
+    "hash": "CmvO.DCxvXRWpraHVr_NTq",
+    "id": "3000115",
+    "name": "Ivory Coast Flag"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "cash": "4",
+    "className": "Flag07",
+    "foodKingFeed": "true",
+    "hash": ".cA2gqja01Y6JukMXJ8CxG",
+    "id": "3000121",
+    "name": "USA Flag"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "cash": "4",
+    "className": "Flag08",
+    "foodKingFeed": "true",
+    "hash": "JbJBz4trtOpIhC9zSzuiJq",
+    "id": "3000122",
+    "name": "Mexican Flag"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "cash": "4",
+    "className": "Flag09",
+    "foodKingFeed": "true",
+    "hash": "h7NNYaJLoVr_YDCWhTMNkq",
+    "id": "3000123",
+    "name": "Brazilian Flag"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "cash": "4",
+    "className": "Flag10",
+    "foodKingFeed": "true",
+    "hash": "Y2ApPdVCvZmZ6COkdaGjMq",
+    "id": "3000124",
+    "name": "Chilian Flag"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "cash": "4",
+    "className": "Flag11",
+    "foodKingFeed": "true",
+    "hash": "NrI.o3BniwrwyMCqJOA8RG",
+    "id": "3000125",
+    "name": "French Flag"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "cash": "4",
+    "className": "Flag12",
+    "foodKingFeed": "true",
+    "hash": "j22nIMdD6CdAiNA21OcJIa",
+    "id": "3000111",
+    "name": "English Flag"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "cash": "4",
+    "className": "Flag13",
+    "foodKingFeed": "true",
+    "hash": "Ma.qn_HbTxST.SIS.t1cyq",
+    "id": "3000112",
+    "name": "Portuguese Flag"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "cash": "4",
+    "className": "Flag14",
+    "foodKingFeed": "true",
+    "hash": "eGP1xQ6eCtFEABbyQnCptG",
+    "id": "3000113",
+    "name": "Australian Flag"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "cash": "4",
+    "className": "Flag15",
+    "foodKingFeed": "true",
+    "hash": "LfmYCgWV0SZJrunZDot6eq",
+    "id": "3000114",
+    "name": "German Flag"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "BarLoungeWaterFeature",
+    "cost": "20000",
+    "hash": "ZkyEZEU3rk6e5B2MiTX4Uq",
+    "id": "3000116",
+    "name": "Lounge Water Feature",
+    "sizeX": "1",
+    "sizeY": "2",
+    "unlockLevel": "20"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "WindowInside24",
+    "cost": "5000",
+    "hash": "hA.w2l0Ew0Ewbt6ANLByXa",
+    "id": "3000127",
+    "name": "Posh Night Window",
+    "sizeX": "1",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "BarModernWallLamp",
+    "cost": "1500",
+    "hash": "GVxcxnSY6B2qEuUJwe0m8q",
+    "id": "3000128",
+    "name": "Modern Wall Lamp",
+    "sizeX": "1",
+    "sizeY": "1"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "BarChandelierWallLamp",
+    "cost": "8000",
+    "emailOnly": "true",
+    "hash": "fN4FTra7t5nDkbaS9i6xqq",
+    "id": "3000129",
+    "name": "Chandelier Wall Lamp"
+   }
+  },
+  {
+   "grupo": "Wall Decoration",
+   "attrs": {
+    "className": "AFDiscoBall",
+    "cost": "5000",
+    "emailOnly": "true",
+    "hash": "RLbqTQ3WADrQT4_ln6wuYa",
+    "id": "3000130",
+    "name": "Disco Ball"
+   }
+  },
+  {
+   "grupo": "Door",
+   "attrs": {
+    "className": "BlackHoleDoor",
+    "cost": "4500",
+    "hash": "F0t1gYC4C0PBzlhtSeHQsa",
+    "id": "3010024",
+    "name": "Black Hole Door",
+    "sizeX": "1",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Door",
+   "attrs": {
+    "className": "JapaneseSlidingDoor",
+    "cost": "3800",
+    "hash": "PKz0vZTTdNtjlbcDY0iMeq",
+    "id": "3010025",
+    "name": "Japanese Sliding Door",
+    "sizeX": "1",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Door",
+   "attrs": {
+    "cash": "5",
+    "className": "AliceSmallDoor",
+    "functions": "ShrinkCustomerDoor",
+    "hash": "BiHJfxKOCd_HQEFYMpMPPG",
+    "id": "3010026",
+    "infoText": "true",
+    "name": "Tiny Door"
+   }
+  },
+  {
+   "grupo": "Door",
+   "attrs": {
+    "className": "CoralDoor",
+    "cost": "2000",
+    "emailOnly": "true",
+    "hash": "Sk1AcJT52yu6YGGSouxH9q",
+    "id": "3010027",
+    "name": "Coral Door"
+   }
+  },
+  {
+   "grupo": "Door",
+   "attrs": {
+    "className": "Door3Night",
+    "cost": "3000",
+    "hash": "fmegt_ut3ZHYIv4gTf83RG",
+    "id": "3010028",
+    "name": "Classy Night Double Door",
+    "sizeX": "1",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Door",
+   "attrs": {
+    "className": "PoshNightDoor",
+    "cost": "4000",
+    "hash": "dJKCFagaaIbRg2DgpLAjFq",
+    "id": "3010029",
+    "name": "Posh Night Double Door",
+    "sizeX": "1",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "HourglassDecor",
+    "cost": "400",
+    "hash": "N2RKMlAXbMUB5yiBZz3tRG",
+    "id": "3020209",
+    "name": "Hourglass Decor",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "PotionDecor",
+    "cost": "4500",
+    "hash": "Jy9m3aBs4w7kjRSyN_G2Iq",
+    "id": "3020210",
+    "name": "Potion Decor",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "1",
+    "className": "FortuneTellerDecor",
+    "hash": "zIXMlSXGV1.E.anpALQudW",
+    "id": "3020211",
+    "name": "Fortune Teller Decor"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "Dragon",
+    "cost": "1500",
+    "fanPageFeed": "true",
+    "hash": "p2.1u43QUcqBqZ0IBND3Wa",
+    "id": "3020212",
+    "name": "Dragon",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "InkBottleDecor",
+    "cost": "800",
+    "hash": "1U5kgTRsS8DBHUiIZhPiaW",
+    "id": "3020213",
+    "name": "Ink Bottle",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "ColorfulCrystals",
+    "cost": "1500",
+    "hash": "WLZATC.Nu7zK.OCUpH7fPq",
+    "id": "3020214",
+    "name": "Colorful Crystals",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "ToyFigurine",
+    "cost": "1200",
+    "hash": "7CNXiCo0TvaK8hVu6aApcq",
+    "id": "3020215",
+    "name": "Toy Figurine",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "Owl",
+    "cost": "600",
+    "hash": "oLw.pN0M_jLgpSm1pN0yuG",
+    "id": "3020216",
+    "name": "Owl",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "WhiteTiger",
+    "cost": "4500",
+    "hash": "tmTLeuG5vn43zkI90lmvTG",
+    "id": "3020217",
+    "name": "White Tiger",
+    "sizeX": "2",
+    "sizeY": "1"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "WhiteTigerCub",
+    "cost": "1200",
+    "fanPageFeed": "true",
+    "hash": "0TFjmVbdX1T7aGlE3lWJka",
+    "id": "3020218",
+    "name": "White Tiger Cub",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "PoolTable",
+    "cost": "5000",
+    "hash": "xqQQD84PQl31DKKSwYB22W",
+    "id": "3020219",
+    "name": "Pooltable",
+    "sizeX": "2",
+    "sizeY": "1"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "GiantRedDice",
+    "cost": "800",
+    "hash": "rJkyHTTBKRddymrsT8A27W",
+    "id": "3020220",
+    "name": "Giant Red Dice",
+    "type": "surface,stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "GiantWhiteDice",
+    "cost": "800",
+    "hash": "AfhwJji.NHoloFo5EWxDOG",
+    "id": "3020221",
+    "name": "Giant White Dice",
+    "type": "surface,stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "2",
+    "className": "Roulette",
+    "hash": "h_6Dq98TAjgzjzLq_IuTra",
+    "id": "3020222",
+    "name": "Roulette",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "GigSpeaker",
+    "cost": "900",
+    "hash": "8vh3VISKiNfjTLvnDy9pOW",
+    "id": "3020223",
+    "name": "Gig Speaker",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "GigCymbals",
+    "cost": "800",
+    "hash": "7ED2Vvi.85NVLEEcQE78.a",
+    "id": "3020224",
+    "name": "Cymbals",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "StageLightsColumn",
+    "cost": "6000",
+    "hash": "Z6tLaA90X1itsoWdqnX8Pq",
+    "id": "3020225",
+    "name": "Stage Lights Column",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "StageCrate",
+    "cost": "400",
+    "hash": "TwQurk1YkZ8bhTRRUgMSQa",
+    "id": "3020226",
+    "name": "Stage Crate",
+    "type": "surface,stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "SnareDrum",
+    "cost": "800",
+    "hash": "nfXwn0DcxtygMn1MQrI.MG",
+    "id": "3020227",
+    "name": "Snare Drum",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "1",
+    "className": "StageLights",
+    "hash": "ObXxLnkI7JbuSU9NaI_VXa",
+    "id": "3020228",
+    "name": "Stage Lights"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BassDrum",
+    "cost": "1200",
+    "hash": "XeiLumAeyK_rKgJwFDVQQG",
+    "id": "3020229",
+    "name": "Bass Drum",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "ElectricGuitar",
+    "cost": "1600",
+    "hash": "PNyRS57flLFpEN0nWW19Tq",
+    "id": "3020230",
+    "name": "Electric Guitar",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "DrumSet",
+    "cost": "2200",
+    "hash": "2Rrbedm0B0TyGBJ9njK2Lq",
+    "id": "3020231",
+    "name": "Drum Set",
+    "sizeX": "2",
+    "sizeY": "1"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "GigMicrophone",
+    "cost": "800",
+    "hash": "10ygG9RzeGL_akuprEG8aa",
+    "id": "3020232",
+    "name": "Gig Microphone",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BongoDrums",
+    "cost": "700",
+    "hash": "AeA3euSG0uP5bEMkHlv_2W",
+    "id": "3020233",
+    "name": "Bongo Drums",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "RockBarrier",
+    "cost": "400",
+    "hash": "SxRcFHPQxW2MIe4RsnSg4G",
+    "id": "3020234",
+    "name": "Barrier"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "Keyboard",
+    "cost": "2500",
+    "hash": "N6XRHcgrNt06IrOoHXE3Kq",
+    "id": "3020235",
+    "name": "Keyboard",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "RedHibiscusBush",
+    "cost": "1600",
+    "hash": "mIRc8pKQH7n8iVpOdHGq7q",
+    "id": "3020236",
+    "name": "Red Hibiscus Bush",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "YellowHibiscusBush",
+    "cost": "1600",
+    "hash": "1LW2a_.98QhcW310XBBbka",
+    "id": "3020237",
+    "name": "Yellow Hibiscus Bush",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BambooSidetable",
+    "cost": "200",
+    "hash": "E6q77IlAKrlG8Hbpl2VdMW",
+    "id": "3020238",
+    "name": "Bamboo Sidetable",
+    "type": "surface"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "TropicalDrinkDecor",
+    "cost": "500",
+    "hash": "Q.qSG1X2TUt6nifTqPuQVW",
+    "id": "3020239",
+    "name": "Tropical Drink Decor",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "2",
+    "className": "CoconutTree",
+    "hash": "iUCguSIo39ke995tkHjp_G",
+    "id": "3020240",
+    "name": "Coconut Tree",
+    "sizeX": "2",
+    "sizeY": "2",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "Hammock",
+    "cost": "5500",
+    "hash": "ZO5zKySmGoRs7wLOID12oa",
+    "id": "3020241",
+    "name": "Hammock",
+    "sizeX": "2",
+    "sizeY": "2",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "MagicWaterTile",
+    "cost": "100",
+    "functions": "MagicWaterTile",
+    "hash": "kf6caf875SVLUZ.n4X1ujG",
+    "id": "3020242",
+    "infoText": "true",
+    "name": "Magic Water Tile",
+    "referralGift": "true",
+    "type": "surface"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "LuckyPotOfGold",
+    "cost": "1500",
+    "fanPageFeed": "true",
+    "hash": "uGdo1xe2gtsTwvCwBgHDAG",
+    "id": "3020243",
+    "name": "Lucky Pot Of Gold",
+    "sizeX": "2",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "SharkFin",
+    "cost": "2500",
+    "hash": "5vWY4rJbqeOgSUSAXrQWMa",
+    "id": "3020244",
+    "name": "Shark Fin",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "Turtle",
+    "cost": "800",
+    "hash": "cnL.e4O4l2VlyYwtVZyuUG",
+    "id": "3020245",
+    "name": "Turtle",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "SandDecor",
+    "cost": "1200",
+    "hash": ".dZ9sUrEYi99TZbCaTLA0a",
+    "id": "3020246",
+    "name": "Sand Decor",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "SandTower",
+    "cost": "1400",
+    "hash": "Ikdvyy0xAhUrWtufOQeupa",
+    "id": "3020247",
+    "name": "Sand Tower Decor",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "StarfishDecor",
+    "cost": "1800",
+    "hash": "4pk1_BceUR0XN9HzJdHnUa",
+    "id": "3020248",
+    "name": "Starfish",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "Surfboard",
+    "cost": "1500",
+    "hash": "FrvaHfAOV6vOZKDZ3nBfYW",
+    "id": "3020249",
+    "name": "Surfboard Decor",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "TrafficCone",
+    "cost": "500",
+    "hash": "ZdO3mn525GxP2wj0YkzI9W",
+    "id": "3020250",
+    "name": "Traffic Cone",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "FireHydrantDecor",
+    "cost": "1600",
+    "hash": "GX7a_bEb15ot_mcpoTsCIG",
+    "id": "3020251",
+    "name": "Fire Hydrant",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "Manhole",
+    "cost": "2000",
+    "emailOnly": "true",
+    "hash": "mRPDRQ18aqJSIHiraWLoPW",
+    "id": "3020252",
+    "name": "Manhole",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "Signpost",
+    "cost": "1000",
+    "hash": "dyQPVcvu5S8KcMcsWb6Grq",
+    "id": "3020253",
+    "name": "Signpost",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "FineTableLamp",
+    "cost": "600",
+    "hash": "S2i_AQng78SM6HADxWuouW",
+    "id": "3020254",
+    "name": "Fine Table Lamp",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "StylishVase",
+    "cost": "4800",
+    "hash": "OxDrAFs0kViLEkkKcqK3Mq",
+    "id": "3020255",
+    "name": "Stylish Vase",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "LargeChocolateEgg",
+    "cost": "600",
+    "hash": "2p0K6mQA_fkSHPHHXcaREa",
+    "id": "3020256",
+    "name": "Chocolate Egg",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "LargeWhiteChocolateEgg",
+    "cost": "600",
+    "hash": "qEWrYrNV0CqFadQZ4wbeUG",
+    "id": "3020257",
+    "name": "White Chocolate Egg",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "TinyEggNest",
+    "cost": "800",
+    "hash": "qfbE9VteZTvzraDo6WFV3G",
+    "id": "3020258",
+    "name": "Egg Nest",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "DecorateEgg",
+    "cost": "3000",
+    "hash": "kIknasVSPXxFeJrnf8i90W",
+    "id": "3020259",
+    "name": "Decorative Egg"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "SlimeContainer",
+    "cost": "650",
+    "hash": "u0lPnXc7DVvmB2IRzI1i7q",
+    "id": "3020260",
+    "name": "Slime Container",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "MoebiusStripSculpture",
+    "cost": "14000",
+    "hash": "jKgoRTegUSZFQYXkPO7LTW",
+    "id": "3020261",
+    "name": "Mobius Strip Sculpture",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "Meteor",
+    "cost": "600",
+    "hash": "WpGPknHRIj0pyaVG0bn1xW",
+    "id": "3020262",
+    "name": "Meteor",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "AlienEgg",
+    "cost": "800",
+    "hash": "w4tEBIsrc.An6DhWPck.cq",
+    "id": "3020263",
+    "name": "Alien Egg",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "4",
+    "className": "FloatingPlanet",
+    "hash": "DB9__fnmAKEUPkQsYQS71q",
+    "id": "3020264",
+    "name": "Floating Planet",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "SignalProjector",
+    "cost": "4000",
+    "hash": "7gBbhMqLYgVSLB7em89Bpq",
+    "id": "3020265",
+    "name": "Signal Projector",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "Bloblian",
+    "cost": "1000",
+    "fanPageFeed": "true",
+    "hash": "EwkD1emIUIQdQLBIi.sOpW",
+    "id": "3020266",
+    "name": "Bloblian",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "AlienStatues",
+    "cost": "1600",
+    "hash": "qvA2mu1xov_nP_6x.bUVTq",
+    "id": "3020267",
+    "name": "Alien Statues",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BlueEgg",
+    "cost": "600",
+    "hash": "5BKa6ppEoZ2qFXUyvfWVNa",
+    "id": "3020268",
+    "name": "Blue Egg",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "GreenEgg",
+    "cost": "600",
+    "hash": "9EksDy_i.QUQEcGHYRAeSa",
+    "id": "3020269",
+    "name": "Green Egg",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "HappyEgg",
+    "cost": "600",
+    "hash": "Hz1iknHFYOdBShBl0_HsxW",
+    "id": "3020270",
+    "name": "Happy Egg",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "OrangeEgg",
+    "cost": "600",
+    "hash": "7fu5NsREkPxeRucd4tpyMG",
+    "id": "3020271",
+    "name": "Orange Egg",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "WhiteEgg",
+    "cost": "600",
+    "hash": "lzO3uuzEE8ZpjpB59R3Jeq",
+    "id": "3020272",
+    "name": "White Egg",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "RedEgg",
+    "cost": "600",
+    "hash": "VWCJIiXND_XBRcFteewI6G",
+    "id": "3020273",
+    "name": "Red Egg",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "PinkEgg",
+    "cost": "600",
+    "hash": "AXsQ58J.Q_w1GrPErv_oTa",
+    "id": "3020274",
+    "name": "Pink Egg",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "DaffodilDecor",
+    "cost": "700",
+    "hash": "cvd_1eOsj1cvk94qoECF1a",
+    "id": "3020275",
+    "name": "Daffodil Decor",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "EasterVaseDecoration",
+    "cost": "500",
+    "hash": "SMsr15hZfbusELkNi_4fva",
+    "id": "3020277",
+    "name": "Easter Vase Decoration",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "PurpleEgg",
+    "cost": "600",
+    "hash": "pmq.U2CGO5VaZyZjuCE_Wq",
+    "id": "3020281",
+    "name": "Purple Egg",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "GiantChocolateEgg",
+    "cost": "4000",
+    "emailOnly": "true",
+    "hash": "j6mGe1YrjgXyt0RKwgRRHG",
+    "id": "3020282",
+    "name": "Giant Chocolate Egg",
+    "sizeX": "2",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "SpringDividerBlock",
+    "cost": "900",
+    "hash": "wxFQjRa9Fa7uBNzhG2KU7G",
+    "id": "3020283",
+    "name": "Spring Divider Block",
+    "type": "stackable, surface"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "SpringDivider",
+    "cost": "700",
+    "hash": "njnHCtWfTQ2WA16vJdgi0G",
+    "id": "3020284",
+    "name": "Spring Divider",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "8",
+    "className": "ChickenCoop",
+    "hash": "vqBjD7MIIJxizF0peD3Fpa",
+    "id": "3020285",
+    "name": "Chicken Coop",
+    "sizeX": "2",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "MotherHen",
+    "cost": "2600",
+    "hash": "oRwijlZBNDOntju10PWSxq",
+    "id": "3020286",
+    "name": "Mother Hen",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "ChickDecor",
+    "cost": "1300",
+    "fanPageFeed": "true",
+    "hash": "Ki.CvFpi1tCv0eM2xw838W",
+    "id": "3020287",
+    "name": "Chick Decor",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "Bonzai",
+    "cost": "1700",
+    "fanPageFeed": "true",
+    "hash": "n.BbgYbwg81HS9AFAmE2Ba",
+    "id": "3020288",
+    "name": "Bonsai",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "KatanaDecor",
+    "cost": "12000",
+    "fanPageFeed": "true",
+    "hash": "m56TV_G.4ouTmOcOmlruya",
+    "id": "3020289",
+    "name": "Katana Decor",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "SamuraiSwordDecor",
+    "cost": "5500",
+    "hash": "bx3ttfgHgTMjBG2yHMzf0W",
+    "id": "3020290",
+    "name": "Samurai Sword Decor",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "7",
+    "className": "SamuraiArmor",
+    "fanPageFeed": "true",
+    "hash": "xDK_H0O9d_swNMpodvKK3G",
+    "id": "3020291",
+    "name": "Samurai Armor"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "JapaneseDivider",
+    "cost": "750",
+    "hash": "uTu3ZRiejrRKII7vPY3rbq",
+    "id": "3020292",
+    "name": "Japanese Divider"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "17",
+    "className": "JapanesePondDecor",
+    "hash": "yJsKbTW6.jF6dd0gs8P.yG",
+    "id": "3020293",
+    "name": "Zen Garden Pond",
+    "sizeX": "3",
+    "sizeY": "3"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "19",
+    "className": "JapaneseGazebo",
+    "hash": "5fx9hxaAFxo5zb9241jsYa",
+    "id": "3020294",
+    "name": "Zen Gazebo",
+    "sizeX": "3",
+    "sizeY": "3"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "GardenLamp",
+    "cost": "1900",
+    "hash": "NOx.SilyF458By83ydt6ja",
+    "id": "3020295",
+    "name": "Garden Lamp"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "GardenFirePlace",
+    "cost": "750",
+    "hash": "cMCK5adPMh52dKJJp1M8mW",
+    "id": "3020296",
+    "name": "Garden Fireplace"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "JapaneseFountain",
+    "cost": "40000",
+    "hash": "XSdXgh2sGANc5MT6RF6m4q",
+    "id": "3020297",
+    "name": "Zen Waterfall",
+    "sizeX": "3",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "ZenRock",
+    "cost": "1200",
+    "hash": "c6Hdz2e1xIEzPmfjpkm.ca",
+    "id": "3020298",
+    "name": "Zen Rock",
+    "sizeX": "2",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "ZenStone",
+    "cost": "800",
+    "hash": "BgZpBf8g09kuDqKH8ywWSW",
+    "id": "3020299",
+    "name": "Zen Stone"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "ZenPebble",
+    "cost": "400",
+    "hash": "OYMNfZQ8avWHnBJT66.MnW",
+    "id": "3020300",
+    "name": "Zen Pebble"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "ZenGarden",
+    "cost": "9000",
+    "hash": "4uEHNAYtmxiX.anQHb5mvW",
+    "id": "3020301",
+    "name": "Zen Garden"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BambooWaterFeature",
+    "cost": "7500",
+    "hash": "cefWBuSMrtDLQGlwkHGGQa",
+    "id": "3020302",
+    "name": "Bamboo Water Feature"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "StoneLantern",
+    "cost": "1900",
+    "hash": "LIMfmO46an9S3gI4hFrvUq",
+    "id": "3020303",
+    "name": "Stone Lantern"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "Rake",
+    "cost": "700",
+    "hash": "48i3gJzm94.lXEHjYpZrSa",
+    "id": "3020304",
+    "name": "Zen Rake"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "OctopusCook",
+    "cost": "1500",
+    "hash": "I7HD3KB2ClONBi2_bVzpZq",
+    "id": "3020305",
+    "name": "Octopus Statue",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "Daruma",
+    "cost": "6000",
+    "hash": "dvChRQsjqtrOAJf0IH2xbG",
+    "id": "3020306",
+    "name": "Daruma",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "PrawnSushiDecor",
+    "cost": "500",
+    "hash": "apE4sso0LB4RaVFt5FdOLG",
+    "id": "3020307",
+    "name": "Giant Prawn Sushi Decor",
+    "sizeX": "2",
+    "sizeY": "1",
+    "visitFriendFeed": "true"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "SakuraMochiDecor",
+    "cost": "300",
+    "freeGiftUnlockLevel": "-10",
+    "hash": "KaEmZ7JbElzCKVFW28daOW",
+    "id": "3020308",
+    "name": "Giant Sakura Mochi Decor",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "SalmonSushiDecor",
+    "cost": "500",
+    "hash": "URptUley5egiOoidA03wJG",
+    "id": "3020309",
+    "name": "Giant Salmon Sushi Decor",
+    "sizeX": "2",
+    "sizeY": "1",
+    "visitFriendFeed": "true"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "YellowMakiDecor",
+    "cost": "400",
+    "hash": "ThWmEjCeVAH3XoYXyEKn8W",
+    "id": "3020310",
+    "name": "Giant Yellow Maki Decor",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "RedMakiDecor",
+    "cost": "300",
+    "hash": "cD48CEl4279bAY59ILzcYq",
+    "id": "3020311",
+    "name": "Giant Red Maki Decor",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "GreenMakiDecor",
+    "cost": "400",
+    "hash": "xl_RAswenNsAfpLguoAZ5q",
+    "id": "3020312",
+    "name": "Giant Green Maki Decor",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "6",
+    "className": "JapanesePost",
+    "hash": "RdRzuQt3katqmq1OWX6tXW",
+    "id": "3020313",
+    "name": "Ad Post"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "Gong",
+    "cost": "800",
+    "hash": "FzrFNz0skE1QvNDvcWdE7G",
+    "id": "3020314",
+    "name": "Gong"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "AdDivider",
+    "cost": "2600",
+    "hash": "xJB4stsp7lypaDLeoKiJ_W",
+    "id": "3020315",
+    "name": "Ad Divider",
+    "sizeX": "2",
+    "sizeY": "1"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "ToyBunnyDecor",
+    "cost": "9000",
+    "hash": "sFpeX5.r843gDbPXYcqBGG",
+    "id": "3020316",
+    "name": "Hello Bunny"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "JapaneseDividerBlock",
+    "cost": "1400",
+    "hash": "6POYC.e3NK03kbqvrc9sQq",
+    "id": "3020317",
+    "name": "Japanese Divider Block",
+    "type": "surface"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "SpanishGuitar",
+    "cost": "2600",
+    "fanPageFeed": "true",
+    "hash": "YOo6ZSYnZsVsMeFTjgg3PW",
+    "id": "3020318",
+    "name": "Acoustic Guitar"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "SpiceRack",
+    "cost": "1600",
+    "hash": "NK3pEM6jDkpE00UMhZF2Ea",
+    "id": "3020319",
+    "name": "Mexican Spice Rack"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "CactiJose",
+    "cost": "4000",
+    "fanPageFeed": "true",
+    "hash": "DpbVjK08nwNVmexakzggVG",
+    "id": "3020320",
+    "name": "Cacti Jose"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "RusticPillar",
+    "cost": "3000",
+    "hash": "pcsX.4i5YP_LEj9Kyk0hTG",
+    "id": "3020321",
+    "name": "Rustic Red Brick Pillar"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "CactusJuice",
+    "cost": "400",
+    "hash": "Nx255ebzWkoK_zk2nLlz6W",
+    "id": "3020322",
+    "name": "Cactus Juice",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "AliceDoublePlateCookiesDecor",
+    "cost": "850",
+    "hash": "Qhl_HC3fdkH9FUzeMPl8.a",
+    "id": "3020323",
+    "name": "Tea Cakes Tower",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "AliceBunnyClock",
+    "cost": "4600",
+    "fanPageFeed": "true",
+    "hash": "VmjR8VQM8ifUpQy6F1Q38W",
+    "id": "3020324",
+    "name": "White Rabbit",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "8",
+    "className": "AliceRedQueen",
+    "hash": "K8Ma3XZ7lRkanYQkqgBjwq",
+    "id": "3020325",
+    "name": "Queen of Hearts",
+    "sizeX": "2",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "AliceBunny",
+    "cost": "9500",
+    "hash": "EK4i65Gj68c8LCfxwkGuaa",
+    "id": "3020326",
+    "name": "March Hare",
+    "sizeX": "1",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "Alicetable",
+    "cost": "23000",
+    "hash": "JGUNG7IlsFSzTNKmyfvxPW",
+    "id": "3020327",
+    "name": "Tea Party Decor",
+    "sizeX": "1",
+    "sizeY": "3",
+    "unlockLevel": "15"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "6",
+    "className": "AliceMadHatter",
+    "hash": "Q7B4zcpwn96NSGYrogEIVq",
+    "id": "3020328",
+    "name": "Mad Hatter"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "AliceFlamingo",
+    "cost": "1100",
+    "hash": "rvUizBhNBGYuqhq2OMUVRG",
+    "id": "3020329",
+    "name": "Flamingo",
+    "referralGift": "true"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "AliceTeaSet",
+    "cost": "700",
+    "hash": "HonsPnh.qqYqiPTW_QoFvW",
+    "id": "3020330",
+    "name": "Tea Set",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "MothersDayChocolates",
+    "cost": "760",
+    "hash": "wsvmG_kef1tOKCqoj6ta_a",
+    "id": "3020331",
+    "name": "Mother's Day Chocolates",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "AliceRedKing",
+    "cost": "14000",
+    "hash": "LMvqq3QTY4JCVH8DMdwata",
+    "id": "3020332",
+    "name": "King of Hearts",
+    "unlockLevel": "15"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "4",
+    "className": "AliceMouseTeapot",
+    "hash": "IPyWXb9LItt8E5gO4lmUpq",
+    "id": "3020333",
+    "name": "Dormouse"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "8",
+    "className": "AliceCaterpillar",
+    "hash": ".yi97GsYwpyaODW0mXlN6W",
+    "id": "3020334",
+    "name": "Caterpillar"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "AliceGiantTeaPot",
+    "cost": "18000",
+    "hash": "76XHpRP6o6UEcWSWytOVza",
+    "id": "3020335",
+    "name": "Giant Teapot",
+    "sizeX": "2",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "AliceFlower",
+    "cost": "3700",
+    "hash": "HqP5mZh_rWC4ndUBLQtaba",
+    "id": "3020336",
+    "name": "Singing Flowers"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "AliceCardsBlock",
+    "cost": "3300",
+    "hash": "H5eURj9eLxov.uzKJe2SbG",
+    "id": "3020337",
+    "name": "Card Sentry"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "AliceFlowers",
+    "cost": "1300",
+    "hash": "cHAQcgo9Fk2eDiwi_NRSUW",
+    "id": "3020338",
+    "name": "Lupine Decor"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "AliceRedCardDivider",
+    "cost": "1100",
+    "hash": "VY2OCDIi8vqHda3DwUpgia",
+    "id": "3020339",
+    "name": "Hearts Guard"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "AliceBlackCardDivider",
+    "cost": "1300",
+    "hash": "WN3IZIZzCFv_LqBD8dq_ja",
+    "id": "3020340",
+    "name": "Spades Guard"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "AliceWhiteRosesDivider",
+    "cost": "1100",
+    "hash": "ikY4GjC23lInarDlGkMwFq",
+    "id": "3020341",
+    "name": "White Flower Hedge"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "AliceRedRosesDivider",
+    "cost": "1300",
+    "hash": "NRdkBgBkuDDaiHSaBnKS.W",
+    "id": "3020342",
+    "name": "Red Flower Hedge"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "AliceMysteriousTree",
+    "cost": "8000",
+    "hash": ".BgUBj1GL7.9PA02w6eBeG",
+    "id": "3020343",
+    "name": "Mysterious Tree",
+    "sizeX": "2",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "AlicePicnic",
+    "cost": "700",
+    "hash": "0l3xENWCEoGRb3ADGsFkkq",
+    "id": "3020344",
+    "name": "Picnic Basket",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "AliceLampPost",
+    "cost": "4600",
+    "hash": "NttyGa7CXL29.wGUst2bgG",
+    "id": "3020345",
+    "name": "Victorian Lamp Post"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "WeddingPodium",
+    "cost": "1200",
+    "hash": "MA6.m5uQfRF3rRqL4oeicq",
+    "id": "3020346",
+    "name": "Podium"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "WeddingArch",
+    "cost": "40000",
+    "hash": "BsozxB.ELV6prMsIsZT09W",
+    "id": "3020347",
+    "infoText": "true",
+    "name": "Wedding Trellis",
+    "sizeX": "1",
+    "sizeY": "3",
+    "unlockLevel": "17"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "17",
+    "className": "WeddingGazebo",
+    "hash": "pjEK8o.nW3a2Je3OQLa2da",
+    "id": "3020348",
+    "name": "Wedding Gazebo",
+    "sizeX": "2",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "8",
+    "className": "WeddingHarp",
+    "hash": "qnfI75yBKUcwdiRGH6G.9a",
+    "id": "3020349",
+    "name": "Wedding Harpist",
+    "sizeX": "2",
+    "sizeY": "1"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "WeddingVase",
+    "cost": "5000",
+    "hash": "tTAK8EzEhJa695Qq1wi56q",
+    "id": "3020351",
+    "name": "Wedding Flowers",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "WeddingTableCandles",
+    "cost": "900",
+    "freeGiftUnlockLevel": "-10",
+    "hash": "Z4JtgnkI8lGC9J9Lbe1OhG",
+    "id": "3020352",
+    "name": "Wedding Candles",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "WeddingBottle",
+    "cost": "1100",
+    "hash": "71gVqW0xhULKeINce0emqa",
+    "id": "3020353",
+    "name": "Celebration Drink",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "WeddingCandlesSmall",
+    "cost": "800",
+    "hash": "CSToKwBJMlQgJmVp8VdexG",
+    "id": "3020354",
+    "name": "Wedding Candlestand Small",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "WeddingCandles",
+    "cost": "5000",
+    "hash": "JV_x11wAGnGBPha4hjPkbq",
+    "id": "3020355",
+    "name": "Wedding Candlestand",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "UWCrabDecor",
+    "cost": "2000",
+    "hash": "eBM3GnphfRPWS7_JpPYPOq",
+    "id": "3020357",
+    "name": "Crab Decor",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "4",
+    "className": "UWJellyFishLamps",
+    "hash": "UojxS7RodT3VwO3TC_oita",
+    "id": "3020358",
+    "name": "Jellyfish Lamps"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "UWMermaid",
+    "cost": "13000",
+    "hash": "BnMXMKeukgjK_0EtnYSYhG",
+    "id": "3020359",
+    "name": "Mermaid",
+    "unlockLevel": "13"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "UWOctopusPillar",
+    "cost": "3800",
+    "emailOnly": "true",
+    "hash": "vR4GPDlQF8FZVw4xXYhySW",
+    "id": "3020360",
+    "name": "Octopus Pillar",
+    "sizeX": "1",
+    "sizeY": "1"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "UWDiver",
+    "cost": "9000",
+    "hash": "ANzmIwgJoreibKvlHtsCcW",
+    "id": "3020361",
+    "name": "Diver"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "UWSunkenShipProw",
+    "cost": "35000",
+    "hash": "KhZZtpKE7deQzdvhYUJMJa",
+    "id": "3020362",
+    "infoText": "true",
+    "name": "Sunken Ship Prow",
+    "sizeX": "2",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "UWSunkenShipStern",
+    "cost": "35000",
+    "hash": "1_YPKUqL_NtzaZ7V7CPKhW",
+    "id": "3020363",
+    "name": "Sunken Ship Stern",
+    "sizeX": "2",
+    "sizeY": "2",
+    "unlockLevel": "18"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "UWSunkenTreasure",
+    "cost": "5700",
+    "hash": "RN6GWcYuyNQ7Do.kzD194G",
+    "id": "3020364",
+    "name": "Sunken Treasure",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "UWAnchor",
+    "cost": "2000",
+    "emailOnly": "true",
+    "hash": "NTnNW3ONQdFq2aLeb8DFbW",
+    "id": "3020365",
+    "name": "Anchor",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "UWAtlantisDividerBlock",
+    "cost": "2200",
+    "hash": "SaCVAJsUDk3vs2ASQwhzPW",
+    "id": "3020366",
+    "name": "Atlantis Divider Block"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "UWAtlantisDivider",
+    "cost": "1000",
+    "hash": "I6RZNVoQ1j1fECHmoNZnFG",
+    "id": "3020367",
+    "name": "Atlantis Divider"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "UWSeabedRock",
+    "cost": "1400",
+    "hash": "cgeJKDNgsWp7M2CZWrrCfG",
+    "id": "3020368",
+    "name": "Coral Rock",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "UWSmallSeabedRock",
+    "cost": "800",
+    "hash": "ToBhx_Oen2Hp7xX9HhIgcq",
+    "id": "3020369",
+    "name": "Small Coral Rock",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "AmericanFlag",
+    "cost": "1000",
+    "freeGiftUnlockLevel": "-10",
+    "hash": "eC89et_0tEoX9Q5xxOOnCa",
+    "id": "3020370",
+    "name": "Memorial Day Flag ",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "UWFishClarinet",
+    "cost": "8000",
+    "emailOnly": "true",
+    "hash": "q7XJn0SHSl5tTDB5fiDXjq",
+    "id": "3020371",
+    "name": "Frankie the Clarinet Player"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "UWHermit",
+    "cost": "12000",
+    "fanPageFeed": "true",
+    "hash": "rr.yQrgrPvCOKHc8Xybu0a",
+    "id": "3020372",
+    "name": "Lenny the Singer",
+    "unlockLevel": "19"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "8",
+    "className": "UWDrummer",
+    "hash": "fpwOU.EG1TTXOx7_dEzqzq",
+    "id": "3020373",
+    "name": "Tommy the Drummer",
+    "sizeX": "2",
+    "sizeY": "1"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "UWFishBass",
+    "cost": "18000",
+    "hash": "vdVK5aNhRXO.d2nFLUw6KG",
+    "id": "3020374",
+    "name": "Yuriy the Bass Player",
+    "unlockLevel": "21"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "UWHermitCrabDecor",
+    "cost": "700",
+    "hash": "VVwFTjfzUjfGkjTA7L_lUW",
+    "id": "3020375",
+    "name": "Hermit Crab",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "UWLobster",
+    "cost": "1800",
+    "hash": "JoPtRZlTmyZ1cnmEB9v3bG",
+    "id": "3020376",
+    "name": "Lobster",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "UWCave",
+    "cost": "5000",
+    "hash": "CZv2_4gqdKxZpcz8y9q2dW",
+    "id": "3020377",
+    "name": "Underwater Cave",
+    "sizeX": "2",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "UWMiniRockGeyser",
+    "cost": "3500",
+    "hash": "0G40pTxzm92J10vGpS7yJq",
+    "id": "3020378",
+    "name": "Mini Rock Geyser",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "UWGiantClam",
+    "cost": "11000",
+    "hash": "xxVUQXqI0iW.n6.zbdCzAq",
+    "id": "3020379",
+    "name": "Giant Clam",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "7",
+    "className": "UWSunkenRuinsArch",
+    "hash": "XjKa.xf8x6q_aHsq5dB3Ta",
+    "id": "3020380",
+    "infoText": "true",
+    "name": "Sunken Ruins Arch",
+    "sizeX": "1",
+    "sizeY": "3"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "12",
+    "className": "BlackUnicorn",
+    "hash": "2fFDohkhZ_Br7KX3fu9EbW",
+    "id": "3020381",
+    "name": "Black Unicorn",
+    "sizeX": "2",
+    "sizeY": "1",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "WhiteUnicorn",
+    "cost": "2200",
+    "hash": "aDOcjOBXYGKkZ3ZkqlYTiW",
+    "id": "3020382",
+    "name": "White Unicorn",
+    "unlockLevel": "15",
+    "sizeX": "2",
+    "sizeY": "1",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "8",
+    "className": "PinkTiger",
+    "hash": "YTDHl2aYhy5eOFUf1Pc8eq",
+    "id": "3020383",
+    "name": "Pink Tiger",
+    "sizeX": "2",
+    "sizeY": "1"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "PinkTigerCub",
+    "cost": "2000",
+    "emailOnly": "true",
+    "fanPageFeed": "true",
+    "hash": "nDgK35me50ubTPvDsc5_uq",
+    "id": "3020384",
+    "name": "Pink Tiger Cub",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "DarkMagicWaterTile",
+    "cost": "900",
+    "functions": "MagicWaterTile",
+    "hash": "zziAfPoz5sy2hWLfvwGJIa",
+    "id": "3020385",
+    "infoText": "true",
+    "name": "Dark Magic Water Tile",
+    "type": "surface"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BlackWall",
+    "cost": "1000",
+    "hash": "fu07N.CnlOo7xAysW7uSaq",
+    "id": "3020386",
+    "name": "Black Wall",
+    "type": "wallDivider"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BlackWallCorner",
+    "cost": "1000",
+    "hash": "Abm8b0nhK3NpsgyOrDhdFG",
+    "id": "3020387",
+    "name": "Black Wall Corner",
+    "type": "wallDivider"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BlackWallCross",
+    "cost": "1000",
+    "hash": "TuvkxVYt9nXwm8vQwiWCzq",
+    "id": "3020388",
+    "name": "Black Wall Cross",
+    "type": "wallDivider"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BlackWallT",
+    "cost": "1000",
+    "hash": "RHCCEV_iRoLnpTKBOIKOiq",
+    "id": "3020389",
+    "name": "Black Wall T",
+    "type": "wallDivider"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BlushWall",
+    "cost": "800",
+    "hash": "bluWktIWxdn_kk0S3ONSYq",
+    "id": "3020390",
+    "name": "Blush Wall",
+    "type": "wallDivider"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BlushWallCorner",
+    "cost": "800",
+    "hash": "UNCR55Yz46rZlxZfvaOeNG",
+    "id": "3020391",
+    "name": "Blush Wall Corner",
+    "type": "wallDivider"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BlushWallCross",
+    "cost": "800",
+    "hash": "bvNKW2u7evKOrv_oSETpaa",
+    "id": "3020392",
+    "name": "Blush Wall Cross",
+    "type": "wallDivider"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BlushWallT",
+    "cost": "800",
+    "hash": "Wn0bcVXudoDFR9MB7Ys7nW",
+    "id": "3020393",
+    "name": "Blush Wall T",
+    "type": "wallDivider"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "EbonyDividerBlock",
+    "cost": "900",
+    "hash": "A1S815CMVeBprO1Z3stIhW",
+    "id": "3020394",
+    "name": "Ebony Divider Block",
+    "type": "surface"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "EbonyDivider",
+    "cost": "800",
+    "hash": "bvrx3WemcbhgdpzS3WvGqq",
+    "id": "3020395",
+    "name": "Ebony Divider"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "WhiteDividerBlock",
+    "cost": "1600",
+    "hash": "d.N__XOI.Ke4Oj2kHEGVAa",
+    "id": "3020396",
+    "name": "White Divider Block",
+    "type": "surface"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "WhiteDivider",
+    "cost": "1400",
+    "hash": "AetpSS6gavz5FsC95V6gxG",
+    "id": "3020397",
+    "name": "White Divider"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "ClassicBlackDivider",
+    "cost": "700",
+    "hash": "ibM5G9DCqoJ9WLNto7Orjq",
+    "id": "3020398",
+    "name": "Classic Black Divider"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "EcruWall",
+    "cost": "1000",
+    "hash": "qdnUP5ZMkPy4NTuJ4Y.MKa",
+    "id": "3020399",
+    "name": "Ecru Wall",
+    "type": "wallDivider"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "EcruWallCorner",
+    "cost": "1000",
+    "hash": "poqIHa1EiZybqrMTGjsK2G",
+    "id": "3020400",
+    "name": "Ecru Wall Corner",
+    "type": "wallDivider"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "EcruWallCross",
+    "cost": "1000",
+    "hash": "RoExBlm_Y_koMoG873KhAa",
+    "id": "3020401",
+    "name": "Ecru Wall Cross",
+    "type": "wallDivider"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "EcruWallT",
+    "cost": "1000",
+    "hash": "kR1NhSD9YRn5.d7eF7OA5W",
+    "id": "3020402",
+    "name": "Ecru wall T",
+    "type": "wallDivider"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "5",
+    "className": "BarHost",
+    "hash": "dIt0qtclSs4dzrSJMuZl2a",
+    "id": "3020403",
+    "name": "Host"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "9",
+    "className": "BarDecorativePool",
+    "hash": "jue_kErRgG6A0N_PbKBdkW",
+    "id": "3020404",
+    "name": "Decorative Pool"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BarPineBlock",
+    "cost": "1250",
+    "emailOnly": "true",
+    "hash": "QLO5l2U_4Y.cVnW8XWwG8W",
+    "id": "3020405",
+    "name": "Pine Block",
+    "type": "surface"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BarPineDivider",
+    "cost": "1250",
+    "emailOnly": "true",
+    "hash": "B0_zdjAMAnTZ6Or4C0o4iG",
+    "id": "3020406",
+    "name": "Pine Divider"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BarBeigeCornerChair",
+    "cost": "1100",
+    "hash": "ko6JOnP__.mLHWbUaB4iBq",
+    "id": "3020407",
+    "name": "White Sofa Corner"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BarSmokeCornerChair",
+    "cost": "1300",
+    "hash": "P.0OZ6gA40ViRvGdWB_wBa",
+    "id": "3020418",
+    "name": "Black Sofa Corner"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BarCandles1",
+    "cost": "950",
+    "emailOnly": "true",
+    "freeGiftUnlockLevel": "-3",
+    "hash": "W5Amen_ZIJ4FigpwAoQlqW",
+    "id": "3020419",
+    "name": "Pink Candles",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BarCandles2",
+    "cost": "1100",
+    "hash": "tUSbSouCj4c94XtjYh5pwW",
+    "id": "3020420",
+    "name": "Red Candles",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BarCandles3",
+    "cost": "950",
+    "freeGiftUnlockLevel": "-4",
+    "hash": "Lhoa0onFTAJXpCDPpu3s.q",
+    "id": "3020421",
+    "name": "Blue Candles",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BarCandles4",
+    "cost": "1100",
+    "hash": "s3Dexse7b8ph7ngFl0pjKa",
+    "id": "3020422",
+    "name": "Green Candles",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BarGreenLavaLamp",
+    "cost": "11000",
+    "hash": "J_BrUf_PZGf9Nh5NCihzYa",
+    "id": "3020423",
+    "name": "Green Lava Lamp",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "4",
+    "className": "BarPinkLavaLamp",
+    "hash": "0uF0EYo6mNqdq.SCtvuBla",
+    "id": "3020424",
+    "name": "Pink Lava Lamp",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BarGoldStatue",
+    "cost": "33000",
+    "hash": "OJ4SzyNK1.2w2X0_d.11NG",
+    "id": "3020425",
+    "name": "Gold Statue",
+    "type": "stackable,notGiftable",
+    "unlockLevel": "30"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "7",
+    "className": "BarModernSculpture",
+    "hash": "Pdtj6ZhA5tCAKnVJdGWNXa",
+    "id": "3020426",
+    "name": "Modern Sculpture",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "6",
+    "className": "BarFirePillar",
+    "hash": "nwpLhFFwiYOqgp7fyR1Tbq",
+    "id": "3020427",
+    "name": "Fire Pillar"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BarChandelierFloorLamp",
+    "cost": "9500",
+    "emailOnly": "true",
+    "hash": "UcPFF4cwqcw9UAuj168B_a",
+    "id": "3020428",
+    "name": "Chandelier Floor Lamp",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BarBlueFoozballStatue",
+    "cost": "2700",
+    "hash": "b_zNh38sZ0Oo23gp.Z_mca",
+    "id": "3020429",
+    "name": "Blue Foosball Statue",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BarRedFoozballStatue",
+    "cost": "2700",
+    "hash": "M.b1kCgTMGkwhcIjsRBhLW",
+    "id": "3020430",
+    "name": "Red Foosball Statue",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BarFootballGoal",
+    "cost": "12000",
+    "hash": "90poCEpcGDvH95vczCwYZa",
+    "id": "3020431",
+    "name": "Football Goal"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BarSaxaPhonePlayer",
+    "cost": "20000",
+    "hash": "Rf1hszOA7u5V3UeAw1pfVa",
+    "id": "3020432",
+    "name": "Saxaphone Player",
+    "unlockLevel": "23"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BarBeefyBouncer",
+    "cost": "8000",
+    "hash": "mJOvkjoTn8aPWNuue8dFOq",
+    "id": "3020433",
+    "name": "Beefy Bouncer",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BarElegantFlower",
+    "cost": "1800",
+    "hash": "4eve1eV9rKFgWFDeA_vHIG",
+    "id": "3020434",
+    "name": "Elegant Flower",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BarElegantRedFlower",
+    "cost": "2500",
+    "hash": "GPRFdN4V26PFx03bpWqt7a",
+    "id": "3020435",
+    "name": "Midnight Vase",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BarModernTableLamp",
+    "cost": "4500",
+    "hash": "c7zHi_G.npAUN3ehjOrIIq",
+    "id": "3020436",
+    "name": "Modern Table Lamp",
+    "type": "stackable",
+    "unlockLevel": "14"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BarModernFloorLamp",
+    "cost": "12000",
+    "hash": "GjcbzXOYUc3gohIIat1KEG",
+    "id": "3020437",
+    "name": "Modern Floor Lamp",
+    "type": "stackable",
+    "unlockLevel": "7"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "className": "BarFootBall",
+    "cost": "1000",
+    "emailOnly": "true",
+    "freeGiftUnlockLevel": "-1",
+    "hash": "Ioc0zK9HzPrg28tdV2_XzG",
+    "id": "3020438",
+    "name": "Football Decor",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "8",
+    "className": "BarJazzSinger",
+    "hash": "UInAciIoqSmG_MHoEQ0JVW",
+    "id": "3020439",
+    "name": "Jazz Singer"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "2",
+    "className": "RedDiscoTile",
+    "hash": "MoPNGbcZlouhDhgldQpsLq",
+    "id": "3020447",
+    "infoText": "true",
+    "name": "Red Hot Disco Tile",
+    "type": "surface",
+    "visitFriendFeed": "true"
+   }
+  },
+  {
+   "grupo": "Decoration",
+   "attrs": {
+    "cash": "2",
+    "className": "YellowDiscoTile",
+    "hash": "3CBpgd7tMQssVo2At4XdZW",
+    "id": "3020448",
+    "infoText": "true",
+    "name": "Mellow Yellow Disco Tile",
+    "type": "surface",
+    "visitFriendFeed": "true"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "GlamoursTable",
+    "cost": "1600",
+    "hash": "dtQcpd932LbNxq6dMGyI7W",
+    "id": "3030044",
+    "name": "Glamours Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "RedChipTable",
+    "cost": "950",
+    "hash": "mD.JYYuB2JL8JPnWyVJN2a",
+    "id": "3030045",
+    "name": "Red Chip Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "BlueChipTable",
+    "cost": "950",
+    "hash": "fIMXbV0KO_ZGtVjhxk7eIa",
+    "id": "3030046",
+    "name": "Blue Chip Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "BackgammonTable",
+    "cost": "950",
+    "hash": "02Ptbk_PJA17PSlK17Tzdq",
+    "id": "3030047",
+    "name": "Backgammon Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "RockStarTable",
+    "cost": "450",
+    "freeGiftUnlockLevel": "-10",
+    "hash": "PsilnLo1MPFzq9XnOIuARa",
+    "id": "3030048",
+    "name": "Rock Star Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "DrumTable",
+    "cost": "1500",
+    "hash": "OrkW3VeKs669kBNThmnNvG",
+    "id": "3030049",
+    "name": "Drum Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "BambooTable",
+    "cost": "400",
+    "hash": "fYDWMcOunjGxLvKjaJ3tfa",
+    "id": "3030050",
+    "name": "Bamboo Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "ShamrockTable",
+    "cost": "600",
+    "hash": "pzygv7stPLzVoHMfHXe7yG",
+    "id": "3030051",
+    "name": "Shamrock Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "FineTable",
+    "cost": "1000",
+    "hash": "XH977WyBW.qEEgUTDZVIbq",
+    "id": "3030052",
+    "name": "Fine Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "ParkTable",
+    "cost": "850",
+    "hash": "xYsFGtqeu8tVqlImGxk45a",
+    "id": "3030053",
+    "name": "Park Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "ScifiTable",
+    "cost": "1800",
+    "hash": "NcJbs7ykNDYgN25pciwB4q",
+    "id": "3030054",
+    "name": "Scifi Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "SpringTable",
+    "cost": "1100",
+    "hash": "TM_LVwnSsqpPKUJKAQ._zG",
+    "id": "3030055",
+    "name": "Spring Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "cash": "5",
+    "className": "LongSpringTable",
+    "hash": "Er7R6R_ddATMX2g8eITPMG",
+    "id": "3030056",
+    "name": "Long Spring Table",
+    "sizeX": "1",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "cash": "5",
+    "className": "ZenTable",
+    "hash": "HogLdTwktOXS3JeLRBcysa",
+    "id": "3030057",
+    "name": "Zen Table",
+    "sizeX": "1",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "SushiTable",
+    "cost": "850",
+    "hash": "go_GTAFkWYYFHLLtwFuJqG",
+    "id": "3030058",
+    "name": "Sushi Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "StoneTable",
+    "cost": "1300",
+    "hash": "bPv3O5BtDATEsCOX.uNLMq",
+    "id": "3030059",
+    "name": "Stone Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "cash": "5",
+    "className": "SushiTableLong",
+    "hash": "1aVYYBDAWlBwbW21aOOFdq",
+    "id": "3030060",
+    "name": "Long Sushi Table",
+    "sizeX": "1",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "ZenTableSmall",
+    "cost": "2000",
+    "hash": "zjCj9dnIL60l.FDYoC5BWa",
+    "id": "3030061",
+    "name": "Small Zen Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "SerapeTable",
+    "cost": "900",
+    "hash": "nxK_.xIF4Q.XG6KMYwhD_G",
+    "id": "3030062",
+    "name": "Mexican Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "AliceWhiteTable",
+    "cost": "1350",
+    "hash": "8AAmg8X_ja91OD0i6gkM6q",
+    "id": "3030063",
+    "name": "Tea Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "AliceWhiteTableRound",
+    "cost": "1700",
+    "hash": "nykdtHmapc3.lASJZoRg5W",
+    "id": "3030064",
+    "name": "Victorian Garden Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "WeddingTable",
+    "cost": "1700",
+    "hash": "jsrd.ax2fpeX5oks0MLbLa",
+    "id": "3030065",
+    "name": "Wedding Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "CMBlush",
+    "cost": "1450",
+    "hash": "xmTg8KwZkoFCY24Y3KHr9W",
+    "id": "3030066",
+    "name": "Blush Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "CMAmethyst",
+    "cost": "1650",
+    "hash": "OgEtRKHUg6CruIi1sebTCW",
+    "id": "3030067",
+    "name": "Amethyst Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "CMSapphire",
+    "cost": "1650",
+    "hash": "iftNRM9JOvag74X6tYAaya",
+    "id": "3030068",
+    "name": "Sapphire Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "CMTurquoise",
+    "cost": "1650",
+    "hash": "77hL__mWKZ9KWdsW3rtl1W",
+    "id": "3030069",
+    "name": "Jade Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "CMJade",
+    "cost": "1650",
+    "hash": "ZSZGEJixRy.4MGxSgM4ZJa",
+    "id": "3030070",
+    "name": "Turqoise Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "CMOnyx",
+    "cost": "1650",
+    "hash": "L4PutsmGQ_jbm_SgImd0fq",
+    "id": "3030071",
+    "name": "Onyx Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "CMMeringue",
+    "cost": "1450",
+    "hash": "5VTnuemau6Efwuce0_.0WW",
+    "id": "3030072",
+    "name": "Meringue Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "CMLilac",
+    "cost": "1450",
+    "hash": "zrKXIyaIX85lo6g4E1LiOa",
+    "id": "3030073",
+    "name": "Lilac Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "CMSky",
+    "cost": "1450",
+    "hash": "qseRaaDk_FJUxxacKgh3Eq",
+    "id": "3030074",
+    "name": "Sky Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "CMAquamarine",
+    "cost": "1450",
+    "hash": "HzLRjSGoodMS1kJA3fHnEq",
+    "id": "3030075",
+    "name": "Aquamarine Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "CMMint",
+    "cost": "1450",
+    "hash": "u_7In0N0zkGeqYXVT2Pnrq",
+    "id": "3030076",
+    "name": "Mint Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "BarGlossyTable",
+    "cost": "3500",
+    "emailOnly": "true",
+    "hash": "5sF7SmiWmytaIv8Y9TX1Kq",
+    "id": "3030077",
+    "name": "Glossy Black Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "BarGlassTable",
+    "cost": "1500",
+    "hash": "nfJb7XZ3crBCJ3UByR1AAq",
+    "id": "3030078",
+    "name": "Small Glass Table"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "BarTable",
+    "cost": "3200",
+    "hash": "CTHPhv9B2iQSwTgp09qQxa",
+    "id": "3030079",
+    "name": "Bar Extension"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "BarRoundTable",
+    "cost": "3200",
+    "hash": "9u1BcCRhb8nB1p5XoBgddq",
+    "id": "3030080",
+    "name": "Corner Bar Extension"
+   }
+  },
+  {
+   "grupo": "Table",
+   "attrs": {
+    "className": "BarMidnightNeonTable",
+    "cost": "2500",
+    "hash": "D6l6aVZzQTgn9R8TRX0D5W",
+    "id": "3030082",
+    "name": "Midnight Neon Table"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair47",
+    "cost": "1400",
+    "hash": "lQsaqvJnpPLBvcTPkyYtBa",
+    "id": "3040046",
+    "name": "Glamour Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair48",
+    "cost": "850",
+    "hash": "_qf75Ur0jyvwI0egYr0bdW",
+    "id": "3040047",
+    "name": "Red Chip Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair49",
+    "cost": "850",
+    "hash": "8CIfDDnbgCf61eOmT_Vr9G",
+    "id": "3040048",
+    "name": "Blue Chip Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair50",
+    "cost": "850",
+    "hash": "8kyZzlLCfQ.wHWbN_O75da",
+    "id": "3040049",
+    "name": "Backgammon Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair51",
+    "cost": "2000",
+    "hash": "cG3UglfuuragEOsqwQpqsq",
+    "id": "3040050",
+    "name": "Guitar Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair52",
+    "cost": "300",
+    "hash": "gqhDoOr0NUYESphehPaQpG",
+    "id": "3040051",
+    "name": "Rock Star Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair54",
+    "cost": "600",
+    "hash": "hKdKf0Zpj4BpdSF3H6e9SG",
+    "id": "3040052",
+    "name": "Bamboo Chair",
+    "referralGift": "true"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair53",
+    "cost": "300",
+    "hash": "JAj1QJW_nUZ6XAr1xxyHRG",
+    "id": "3040053",
+    "name": "Shamrock Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair55",
+    "cost": "400",
+    "hash": "254v4DVvrAv7CXu.fo2b3q",
+    "id": "3040054",
+    "name": "Beach Chair",
+    "referralGift": "true"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair56",
+    "cost": "800",
+    "hash": "J9aBfzcnBnVoCi_ZntUg5a",
+    "id": "3040055",
+    "name": "Fine Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair57",
+    "cost": "700",
+    "hash": "RFSjM4MeUNR5Qfl.pi1L.q",
+    "id": "3040056",
+    "name": "Park Bench"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair58",
+    "cost": "2000",
+    "hash": ".7pGURN1fE7us22yYhm4bq",
+    "id": "3040057",
+    "name": "Scifi Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair59",
+    "cost": "550",
+    "hash": "eGo_h1Mt46BDmPTBR90dXW",
+    "id": "3040058",
+    "name": "Spring Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "ZenChair",
+    "cost": "1050",
+    "hash": "xV1HLC3K7EWJElrKMSqK4a",
+    "id": "3040059",
+    "name": "Zen Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "StoneChair",
+    "cost": "800",
+    "hash": "_r5FtaKAsHgFlGhnHpvQEW",
+    "id": "3040060",
+    "name": "Stone Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "WhiteZenChair",
+    "cost": "1050",
+    "hash": "MlXhBfYnxHInHkxQiJRqMa",
+    "id": "3040061",
+    "name": "Light Zen Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "CactusChair",
+    "cost": "1500",
+    "hash": "R1yyZmVHNo0dLWwDeDmhxq",
+    "id": "3040062",
+    "name": "Cactus Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "AliceRedChair",
+    "cost": "1900",
+    "hash": "Og332ivurZxDFaGYpPpNga",
+    "id": "3040063",
+    "name": "Wingback Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "AliceWhiteChair",
+    "cost": "1400",
+    "hash": "drSKRUAvDY9SaSW7w1zszW",
+    "id": "3040064",
+    "name": "Victorian Garden Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "WeddingChair",
+    "cost": "1300",
+    "hash": "bINuJe3qXG.Wi7L8n.b_Xq",
+    "id": "3040065",
+    "name": "Wedding Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair65",
+    "cost": "1400",
+    "hash": ".gpB01_7VuY4wBRY.4P36G",
+    "id": "3040066",
+    "name": "Modern Green Sofa"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair66",
+    "cost": "1500",
+    "hash": "NTXQC2m_OAKx4Yh2cRfoqa",
+    "id": "3040067",
+    "name": "Modern Red Sofa"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair60",
+    "cost": "1600",
+    "hash": "OXxZt.mq94v5SpotfHzi_W",
+    "id": "3040068",
+    "name": "Green Modern Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair61",
+    "cost": "1300",
+    "hash": "cpiGGqGRGFL8MzTmQ6VR6W",
+    "id": "3040069",
+    "name": "Blue Modern Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair62",
+    "cost": "1300",
+    "hash": "FR1UVcA49UKWHdHc21muhq",
+    "id": "3040070",
+    "name": "Pink Modern Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair63",
+    "cost": "1400",
+    "hash": "rVh9QnFSIeGl150hsbybkq",
+    "id": "3040071",
+    "name": "Shy Romantic Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair64",
+    "cost": "1200",
+    "hash": "bYG8EoBEflyFfrjFJBQnjG",
+    "id": "3040072",
+    "name": "Dark Romantic Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "RoundBarStool",
+    "cost": "2000",
+    "hash": "cxDoeT_1a5hAw5Y2zubpeG",
+    "id": "3040073",
+    "name": "Modern Stool"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "BarRedStool",
+    "cost": "1300",
+    "hash": "Zdfaj_40Z_yTNcgqasLLFG",
+    "id": "3040074",
+    "name": "Red Stool"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "YellowShellChair",
+    "cost": "1600",
+    "hash": "3bIOkSmoaZsOcZ1djr9kQq",
+    "id": "3040075",
+    "name": "Yellow Shell Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "RedShellChair",
+    "cost": "1800",
+    "hash": "sFOWepgqAuLJcojxYPQJDG",
+    "id": "3040076",
+    "name": "Red Shell Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair67",
+    "cost": "1800",
+    "hash": "ODgHfGtvaQxHTRmeMJ_fyq",
+    "id": "3040077",
+    "name": "Funky Midnight Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair68",
+    "cost": "1800",
+    "hash": "6xX4Ea2jgHLaasEDACeU.W",
+    "id": "3040078",
+    "name": "Red Leather Sofa Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair69",
+    "cost": "1200",
+    "hash": "XZSVxX5GDHmmHyO4d8YmTG",
+    "id": "3040079",
+    "name": "Yellow Leather Sofa Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair70",
+    "cost": "1800",
+    "hash": "M2IlfzvV5gyOZvXKwj3KGW",
+    "id": "3040080",
+    "name": "Beige Leather Sofa Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair71",
+    "cost": "1800",
+    "hash": "cnXaEVG0bl8NbZkyiP7RJW",
+    "id": "3040081",
+    "name": "Pink Leather Sofa Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair72",
+    "cost": "1600",
+    "hash": "7n9pQ6QhPS.7ELgjTuGATG",
+    "id": "3040082",
+    "name": "Brown Leather Sofa Chair"
+   }
+  },
+  {
+   "grupo": "Chair",
+   "attrs": {
+    "className": "Chair73",
+    "cost": "1200",
+    "hash": "T5oEE0Y.zVDrRVfbSq2SCW",
+    "id": "3040083",
+    "name": "Green Leather Sofa Chair"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "5",
+    "className": "MagicalUnicorn",
+    "functions": "ButterflyGenerator",
+    "hash": "gzyYP_fGsqo7zHJAr8vBRq",
+    "id": "3500095",
+    "infoText": "true",
+    "name": "Magic Unicorn",
+    "sizeX": "2",
+    "sizeY": "1"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "appointmentLength": "240",
+    "breakCount": "20",
+    "cash": "10",
+    "className": "Lucky7Slotmachine",
+    "hash": "1emFdgIPMKvLFCGeUNcPmq",
+    "id": "3500096",
+    "infoText": "true",
+    "maxCoinStorage": "600",
+    "name": "Lucky 7 Slot Machine",
+    "type": "interactive"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "5",
+    "className": "MusicalNote",
+    "functions": "MusicNoteGenerator",
+    "hash": "L0gIoGXfSnt29H9tr7GYEq",
+    "id": "3500097",
+    "infoText": "true",
+    "name": "Musical Note",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "5",
+    "className": "TikiStatue",
+    "functions": "TikkiCustomers",
+    "hash": "WBEMRhsu9g7kqu_b5oqk3a",
+    "id": "3500098",
+    "infoText": "true",
+    "name": "Tiki Statue"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "className": "StatueOfCookery",
+    "cost": "150000",
+    "functions": "AddCustomerWaitTime",
+    "hash": "0mb_PtPYu33GvKrKuh9hQq",
+    "id": "3500099",
+    "infoText": "true",
+    "name": "Statue Of Cookery",
+    "sizeX": "2",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "3",
+    "className": "RainCloud",
+    "functions": "RainDropGenerator",
+    "hash": "CjZThHDDhenO8gYorXMW5W",
+    "id": "3500100",
+    "infoText": "true",
+    "name": "Rain Cloud",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "className": "HotelCitySign",
+    "cost": "150",
+    "fanPageFeed": "true",
+    "functions": "HotelCityCustomers",
+    "hash": "Lx76mszijvcQ2h1jL3mEOq",
+    "id": "3000101",
+    "infoText": "true",
+    "name": "Hotel City Sign",
+    "sizeX": "1",
+    "sizeY": "3",
+    "type": "wallDecorationItem"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "13",
+    "className": "AlienMonolith",
+    "functions": "SpaceCustomers",
+    "hash": "xskMjMd6Vi8a3hJzfqCw.q",
+    "id": "3000102",
+    "infoText": "true",
+    "name": "Alien Monolith",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "20",
+    "className": "AlienPetBlue",
+    "functions": "MovingActor",
+    "hash": "WVYY4rOiI8Mk7jhzAYJYta",
+    "id": "3000103",
+    "infoText": "true",
+    "name": "Blue Alien Pet"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "20",
+    "className": "AlienPetPurple",
+    "functions": "MovingActor",
+    "hash": "U17bFJCnMrSMslV7qZrxXG",
+    "id": "3000104",
+    "infoText": "true",
+    "name": "Purple Alien Pet"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "10",
+    "className": "AlienStatue",
+    "functions": "AlienGooTrash",
+    "hash": "RgrjU6P6MOBbtbf9M_QAsG",
+    "id": "3000105",
+    "infoText": "true",
+    "name": "Alien Statue",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "15",
+    "className": "HypnoticArtifact",
+    "functions": "AddCustomerWaitTime",
+    "hash": "8jStzg7POyfcN6sQUhXu7W",
+    "id": "3000106",
+    "infoText": "true",
+    "name": "Hypnotic Artifact",
+    "type": "stackable"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "breakCount": "20",
+    "cash": "6",
+    "className": "Toilet07",
+    "hash": "x0qyzRwVQb._sfFDhHueLa",
+    "id": "3000107",
+    "infoText": "true",
+    "name": "Hover Loo Blue",
+    "operateTimePercentage": "50",
+    "type": "chairItem, toilet"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "breakCount": "20",
+    "cash": "6",
+    "className": "Toilet08",
+    "hash": "SvX7.u9NLiogFlH7Au9hYq",
+    "id": "3000108",
+    "infoText": "true",
+    "name": "Hover Loo Red",
+    "operateTimePercentage": "50",
+    "type": "chairItem, toilet"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "breakCount": "4",
+    "className": "Toilet09",
+    "cost": "800",
+    "hash": "mlDXib9NSBRHd_mvr8lyvG",
+    "id": "3500109",
+    "name": "Spring Toilet",
+    "type": "chairItem, toilet",
+    "infoText": "true"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "12",
+    "className": "SpringGoddessStatue",
+    "functions": "FlowerFootprint",
+    "hash": ".q.WCTo.Bcs9.mINPji3dG",
+    "id": "3500110",
+    "infoText": "true",
+    "name": "Spring Goddess Statue",
+    "sizeX": "2",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "20",
+    "className": "PetChick",
+    "functions": "MovingActor",
+    "hash": ".tvTjckDUU6vvFWYfUm_aW",
+    "id": "3500111",
+    "infoText": "true",
+    "name": "Country Story Pet Chick"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "25",
+    "className": "PetBunny",
+    "functions": "MovingActor",
+    "hash": "YAL1pVgh_ciWlCv_AbFoPa",
+    "id": "3500112",
+    "infoText": "true",
+    "name": "Pet Bunny"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "breakCount": "16",
+    "cash": "4",
+    "className": "HighTechToilet",
+    "hash": "UbPmuFfQ9rj6c.tEw9kHQW",
+    "id": "3500113",
+    "infoText": "true",
+    "name": "High Tech Smart Toilet",
+    "operateTimePercentage": "60",
+    "type": "chairItem, toilet"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "12",
+    "className": "CherryBlossomTree",
+    "functions": "SakuraLeavesGenerator",
+    "hash": "cPUap8M.08rALglnQp85nW",
+    "id": "3500114",
+    "infoText": "true",
+    "name": "Cherry Blossom Tree",
+    "sizeX": "2",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "appointmentLength": "240",
+    "breakCount": "12",
+    "cash": "12",
+    "className": "ToyEggMachine",
+    "hash": "NEdrJtg_WzY4_U1d_93Fsa",
+    "id": "3500115",
+    "infoText": "true",
+    "maxCoinStorage": "700",
+    "name": "Toy Egg Machine",
+    "sizeX": "1",
+    "sizeY": "1",
+    "type": "interactive"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "20",
+    "className": "RoboGodzzila",
+    "functions": "MovingActor",
+    "hash": "83oZP2DHZ6NY6iy8_Sa_za",
+    "id": "3500116",
+    "infoText": "true",
+    "name": "Monster Robot"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "appointmentLength": "240",
+    "className": "SushiBelt",
+    "functions": "SushiBelt",
+    "hash": "4pclfQN7Hvg6BNqbFGxctW",
+    "id": "3500117",
+    "infoText": "true",
+    "maxCoinStorage": "400",
+    "name": "Sushi Bar",
+    "sizeX": "2",
+    "sizeY": "3",
+    "type": "interactive, notSellable, notGiftable, unique",
+    "cash": "8"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "appointmentLength": "240",
+    "breakCount": "15",
+    "cash": "15",
+    "className": "JJRMachineSmall",
+    "hash": "1WTkgmr5Bb2PZbXCdUvV0G",
+    "id": "3500118",
+    "infoText": "true",
+    "maxCoinStorage": "850",
+    "name": "Dance Arcade",
+    "type": "interactive"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "appointmentLength": "60",
+    "breakCount": "4",
+    "cash": "12",
+    "className": "Pinata",
+    "hash": "8hoWgdS9EwzrEZsRvsDwsa",
+    "id": "3500119",
+    "infoText": "true",
+    "maxCoinStorage": "300",
+    "name": "Piñata",
+    "sizeX": "1",
+    "sizeY": "1",
+    "type": "interactive"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "className": "MariachiBand",
+    "cost": "90000",
+    "functions": "AddCustomerWaitTime",
+    "hash": "UyBe2P7oo06D68itFWcsfW",
+    "id": "3500122",
+    "infoText": "true",
+    "name": "Mariachi Band",
+    "sizeX": "1",
+    "sizeY": "3",
+    "unlockLevel": "40"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "appointmentLength": "240",
+    "breakCount": "12",
+    "cash": "10",
+    "className": "RedRoseBush",
+    "hash": "PMOZfMe0kzEG2W2DFM_HnW",
+    "id": "3500123",
+    "infoText": "true",
+    "maxCoinStorage": "600",
+    "name": "Red Rose Bush",
+    "sizeX": "1",
+    "sizeY": "1",
+    "type": "interactive"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "appointmentLength": "240",
+    "cash": "30",
+    "className": "SushiBeltBlue",
+    "functions": "SushiBelt",
+    "hash": "Cyz9LfVcKzeG4vyo1VXfZW",
+    "id": "3500034",
+    "infoText": "true",
+    "maxCoinStorage": "1500",
+    "name": "Neon Sushi Bar",
+    "sizeX": "2",
+    "sizeY": "3",
+    "type": "interactive"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "23",
+    "className": "CheshireCatInside1",
+    "functions": "CheshireCatFunction",
+    "hash": "4ogYn1te6gQOoakHUMbpCW",
+    "id": "3500125",
+    "infoText": "true",
+    "name": "Pet Cheshire Cat"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "className": "WeddingDrinkFountain",
+    "cost": "130000",
+    "functions": "AddCustomerWaitTime",
+    "hash": "4aEDQzD7mnZHyJM1bUfy.a",
+    "id": "3500126",
+    "infoText": "true",
+    "name": "Bubbly Drink Tower",
+    "sizeX": "2",
+    "sizeY": "2",
+    "unlockLevel": "50"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "12",
+    "className": "WeddingSwan",
+    "functions": "RosePetalFootprint",
+    "hash": "f2lkz1eoVWx30AvldiIToa",
+    "id": "3500127",
+    "infoText": "true",
+    "name": "Ice Swans Sculpture",
+    "sizeX": "2",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "15",
+    "className": "UWPoseidonStatue",
+    "functions": "AddMaxDemand2",
+    "hash": "J3QfHi8cFlNq3kegxbVlIW",
+    "id": "3500128",
+    "infoText": "true",
+    "name": "Poseidon Statue",
+    "unlockLevel": "37",
+    "sizeX": "1",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "20",
+    "className": "UWCoralGarden",
+    "functions": "FishSchoolGenerator",
+    "hash": "lx2fyO2eMnEv7aOIz3hkca",
+    "id": "3500129",
+    "infoText": "true",
+    "name": "Coral Garden",
+    "sizeX": "1",
+    "sizeY": "2"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "appointmentLength": "240",
+    "breakCount": "12",
+    "cash": "8",
+    "className": "UWOysterFarm",
+    "hash": "_tCmRstnTOiTyj_bUD4awa",
+    "id": "3500130",
+    "infoText": "true",
+    "maxCoinStorage": "400",
+    "name": "Oyster Farm",
+    "sizeX": "1",
+    "sizeY": "1",
+    "type": "interactive"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "breakCount": "4",
+    "className": "UWSeashellToilet",
+    "cost": "3500",
+    "hash": "y_kxxC.3Ml9NzBu2IRdyAq",
+    "id": "3500031",
+    "name": "Seashell Toilet",
+    "type": "chairItem, toilet",
+    "infoText": "true"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "className": "SeashellSink",
+    "cost": "4000",
+    "hash": "CFkCDzo2LktKOzfu343Gma",
+    "id": "3500032",
+    "name": "Seashell Sink",
+    "type": "sink"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "16",
+    "className": "UWSeaHorse",
+    "functions": "MovingActor",
+    "hash": "ft3llykbm1OsOKeOCWefmq",
+    "id": "3500033",
+    "infoText": "true",
+    "name": "Pet Sea Horse"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "appointmentLength": "240",
+    "breakCount": "10",
+    "className": "CWArcadeMachine1",
+    "cost": "18000",
+    "hash": "rI2tp7cRfHj954Mb19cQhq",
+    "id": "3500035",
+    "infoText": "true",
+    "maxCoinStorage": "120",
+    "name": "Blue Retro Arcade Machine",
+    "sizeX": "1",
+    "sizeY": "1",
+    "type": "interactive"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "className": "BlackObelisk",
+    "cost": "750000",
+    "functions": "AddMaxDemand25",
+    "hash": "rD.4xeWTX.Z_7.oxQBPcta",
+    "id": "3500036",
+    "infoText": "true",
+    "name": "Onyx Obelisk",
+    "sizeX": "2",
+    "sizeY": "2",
+    "type": "notGiftable",
+    "unlockLevel": "75"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "className": "Sphinx",
+    "cost": "350000",
+    "functions": "AddCustomerWaitTime",
+    "hash": "LbVEGXRan_akeHWCKttfPq",
+    "id": "3500037",
+    "infoText": "true",
+    "name": "Sphinx",
+    "sizeX": "2",
+    "sizeY": "2",
+    "type": "notGiftable",
+    "unlockLevel": "60"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "appointmentLength": "240",
+    "breakCount": "15",
+    "cash": "15",
+    "className": "PinkArcadeMachine",
+    "hash": "1o.wapEPcR2y14Irr.9TWa",
+    "id": "3500038",
+    "infoText": "true",
+    "maxCoinStorage": "850",
+    "name": "Pink Bunny Arcade Machine",
+    "sizeX": "1",
+    "sizeY": "1",
+    "type": "interactive"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "20",
+    "className": "BarNightSculpture",
+    "functions": "NightTimeRoad",
+    "hash": "XdJJAnj5nQ7qwEeXUe8c_W",
+    "id": "3500039",
+    "infoText": "true",
+    "name": "Night Sculpture",
+    "sizeX": "1",
+    "sizeY": "1"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "appointmentLength": "240",
+    "cash": "35",
+    "className": "BarFoozball",
+    "hash": "vk3DfSKzWXlQVb3axUVdrW",
+    "id": "3500040",
+    "infoText": "true",
+    "maxCoinStorage": "1700",
+    "name": "Foosball Table",
+    "sizeX": "2",
+    "sizeY": "1",
+    "type": "interactive"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "breakCount": "16",
+    "cash": "5",
+    "className": "AFRedMarbleToilet",
+    "hash": "WGlq0q.7cVJe0hR8gYJvba",
+    "id": "3500041",
+    "infoText": "true",
+    "name": "Red Marble Toilet",
+    "operateTimePercentage": "60",
+    "type": "chairItem, toilet"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "breakCount": "4",
+    "className": "AFMintMarbleToilet",
+    "cost": "8000",
+    "hash": "uouzxrctWp2pQ7wme8A62q",
+    "id": "3500042",
+    "name": "Mint Marble Toilet",
+    "type": "chairItem, toilet",
+    "unlockLevel": "12",
+    "infoText": "true"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "className": "AFRedMarbleSink",
+    "cost": "6000",
+    "hash": "qCSI1rjQElBBOr0wXif10W",
+    "id": "3500043",
+    "name": "Red Marble Sink",
+    "type": "sink",
+    "unlockLevel": "16"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "className": "AFMintMarbleSink",
+    "cost": "5000",
+    "hash": "Lk0uOJJGtEiRNFGlpfgwWq",
+    "id": "3500044",
+    "name": "Mint Marble Sink",
+    "type": "sink",
+    "unlockLevel": "12"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "appointmentLength": "240",
+    "breakCount": "15",
+    "cash": "15",
+    "className": "AFDJArcadeMachine",
+    "hash": "y5hPv.XVrE8APrZY22RH3q",
+    "id": "3500045",
+    "infoText": "true",
+    "maxCoinStorage": "850",
+    "name": "DJ Arcade Machine",
+    "sizeX": "1",
+    "sizeY": "2",
+    "type": "interactive"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "22",
+    "className": "AFWashingtonMonument",
+    "functions": "AddMaxDemand1",
+    "hash": "dRWMawMIt0LZ9b1hCSS_fW",
+    "id": "3500048",
+    "infoText": "true",
+    "name": "Washington Monument"
+   }
+  },
+  {
+   "grupo": "Functional",
+   "attrs": {
+    "cash": "12",
+    "className": "BarFifaBigTV",
+    "functions": "FootballCustomers",
+    "hash": "ijM8QnzoThRBORK6Zew_ia",
+    "id": "3500049",
+    "infoText": "true",
+    "name": "Football Wall TV",
+    "sizeX": "1",
+    "sizeY": "2",
+    "type": "wallDecorationItem,stackable"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "FloorTile56",
+    "cost": "70",
+    "hash": "xOysc6dtafzPxHgzinnb1G",
+    "id": "3050055",
+    "name": "Magic Floor Tile"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "FloorTile57",
+    "cost": "45",
+    "hash": ".aCcIrcW0vy0M7qlUfza.a",
+    "id": "3050056",
+    "name": "Cloud Flooring"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "FloorTile58",
+    "cost": "40",
+    "hash": "_X4ZFSbN_kA6cE4RrCJTZa",
+    "id": "3050057",
+    "name": "Hearts Tile"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "FloorTile59",
+    "cost": "40",
+    "hash": "Zc4VsqouPX5MusSM3E5QmG",
+    "id": "3050058",
+    "name": "Spades Tile"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "FloorTile60",
+    "cost": "40",
+    "hash": "Q2cnad7UDv2DU8hZAQZ7ga",
+    "id": "3050059",
+    "name": "Diamonds Tile"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "FloorTile61",
+    "cost": "40",
+    "hash": "XMNX7k_UgY1UPvucJe_GDW",
+    "id": "3050060",
+    "name": "Clubs Tile"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "FloorTile62",
+    "cost": "40",
+    "hash": "u6gmjUa_VXIFa9AVZyl0ra",
+    "id": "3050061",
+    "name": "Cards Tile"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "FloorTile63",
+    "cost": "40",
+    "hash": "fEZChNjLyUvcYvT_8e_Cya",
+    "id": "3050062",
+    "name": "Dark Blue Carpet"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "FloorTile64",
+    "cost": "20",
+    "hash": "kirdil0HQ9wlYuKahZfI7a",
+    "id": "3050063",
+    "name": "Bamboo Floor"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "FloorTile65",
+    "cost": "30",
+    "hash": "pVNsNXj2HZ9unnWWTxG8Aa",
+    "id": "3050064",
+    "name": "Dark Pavement"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "FloorTile66",
+    "cost": "30",
+    "hash": "DyJrPrgswju9wvQAn7AxsG",
+    "id": "3050065",
+    "name": "Light Pavement"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "FloorTile67",
+    "cost": "13",
+    "hash": "RA.5peqdBV5MGWARREkjqq",
+    "id": "3050066",
+    "name": "Tarmac Road Tile"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "FloorTile68",
+    "cost": "80",
+    "hash": "LpuTreKUDas3QuEfdGvhTG",
+    "id": "3050067",
+    "name": "Moon Crater"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "FloorTile69",
+    "cost": "25",
+    "hash": "EWFPk3SBhkki89JKajECJW",
+    "id": "3050068",
+    "name": "Moon Sand"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "FloorTile70",
+    "cost": "30",
+    "hash": "PICrdO6wq61.Su13m73QYW",
+    "id": "3050069",
+    "name": "Dark Spring Grass"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "FloorTile71",
+    "cost": "30",
+    "hash": "JX5L1cCzuyjuNFZ24JF5fa",
+    "id": "3050070",
+    "name": "Spring Grass"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "TatamiMat",
+    "cost": "30",
+    "hash": "L7a7QAOz41Tdw4WNj9SlpG",
+    "id": "3050071",
+    "name": "Tatami Mat"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "ZenTile",
+    "cost": "40",
+    "hash": "vUe7_nB1I4obxAWRCvWvtG",
+    "id": "3050072",
+    "name": "ZenTile"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "ZenCircleTile",
+    "cost": "80",
+    "hash": "UtUUhcCewyAoI5zEbPzzzG",
+    "id": "3050073",
+    "name": "ZenCircleTile"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "ZenStripeTile",
+    "cost": "40",
+    "hash": "bFor0H8Jp1nKwfwslMnBsG",
+    "id": "3050074",
+    "name": "ZenStripeTile"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "TerracottaTile",
+    "cost": "45",
+    "hash": "9zzAYNcLoEFnX8o4EbUZMa",
+    "id": "3050075",
+    "name": "Terracotta Tile"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "AliceTileBlue",
+    "cost": "35",
+    "hash": "ItJyVbUPM5fhnWJ6UnGbWG",
+    "id": "3050076",
+    "name": "Wonderland Tile"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "AliceTileRed",
+    "cost": "40",
+    "hash": "VOMlqduefKd3OenOGdGGia",
+    "id": "3050077",
+    "name": "Wonderland Tile Red"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "BlueSeabedTile",
+    "cost": "50",
+    "hash": "1P_VbmqdPX3iBbp.9icKmW",
+    "id": "3050078",
+    "name": "Blue Seabed Tile"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "Astro1",
+    "cost": "75",
+    "hash": "Qm9OTGhaFHDQyfsHbbDDcW",
+    "id": "3050079",
+    "name": "Astroturf Top Corner"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "Astro2",
+    "cost": "75",
+    "hash": "lSuXXcVhYySYFXVpGORsLG",
+    "id": "3050080",
+    "name": "Astroturf Left Corner"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "Astro3",
+    "cost": "75",
+    "hash": "NzBb0tr.p5imCVMVQwbozq",
+    "id": "3050081",
+    "name": "Astroturf Line 1"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "Astro4",
+    "cost": "75",
+    "hash": "AwtBxQQGIssdLgvLmR0Ova",
+    "id": "3050082",
+    "name": "Astroturf Line 2"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "Astro5",
+    "cost": "75",
+    "hash": "s0SlYR4tWo6AQscM9zEg2a",
+    "id": "3050083",
+    "name": "Astroturf Right Corner"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "Astro6",
+    "cost": "75",
+    "hash": "65Bg6wdO83KUGFmmSWG7FW",
+    "id": "3050084",
+    "name": "Astroturf Bottom Corner"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "Astro7",
+    "cost": "40",
+    "hash": "CCsjuzzBXK.moopX1fxaGq",
+    "id": "3050085",
+    "name": "Astroturf"
+   }
+  },
+  {
+   "grupo": "Floor Tile",
+   "attrs": {
+    "className": "AFStarTile",
+    "cost": "100",
+    "hash": "HZiSNBYry.Sdpav5KICpXG",
+    "id": "3050086",
+    "name": "Star Floor Tile"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "Wall50",
+    "cost": "1600",
+    "hash": "F0V6guorAa80iHy8LYTM2W",
+    "id": "3060048",
+    "name": "Magic Wallpaper"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "Wall51",
+    "cost": "600",
+    "hash": "_j8maeO1WncBK4Lbrras1a",
+    "id": "3060049",
+    "name": "Dark Blue Wall"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "Wall52",
+    "cost": "1500",
+    "hash": "BtlB9STIqnpc7PrHSA8.Uq",
+    "id": "3060050",
+    "name": "Spiky Wall"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "Wall53",
+    "cost": "2500",
+    "hash": "eQJLGE_tBfeaN4QBPdz3kW",
+    "id": "3060051",
+    "name": "Stagelit Wall"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "Wall55",
+    "cost": "2500",
+    "hash": "_GNvxIT4mMNDiQrpo4u_mW",
+    "id": "3060052",
+    "name": "Sunrise Wallpaper"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "Wall54",
+    "cost": "2500",
+    "hash": "2Coxp3s1fefQQsTEPi2Viq",
+    "id": "3060053",
+    "name": "Sunset Wallpaper"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "Wall56",
+    "cost": "900",
+    "hash": "r5jF6sEBx4zNkdCbb0i_Xa",
+    "id": "3060054",
+    "name": "Bamboo Wall"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "Wall57",
+    "cost": "900",
+    "hash": "3mM_7K1CJraDCS1Hn5TgDG",
+    "id": "3060055",
+    "name": "Dark Bamboo Wall"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "Wall58",
+    "cost": "900",
+    "hash": "pFhXVDW84U.POdcrMopuQG",
+    "id": "3060056",
+    "name": "Shamrock Wallpaper"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "Wall59",
+    "cost": "550",
+    "hash": "NWvglw6K69JrdU3uO20E3W",
+    "id": "3060057",
+    "name": "City Wall"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "Wall60",
+    "cost": "1700",
+    "hash": "Fuloi4rrmDfzAAXDKum_RG",
+    "id": "3060058",
+    "name": "Taxi Wallpaper"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "Wall61",
+    "cost": "1800",
+    "hash": "9t_qd8Ut_2LPHvPwuFxAaa",
+    "id": "3060059",
+    "name": "Skyline Wallpaper"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "Wall62",
+    "cost": "2800",
+    "hash": "B.FJVbSEQ66ZLK.yfYck1W",
+    "id": "3060060",
+    "name": "Star Scape Wallpaper"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "Wall63",
+    "cost": "2000",
+    "hash": "QRjQNb2IacCCUOd9lwozUG",
+    "id": "3060061",
+    "name": "Metal Panels"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "cash": "4",
+    "className": "Wall64",
+    "hash": "vBBmB7eCwuf2FYM9D9POoa",
+    "id": "3060062",
+    "name": "Spring Wallpaper"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "SakuraWallpaper",
+    "cost": "2000",
+    "hash": "zeRyKFdod8wZV3gvTxPsbW",
+    "id": "3060063",
+    "name": "Sakura Wallpaper"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "ShojiScreenWallpaper",
+    "cost": "900",
+    "hash": "4j5TvIxSFFd6JcqB90szhq",
+    "id": "3060064",
+    "name": "Shoji Screen Wallpaper"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "StuccoWallYellow",
+    "cost": "1100",
+    "hash": "tOWRwp9vTkJ_FuC1WuAjLW",
+    "id": "3060065",
+    "name": "Stucco Wallpaper"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "StuccoWallVanilla",
+    "cost": "1100",
+    "hash": "vEF0oR26hFUFEXCpmUYP1G",
+    "id": "3060066",
+    "name": "Stucco Wallpaper Light"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "StuccoWallYellowLights",
+    "cost": "2400",
+    "hash": "Fxh0.HUOiuIoEXm8n2nn.G",
+    "id": "3060067",
+    "name": "Stucco Wallpaper with Chili Lights"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "AliceBlueWallpaper",
+    "cost": "2500",
+    "hash": "Z7odLGZSgHT0D_ybkyo9Qq",
+    "id": "3060068",
+    "name": "Wonderland Wallpaper"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "AliceRedWallpaper",
+    "cost": "2700",
+    "hash": "I9gDdEmTN_hkO5e2Sjct7q",
+    "id": "3060069",
+    "name": "Red Wonderland Wallpaper"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "DeepSeaWallpaper",
+    "cost": "3300",
+    "hash": "WpM6sxq2ASAEmsHjYhj0dW",
+    "id": "3060070",
+    "name": "Deep Sea Wallpaper"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "cash": "7",
+    "className": "DeepSeaWallpaperAnimated",
+    "hash": "VbMjaQ9pann0bHXdoQMuGq",
+    "id": "3060071",
+    "name": "Moving Deep Sea Wallpaper"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "BarLoungeWallpaper",
+    "cost": "2600",
+    "emailOnly": "true",
+    "hash": "8FiXC5fE35X75T6PoFvSIG",
+    "id": "3060072",
+    "name": "Lounge Wallpaper"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "ChicWallpaper",
+    "cost": "3800",
+    "hash": "xzO11IjUbkbfILAS_hT6gG",
+    "id": "3060073",
+    "name": "Chic Wallpaper"
+   }
+  },
+  {
+   "grupo": "Wallpaper",
+   "attrs": {
+    "className": "AFJadeWallpaper",
+    "cost": "3000",
+    "hash": "90pvkyX_rRlTJtd.yzuN5a",
+    "id": "3060074",
+    "name": "Jade Lounge Wallpaper"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "className": "BlackDrinkDispencer",
+    "cost": "2500",
+    "hash": "QEgrRJQvwIfEW5NplOqtwW",
+    "id": "3110005",
+    "infoText": "true",
+    "name": "Black Drink Dispenser",
+    "operateTimePercentage": "98",
+    "type": "drink"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "cash": "15",
+    "className": "Stove15",
+    "hash": "_XbCSdPqzx8rwQchOjopcq",
+    "id": "3070011",
+    "infoText": "true",
+    "name": "Roulette Stove",
+    "operateTimePercentage": "85",
+    "type": "kitchen"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "cash": "5",
+    "className": "Stove16",
+    "hash": "q4pW_2d269SQl0JYjCnFma",
+    "id": "3070012",
+    "infoText": "true",
+    "name": "DJ Stove",
+    "operateTimePercentage": "95",
+    "type": "kitchen"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "className": "Stove17",
+    "cost": "5000",
+    "hash": "ZhJ.IOQXZe80TKpxBY5smG",
+    "id": "3070013",
+    "infoText": "true",
+    "name": "Bamboo Grill",
+    "operateTimePercentage": "98",
+    "type": "kitchen"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "cash": "25",
+    "className": "Stove18",
+    "hash": "HKs7h_V9QGcvyyUdSuKAma",
+    "id": "3070014",
+    "infoText": "true",
+    "name": "Hotdog Stand Stove",
+    "operateTimePercentage": "80",
+    "type": "kitchen"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "cash": "8",
+    "className": "ScifiDrinkDispencer",
+    "hash": "ytDkHraXHswcF5HKM27L7q",
+    "id": "3110015",
+    "infoText": "true",
+    "name": "Scifi Drink Dispenser",
+    "operateTimePercentage": "90",
+    "type": "drink"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "className": "Stove19",
+    "cost": "50000",
+    "hash": "iSQ8ptIndgx3zbshXktHeq",
+    "id": "3070016",
+    "infoText": "true",
+    "name": "UFO Grill",
+    "operateTimePercentage": "92",
+    "type": "kitchen"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "cash": "30",
+    "className": "Stove20",
+    "hash": "CjxaZ53lQMuDdGaVwikYqq",
+    "id": "3070017",
+    "infoText": "true",
+    "name": "Ray Gun Stove",
+    "operateTimePercentage": "75",
+    "type": "kitchen"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "cash": "8",
+    "className": "SpringDrinkDispenser",
+    "hash": "4qK7wMrGgQPrsYT0CxCqYG",
+    "id": "3070018",
+    "infoText": "true",
+    "name": "Spring Drink Dispenser",
+    "operateTimePercentage": "90",
+    "type": "drink"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "cash": "15",
+    "className": "Stove21",
+    "hash": "10Y3PuhlRVQWL6.Pqd5Snq",
+    "id": "3070019",
+    "infoText": "true",
+    "name": "Spring Stove",
+    "operateTimePercentage": "85",
+    "type": "kitchen"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "className": "JapaneseStove01",
+    "cost": "9000",
+    "hash": "Lz2B00mFu9x0f4pGuxykYa",
+    "id": "3070020",
+    "infoText": "true",
+    "name": "Teppanyaki Grill",
+    "operateTimePercentage": "97",
+    "type": "kitchen"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "cash": "6",
+    "className": "CeremonialDrinkSet",
+    "emailOnly": "true",
+    "hash": "7qZkx0t6ORmrDHr.eioXha",
+    "id": "3070021",
+    "infoText": "true",
+    "name": "Ceremonial Drink Set",
+    "operateTimePercentage": "92",
+    "type": "drink"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "cash": "15",
+    "className": "TortillaStove",
+    "hash": "aI.RKigCY8DMY9umDETzOG",
+    "id": "3070022",
+    "infoText": "true",
+    "name": "Tortilla Stove",
+    "operateTimePercentage": "88",
+    "type": "kitchen"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "cash": "8",
+    "className": "CactusDispenser",
+    "hash": "Agwnu4eAqX0y2T9Sq9ZHDq",
+    "id": "3070023",
+    "infoText": "true",
+    "name": "Cactus Dispenser",
+    "operateTimePercentage": "90",
+    "type": "drink"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "cash": "27",
+    "className": "PocketWatchStove",
+    "hash": "up6yQAkcbrVqFi9.rOTwWa",
+    "id": "3070024",
+    "infoText": "true",
+    "name": "Pocketwatch Stove",
+    "operateTimePercentage": "78",
+    "type": "kitchen"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "cash": "20",
+    "className": "UWVolcanoStove",
+    "hash": "FXOIBOczKPTVXc8i3skryG",
+    "id": "3070025",
+    "infoText": "true",
+    "name": "Underwater Volcano Stove",
+    "operateTimePercentage": "75",
+    "type": "kitchen"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "cash": "12",
+    "className": "UWSeashellDrinkDispenser",
+    "hash": "ZoccGyxwrSc7s6DNcsx1vG",
+    "id": "3070026",
+    "infoText": "true",
+    "name": "Seashell Drink Dispenser",
+    "operateTimePercentage": "85",
+    "type": "drink"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "className": "PocketWatchStove_Silver",
+    "cost": "4000",
+    "emailOnly": "true",
+    "hash": "3nZZnxJPmrLOgIf_KHjTDG",
+    "id": "3070027",
+    "infoText": "true",
+    "name": "24/7 Pocketwatch Stove",
+    "operateTimePercentage": "98",
+    "type": "kitchen"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "cash": "30",
+    "className": "ManlyStove03",
+    "hash": "KrkdQldCfu5orTGw4KUzDa",
+    "id": "3070028",
+    "infoText": "true",
+    "name": "Ultra Atomic Stove",
+    "operateTimePercentage": "75",
+    "type": "kitchen"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "cash": "20",
+    "className": "ManlyStove04",
+    "hash": "HEJlBSnXWbq6Vr1oqbcphq",
+    "id": "3070029",
+    "infoText": "true",
+    "name": "Blue Teleport Stove",
+    "operateTimePercentage": "83",
+    "type": "kitchen"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "className": "StoveMint",
+    "cost": "2000",
+    "hash": "VeiLzqnR_MbSJ4jrhqS3la",
+    "id": "3070030",
+    "infoText": "true",
+    "name": "Mint Stove",
+    "operateTimePercentage": "99",
+    "type": "kitchen"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "className": "Bar01",
+    "cost": "0",
+    "functions": "LoungeBar",
+    "hash": "et3gZ5QNd3NzuZWu.WPCAq",
+    "id": "3070031",
+    "infoText": "true",
+    "name": "Lounge Bar",
+    "sizeX": "4",
+    "sizeY": "3",
+    "type": "notSellable, notGiftable, unique",
+    "invisible": "true"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "cash": "20",
+    "className": "FootballStove",
+    "hash": "hLZDJZHuXnu7cToAK1AhGW",
+    "id": "3070032",
+    "infoText": "true",
+    "name": "Football Stove",
+    "operateTimePercentage": "85",
+    "type": "kitchen"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "className": "ClassyStove",
+    "cost": "12000",
+    "hash": "S1JjjFOd3kQs2FLI50RKsq",
+    "id": "3070033",
+    "infoText": "true",
+    "name": "Classy Stove",
+    "operateTimePercentage": "96",
+    "type": "kitchen"
+   }
+  },
+  {
+   "grupo": "Kitchen Appliance",
+   "attrs": {
+    "className": "AFDrinkDispenser",
+    "cost": "5000",
+    "hash": "G_mfHM9kuaQGwGedquX30G",
+    "id": "3070034",
+    "infoText": "true",
+    "name": "Modern Punch Dispenser",
+    "operateTimePercentage": "97",
+    "type": "drink"
+   }
+  },
+  {
+   "grupo": "Outdoor Only",
+   "attrs": {
+    "className": "GiantBeanStalk",
+    "cost": "5000",
+    "hash": "ttkvJhDbP8r4mpkvqhjxzW",
+    "id": "3120022",
+    "name": "Giant Beanstalk"
+   }
+  },
+  {
+   "grupo": "Outdoor Only",
+   "attrs": {
+    "className": "ScaryPlant",
+    "cost": "2500",
+    "hash": "QtFRKvXq17PKMmCksGrNTq",
+    "id": "3120023",
+    "name": "Scary Plant"
+   }
+  },
+  {
+   "grupo": "Outdoor Only",
+   "attrs": {
+    "className": "EggTree",
+    "cost": "2200",
+    "hash": "6paIXGHXy4KkSaTQJkXI5q",
+    "id": "3120024",
+    "name": "Egg Tree"
+   }
+  },
+  {
+   "grupo": "Outdoor Only",
+   "attrs": {
+    "className": "PrimulaVialli",
+    "cost": "900",
+    "hash": "GWAm.VTYZInCG51XeWW.Za",
+    "id": "3120025",
+    "name": "Primula Vialli"
+   }
+  },
+  {
+   "grupo": "Outdoor Only",
+   "attrs": {
+    "className": "Primula",
+    "cost": "700",
+    "hash": "Yb7LYXMAC3rTED7tiPBA6q",
+    "id": "3120026",
+    "name": "Primula"
+   }
+  },
+  {
+   "grupo": "Outdoor Only",
+   "attrs": {
+    "className": "LilyFlower",
+    "cost": "800",
+    "hash": "pjqrg_sGoinA2d.p7gvRUa",
+    "id": "3120027",
+    "name": "Lily Flower"
+   }
+  },
+  {
+   "grupo": "Outdoor Only",
+   "attrs": {
+    "className": "AFPalmTree",
+    "cost": "1300",
+    "hash": "89AmB02Be6sTUg0ZqEr.Ua",
+    "id": "3120028",
+    "name": "Sunset Boulevard Palm Tree"
+   }
+  }
+ ],
+ "valores": [
+  {
+   "classe": "Picture",
+   "id": "3000000",
+   "mudar": {
+    "infoText": "true"
+   }
+  },
+  {
+   "classe": "DartBoard",
+   "id": "3000016",
+   "mudar": {
+    "referralGift": "true"
+   }
+  },
+  {
+   "classe": "SilverMirror",
+   "id": "3000019",
+   "mudar": {
+    "cost": "2000"
+   }
+  },
+  {
+   "classe": "WallTriCandleHolder",
+   "id": "3000033",
+   "mudar": {
+    "cost": "900"
+   }
+  },
+  {
+   "classe": "MonsterClock",
+   "id": "3000041",
+   "mudar": {
+    "infoText": "true"
+   }
+  },
+  {
+   "classe": "PleasantPalm",
+   "id": "3020004",
+   "mudar": {
+    "referralGift": "true"
+   }
+  },
+  {
+   "classe": "Speaker",
+   "id": "3020009",
+   "mudar": {
+    "cost": "1000"
+   }
+  },
+  {
+   "classe": "BubbleTubeSilver",
+   "id": "3020014",
+   "mudar": {
+    "cost": "3000"
+   }
+  },
+  {
+   "classe": "BubbleTubeGold",
+   "id": "3020015",
+   "mudar": {
+    "cost": "4000"
+   }
+  },
+  {
+   "classe": "ModernFireplace",
+   "id": "3020036",
+   "mudar": {
+    "cost": "3000"
+   }
+  },
+  {
+   "classe": "MingVase",
+   "id": "3020038",
+   "mudar": {
+    "cost": "5500"
+   }
+  },
+  {
+   "classe": "BlackRoundSideTable",
+   "id": "3020066",
+   "mudar": {
+    "referralGift": "true"
+   }
+  },
+  {
+   "classe": "PottedPalmtree",
+   "id": "3020088",
+   "mudar": {
+    "referralGift": "true"
+   }
+  },
+  {
+   "classe": "CandleHolder",
+   "id": "3020090",
+   "mudar": {
+    "referralGift": "true"
+   }
+  },
+  {
+   "classe": "BlackPiano",
+   "id": "3020107",
+   "mudar": {
+    "cost": "4200"
+   }
+  },
+  {
+   "classe": "GiantSnowglobe",
+   "id": "3020143",
+   "mudar": {
+    "cost": "3900"
+   }
+  },
+  {
+   "classe": "GlowTubePink",
+   "id": "3020144",
+   "mudar": {
+    "cost": "1600"
+   }
+  },
+  {
+   "classe": "GlowTubeBlue",
+   "id": "3020145",
+   "mudar": {
+    "cost": "1200"
+   }
+  },
+  {
+   "classe": "GlowTubeGreen",
+   "id": "3020146",
+   "mudar": {
+    "cost": "1300"
+   }
+  },
+  {
+   "classe": "GoldenCobraCandlelight",
+   "id": "3020154",
+   "mudar": {
+    "cost": "1000"
+   }
+  },
+  {
+   "classe": "CactiJoe",
+   "id": "3020161",
+   "mudar": {
+    "type": "stackable"
+   }
+  },
+  {
+   "classe": "PokerCardsDecor",
+   "id": "3020173",
+   "mudar": {
+    "referralGift": "true"
+   }
+  },
+  {
+   "classe": "ClassyTableLamp",
+   "id": "3020182",
+   "mudar": {
+    "referralGift": "true"
+   }
+  },
+  {
+   "classe": "ClassyBush",
+   "id": "3020184",
+   "mudar": {
+    "referralGift": "true"
+   }
+  },
+  {
+   "classe": "HeartBalloonPurple",
+   "id": "3020196",
+   "mudar": {
+    "foodKingFeed": null
+   }
+  },
+  {
+   "classe": "HeartBalloonRed",
+   "id": "3020197",
+   "mudar": {
+    "foodKingFeed": null
+   }
+  },
+  {
+   "classe": "RoseBucket",
+   "id": "3020198",
+   "mudar": {
+    "foodKingFeed": null
+   }
+  },
+  {
+   "classe": "SingleRose",
+   "id": "3020200",
+   "mudar": {
+    "foodKingFeed": null
+   }
+  },
+  {
+   "classe": "GlassTable",
+   "id": "3030007",
+   "mudar": {
+    "cost": "700"
+   }
+  },
+  {
+   "classe": "ClassyBlackTable",
+   "id": "3030039",
+   "mudar": {
+    "cost": "900"
+   }
+  },
+  {
+   "classe": "Chair07",
+   "id": "3040006",
+   "mudar": {
+    "cost": "400"
+   }
+  },
+  {
+   "classe": "Chair14",
+   "id": "3040013",
+   "mudar": {
+    "cost": "700"
+   }
+  },
+  {
+   "classe": "Chair15",
+   "id": "3040014",
+   "mudar": {
+    "cost": "500"
+   }
+  },
+  {
+   "classe": "Chair19",
+   "id": "3040018",
+   "mudar": {
+    "cost": "500"
+   }
+  },
+  {
+   "classe": "Chair20",
+   "id": "3040019",
+   "mudar": {
+    "cost": "700"
+   }
+  },
+  {
+   "classe": "Chair37",
+   "id": "3040036",
+   "mudar": {
+    "referralGift": "true"
+   }
+  },
+  {
+   "classe": "Chair42",
+   "id": "3040041",
+   "mudar": {
+    "cost": "700"
+   }
+  },
+  {
+   "classe": "ArcadeMachine",
+   "id": "3020007",
+   "mudar": {
+    "appointmentLength": "240",
+    "maxCoinStorage": "1",
+    "infoText": "true"
+   }
+  },
+  {
+   "classe": "ArcadeMachineSnake",
+   "id": "3020043",
+   "mudar": {
+    "appointmentLength": "15",
+    "maxCoinStorage": "30"
+   }
+  },
+  {
+   "classe": "Toilet05",
+   "id": "3500021",
+   "mudar": {
+    "infoText": "true"
+   }
+  },
+  {
+   "classe": "Toilet01",
+   "id": "3500017",
+   "mudar": {
+    "infoText": "true"
+   }
+  },
+  {
+   "classe": "Toilet02",
+   "id": "3500018",
+   "mudar": {
+    "infoText": "true"
+   }
+  },
+  {
+   "classe": "Toilet03",
+   "id": "3500019",
+   "mudar": {
+    "infoText": "true"
+   }
+  },
+  {
+   "classe": "Toilet04",
+   "id": "3500020",
+   "mudar": {
+    "infoText": "true"
+   }
+  },
+  {
+   "classe": "ArcadeMachineBlue",
+   "id": "3500075",
+   "mudar": {
+    "breakCount": "9",
+    "appointmentLength": "240",
+    "maxCoinStorage": "700"
+   }
+  },
+  {
+   "classe": "Slotmachine",
+   "id": "3500076",
+   "mudar": {
+    "appointmentLength": "240",
+    "maxCoinStorage": "400"
+   }
+  },
+  {
+   "classe": "ClawMachine",
+   "id": "3500079",
+   "mudar": {
+    "cash": "10",
+    "appointmentLength": "240",
+    "maxCoinStorage": "600"
+   }
+  },
+  {
+   "classe": "PinballMachine",
+   "id": "3500080",
+   "mudar": {
+    "appointmentLength": "60",
+    "maxCoinStorage": "80"
+   }
+  },
+  {
+   "classe": "WishingWell",
+   "id": "3500084",
+   "mudar": {
+    "appointmentLength": "240",
+    "maxCoinStorage": "500"
+   }
+  },
+  {
+   "classe": "GingerbreadBed",
+   "id": "3500088",
+   "mudar": {
+    "cash": "36",
+    "efficiencyBonusPercentage": "1,0.5"
+   }
+  },
+  {
+   "classe": "BasicMattressBedRed",
+   "id": "3500092",
+   "mudar": {
+    "cost": "13500",
+    "efficiencyBonusPercentage": "0.5,0.2"
+   }
+  },
+  {
+   "classe": "FloorTile55",
+   "id": "3050054",
+   "mudar": {
+    "name": "Pink Hearts Tile"
+   }
+  },
+  {
+   "classe": "Stove13",
+   "id": "3070009",
+   "mudar": {
+    "name": "Saloon Grill"
+   }
+  }
+ ]
+}

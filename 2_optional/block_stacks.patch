@@ -1,0 +1,67 @@
+diff --git a/src/db/item-catalog.ts b/src/db/item-catalog.ts
+index 2fa3cf2..45cd33b 100644
+--- a/src/db/item-catalog.ts
++++ b/src/db/item-catalog.ts
+@@ -241,6 +241,32 @@ export function isStackableItemId(globalItemId: number): boolean {
+   return stackableItemIds().has(globalItemId);
+ }
+ 
++// (2026-11-04) items whose `type` contains "surface" (Classic White Block and
++// the other divider blocks) can be piled on one tile with the classic RC
++// stacking trick: the client's loadRoom places surfaces first, in serverId
++// order, each one on top of the previous. A pillar of 3 identical blocks is
++// therefore 3 rows with the same item id at the same tile, so duplicate
++// cleanup must not merge them either.
++let cachedSurfaceIds: ReadonlySet<number> | null = null;
++export function isSurfaceItemId(globalItemId: number): boolean {
++  if (!cachedSurfaceIds) {
++    const ids = new Set<number>();
++    const dataDir = path.resolve(__dirname, '..', '..', 'public', 'data');
++    for (const file of CATALOG_FILES) {
++      let xml = '';
++      try { xml = fs.readFileSync(path.join(dataDir, file), 'utf8'); } catch { continue; }
++      for (const match of withoutXmlComments(xml).matchAll(ITEM_TAG)) {
++        if (/type="[^"]*surface/.test(match[1] ?? '')) {
++          const id = Number(attribute(match[1], 'id'));
++          if (Number.isInteger(id)) ids.add(id);
++        }
++      }
++    }
++    cachedSurfaceIds = ids;
++  }
++  return cachedSurfaceIds.has(globalItemId);
++}
++
+ // ADR-0042: walls legitimately hold several decorations (windows/pictures) at
+ // one position, so wall-decoration items are exempt from duplicate cleanup and
+ // save-time reconciliation too.
+diff --git a/src/db/profile-store.ts b/src/db/profile-store.ts
+index 6dad5ed..e2278fc 100644
+--- a/src/db/profile-store.ts
++++ b/src/db/profile-store.ts
+@@ -21,7 +21,7 @@ import { IN_GAME_ACTIVITY_WINDOW_MS, prioritizeInGameRoster } from '../rpc/stree
+ import { gardenIngredientForSeed } from '../rpc/garden-plot';
+ import { capturePreSaveSnapshotTx, recordAcceptedSaveTx, recordSaveEventFindingTx, schedulePlayerScan } from '../moderation/service';
+ import { captureProfileSnapshotTx, type SnapshotPayloadV1 } from '../moderation/snapshots';
+-import { isNonEditableRestaurantEntitlementItem, isStackableItemId, isWallDecorationItemId } from './item-catalog';
++import { isNonEditableRestaurantEntitlementItem, isStackableItemId, isSurfaceItemId, isWallDecorationItemId } from './item-catalog';
+ import { levelForGourmet } from '../moderation/rules';
+ import { queryBatches } from './query-batches';
+ import { resolveRecipeEntry } from './recipe-catalog';
+@@ -443,7 +443,7 @@ export async function prepareOwnedItemsForProfileDelivery(networkUid: string): P
+     const byPlacement = new Map<string, Array<{ id: string; updatedAt: Date }>>();
+     for (const item of survivingItems) {
+       if (item.globalItemId < 3_000_000 || item.globalItemId >= 8_000_000) continue;
+-      if (isStackableItemId(item.globalItemId) || isWallDecorationItemId(item.globalItemId)) continue;
++      if (isStackableItemId(item.globalItemId) || isSurfaceItemId(item.globalItemId) || isWallDecorationItemId(item.globalItemId)) continue;
+       if (FACADE_SINGLETON_GROUPS.has(Math.floor(item.globalItemId / 10_000))) continue;
+       const key = `${item.globalItemId}:${item.positionX}:${item.positionY}:${item.roomIndex}`;
+       const group = byPlacement.get(key);
+@@ -1187,6 +1187,7 @@ async function upsertOwnedItemReconciled(
+     || item.globalItemId < 3_000_000
+     || item.globalItemId >= 8_000_000
+     || isStackableItemId(item.globalItemId)
++    || isSurfaceItemId(item.globalItemId)
+     || isWallDecorationItemId(item.globalItemId)
+     || FACADE_SINGLETON_GROUPS.has(Math.floor(item.globalItemId / 10_000));
+   if (existing || sharesPositionLegitimately) {

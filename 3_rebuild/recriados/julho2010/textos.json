@@ -1,0 +1,730 @@
+[
+ {
+  "id": "ItemDescriptionPicture",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionPicture",
+  "texto": "Shows the real time."
+ },
+ {
+  "id": "ItemDescriptionMonsterClock",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionMonsterClock",
+  "texto": "Shows the real time."
+ },
+ {
+  "id": "ItemDescriptionHaitiPoster",
+  "texto": "A decoration."
+ },
+ {
+  "id": "ItemFunctionHaitiPoster",
+  "texto": "No special effect."
+ },
+ {
+  "id": "ItemDescriptionAliceSmallDoor",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionAliceSmallDoor",
+  "texto": "Customers shrink as they walk through. (June 2010 feature: not active in this version.)"
+ },
+ {
+  "id": "ItemDescriptionMagicWaterTile",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionMagicWaterTile",
+  "texto": "Magic water. Fish leap out of it, one after another, for as long as it is on your floor."
+ },
+ {
+  "id": "ItemDescriptionWeddingArch",
+  "texto": "A decoration."
+ },
+ {
+  "id": "ItemFunctionWeddingArch",
+  "texto": "No special effect."
+ },
+ {
+  "id": "ItemDescriptionUWSunkenShipProw",
+  "texto": "A decoration."
+ },
+ {
+  "id": "ItemFunctionUWSunkenShipProw",
+  "texto": "No special effect."
+ },
+ {
+  "id": "ItemDescriptionUWSunkenRuinsArch",
+  "texto": "A decoration."
+ },
+ {
+  "id": "ItemFunctionUWSunkenRuinsArch",
+  "texto": "No special effect."
+ },
+ {
+  "id": "ItemDescriptionDarkMagicWaterTile",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionDarkMagicWaterTile",
+  "texto": "Magic water. Fish leap out of it, one after another, for as long as it is on your floor."
+ },
+ {
+  "id": "ItemDescriptionRedDiscoTile",
+  "texto": "A decoration."
+ },
+ {
+  "id": "ItemFunctionRedDiscoTile",
+  "texto": "No special effect."
+ },
+ {
+  "id": "ItemDescriptionYellowDiscoTile",
+  "texto": "A decoration."
+ },
+ {
+  "id": "ItemFunctionYellowDiscoTile",
+  "texto": "No special effect."
+ },
+ {
+  "id": "ItemDescriptionArcadeMachine",
+  "texto": "A special entertainment item."
+ },
+ {
+  "id": "ItemFunctionArcadeMachine",
+  "texto": "Earn 1 coin for each use, breaks at around 6 uses. Can be fixed by janitors if broken down."
+ },
+ {
+  "id": "ItemDescriptionToilet05",
+  "texto": "A special toilet."
+ },
+ {
+  "id": "ItemFunctionToilet05",
+  "texto": "Needs a janitor after about 4 uses."
+ },
+ {
+  "id": "ItemDescriptionToilet01",
+  "texto": "A special toilet."
+ },
+ {
+  "id": "ItemFunctionToilet01",
+  "texto": "Needs a janitor after about 4 uses."
+ },
+ {
+  "id": "ItemDescriptionToilet02",
+  "texto": "A special toilet."
+ },
+ {
+  "id": "ItemFunctionToilet02",
+  "texto": "Needs a janitor after about 4 uses."
+ },
+ {
+  "id": "ItemDescriptionToilet03",
+  "texto": "A special toilet."
+ },
+ {
+  "id": "ItemFunctionToilet03",
+  "texto": "Needs a janitor after about 4 uses."
+ },
+ {
+  "id": "ItemDescriptionToilet04",
+  "texto": "A special toilet."
+ },
+ {
+  "id": "ItemFunctionToilet04",
+  "texto": "Needs a janitor after about 4 uses."
+ },
+ {
+  "id": "ItemDescriptionMagicalUnicorn",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionMagicalUnicorn",
+  "texto": "Fills your restaurant with butterflies."
+ },
+ {
+  "id": "ItemDescriptionLucky7Slotmachine",
+  "texto": "A special entertainment item."
+ },
+ {
+  "id": "ItemFunctionLucky7Slotmachine",
+  "texto": "Earn 1 coin for each use, breaks at around 20 uses. Can be fixed by janitors if broken down."
+ },
+ {
+  "id": "ItemDescriptionMusicalNote",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionMusicalNote",
+  "texto": "Fills your restaurant with floating music notes."
+ },
+ {
+  "id": "ItemDescriptionTikiStatue",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionTikiStatue",
+  "texto": "Attracts tiki people!"
+ },
+ {
+  "id": "ItemDescriptionStatueOfCookery",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionStatueOfCookery",
+  "texto": "+1 second to customer's waiting time. (Effect doesn't stack)"
+ },
+ {
+  "id": "ItemDescriptionRainCloud",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionRainCloud",
+  "texto": "Makes it rain inside your restaurant."
+ },
+ {
+  "id": "ItemDescriptionHotelCitySign",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionHotelCitySign",
+  "texto": "Attracts Hotel City guests!"
+ },
+ {
+  "id": "ItemDescriptionAlienMonolith",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionAlienMonolith",
+  "texto": "Attracts space people!"
+ },
+ {
+  "id": "ItemDescriptionAlienPetBlue",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionAlienPetBlue",
+  "texto": "A pet that walks around your restaurant. (June 2010 feature: not active in this version.)"
+ },
+ {
+  "id": "ItemDescriptionAlienPetPurple",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionAlienPetPurple",
+  "texto": "A pet that walks around your restaurant. (June 2010 feature: not active in this version.)"
+ },
+ {
+  "id": "ItemDescriptionAlienStatue",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionAlienStatue",
+  "texto": "Turns all trash into alien slime."
+ },
+ {
+  "id": "ItemDescriptionHypnoticArtifact",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionHypnoticArtifact",
+  "texto": "+1 second to customer's waiting time. (Effect doesn't stack)"
+ },
+ {
+  "id": "ItemDescriptionToilet07",
+  "texto": "A special toilet."
+ },
+ {
+  "id": "ItemFunctionToilet07",
+  "texto": "Customer toilet visits take 50% less time. Needs a janitor after about 20 uses."
+ },
+ {
+  "id": "ItemDescriptionToilet08",
+  "texto": "A special toilet."
+ },
+ {
+  "id": "ItemFunctionToilet08",
+  "texto": "Customer toilet visits take 50% less time. Needs a janitor after about 20 uses."
+ },
+ {
+  "id": "ItemDescriptionToilet09",
+  "texto": "A special toilet."
+ },
+ {
+  "id": "ItemFunctionToilet09",
+  "texto": "Needs a janitor after about 4 uses."
+ },
+ {
+  "id": "ItemDescriptionSpringGoddessStatue",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionSpringGoddessStatue",
+  "texto": "Spawns spring flowers underneath your customers' steps."
+ },
+ {
+  "id": "ItemDescriptionPetChick",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionPetChick",
+  "texto": "A pet that walks around your restaurant. (June 2010 feature: not active in this version.)"
+ },
+ {
+  "id": "ItemDescriptionPetBunny",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionPetBunny",
+  "texto": "A pet that walks around your restaurant. (June 2010 feature: not active in this version.)"
+ },
+ {
+  "id": "ItemDescriptionHighTechToilet",
+  "texto": "A special toilet."
+ },
+ {
+  "id": "ItemFunctionHighTechToilet",
+  "texto": "Customer toilet visits take 40% less time. Needs a janitor after about 16 uses."
+ },
+ {
+  "id": "ItemDescriptionCherryBlossomTree",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionCherryBlossomTree",
+  "texto": "Cherry blossom petals fall inside your restaurant."
+ },
+ {
+  "id": "ItemDescriptionToyEggMachine",
+  "texto": "A special entertainment item."
+ },
+ {
+  "id": "ItemFunctionToyEggMachine",
+  "texto": "Earn 1 coin for each use, breaks at around 12 uses. Can be fixed by janitors if broken down."
+ },
+ {
+  "id": "ItemDescriptionRoboGodzzila",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionRoboGodzzila",
+  "texto": "A pet that walks around your restaurant. (June 2010 feature: not active in this version.)"
+ },
+ {
+  "id": "ItemDescriptionSushiBelt",
+  "texto": "A special entertainment item."
+ },
+ {
+  "id": "ItemFunctionSushiBelt",
+  "texto": "Each sushi dish you master rides around on the conveyor belt. Two customers can eat at it at once. Fills with coins over 4 hours: click the money bag to collect."
+ },
+ {
+  "id": "ItemDescriptionJJRMachineSmall",
+  "texto": "A special entertainment item."
+ },
+ {
+  "id": "ItemFunctionJJRMachineSmall",
+  "texto": "Earn 1 coin for each use, breaks at around 15 uses. Can be fixed by janitors if broken down."
+ },
+ {
+  "id": "ItemDescriptionPinata",
+  "texto": "A special entertainment item."
+ },
+ {
+  "id": "ItemFunctionPinata",
+  "texto": "Earn 1 coin for each use, breaks at around 4 uses. Can be fixed by janitors if broken down."
+ },
+ {
+  "id": "ItemDescriptionHackIcon",
+  "texto": "A decoration."
+ },
+ {
+  "id": "ItemFunctionHackIcon",
+  "texto": "No special effect."
+ },
+ {
+  "id": "ItemDescriptionMariachiBand",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionMariachiBand",
+  "texto": "+1 second to customer's waiting time. (Effect doesn't stack)"
+ },
+ {
+  "id": "ItemDescriptionRedRoseBush",
+  "texto": "A special entertainment item."
+ },
+ {
+  "id": "ItemFunctionRedRoseBush",
+  "texto": "Earn 1 coin for each use, breaks at around 12 uses. Can be fixed by janitors if broken down."
+ },
+ {
+  "id": "ItemDescriptionSushiBeltBlue",
+  "texto": "A special entertainment item."
+ },
+ {
+  "id": "ItemFunctionSushiBeltBlue",
+  "texto": "Each sushi dish you master rides around on the conveyor belt. Two customers can eat at it at once. Fills with coins over 4 hours: click the money bag to collect."
+ },
+ {
+  "id": "ItemDescriptionCheshireCatInside1",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionCheshireCatInside1",
+  "texto": "A pet Cheshire Cat. (June 2010 feature: not active in this version.)"
+ },
+ {
+  "id": "ItemDescriptionWeddingDrinkFountain",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionWeddingDrinkFountain",
+  "texto": "+1 second to customer's waiting time. (Effect doesn't stack)"
+ },
+ {
+  "id": "ItemDescriptionWeddingSwan",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionWeddingSwan",
+  "texto": "Leaves a romantic effect underneath your customers' steps."
+ },
+ {
+  "id": "ItemDescriptionUWPoseidonStatue",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionUWPoseidonStatue",
+  "texto": "+2 bonus to maximum popularity. (Effect doesn't stack with same item)"
+ },
+ {
+  "id": "ItemDescriptionUWCoralGarden",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionUWCoralGarden",
+  "texto": "Schools of fish swim through your restaurant. (June 2010 feature: not active in this version.)"
+ },
+ {
+  "id": "ItemDescriptionUWOysterFarm",
+  "texto": "A special entertainment item."
+ },
+ {
+  "id": "ItemFunctionUWOysterFarm",
+  "texto": "Earn 1 coin for each use, breaks at around 12 uses. Can be fixed by janitors if broken down."
+ },
+ {
+  "id": "ItemDescriptionUWSeashellToilet",
+  "texto": "A special toilet."
+ },
+ {
+  "id": "ItemFunctionUWSeashellToilet",
+  "texto": "Needs a janitor after about 4 uses."
+ },
+ {
+  "id": "ItemDescriptionUWSeaHorse",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionUWSeaHorse",
+  "texto": "A pet that walks around your restaurant. (June 2010 feature: not active in this version.)"
+ },
+ {
+  "id": "ItemDescriptionCWArcadeMachine1",
+  "texto": "A special entertainment item."
+ },
+ {
+  "id": "ItemFunctionCWArcadeMachine1",
+  "texto": "Earn 1 coin for each use, breaks at around 10 uses. Can be fixed by janitors if broken down."
+ },
+ {
+  "id": "ItemDescriptionBlackObelisk",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionBlackObelisk",
+  "texto": "+2.5 bonus to maximum popularity. (Effect doesn't stack with same item)"
+ },
+ {
+  "id": "ItemDescriptionSphinx",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionSphinx",
+  "texto": "+1 second to customer's waiting time. (Effect doesn't stack)"
+ },
+ {
+  "id": "ItemDescriptionPinkArcadeMachine",
+  "texto": "A special entertainment item."
+ },
+ {
+  "id": "ItemFunctionPinkArcadeMachine",
+  "texto": "Earn 1 coin for each use, breaks at around 15 uses. Can be fixed by janitors if broken down."
+ },
+ {
+  "id": "ItemDescriptionBarNightSculpture",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionBarNightSculpture",
+  "texto": "Turns the street outside your restaurant to night time."
+ },
+ {
+  "id": "ItemDescriptionBarFoozball",
+  "texto": "A special entertainment item."
+ },
+ {
+  "id": "ItemFunctionBarFoozball",
+  "texto": "Earn 1 coin for each use."
+ },
+ {
+  "id": "ItemDescriptionAFRedMarbleToilet",
+  "texto": "A special toilet."
+ },
+ {
+  "id": "ItemFunctionAFRedMarbleToilet",
+  "texto": "Customer toilet visits take 40% less time. Needs a janitor after about 16 uses."
+ },
+ {
+  "id": "ItemDescriptionAFMintMarbleToilet",
+  "texto": "A special toilet."
+ },
+ {
+  "id": "ItemFunctionAFMintMarbleToilet",
+  "texto": "Needs a janitor after about 4 uses."
+ },
+ {
+  "id": "ItemDescriptionAFDJArcadeMachine",
+  "texto": "A special entertainment item."
+ },
+ {
+  "id": "ItemFunctionAFDJArcadeMachine",
+  "texto": "Earn 1 coin for each use, breaks at around 15 uses. Can be fixed by janitors if broken down."
+ },
+ {
+  "id": "ItemDescriptionAFPhotobooth",
+  "texto": "A special entertainment item."
+ },
+ {
+  "id": "ItemFunctionAFPhotobooth",
+  "texto": "Earn 1 coin for each use."
+ },
+ {
+  "id": "ItemDescriptionAFWashingtonMonument",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionAFWashingtonMonument",
+  "texto": "+1 bonus to maximum popularity. (Effect doesn't stack with same item)"
+ },
+ {
+  "id": "ItemDescriptionBarFifaBigTV",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionBarFifaBigTV",
+  "texto": "Attracts football fans!"
+ },
+ {
+  "id": "ItemDescriptionBlackDrinkDispencer",
+  "texto": "A special drinks station."
+ },
+ {
+  "id": "ItemFunctionBlackDrinkDispencer",
+  "texto": "Serves drinks 2% faster."
+ },
+ {
+  "id": "ItemDescriptionStove15",
+  "texto": "A special kitchen appliance."
+ },
+ {
+  "id": "ItemFunctionStove15",
+  "texto": "Cooks 15% faster."
+ },
+ {
+  "id": "ItemDescriptionStove16",
+  "texto": "A special kitchen appliance."
+ },
+ {
+  "id": "ItemFunctionStove16",
+  "texto": "Cooks 5% faster."
+ },
+ {
+  "id": "ItemDescriptionStove17",
+  "texto": "A special kitchen appliance."
+ },
+ {
+  "id": "ItemFunctionStove17",
+  "texto": "Cooks 2% faster."
+ },
+ {
+  "id": "ItemDescriptionStove18",
+  "texto": "A special kitchen appliance."
+ },
+ {
+  "id": "ItemFunctionStove18",
+  "texto": "Cooks 20% faster."
+ },
+ {
+  "id": "ItemDescriptionScifiDrinkDispencer",
+  "texto": "A special drinks station."
+ },
+ {
+  "id": "ItemFunctionScifiDrinkDispencer",
+  "texto": "Serves drinks 10% faster."
+ },
+ {
+  "id": "ItemDescriptionStove19",
+  "texto": "A special kitchen appliance."
+ },
+ {
+  "id": "ItemFunctionStove19",
+  "texto": "Cooks 8% faster."
+ },
+ {
+  "id": "ItemDescriptionStove20",
+  "texto": "A special kitchen appliance."
+ },
+ {
+  "id": "ItemFunctionStove20",
+  "texto": "Cooks 25% faster."
+ },
+ {
+  "id": "ItemDescriptionSpringDrinkDispenser",
+  "texto": "A special drinks station."
+ },
+ {
+  "id": "ItemFunctionSpringDrinkDispenser",
+  "texto": "Serves drinks 10% faster."
+ },
+ {
+  "id": "ItemDescriptionStove21",
+  "texto": "A special kitchen appliance."
+ },
+ {
+  "id": "ItemFunctionStove21",
+  "texto": "Cooks 15% faster."
+ },
+ {
+  "id": "ItemDescriptionJapaneseStove01",
+  "texto": "A special kitchen appliance."
+ },
+ {
+  "id": "ItemFunctionJapaneseStove01",
+  "texto": "Cooks 3% faster."
+ },
+ {
+  "id": "ItemDescriptionCeremonialDrinkSet",
+  "texto": "A special drinks station."
+ },
+ {
+  "id": "ItemFunctionCeremonialDrinkSet",
+  "texto": "Serves drinks 8% faster."
+ },
+ {
+  "id": "ItemDescriptionTortillaStove",
+  "texto": "A special kitchen appliance."
+ },
+ {
+  "id": "ItemFunctionTortillaStove",
+  "texto": "Cooks 12% faster."
+ },
+ {
+  "id": "ItemDescriptionCactusDispenser",
+  "texto": "A special drinks station."
+ },
+ {
+  "id": "ItemFunctionCactusDispenser",
+  "texto": "Serves drinks 10% faster."
+ },
+ {
+  "id": "ItemDescriptionPocketWatchStove",
+  "texto": "A special kitchen appliance."
+ },
+ {
+  "id": "ItemFunctionPocketWatchStove",
+  "texto": "Cooks 22% faster."
+ },
+ {
+  "id": "ItemDescriptionUWVolcanoStove",
+  "texto": "A special kitchen appliance."
+ },
+ {
+  "id": "ItemFunctionUWVolcanoStove",
+  "texto": "Cooks 25% faster."
+ },
+ {
+  "id": "ItemDescriptionUWSeashellDrinkDispenser",
+  "texto": "A special drinks station."
+ },
+ {
+  "id": "ItemFunctionUWSeashellDrinkDispenser",
+  "texto": "Serves drinks 15% faster."
+ },
+ {
+  "id": "ItemDescriptionPocketWatchStove_Silver",
+  "texto": "A special kitchen appliance."
+ },
+ {
+  "id": "ItemFunctionPocketWatchStove_Silver",
+  "texto": "Cooks 2% faster."
+ },
+ {
+  "id": "ItemDescriptionManlyStove03",
+  "texto": "A special kitchen appliance."
+ },
+ {
+  "id": "ItemFunctionManlyStove03",
+  "texto": "Cooks 25% faster."
+ },
+ {
+  "id": "ItemDescriptionManlyStove04",
+  "texto": "A special kitchen appliance."
+ },
+ {
+  "id": "ItemFunctionManlyStove04",
+  "texto": "Cooks 17% faster."
+ },
+ {
+  "id": "ItemDescriptionStoveMint",
+  "texto": "A special kitchen appliance."
+ },
+ {
+  "id": "ItemFunctionStoveMint",
+  "texto": "Cooks 1% faster."
+ },
+ {
+  "id": "ItemDescriptionBar01",
+  "texto": "A special decoration."
+ },
+ {
+  "id": "ItemFunctionBar01",
+  "texto": "A spare Cook (one without a stove) works as bartender and serves drinks to customers on the stools. Mastered bar drinks fill the shelf; mastering the bar drinks opens more stools and adds snacks, taps and a mixer."
+ },
+ {
+  "id": "ItemDescriptionFootballStove",
+  "texto": "A special kitchen appliance."
+ },
+ {
+  "id": "ItemFunctionFootballStove",
+  "texto": "Cooks 15% faster."
+ },
+ {
+  "id": "ItemDescriptionClassyStove",
+  "texto": "A special kitchen appliance."
+ },
+ {
+  "id": "ItemFunctionClassyStove",
+  "texto": "Cooks 4% faster."
+ },
+ {
+  "id": "ItemDescriptionAFDrinkDispenser",
+  "texto": "A special drinks station."
+ },
+ {
+  "id": "ItemFunctionAFDrinkDispenser",
+  "texto": "Serves drinks 3% faster."
+ }
+]
