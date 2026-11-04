@@ -14,6 +14,7 @@ Package version: **2026-11-04**. The previous one was 2026-10-29.
 - **Recreations replaced by the originals.** 77 items we had recreated (Monster Robot, Cherry Blossom Tree, Zen Table, Magic Water, Sofa Corner...) are now the official July items. **If you installed the 2026-10-29 package, you must migrate your database** (see warning 1 below).
 - **50 recipes and 11 ingredients from 2010.** The 7 recipes of the Sushi Bar chain (Miso Soup, Yaki Gyoza, Seaweed Salad, Salmon Sashimi, Sushi Selection, Salmon Handrolls, Sakura Mochi) plus **43 recipes from February to July 2010** (Rainbow Soup, Monster Burger, Chocolate Dream, the Lounge Bar drinks and more), each with its original dish art. Also 11 ingredients: Salmon, Seaweed, Pineapple, Coconut, Crab, Cherry, Mint, Easter Egg, Easter Spices, Chick Figurine and Chocolate Bunny. The 21 recipes that were limited-time in 2010 are **always available**. Because of them the package now replaces **9 files** instead of 5.
 - **Sushi Bar:** each of the 8 plates on the belt belongs to one sushi recipe and only shows food once that recipe is **mastered** (level 10), whether or not it is on the menu. At first only the Salmon Sashimi shows; the other plates go round empty.
+- **Recipe mastery rewards:** mastering (level 10) one of the 6 special recipes unlocks its exclusive prize item and adds it directly to your inventory (Salmon Sashimi unlocks the Sushi Bar, Coco Colada unlocks the Lounge Bar, Eat Me unlocks Pet Cheshire Cat, Boston Cooler unlocks Night Sculpture, Chili Crabs unlocks Sunken Ship Prow, and Zero Gravity Salad unlocks Blue Alien Pet).
 - **`game.swf` fixes:**
   - **Waiters:** the waiter route calculation is now fast. Before, a dining room with many tables far from the kitchen froze the game on load ("A script in this movie has taken too long").
   - **Walk-through arches:** the Sunken Ruins Arch and the Wedding Trellis now render assembled correctly, and customers walk through the middle tile.
@@ -94,11 +95,10 @@ They show up, decorate and can be bought, but their special function is not writ
 - **Night Sculpture** (`NightTimeRoad`): the street should turn to night.
 - **Tiki Statue, Hotel City Sign, Alien Monolith and Football Wall TV:** they attract costumed customers, but the July costumes do not exist in the game.
 
-### Recipes that do not give their reward yet
-You can learn and serve them, but the reward for mastering them has not been written yet:
-- **Reward items:** Salmon Sashimi (Sushi Bar), Eat Me (Pet Cheshire Cat), Coco Colada (Lounge Bar), Boston Cooler (Night Sculpture), Chili Crabs (Sunken Ship Prow) and Zero Gravity Salad (Blue Alien Pet).
+### Recipe upgrades that do not take effect yet
+You can learn and serve them, but the extra visual/functional perks below have not been written yet:
 - **Lounge Bar upgrades:** Tropical Sunrise, Strawberry Heaven, Russian Cappuccino, Mint Breeze, Pink Lemonade, Mango Tango and Kiwi Twist (bar snacks, second bartender, extra stool, taps, mixer).
-- **Drink Me:** should shrink the customer.
+- **Drink Me:** should shrink the customer (ShrinkCustomer).
 
 ---
 

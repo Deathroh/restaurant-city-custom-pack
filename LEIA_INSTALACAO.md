@@ -23,6 +23,7 @@ Versão do pacote: **2026-11-04**. A anterior era a de 2026-10-29.
 - **As recriações viraram os originais.** 77 itens que tínhamos recriado (Monster Robot, Cherry Blossom Tree, Zen Table, Magic Water, Sofa Corner...) agora são os itens oficiais de julho. **Quem instalou o pacote de 29/10 precisa migrar o banco** (veja o aviso 1 abaixo).
 - **50 receitas e 11 ingredientes de 2010.** Entram as 7 receitas da cadeia do Sushi Bar (Miso Soup, Yaki Gyoza, Seaweed Salad, Salmon Sashimi, Sushi Selection, Salmon Handrolls, Sakura Mochi) e mais **43 receitas de fevereiro a julho de 2010** (Rainbow Soup, Monster Burger, Chocolate Dream, as bebidas do Lounge Bar e outras), com o desenho original de cada prato. Também entram 11 ingredientes: Salmon, Seaweed, Pineapple, Coconut, Crab, Cherry, Mint, Easter Egg, Easter Spices, Chick Figurine e Chocolate Bunny. As 21 receitas que eram de tempo limitado em 2010 ficam **sempre disponíveis**. Por isso o pacote agora substitui **9 arquivos**, não mais 5.
 - **Sushi Bar:** cada um dos 8 pratos da esteira é de uma receita de sushi e só aparece cheio quando a receita foi **dominada** (nível 10), esteja ela no cardápio ou não. No começo, só o Salmon Sashimi aparece; os outros pratos giram vazios.
+- **Prêmios de domínio de receita:** ao dominar (nível 10) uma das 6 receitas especiais, o item de prêmio exclusivo é desbloqueado e adicionado direto ao inventário (Salmon Sashimi dá o Sushi Bar, Coco Colada dá o Lounge Bar, Eat Me dá o Pet Cheshire Cat, Boston Cooler dá a Night Sculpture, Chili Crabs dá o Sunken Ship Prow e Zero Gravity Salad dá o Blue Alien Pet).
 - **Correções no `game.swf`:**
   - **Garçons:** o cálculo de rotas do garçom ficou rápido. Antes, um salão com muitas mesas longe da cozinha travava o jogo ao abrir ("A script in this movie has taken too long").
   - **Arcos de passar por baixo:** o Sunken Ruins Arch e o Wedding Trellis agora aparecem montados certo, e o cliente passa pelo bloco do meio.
@@ -103,11 +104,10 @@ Aparecem, decoram e podem ser comprados, mas a função especial ainda não foi 
 - **Night Sculpture** (`NightTimeRoad`): a rua deveria ficar de noite.
 - **Tiki Statue, Hotel City Sign, Alien Monolith e Football Wall TV:** atraem clientes fantasiados, mas as roupas de julho não existem no jogo.
 
-### Receitas que ainda não dão o prêmio
-Dá para aprender e servir, mas o prêmio de dominar a receita ainda não foi escrito:
-- **Itens de prêmio:** Salmon Sashimi (Sushi Bar), Eat Me (Pet Cheshire Cat), Coco Colada (Lounge Bar), Boston Cooler (Night Sculpture), Chili Crabs (Sunken Ship Prow) e Zero Gravity Salad (Blue Alien Pet).
+### Melhorias de receitas que ainda não têm efeito
+Dá para aprender e servir, mas os efeitos extras abaixo ainda não foram escritos:
 - **Melhorias do Lounge Bar:** Tropical Sunrise, Strawberry Heaven, Russian Cappuccino, Mint Breeze, Pink Lemonade, Mango Tango e Kiwi Twist (petiscos, segundo barman, banco extra, torneiras, misturador).
-- **Drink Me:** deveria encolher o cliente.
+- **Drink Me:** deveria encolher o cliente (ShrinkCustomer).
 
 ---
 

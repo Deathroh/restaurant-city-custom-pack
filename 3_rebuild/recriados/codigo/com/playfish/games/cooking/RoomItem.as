@@ -211,19 +211,14 @@ package com.playfish.games.cooking
       
       public var wallItem:Boolean = false;
 
-      // RCR (2026-11-04): pecas anexas (mc_attach0..) dos arcos de julho/2010 (Sunken Ruins Arch, Wedding Trellis),
-      // portado do cliente do Restaurant Origins (recuperado/restaurant_origins/codigo_game, RoomItem.as).
-      // Cada mc_attachN vira um sub-item proprio no bloco certo (com fatias por fileira para a profundidade);
-      // antes a peca ia junto do item cortado em fileiras e aparecia solta, um bloco fora do lugar.
-      public static const RCR_SOBRA_PECA:Number = 24;
+      // RCR (2026-11-04, reescrito no mesmo dia): pecas da frente (mc_attach0..) dos arcos de julho/2010 (Sunken
+      // Ruins Arch, Wedding Trellis). O item continua cortado em fileiras pelo proprio jogo (subItemAutoSplit, como
+      // qualquer item grande); cada mc_attachN sai do desenho cortado e vira UM sub-item proprio, posto no bloco
+      // da frente que ele cobre, no quadro do giro (rcrMontarPecas / rcrPosicionarPecas). Sem isso a peca ia junto
+      // das fileiras e aparecia solta, um bloco fora do lugar.
+      public var rcrEhPeca:Boolean = false;
 
-      public var attachParts:Boolean = false;
-
-      public var attachIndex:int = -1;
-
-      public var attachRow:int = 0;
-
-      public var attachBase:RoomItem = null;
+      public var rcrPecas:Array = null;
 
       // blocos de passagem (mc_walkable0..), relativos ao bloco do item no giro atual: o cliente passa por baixo
       // do arco (WorldRestaurantPlay.isWalkable). Sem isso o bloco do meio ficava bloqueado.
@@ -368,10 +363,6 @@ package com.playfish.games.cooking
             }
             return _loc3_;
          }
-         if(_loc11_.content["mc_attach0"])
-         {
-            return rcrCriarPecasAnexas(_loc11_,param1,param2);
-         }
          if(_loc11_.numTilesX > 1 || _loc11_.numTilesY > 1)
          {
             _loc11_.subItemAutoSplit = true;
@@ -419,6 +410,7 @@ package com.playfish.games.cooking
                }
             }
          }
+         rcrMontarPecas(_loc11_,param1);
          if(param2)
          {
             _loc11_.setUserItem(param2);
@@ -426,154 +418,73 @@ package com.playfish.games.cooking
          return _loc11_;
       }
       
-      private static function rcrCriarPecasAnexas(param1:RoomItem, param2:Object, param3:UserItem) : RoomItem
+      // cria um sub-item para cada mc_attachN do desenho (nada acontece nos itens sem essas pecas)
+      private static function rcrMontarPecas(param1:RoomItem, param2:Object) : void
       {
-         var _loc4_:int = 0;
-         var _loc5_:MovieClip = null;
-         var _loc6_:RoomItem = null;
-         var _loc7_:int = 0;
-         var _loc8_:int = Math.max(int(param2.sizeX),int(param2.sizeY));
-         if(_loc8_ < 1)
+         var _loc3_:int = 0;
+         var _loc4_:MovieClip = null;
+         var _loc5_:RoomItem = null;
+         while((_loc4_ = param1.content["mc_attach" + _loc3_] as MovieClip) != null)
          {
-            _loc8_ = 1;
-         }
-         param1.attachParts = true;
-         param1.subItems = new Array();
-         while(true)
-         {
-            _loc5_ = param1.content["mc_attach" + _loc4_];
-            if(!_loc5_)
+            if(param1.rcrPecas == null)
             {
-               break;
+               param1.rcrPecas = new Array();
+               if(param1.subItems == null)
+               {
+                  param1.subItems = new Array();
+               }
             }
-            _loc6_ = rcrFatiaAnexa(param1,param2,_loc5_,_loc4_,0,null);
-            _loc7_ = 1;
-            while(_loc7_ < _loc8_)
-            {
-               rcrFatiaAnexa(param1,param2,_loc5_,_loc4_,_loc7_,_loc6_);
-               _loc7_++;
-            }
-            _loc4_++;
+            _loc5_ = new RoomItem(param2,null,getQualifiedClassName(_loc4_));
+            _loc5_.rcrEhPeca = true;
+            _loc5_.mouseEnabled = false;
+            _loc5_.mouseChildren = false;
+            _loc5_.setGridSize(0,0);
+            _loc5_.parentItem = param1;
+            param1.rcrPecas.push(_loc5_);
+            param1.subItems.push(_loc5_);
+            _loc3_++;
          }
-         param1.rcrSyncAnexas();
-         if(param3)
-         {
-            param1.setUserItem(param3);
-         }
-         return param1;
+         param1.rcrPosicionarPecas();
       }
 
-      private static function rcrFatiaAnexa(param1:RoomItem, param2:Object, param3:MovieClip, param4:int, param5:int, param6:RoomItem) : RoomItem
-      {
-         var _loc7_:RoomItem = new RoomItem(param2,null,getQualifiedClassName(param3));
-         _loc7_.mouseEnabled = false;
-         _loc7_.mouseChildren = false;
-         _loc7_.setGridSize(0,0);
-         _loc7_.parentItem = param1;
-         _loc7_.attachIndex = param4;
-         _loc7_.attachRow = param5;
-         _loc7_.attachBase = param6;
-         if(param5 > 0)
-         {
-            _loc7_.content.x = -WorldRestaurant.getScreenX(0,param5);
-            _loc7_.content.y = -WorldRestaurant.getScreenY(0,param5);
-            _loc7_.visible = false;
-         }
-         param1.subItems.push(_loc7_);
-         return _loc7_;
-      }
-
-      // poe cada peca anexa no bloco e no quadro (giro) do item; as fatias de tras (attachRow > 0) recebem
-      // a mascara da fileira, como os itens grandes cortados pelo jogo
-      public function rcrSyncAnexas() : void
+      // poe cada peca no quadro do giro atual e no bloco da frente que ela cobre, sem mudar onde ela aparece na
+      // tela; e guarda os blocos de passagem (mc_walkable) do giro atual
+      public function rcrPosicionarPecas() : void
       {
          var _loc1_:int = 0;
-         var _loc2_:RoomItem = null;
-         var _loc3_:MovieClip = null;
+         var _loc2_:MovieClip = null;
+         var _loc3_:RoomItem = null;
          var _loc4_:Rectangle = null;
-         var _loc5_:Shape = null;
-         var _loc6_:RoomItem = null;
+         var _loc5_:int = 0;
+         var _loc6_:int = 0;
          this.rcrPassagens = new Array();
-         while((_loc3_ = content["mc_walkable" + _loc1_] as MovieClip) != null)
+         while((_loc2_ = content["mc_walkable" + _loc1_] as MovieClip) != null)
          {
-            _loc3_.visible = false;
-            this.rcrPassagens.push([Math.round((_loc3_.x + 2 * _loc3_.y) / WorldRestaurant.tileWidth),Math.round((2 * _loc3_.y - _loc3_.x) / (2 * WorldRestaurant.tileHeight))]);
+            this.rcrPassagens.push([Math.round((_loc2_.x + 2 * _loc2_.y) / WorldRestaurant.tileWidth),Math.round((2 * _loc2_.y - _loc2_.x) / (2 * WorldRestaurant.tileHeight))]);
             _loc1_++;
          }
-         PerfTrace.mark("[RCR] pecas anexas " + itemConfig.className + " giro=" + this.rotationCount + " passagem=" + this.rcrPassagens.join(";"));
-         if(this.subItems == null)
+         if(this.rcrPecas == null)
          {
             return;
          }
          _loc1_ = 0;
-         while(_loc1_ < this.subItems.length)
+         while(_loc1_ < this.rcrPecas.length)
          {
-            _loc2_ = this.subItems[_loc1_];
-            if(_loc2_.attachRow == 0)
+            _loc3_ = this.rcrPecas[_loc1_];
+            _loc2_ = content["mc_attach" + _loc1_] as MovieClip;
+            _loc3_.content.gotoAndStop(content.currentFrame <= _loc3_.content.totalFrames ? content.currentFrame : 1);
+            if(_loc2_ != null)
             {
-               _loc3_ = content["mc_attach" + _loc2_.attachIndex] as MovieClip;
-               if(_loc3_)
-               {
-                  _loc3_.stop();
-                  _loc3_.visible = false;
-                  _loc2_.subItemTileOffsetX = Math.round((_loc3_.x + 2 * _loc3_.y) / WorldRestaurant.tileWidth);
-                  _loc2_.subItemTileOffsetY = Math.round((2 * _loc3_.y - _loc3_.x) / (2 * WorldRestaurant.tileHeight));
-               }
-               if(_loc2_.content.totalFrames >= content.currentFrame)
-               {
-                  _loc2_.content.gotoAndStop(content.currentFrame);
-               }
-               else
-               {
-                  _loc2_.content.gotoAndStop(1);
-               }
-               _loc4_ = _loc2_.getBounds(_loc2_);
-               _loc2_.fullGridSizeX = Math.max(1,Math.ceil((_loc4_.right - RCR_SOBRA_PECA) / WorldRestaurant.tileWidthHalf));
-               if(_loc2_.subItemTileOffsetX + _loc2_.fullGridSizeX > this.numTilesX)
-               {
-                  _loc2_.fullGridSizeX = Math.max(1,this.numTilesX - _loc2_.subItemTileOffsetX);
-               }
-               _loc2_.fullGridSizeY = Math.max(1,Math.round(_loc4_.bottom / WorldRestaurant.tileHeightHalf) - _loc2_.fullGridSizeX);
-               if(_loc2_.subItemTileOffsetY + _loc2_.fullGridSizeY > this.numTilesY)
-               {
-                  _loc2_.fullGridSizeY = Math.max(1,this.numTilesY - _loc2_.subItemTileOffsetY);
-               }
-               _loc2_.itemHeight = -_loc4_.top + (WorldRestaurant.tileHeight * _loc2_.fullGridSizeY - _loc4_.bottom);
-               _loc2_.setTilePosition(this.tileX + _loc2_.subItemTileOffsetX,this.tileY + _loc2_.subItemTileOffsetY);
+               // canto de baixo da peca na tela -> bloco da frente que ela cobre (projecao isometrica inversa)
+               _loc4_ = _loc3_.content.getBounds(_loc3_.content);
+               _loc5_ = Math.max(0,Math.min(this.numTilesX - 1,Math.round((_loc2_.x + 2 * (_loc2_.y + _loc4_.bottom)) / WorldRestaurant.tileWidth) - 1));
+               _loc6_ = Math.max(0,Math.min(this.numTilesY - 1,Math.round((2 * (_loc2_.y + _loc4_.bottom) - _loc2_.x) / WorldRestaurant.tileWidth) - 1));
+               _loc3_.subItemTileOffsetX = _loc5_;
+               _loc3_.subItemTileOffsetY = _loc6_;
+               _loc3_.content.x = _loc2_.x - WorldRestaurant.getScreenX(_loc5_,_loc6_);
+               _loc3_.content.y = _loc2_.y - WorldRestaurant.getScreenY(_loc5_,_loc6_);
             }
-            _loc1_++;
-         }
-         _loc1_ = 0;
-         while(_loc1_ < this.subItems.length)
-         {
-            _loc2_ = this.subItems[_loc1_];
-            if(_loc2_.attachRow > 0 && _loc2_.attachBase != null)
-            {
-               _loc6_ = _loc2_.attachBase;
-               _loc2_.content.gotoAndStop(_loc6_.content.currentFrame);
-               _loc2_.subItemTileOffsetX = _loc6_.subItemTileOffsetX;
-               _loc2_.subItemTileOffsetY = _loc6_.subItemTileOffsetY + _loc2_.attachRow;
-               _loc2_.itemHeight = _loc6_.itemHeight;
-               _loc2_.fullGridSizeX = _loc6_.fullGridSizeX;
-               _loc2_.fullGridSizeY = _loc6_.fullGridSizeY;
-               if(_loc2_.content.mask)
-               {
-                  _loc2_.content.removeChild(_loc2_.content.mask);
-                  _loc2_.content.mask = null;
-               }
-               if(_loc2_.attachRow < _loc6_.fullGridSizeY)
-               {
-                  _loc5_ = getRowMask(_loc6_,_loc2_.attachRow);
-                  _loc2_.content.addChild(_loc5_);
-                  _loc2_.content.mask = _loc5_;
-                  _loc2_.visible = true;
-               }
-               else
-               {
-                  _loc2_.visible = false;
-               }
-               _loc2_.setTilePosition(this.tileX + _loc2_.subItemTileOffsetX,this.tileY + _loc2_.subItemTileOffsetY);
-            }
+            _loc3_.setTilePosition(this.tileX + _loc3_.subItemTileOffsetX,this.tileY + _loc3_.subItemTileOffsetY);
             _loc1_++;
          }
       }
@@ -719,11 +630,6 @@ package com.playfish.games.cooking
             content.nextFrame();
          }
          this.rcrSyncPartes();
-         if(this.attachParts)
-         {
-            this.rcrSyncAnexas();
-            return;
-         }
          if(this.subItems != null)
          {
             if(this.subItemAutoSplit)
@@ -744,6 +650,11 @@ package com.playfish.games.cooking
                   while(_loc2_ < this.subItems.length)
                   {
                      _loc1_ = this.subItems[_loc2_];
+                     if(_loc1_.rcrEhPeca)
+                     {
+                        _loc2_++;
+                        continue;
+                     }
                      _loc1_.rotate();
                      _loc3_ = _loc2_ + 1;
                      if(_loc3_ < this.fullGridSizeY)
@@ -780,6 +691,7 @@ package com.playfish.games.cooking
                }
             }
          }
+         this.rcrPosicionarPecas();
       }
       
       public function clone() : RoomItem
@@ -904,10 +816,6 @@ package com.playfish.games.cooking
       
       public function getMaxRotationCount() : int
       {
-         if(this.attachParts)
-         {
-            return content.totalFrames;
-         }
          if(this.subItems != null && !this.subItemAutoSplit)
          {
             return 4;
@@ -1093,7 +1001,8 @@ package com.playfish.games.cooking
          _loc1_ = 0;
          while((_loc2_ = content["mc_attach" + _loc1_] as MovieClip) != null)
          {
-            _loc2_.gotoAndStop(content.currentFrame <= _loc2_.totalFrames ? content.currentFrame : 1);
+            _loc2_.stop();
+            _loc2_.visible = false;
             _loc1_++;
          }
       }
