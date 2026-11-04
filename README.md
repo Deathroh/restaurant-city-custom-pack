@@ -12,7 +12,8 @@ Package version: **2026-11-04**. The previous one was 2026-10-29.
 
 - **Official July 2010 build.** The package adds **494 official items** that the server's 0.9.143a build did not have: Lounge Bar, Wedding, Underwater, Alice in Wonderland, the Japanese theme, Spring, Mexico, Space, the pets and the Sushi Bar. Art and data come from the July 2010 files preserved by the Restaurant Origins project. Items keep their **original Playfish ids**, and 53 existing items got their July 2010 values.
 - **Recreations replaced by the originals.** 77 items we had recreated (Monster Robot, Cherry Blossom Tree, Zen Table, Magic Water, Sofa Corner...) are now the official July items. **If you installed the 2026-10-29 package, you must migrate your database** (see warning 1 below).
-- **Sushi recipes.** The 7 recipes of the Sushi Bar chain (Miso Soup, Yaki Gyoza, Seaweed Salad, Salmon Sashimi, Sushi Selection, Salmon Handrolls, Sakura Mochi) and the Salmon and Seaweed ingredients. Because of them the package now replaces **9 files** instead of 5.
+- **50 recipes and 11 ingredients from 2010.** The 7 recipes of the Sushi Bar chain (Miso Soup, Yaki Gyoza, Seaweed Salad, Salmon Sashimi, Sushi Selection, Salmon Handrolls, Sakura Mochi) plus **43 recipes from February to July 2010** (Rainbow Soup, Monster Burger, Chocolate Dream, the Lounge Bar drinks and more), each with its original dish art. Also 11 ingredients: Salmon, Seaweed, Pineapple, Coconut, Crab, Cherry, Mint, Easter Egg, Easter Spices, Chick Figurine and Chocolate Bunny. The 21 recipes that were limited-time in 2010 are **always available**. Because of them the package now replaces **9 files** instead of 5.
+- **Sushi Bar:** each of the 8 plates on the belt belongs to one sushi recipe and only shows food once that recipe is **mastered** (level 10), whether or not it is on the menu. At first only the Salmon Sashimi shows; the other plates go round empty.
 - **`game.swf` fixes:**
   - **Waiters:** the waiter route calculation is now fast. Before, a dining room with many tables far from the kitchen froze the game on load ("A script in this movie has taken too long").
   - **Walk-through arches:** the Sunken Ruins Arch and the Wedding Trellis now render assembled correctly, and customers walk through the middle tile.
@@ -37,7 +38,7 @@ Package version: **2026-11-04**. The previous one was 2026-10-29.
 
 > [!CAUTION]
 > **2. Id conflicts.**  
-> Recreated items use the range `3080001` to `3080146`. July items use the original Playfish ids that do not exist in the 0.9.143a build: decorations and furniture between `3000066` and `3500130`, recipes `5000031`–`5000033`, `5100043`–`5100045` and `5200033`, and ingredients `4000103`/`4000104`. If your server already registered its own items under those ids (or added the July items some other way), **do not install**: the rows would clash in the catalog.
+> Recreated items use the range `3080001` to `3080146`. July items use the original Playfish ids that do not exist in the 0.9.143a build: decorations and furniture between `3000066` and `3500130`, recipes `5000026`–`5000037`, `5100037`–`5100049`, `5200029`–`5200038` and `5300020`–`5300034`, and ingredients `4000101`–`4000111`. If your server already registered its own items under those ids (or added the July items some other way), **do not install**: the rows would clash in the catalog.
 
 > [!WARNING]
 > **3. Back up the 9 files.**  
@@ -65,8 +66,8 @@ Package version: **2026-11-04**. The previous one was 2026-10-29.
 |---|---|
 | Items recreated by us (ids `3080xxx`) | 44 in the catalog, 41 for sale |
 | Official July 2010 items | 494 (106 cost Playfish Cash) |
-| New recipes | 7 (Sushi Bar chain) |
-| New ingredients | 2 (Salmon, Seaweed) |
+| New recipes | 50 (7 from the Sushi Bar chain + 43 from Feb–Jul 2010) |
+| New ingredients | 11 |
 
 The complete list, tab by tab, with the id, price, effect and size of every item, is in **[ITEMS.md](ITEMS.md)**.
 
@@ -92,6 +93,12 @@ They show up, decorate and can be bought, but their special function is not writ
 - **Tiny Door** (`ShrinkCustomerDoor`): customers should shrink when walking through.
 - **Night Sculpture** (`NightTimeRoad`): the street should turn to night.
 - **Tiki Statue, Hotel City Sign, Alien Monolith and Football Wall TV:** they attract costumed customers, but the July costumes do not exist in the game.
+
+### Recipes that do not give their reward yet
+You can learn and serve them, but the reward for mastering them has not been written yet:
+- **Reward items:** Salmon Sashimi (Sushi Bar), Eat Me (Pet Cheshire Cat), Coco Colada (Lounge Bar), Boston Cooler (Night Sculpture), Chili Crabs (Sunken Ship Prow) and Zero Gravity Salad (Blue Alien Pet).
+- **Lounge Bar upgrades:** Tropical Sunrise, Strawberry Heaven, Russian Cappuccino, Mint Breeze, Pink Lemonade, Mango Tango and Kiwi Twist (bar snacks, second bartender, extra stool, taps, mixer).
+- **Drink Me:** should shrink the customer.
 
 ---
 
@@ -146,7 +153,7 @@ What the script does:
 - **July art:** copies the July 2010 art from `3_rebuild\recuperado\restaurant_origins\` into `indoor_asset.swf`.
 - **Recreated items:** injects the art and catalog rows of the recreated items (`recriados\manifesto.json`).
 - **Catalog:** applies the July values, the seasons (`recriados\epocas.json`) and the items taken out of the shop (`recriados\fora_da_loja.json`).
-- **Recipes:** writes the sushi recipes and ingredients.
+- **Recipes:** writes the 50 recipes and 11 ingredients from 2010.
 - **Game:** recompiles the classes in `recriados\codigo\` into `game.swf`.
 
 To take another item out of the shop, add a line to `recriados\fora_da_loja.json` and run the script again.
@@ -201,6 +208,7 @@ npm run build
 1. **Shop, Kitchen tab:** a single Teppanyaki Grill shows up (10 Playfish Cash).
 2. **Shop, Functional tab:** the Monster Robot walks around the room and the Cherry Blossom Tree drops petals.
 3. **Shop, Decoration tab:** the Sunken Ruins Arch and the Wedding Trellis show up whole; customers walk through them.
-4. **Menu:** the sushi recipes appear among the dishes to learn.
-5. **Big dining room:** a layout with 50+ chairs loads without freezing (in testing, 59 chairs loaded in 0.7 s).
-6. **If you migrated:** the recreated items you owned now show up as the July originals, in the same places.
+4. **Menu:** the new recipes appear at the end of each tab (starters, mains, desserts and drinks), with their art and no limited-time countdown.
+5. **Sushi Bar:** only the plates of mastered sushi recipes show food on the belt.
+6. **Big dining room:** a layout with 50+ chairs loads without freezing (in testing, 59 chairs loaded in 0.7 s).
+7. **If you migrated:** the recreated items you owned now show up as the July originals, in the same places.

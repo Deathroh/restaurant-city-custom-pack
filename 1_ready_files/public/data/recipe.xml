@@ -30,6 +30,15 @@
 		<item className="FoodItem108" cost="2" hash="DRW25PuvDbwD_K_5dUhmMDZyBEH5zqwYdqpS.gtUb4.2raSMUydg547Po4ilGzso" id="5000031" ingredients="Seaweed, Beans, Tofu, Water" name="Miso Soup"/>
 		<item className="FoodItem110" cost="2" hash="ow8CDjNeoUmeCz9NjIXZYhvZk9_kSBAHg.D0_xdPfcgaCRNUYFalAZjaAk4vAG.j" id="5000032" ingredients="Pork, Ginger, Garlic" name="Yaki Gyoza"/>
 		<item className="FoodItem113" cost="2" hash="x8vLfPHhOF6u0h1OpRj5UbzSd8ZD6MYAB_t7HCD0FRtH0M4MbWOeX2v0G6A6_BKb" id="5000033" ingredients="Seaweed, Ginger, Chili" name="Seaweed Salad"/>
+		<item className="FoodItem94" cost="2" hash="nGO04YxtnA0HmU.pYZfjSFQVZp7Hh2uM6I0.15MyEgWjtoo6UG9b.hWGGMRTdWyj" id="5000026" ingredients="Pomegranate, Pepperoni, Wasabi, Dragon Fruit" name="Rainbow Soup"/>
+		<item className="FoodItem96" cost="2" hash="SH39lG2ChU.SyEfCwl92IfwmD.D40TTPk6UhQ4FMEBDwWl.SaMa2D2_yd84Bte5_" id="5000027" ingredients="Lobster, Tomato, Coriander, Salad" name="Lobster Salad"/>
+		<item className="FoodItem98" cost="2" hash="5l48D0KrG2ZNXvJyq7zr6DbY0VRuiTZyZY2NOnePuBPXvus1B2cLROYTXi9Py3.a" id="5000028" ingredients="Sweetcorn, Chili, Cheese, Cream" name="Mega Nachos"/>
+		<item className="FoodItem100" cost="2" hash="N5SAdA2dEW9ATFCaFTL7Upfx5zfnQUPVsD.cn44qKpH5Stfx4_yxIQGYcbw0HLVb" id="5000029" ingredients="Flour, Butter, Water" name="Giant Pretzel"/>
+		<item className="FoodItem104" cost="2" hash="qAsIug6H16ZCoChIY0tNm.C9Zo0FSEVmsiFYEtvg7IxH0lGePn2eSwYwTjitXaXE" id="5000030" ingredients="Coconut, Pineapple, Mango, Banana" level10Reward="3000103" name="Zero Gravity Salad"/>
+		<item className="FoodItem117" cost="2" hash="yrfsGHc6fhNJYgXanYBoMI7K10.1Mugir.hm9JCkml7VCucxK09oPFxMs_8fROT7" id="5000034" ingredients="Beans, Flour, Tomato, Chicken" name="Tostadas"/>
+		<item className="FoodItem122" cost="2" hash="uaL.kj5YzvaHyMTBfHsqDnXWu3RnSnnWnskfH0xng1bmyEQp_CLErIVwqyHpaBzy" id="5000035" ingredients="Salmon, Coriander, Pork, Pineapple" name="Canapes"/>
+		<item className="FoodItem123" cost="2" hash="jRXDGFF3rBgKnOnbbYbKgseZtYNOEAZyu5iPKH9XesaIh9laUfKUUpK..xGdDuR7" id="5000036" ingredients="Prawn, Garlic, Lemon, Butter" name="Garlic and Butter Prawns"/>
+		<item className="FoodItem125" cost="2" hash="IfAeMFEHSGBQcLCcb8Wivot7xMxdi_f0PqfhEQgn8TmhrF.L.VjMKBPjOHrRO.BL" id="5000037" ingredients="Seaweed, Salmon, Crab" name="Softshell Crab Roll"/>
 	</group>
 
 
@@ -75,6 +84,16 @@
 		<item className="FoodItem111" cost="2" hash="j748cLOWbhIGWecqJ3pqmV8Yqo_3EZhSGWHyR62ZuEirsrNLO7fG42RJQ0kK6TOV" id="5100044" ingredients="Salmon, Salmon, Wasabi" level10Reward="3500117" name="Salmon Sashimi"/>
 		<item className="FoodItem109" cost="2" hash="wly9cYvAAOFn.S0TsXtyZgC9x5wiDt7A86oYJ_5WCdstPpCgtiA5MFVFyHV9PaBu" id="5100043" ingredients="Salmon, Seaweed, Prawn, Tuna" name="Sushi Selection"/>
 		<item className="FoodItem114" cost="2" hash="5FgAgVzNd3BwgeXoE6yhbD_GLKQkcnX0r17FKOiHoYC.dHgZPG.XkPUUCFDEBDlL" id="5100045" ingredients="Salmon, Rice, Seaweed" name="Salmon Handrolls"/>
+		<item className="FoodItem93" cost="2" hash="RGTsZz3hsAFazvU8izGvEswA8jvu3PtVJ5hi2VvQVWhY926ohe46bAVsiiOl_nWL" id="5100037" ingredients="Bacon, Peach, Dragon Fruit, Tofu" name="Cosmic Bacon Orb"/>
+		<item className="FoodItem97" cost="2" hash="X58FXoE3PBhcgOlpm2i1AiniFaRzgsL_dVTz35Lg0w_zVXSkmri5QrjoVJ5.V6dN" id="5100038" ingredients="Beef, Beef, Cheese, Potato" name="Monster Burger"/>
+		<item className="FoodItem99" cost="2" hash="SkarG6fSOlUMQgZ4d3CKjQfagL0Zpz9FOdNbnCgY1uihe1Gy0q72TtaLKkGbF0zx" id="5100039" ingredients="Cheese, Tomato, Pineapple, Pork" name="Hawai'ian Pizza"/>
+		<item className="FoodItem101" cost="2" hash="8ry7aLKaMcUjg3EJco1nDw0fsKw6HXSpQTwNYcarQgrB26fmnu7EPAHdk11ZJ5dT" id="5100040" ingredients="Beef, Coriander, Garlic, Bread" name="Pastrami Sandwich"/>
+		<item className="FoodItem105" cost="2" hash="UEg634o5q8AhAqtV0OH3X6kCKJahjilyVPUvyKf3DDer8QaE1vtfiNygqvOq0pIN" id="5100041" ingredients="Easter Spices, Easter Egg, Chocolate Bunny, Chick Figurine" name="Cute Chocolate Egg"/>
+		<item className="FoodItem107" cost="2" hash="tygwG0zasS4aFgyGsidym0a2VWgMl6oxZq0Q39gb6VAbH0gKn1nqcMyO9Qe8NMot" id="5100042" ingredients="Lamb, Easter Spices, Easter Egg, Chick Figurine" name="Easter Lamb With Herbs"/>
+		<item className="FoodItem116" cost="2" hash="8qi1NxJdVBPzsnxv6DTBeJMmnflIDHIThyqJkeErexAIankcfhVLdYlH1YBk7dWn" id="5100046" ingredients="Chili, Cheese, Beef" name="Beef Enchilada"/>
+		<item className="FoodItem124" cost="2" hash="lormR4Z3H_qrPGtwTS1M7aroDlF_4BesL.wZd60pJVwUfZQexcwP0fdS6h8mHcge" id="5100047" ingredients="Crab, Crab, Chili" level10Reward="3020362" name="Chili Crabs"/>
+		<item className="FoodItem126" cost="2" hash="RpxMm5JU0Nw8Sx68piLbXx2v1CPmWIlo5DaYM24fdEne7b_lIg0mskOXJPdlrBbh" id="5100048" ingredients="Salmon, Prawn, Crab, Lobster" name="Seafood Platter"/>
+		<item className="FoodItem127" cost="2" hash="2PkUevCDOPhKwpD_c6si73nZbswaLZXh7yn16IUE62aSOdgiIRWthvWoY.Ewo3Wx" id="5100049" ingredients="Bacon, Sausage, Egg, Mushroom" name="Full English"/>
 	</group>
 
 
@@ -110,6 +129,15 @@
 		<item className="FoodItem92" cost="2" expireDate="31/12/2099" hash="FzinfHDlqRkFKra0ip2NsoxfnWpi4LLlApAbDrbgJfeVRHJRJhDl2kssgkWDT33Q" id="5200028" ingredients="Strawberry, Chocolate, Vanilla" name="Valentine Cake"/>
 		
 		<item className="FoodItem112" cost="2" hash="w0EigC3zH0yXACxlrgbUTlOQPA4Oq2dLt9ZadOpGbnFBQtPKsxCw9yDZXozOO6HE" id="5200033" ingredients="Rice, Sugar, Beans" name="Sakura Mochi"/>
+		<item className="FoodItem95" cost="2" hash="U1Lt2jolC_D53ejQZZPLZ0wD0QhXkxq_lvflGE1IyIVpfC8FJZAy6.aIkOwgFD7m" id="5200029" ingredients="Chocolate, Vanilla, Cream, Kiwi" name="Chocolate Dream"/>
+		<item className="FoodItem103" cost="2" hash="12QW7UOiuTFPCUnf2G3qwI6qktWZz4w8x5C_g0rxBY4B_t3WSDF5y.2Uqg4Q2RbN" id="5200030" ingredients="Chocolate, Coconut, Vanilla" name="Chocolate Meteor"/>
+		<item className="FoodItem102" cost="2" hash="pEQGRd3._VFzhzschRUPTuCprjYBWbVyEliV2PnbhRU0q27TVf.wBVS8oBIwduNu" id="5200031" ingredients="Cheese, Sugar, Cream" name="Moon Cheese Cake"/>
+		<item className="FoodItem106" cost="2" hash="68ZKyAl7veaX.6Ai7dEi2n4.Ogy0lUrLTlF9pJwX3wGXerOF9ZmFDUXQkFMy.UO9" id="5200032" ingredients="Easter Spices, Raisins, Chick Figurine, Bread" name="Hot Cross Bun"/>
+		<item className="FoodItem115" cost="2" hash="U6kUWab_D7IcTEqCVs_J4a1MA3IiRqF..esSHqQLmQHQW5AnRpqVOZDHOvyZVI1p" id="5200034" ingredients="Egg, Sugar, Vanilla" name="Mexican Flan"/>
+		<item className="FoodItem120" cost="2" hash="0bAwdw0iHeEsUJCoiqk7cvRrI4KxDpIyrBnjQMRdJVIfMbwxbSJ9Y5UssZNjnTso" id="5200035" ingredients="Egg, Flour, Strawberry" name="Tea Cakes Selection"/>
+		<item className="FoodItem119" cost="2" hash="gYJav6ZMcKb6FPbfaSgk3BTSHmmXgX0H7OeDQbjARsNA7zpKxgDct2FtCA7WgS2g" id="5200036" ingredients="Saffron, Apple, Vanilla, Sugar" level10Reward="3500125" name="Eat Me"/>
+		<item className="FoodItem121" cost="2" hash="dc_ODt1ZBxKJxF5.0tYATr7Ff40GJjvZ7r6vPaY2oetIdjju0DglVV7ub6UR1KZN" id="5200037" ingredients="Chocolate, Cream, Sugar" name="Slice of Happiness"/>
+		<item className="FoodItem128" cost="2" foodKingFeed="true" hash="dS10PB7jmwKu4_Olg0qGxaJ.dsKFz3oAMiyYYEMsOlAU8ATJgyv4gpyScYsPrPHg" id="5200038" ingredients="Chocolate, Cream, Vanilla" name="Football Cake"/>
 	</group>
 	
 	<group name="Drink">
@@ -133,5 +161,20 @@
 		<item className="DrinkItem18" cost="2" expireDate="31/12/2099" hash="rEC0IDD8.jDMHB_HIXoUo3bNuRYAqNzG1mNgyLLH6fT0n0oIzDs1jKPxbgPDhiD." id="5300017" ingredients="Ginger, Vanilla, Icecream, Milk" name="Gingerbread Milkshake"/>
 		<item className="DrinkItem19" cost="2" hash="JxygVSaewOlm8yrGnNx8jkPgVozylLWTNCft.eI7Ded057rNBh.K0GxOg39wWKl3" id="5300018" ingredients="Orange" name="Orange Juice"/>
 		<item className="DrinkItem20" cost="2" expireDate="31/12/2099" hash="yYhB9w6jkvWInw0elusubwlsLKJLg4ANpGdGCw_vGmjcXU1rcrJcA6Q1HvlNTX9z" id="5300019" ingredients="Strawberry, Vanilla, Saffron" name="Love Potion"/>
+		<item className="DrinkItem21" cost="2" hash="GoW_snd41XsfFczY3Z4tEy9l5bBvv77poAdAC8E5paoI8XBPiQH87C647En443cQ" id="5300020" ingredients="Sausage, Wasabi, Mango, Oregano" name="Magic Potion"/>
+		<item className="DrinkItem22" cost="2" hash="0up0566UcLfIP4aUfJ.fTGQucfZtMOGqGnETYVH1JLFr3byElZbdWZJuogy3Ygo0" id="5300021" ingredients="Pineapple, Coconut, Banana, Mango" name="Pineapple Smoothie"/>
+		<item className="DrinkItem23" cost="2" hash="6n2hN4XLmPReNXx0R0rxW7.9uKHO2HW5jsAL5iPSSkHX5q1DtnHJpc8h7jgaFM_O" id="5300022" ingredients="Chocolate Bunny, Chocolate Bunny, Easter Egg, Chick Figurine" name="Hot Easter Chocolate"/>
+		<item className="DrinkItem24" cost="2" hash="FT5et7xayIJ7ZDNbRDgy6xNbl4nK1jiK9GqCxArt1LCpN2ZpbRZLMG36L7Kn.HvG" id="5300023" ingredients="Tea Leaves, Tea Leaves, Water" name="Green Tea"/>
+		<item className="DrinkItem25" cost="2" functions="ShrinkCustomer" hash="x0H3RMUVNNfz9x37lBZ2AfCU1dHzShmncSCNYOSDjqC_nrS.uwhIzhNVn1K3f4c2" id="5300024" ingredients="Sugar, Water, Pineapple, Chili" level10Function="ShrinkCustomer" name="Drink Me"/>
+		<item className="DrinkItem26" cost="2" hash="GIXObu9CqAGgE4BrhJjBdguTSzkIN_7OTimFTlugCNFWcZSvc.W1jp7k9aybA.P." id="5300025" ingredients="Tea Leaves, Milk, Water" name="High Tea"/>
+		<item className="DrinkItem27" cost="2" hash="Rip9myOyLBMt8Pp2cegnItz3E_.hHK0gQxVezvv3S9VPpsF.nCbyOl968G0Lgd78" id="5300026" ingredients="Pineapple, Coconut, Cherry" level10Reward="3070031" name="Coco Colada"/>
+		<item className="DrinkItem28" cost="2" hash="WUWNk595jkKFrmS.mNBfrKou81hQffRitRSrUqGIg.8tUbaiWCHbj7uM9umyGpRg" id="5300027" ingredients="Pomegranate, Peach, Orange, Cherry" level10Function="BarSnacks" name="Tropical Sunrise"/>
+		<item className="DrinkItem29" cost="2" hash="dFXUeDqCigFBjtyUZGJ5MOovSo0kTGubHDeTAzNc_NcpXDkhpqJ2aKkcH6ZtQE3J" id="5300028" ingredients="Strawberry, Sugar, Lime, Ice" level10Function="BarExtraStaff" name="Strawberry Heaven"/>
+		<item className="DrinkItem30" cost="2" hash="mzguoSPFyi9X6qEoco9KQeNNHCzZG6ZyMJKzB8TKZwqu7t9O4QUztAEMLlFau7_p" id="5300029" ingredients="Coffee Beans, Cream, Ice" level10Function="BarExtraSeat" name="Russian Cappuccino"/>
+		<item className="DrinkItem31" cost="2" hash="WdYn7N62o6hmGu6EVk9OmCmil7imBzmzEHE2IG3wzN5y0H7HWGSgJoJlmlXoUhy2" id="5300030" ingredients="Mint, Mint, Lime, Sugar" level10Function="BarExtraSeat" name="Mint Breeze"/>
+		<item className="DrinkItem32" cost="2" hash="IK.LtmYvTpVTo4s2q3bAFQW_sL6XxAwy5.gSTCxOFmZNmmJ93.ntsJpGqPxk4bVL" id="5300031" ingredients="Ginger, Water, Icecream, Vanilla" level10Reward="3500039" name="Boston Cooler"/>
+		<item className="DrinkItem33" cost="2" hash="r663PCcy4zvYWPUe2g0YAPGUd6zd5BYbtnEkrb89yYXV3m_JbTTXDWM3SzDqAbNC" id="5300032" ingredients="Strawberry, Lemon, Lime" level10Function="BarTapGreen" name="Pink Lemonade"/>
+		<item className="DrinkItem34" cost="2" hash="HuhfV2Qhy5V9Kd0by8.8eLqoOEUpzd6MoMgk.lv0TIsEP7STQlP6TS6Xznvj6StD" id="5300033" ingredients="Mango, Mango, Cherry, Mint" isNew="true" level10Function="BarTapRed" name="Mango Tango"/>
+		<item className="DrinkItem35" cost="2" hash="pUDCBrUMMbSWYCaFOFLa5hFnO4YQmQf5nqksPVlcA5W2tql1YssXYxL46stqKbKD" id="5300034" ingredients="Kiwi, Sugar, Lime, Mint" isNew="true" level10Function="BarMixer" name="Kiwi Twist"/>
 	</group>
 </database>

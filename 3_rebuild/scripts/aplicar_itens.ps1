@@ -62,9 +62,17 @@ if ($Restaurar) {
 $ro = Join-Path $proj 'recuperado\restaurant_origins'
 $baseInjetor = Join-Path $proj 'recriados\.indoor_asset_com_julho2010.swf'
 # (2026-11-03) + so as comidas das receitas de sushi do game_asset2.swf, para os pratos do Sushi Bar
-$comidasSushi = (Join-Path $ro 'game_asset2.swf') + '=FoodItem108,FoodItem109,FoodItem110,FoodItem111,FoodItem112,FoodItem113,FoodItem114'
+# (2026-11-04) + os pratos e bebidas das outras 43 receitas de fev-jul/2010 (aplicar_receitas_julho.cjs)
+$comidasJulho = 'FoodItem108,FoodItem109,FoodItem110,FoodItem111,FoodItem112,FoodItem113,FoodItem114,' +
+  'FoodItem93,FoodItem94,FoodItem95,FoodItem96,FoodItem97,FoodItem98,FoodItem99,FoodItem100,FoodItem101,FoodItem102,FoodItem103,' +
+  'FoodItem104,FoodItem105,FoodItem106,FoodItem107,FoodItem115,FoodItem116,FoodItem117,FoodItem119,FoodItem120,FoodItem121,' +
+  'FoodItem122,FoodItem123,FoodItem124,FoodItem125,FoodItem126,FoodItem127,FoodItem128,' +
+  'DrinkItem21,DrinkItem22,DrinkItem23,DrinkItem24,DrinkItem25,DrinkItem26,DrinkItem27,DrinkItem28,DrinkItem29,DrinkItem30,' +
+  'DrinkItem31,DrinkItem32,DrinkItem33,DrinkItem34,DrinkItem35'
+$comidasSushi = (Join-Path $ro 'game_asset2.swf') + '=' + $comidasJulho
 # (2026-11-04) + o ingrediente Salmon do ingredient_asset.swf de julho (receitas de sushi; o Seaweed ja tem arte)
-$ingredientesJulho = (Join-Path $ro 'ingredient_asset.swf') + '=Salmon'
+# + Crab, Cherry, Mint e os 4 de Pascoa (Pineapple e Coconut ja tem arte no nosso ingredient_asset.swf)
+$ingredientesJulho = (Join-Path $ro 'ingredient_asset.swf') + '=Salmon,Crab,Cherry,Mint,EasterEgg,EasterSpices,ChickFigurine,ChocolateBunny'
 & $node (Join-Path $PSScriptRoot 'copiar_julho2010.cjs') (Join-Path $baseDir 'indoor_asset.swf') $baseInjetor (Join-Path $ro 'indoor_asset.swf') (Join-Path $ro 'indoor_asset2.swf') $comidasSushi $ingredientesJulho
 if ($LASTEXITCODE) { throw "copiar_julho2010 falhou ($LASTEXITCODE)" }
 

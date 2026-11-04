@@ -79,5 +79,14 @@
 		
 		<item cash="6" className="Seaweed" hash="C3hG99fxKcpXHeuBZvriDc" id="4000103" name="Seaweed" rarity="2"/>
 		<item cash="8" className="Salmon" hash="reNihc9I26GzhVIoGgKXgC" id="4000104" name="Salmon" rarity="3"/>
+		<item cash="8" className="Pineapple" hash="srrd7BzPvjrhic9o0nC9DF" id="4000101" name="Pineapple" rarity="3"/>
+		<item cash="8" className="Coconut" hash="u8ScJzSaq7DnovzdZoeJRO" id="4000102" name="Coconut" rarity="3"/>
+		<item cash="4" className="Crab" hash="f002MlNMjMueh7jPdwonye" id="4000105" name="Crab" rarity="4"/>
+		<item cash="8" className="Cherry" hash="3L5uRVKwQ0jVzADSXYfcXB" id="4000106" name="Cherry" rarity="3"/>
+		<item cash="8" className="Mint" hash="UGIVb25df3VSRMG6E18dO1" id="4000107" name="Mint" rarity="2"/>
+		<item cash="8" className="EasterEgg" hash="yxD0mbesSD_SJm9Bv1_64u" id="4000108" name="Easter Egg" noDaily="true" noFirstTimeVisit="true" noQuiz="true" rarity="4"/>
+		<item cash="8" className="EasterSpices" hash=".AWFXbNJ3_7pxt_kbK_4Aw" id="4000109" name="Easter Spices" noDaily="true" noFirstTimeVisit="true" noQuiz="true" rarity="4"/>
+		<item cash="8" className="ChickFigurine" hash="E5qJIVX8vBxmJNDgD30fM0" id="4000110" name="Chick Figurine" noDaily="true" noFirstTimeVisit="true" noQuiz="true" rarity="4"/>
+		<item cash="8" className="ChocolateBunny" hash="CzXZD6WOo5DUzLFXafaSkw" id="4000111" name="Chocolate Bunny" noDaily="true" noFirstTimeVisit="true" noQuiz="true" rarity="4"/>
 	</group>
 </database>

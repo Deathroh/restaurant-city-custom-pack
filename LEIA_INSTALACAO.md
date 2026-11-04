@@ -21,7 +21,8 @@ Versão do pacote: **2026-11-04**. A anterior era a de 2026-10-29.
 
 - **Build oficial de julho de 2010.** Entram **494 itens oficiais** que a build 0.9.143a do servidor não tinha: Lounge Bar, Wedding, Underwater, Alice no País das Maravilhas, tema japonês, Primavera, México, Espaço, os bichinhos e o Sushi Bar. A arte e os dados vêm dos arquivos de julho/2010 que o projeto Restaurant Origins preservou. Os itens usam o **id original da Playfish**. Também foram atualizados os valores de 53 itens que já existiam.
 - **As recriações viraram os originais.** 77 itens que tínhamos recriado (Monster Robot, Cherry Blossom Tree, Zen Table, Magic Water, Sofa Corner...) agora são os itens oficiais de julho. **Quem instalou o pacote de 29/10 precisa migrar o banco** (veja o aviso 1 abaixo).
-- **Receitas de sushi.** Entram as 7 receitas da cadeia do Sushi Bar (Miso Soup, Yaki Gyoza, Seaweed Salad, Salmon Sashimi, Sushi Selection, Salmon Handrolls, Sakura Mochi) e os ingredientes Salmon e Seaweed. Por isso o pacote agora substitui **9 arquivos**, não mais 5.
+- **50 receitas e 11 ingredientes de 2010.** Entram as 7 receitas da cadeia do Sushi Bar (Miso Soup, Yaki Gyoza, Seaweed Salad, Salmon Sashimi, Sushi Selection, Salmon Handrolls, Sakura Mochi) e mais **43 receitas de fevereiro a julho de 2010** (Rainbow Soup, Monster Burger, Chocolate Dream, as bebidas do Lounge Bar e outras), com o desenho original de cada prato. Também entram 11 ingredientes: Salmon, Seaweed, Pineapple, Coconut, Crab, Cherry, Mint, Easter Egg, Easter Spices, Chick Figurine e Chocolate Bunny. As 21 receitas que eram de tempo limitado em 2010 ficam **sempre disponíveis**. Por isso o pacote agora substitui **9 arquivos**, não mais 5.
+- **Sushi Bar:** cada um dos 8 pratos da esteira é de uma receita de sushi e só aparece cheio quando a receita foi **dominada** (nível 10), esteja ela no cardápio ou não. No começo, só o Salmon Sashimi aparece; os outros pratos giram vazios.
 - **Correções no `game.swf`:**
   - **Garçons:** o cálculo de rotas do garçom ficou rápido. Antes, um salão com muitas mesas longe da cozinha travava o jogo ao abrir ("A script in this movie has taken too long").
   - **Arcos de passar por baixo:** o Sunken Ruins Arch e o Wedding Trellis agora aparecem montados certo, e o cliente passa pelo bloco do meio.
@@ -46,7 +47,7 @@ Versão do pacote: **2026-11-04**. A anterior era a de 2026-10-29.
 
 > [!CAUTION]
 > **2. Conflito de ids.**  
-> Os itens recriados usam a faixa `3080001` a `3080146`. Os itens de julho usam os ids originais da Playfish que não existem na build 0.9.143a: decoração e móveis entre `3000066` e `3500130`, as receitas `5000031`–`5000033`, `5100043`–`5100045` e `5200033`, e os ingredientes `4000103`/`4000104`. Se o seu servidor já cadastrou itens próprios nesses ids (ou já trouxe os itens de julho de outro jeito), **não instale**: as linhas vão se misturar no catálogo.
+> Os itens recriados usam a faixa `3080001` a `3080146`. Os itens de julho usam os ids originais da Playfish que não existem na build 0.9.143a: decoração e móveis entre `3000066` e `3500130`, as receitas `5000026`–`5000037`, `5100037`–`5100049`, `5200029`–`5200038` e `5300020`–`5300034`, e os ingredientes `4000101`–`4000111`. Se o seu servidor já cadastrou itens próprios nesses ids (ou já trouxe os itens de julho de outro jeito), **não instale**: as linhas vão se misturar no catálogo.
 
 > [!WARNING]
 > **3. Faça backup dos 9 arquivos.**  
@@ -74,8 +75,8 @@ Versão do pacote: **2026-11-04**. A anterior era a de 2026-10-29.
 |---|---|
 | Itens recriados por nós (ids `3080xxx`) | 44 no catálogo, 41 à venda |
 | Itens oficiais de julho/2010 | 494 (106 custam fishcash) |
-| Receitas novas | 7 (cadeia do Sushi Bar) |
-| Ingredientes novos | 2 (Salmon, Seaweed) |
+| Receitas novas | 50 (7 da cadeia do Sushi Bar + 43 de fev–jul/2010) |
+| Ingredientes novos | 11 |
 
 A lista completa, aba por aba, com id, preço, efeito e tamanho de cada item, está em **[ITENS.md](ITENS.md)**.
 
@@ -101,6 +102,12 @@ Aparecem, decoram e podem ser comprados, mas a função especial ainda não foi 
 - **Tiny Door** (`ShrinkCustomerDoor`): os clientes deveriam encolher ao passar.
 - **Night Sculpture** (`NightTimeRoad`): a rua deveria ficar de noite.
 - **Tiki Statue, Hotel City Sign, Alien Monolith e Football Wall TV:** atraem clientes fantasiados, mas as roupas de julho não existem no jogo.
+
+### Receitas que ainda não dão o prêmio
+Dá para aprender e servir, mas o prêmio de dominar a receita ainda não foi escrito:
+- **Itens de prêmio:** Salmon Sashimi (Sushi Bar), Eat Me (Pet Cheshire Cat), Coco Colada (Lounge Bar), Boston Cooler (Night Sculpture), Chili Crabs (Sunken Ship Prow) e Zero Gravity Salad (Blue Alien Pet).
+- **Melhorias do Lounge Bar:** Tropical Sunrise, Strawberry Heaven, Russian Cappuccino, Mint Breeze, Pink Lemonade, Mango Tango e Kiwi Twist (petiscos, segundo barman, banco extra, torneiras, misturador).
+- **Drink Me:** deveria encolher o cliente.
 
 ---
 
@@ -155,7 +162,7 @@ O que o script faz:
 - **Arte de julho:** copia para o `indoor_asset.swf` a arte de julho/2010, que vem de `3_rebuild\recuperado\restaurant_origins\`.
 - **Itens recriados:** injeta a arte e as linhas de catálogo dos itens recriados (`recriados\manifesto.json`).
 - **Catálogo:** aplica os valores de julho, as épocas (`recriados\epocas.json`) e os itens fora da loja (`recriados\fora_da_loja.json`).
-- **Receitas:** grava as receitas e os ingredientes de sushi.
+- **Receitas:** grava as 50 receitas e os 11 ingredientes de 2010.
 - **Jogo:** recompila no `game.swf` as classes de `recriados\codigo\`.
 
 Para tirar outro item da loja, acrescente uma linha em `recriados\fora_da_loja.json` e rode de novo.
@@ -210,6 +217,7 @@ npm run build
 1. **Loja, aba Cozinha:** aparece um Teppanyaki Grill só (10 fishcash).
 2. **Loja, aba Funcionais:** o Monster Robot anda pelo salão e a Cherry Blossom Tree solta pétalas.
 3. **Loja, aba Decoração:** o Sunken Ruins Arch e o Wedding Trellis aparecem inteiros; o cliente passa por baixo.
-4. **Cardápio:** as receitas de sushi aparecem na lista de pratos para aprender.
-5. **Salão grande:** um layout com 50+ cadeiras abre sem travar (no teste, 59 cadeiras abriram em 0,7 s).
-6. **Quem migrou:** os itens recriados que você tinha aparecem como os originais de julho, nos mesmos lugares.
+4. **Cardápio:** as receitas novas aparecem no fim de cada aba (entradas, pratos, sobremesas e bebidas), com desenho e sem contador de tempo limitado.
+5. **Sushi Bar:** só os pratos das receitas de sushi dominadas aparecem cheios na esteira.
+6. **Salão grande:** um layout com 50+ cadeiras abre sem travar (no teste, 59 cadeiras abriram em 0,7 s).
+7. **Quem migrou:** os itens recriados que você tinha aparecem como os originais de julho, nos mesmos lugares.

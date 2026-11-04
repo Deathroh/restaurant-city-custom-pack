@@ -17,8 +17,26 @@ const proj = path.join(__dirname, '..');
 const base = path.join(proj, 'recriados', 'base');
 const ro = path.join(proj, 'recuperado', 'restaurant_origins');
 
-const RECEITAS = ['5100044', '5000031', '5000032', '5000033', '5100043', '5100045', '5200033'];
-const INGREDIENTES = ['4000103', '4000104'];
+const RECEITAS = ['5100044', '5000031', '5000032', '5000033', '5100043', '5100045', '5200033',
+  // (2026-11-04, pedido da dona) as outras 43 receitas de fev-jul/2010 que estavam so nos arquivos do Restaurant
+  // Origins (lista e analise: Wiki/respostas/Restaurant City — Receitas e Ingredientes, o que o Servidor Tem e o
+  // que Falta.md). Arte: FoodItem93..128 e DrinkItem21..35 do game_asset2.swf (ver aplicar_itens.ps1).
+  '5000026', '5000027', '5000028', '5000029', '5000030', '5000034', '5000035', '5000036', '5000037',
+  '5100037', '5100038', '5100039', '5100040', '5100041', '5100042', '5100046', '5100047', '5100048', '5100049',
+  '5200029', '5200030', '5200031', '5200032', '5200034', '5200035', '5200036', '5200037', '5200038',
+  '5300020', '5300021', '5300022', '5300023', '5300024', '5300025', '5300026', '5300027', '5300028', '5300029',
+  '5300030', '5300031', '5300032', '5300033', '5300034'];
+// Salmon e Seaweed (sushi) + (2026-11-04) Pineapple, Coconut, Crab, Cherry, Mint e os 4 de Pascoa
+const INGREDIENTES = ['4000103', '4000104', '4000101', '4000102', '4000105', '4000106', '4000107', '4000108', '4000109', '4000110', '4000111'];
+// Receitas de tempo limitado (isLimited + expireDate de 2010): a dona decidiu em 2026-11-04 que ficam sempre
+// disponiveis. O jogo (WorldRecipeMenu.isRecipeAvailable) esconde a receita depois do expireDate; sem expireDate
+// ela fica disponivel e sem o contador "Limited Dish" (com 31/12/2099, como as de festa antigas, o contador
+// aparecia com 26 mil dias). Por isso o expireDate e o isLimited saem da linha.
+// Reward (item ao dominar) e Function (melhorias do Lounge Bar, Drink Me) ficam na linha, mas o nosso
+// game.swf ainda nao faz nada com eles.
+function semValidade(linha) {
+  return linha.replace(/\sexpireDate="\d\d\/\d\d\/2010"/, '').replace(/\sisLimited="true"/, '');
+}
 
 function original(nome) {
   const arq = path.join(base, nome);
@@ -49,7 +67,7 @@ function acrescentar(nome, ids) {
     const abre = xml.match(new RegExp(`<group name="${grupo}"[^>]*>`));
     if (!abre) throw new Error(`${nome}: grupo ${grupo} nao existe no nosso`);
     const fim = xml.indexOf('</group>', abre.index);
-    xml = xml.slice(0, fim) + `\t${linha}\r\n\t` + xml.slice(fim);
+    xml = xml.slice(0, fim) + `\t${semValidade(linha)}\r\n\t` + xml.slice(fim);
     n++;
   }
   fs.writeFileSync(path.join(pastaData, nome), xml);

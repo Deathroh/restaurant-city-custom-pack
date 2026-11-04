@@ -55,13 +55,16 @@ package com.playfish.games.cooking.itemfunctions
 
       private var aguaPeixe:EffectObject = null;
 
-      // SushiBelt (2026-11-03; regra corrigida pela dona em 2026-11-04). Cada prato da esteira (mc_plate0..7 no
-      // SushiBelt_Animation) e de uma das 8 receitas do Sushi Bar e so mostra a comida quando essa receita esta
-      // SELECIONADA no cardapio do dono daquele restaurante (como os pratos servidos), no nivel dela: como o
-      // DishOrder do jogo, a comida fica no quadro 1 (prato cheio; os outros quadros sao o prato sendo comido) e o
+      // SushiBelt (2026-11-03; regra revista em 2026-11-04). Cada prato da esteira (mc_plate0..7 no
+      // SushiBelt_Animation) e de uma das 8 receitas do Sushi Bar, um prato por receita (nao se repetem), e so
+      // mostra a comida quando o dono daquele restaurante DOMINOU a receita (nivel 10), esteja ela no cardapio ou
+      // nao. Fonte: jogadores da comunidade, passado pela dona em 2026-11-04 ("the sushi displayed on the bar when
+      // you mastered it, regardless of what was on your menu"; "Initially, only 1 dish (Salmon Sashimi) will
+      // appear... To make dishes appear on all 8 plates, you must master the other 7"), igual a nota da Wiki
+      // "Restaurant City — Sushi Bar, Como Funcionava e Como Recriar". Antes (manha de 2026-11-04) a regra era
+      // "receita selecionada no cardapio". Como o DishOrder do jogo, a comida fica no quadro 1 (prato cheio) e o
       // mc_plate dela vai para o quadro do nivel. O prato da comida cobre o prato branco da esteira inteiro.
-      // Receita que o dono nao tem ou nao selecionou: prato vazio. Hoje so o Yakibuta Ramen existe no nosso
-      // recipe.xml; as outras 7 vem com a etapa das receitas de julho.
+      // Receita nao dominada: prato vazio (branco).
       // Arte: game_asset2.swf de julho (copiar_julho2010.cjs, fonte filtrada); FoodItem48 e de fevereiro.
       private static const SUSHI_COMIDAS:Array = ["FoodItem111","FoodItem108","FoodItem110","FoodItem113","FoodItem48","FoodItem109","FoodItem114","FoodItem112"];
 
@@ -366,7 +369,7 @@ package com.playfish.games.cooking.itemfunctions
                _loc5_ = _loc4_.getChildByName("rcrComida") as MovieClip;
                if(_loc10_ <= 0)
                {
-                  // receita fora do cardapio (ou que o dono nao tem): prato vazio
+                  // receita ainda nao dominada (ou que o dono nao tem): prato vazio
                   if(_loc5_ != null)
                   {
                      _loc4_.removeChild(_loc5_);
@@ -407,7 +410,10 @@ package com.playfish.games.cooking.itemfunctions
          }
       }
 
-      // nivel da receita no cardapio do dono do restaurante (0 = nao tem ou nao esta selecionada)
+      // nivel da receita do dono do restaurante se ele ja a dominou (nivel 10); 0 = nao tem ou nao dominou.
+      // Nao olha se a receita esta no cardapio.
+      private static const SUSHI_DOMINIO:int = 10;
+
       private function sushiNivel(param1:int) : int
       {
          var _loc2_:* = undefined;
@@ -416,11 +422,11 @@ package com.playfish.games.cooking.itemfunctions
             return 0;
          }
          _loc2_ = this.sushiMundo.gameUser.getOwnedRecipe(param1);
-         if(_loc2_ == null || !_loc2_.selected)
+         if(_loc2_ == null || int(_loc2_.level) < SUSHI_DOMINIO)
          {
             return 0;
          }
-         return Math.max(1,int(_loc2_.level));
+         return int(_loc2_.level);
       }
 
       private function aguaTem(param1:int, param2:int) : Boolean
