@@ -265,6 +265,18 @@ package com.playfish.games.cooking.ui
             {
                _loc11_["mc_mask"].visible = false;
             }
+                        _loc9_ = 0;
+            while((_loc10_ = _loc11_["mc_walkable" + _loc9_] as MovieClip) != null)
+            {
+               _loc10_.visible = false;
+               _loc9_++;
+            }
+            _loc9_ = 0;
+            while((_loc10_ = _loc11_["mc_attach" + _loc9_] as MovieClip) != null)
+            {
+               _loc10_.stop();
+               _loc9_++;
+            }
             _loc8_ = GameWorld.getVisibleBound(_loc11_);
             if(_loc8_.width > _loc8_.height)
             {
