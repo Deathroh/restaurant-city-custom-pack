@@ -97,6 +97,17 @@ package com.playfish.games.cooking.actors
       public var state:int = -1;
       
       public var interactiveItem:RoomItem;
+
+      // RCR (2026-11-05): interativos (fliperamas, pimbolim, Sushi Bars...). No original de fevereiro/2010 o cliente
+      // so ia a um interativo quando nao achava cadeira, e depois ia embora; com cadeiras sobrando, ninguem usava.
+      // A wiki (pagina Customers) descreve o jogo depois: "On the way to seating themselves, they may play at an
+      // arcade or slot machine if you have one available". Agora 1 em RCR_CHANCE_INTERATIVO clientes que acharam
+      // cadeira passam antes num interativo livre e depois vao se sentar (rcrSentarDepois).
+      private static const RCR_CHANCE_INTERATIVO:int = 3;
+
+      private var rcrSentarDepois:Boolean = false;
+
+      private var rcrTapete:String = null;
       
       public var door:RoomItem;
       
@@ -265,7 +276,7 @@ package com.playfish.games.cooking.actors
          _loc3_ = restaurantPlay.getPathToRandomInteractiveItem(this,restaurantPlay.getEmptyInteractiveItems());
          if(_loc3_)
          {
-            this.walkToInteractiveItem(_loc3_.item,_loc3_.path);
+            this.walkToInteractiveItem(_loc3_.item,_loc3_.path,_loc3_.tile);
             this.setEmotion(-1);
             return true;
          }
@@ -338,14 +349,17 @@ package com.playfish.games.cooking.actors
                      }
                      if(_loc3_)
                      {
-                        this.walkToChair(_loc3_.item,_loc3_.path);
+                        if(!this.rcrInterativoNoCaminho())
+                        {
+                           this.walkToChair(_loc3_.item,_loc3_.path);
+                        }
                      }
                      else
                      {
                         _loc4_ = restaurantPlay.getPathToRandomInteractiveItem(this,restaurantPlay.getEmptyInteractiveItems());
                         if(_loc4_)
                         {
-                           this.walkToInteractiveItem(_loc4_.item,_loc4_.path);
+                           this.walkToInteractiveItem(_loc4_.item,_loc4_.path,_loc4_.tile);
                         }
                         else
                         {
@@ -462,12 +476,27 @@ package com.playfish.games.cooking.actors
          {
             if(this.timer <= 0)
             {
-               restaurantPlay.setRoomItemState(this.interactiveItem,"off");
-               restaurantPlay.setRoomItemUsageCount(this.interactiveItem,this.interactiveItem.usageCount + 1);
-               restaurantPlay.onCustomerPayForFunctional(this.interactiveItem);
-               this.interactiveItem.customer = null;
-               this.interactiveItem = null;
-               this.leave();
+               var rcrItem:RoomItem = this.interactiveItem;
+               this.rcrSoltarInterativo();
+               if(rcrItem.customer == null)
+               {
+                  restaurantPlay.setRoomItemState(rcrItem,"off");
+               }
+               restaurantPlay.setRoomItemUsageCount(rcrItem,rcrItem.usageCount + 1);
+               restaurantPlay.onCustomerPayForFunctional(rcrItem);
+               if(this.rcrSentarDepois)
+               {
+                  // passou no interativo a caminho da cadeira: agora vai sentar (sem cadeira livre, espera como antes)
+                  this.rcrSentarDepois = false;
+                  if(!this.checkForFreeChair(restaurantPlay.waitingChairQueue.length > 0,false))
+                  {
+                     this.onNoSeat();
+                  }
+               }
+               else
+               {
+                  this.leave();
+               }
             }
          }
          else if(this.state == STATE_DECIDING)
@@ -670,6 +699,8 @@ package com.playfish.games.cooking.actors
       
       public function leave() : void
       {
+         this.rcrSentarDepois = false;
+         this.rcrSoltarInterativo();
          if(this.sinkItem != null)
          {
             this.sinkItem.customer = null;
@@ -760,11 +791,74 @@ package com.playfish.games.cooking.actors
          this.leave();
       }
       
-      public function walkToInteractiveItem(param1:RoomItem, param2:Array) : void
+      // passa num interativo livre antes de ir para a cadeira (1 em RCR_CHANCE_INTERATIVO); true se foi
+      private function rcrInterativoNoCaminho() : Boolean
+      {
+         var _loc1_:Object = null;
+         if(Engine.rnd(0,RCR_CHANCE_INTERATIVO) != 0)
+         {
+            return false;
+         }
+         _loc1_ = restaurantPlay.getPathToRandomInteractiveItem(this,restaurantPlay.getEmptyInteractiveItems());
+         if(_loc1_ == null)
+         {
+            return false;
+         }
+         this.walkToInteractiveItem(_loc1_.item,_loc1_.path,_loc1_.tile);
+         this.rcrSentarDepois = true;
+         PerfTrace.mark("[RCR] cliente passa no " + RoomItem(_loc1_.item).itemConfig.name + " (" + _loc1_.tile.x + "," + _loc1_.tile.y + ") antes de sentar");
+         return true;
+      }
+
+      // tira o cliente do tapete do interativo; o campo customer do item passa para o outro cliente, se houver
+      private function rcrSoltarInterativo() : void
+      {
+         var _loc1_:RoomItem = this.interactiveItem;
+         var _loc2_:String = null;
+         if(_loc1_ == null)
+         {
+            return;
+         }
+         if(_loc1_.rcrOcupantes != null && this.rcrTapete != null && _loc1_.rcrOcupantes[this.rcrTapete] == this)
+         {
+            delete _loc1_.rcrOcupantes[this.rcrTapete];
+         }
+         if(_loc1_.customer == this)
+         {
+            _loc1_.customer = null;
+            if(_loc1_.rcrOcupantes != null)
+            {
+               for(_loc2_ in _loc1_.rcrOcupantes)
+               {
+                  if(_loc1_.rcrOcupantes[_loc2_] != null)
+                  {
+                     _loc1_.customer = _loc1_.rcrOcupantes[_loc2_];
+                     break;
+                  }
+               }
+            }
+         }
+         this.rcrTapete = null;
+         this.interactiveItem = null;
+      }
+
+      public function walkToInteractiveItem(param1:RoomItem, param2:Array, param3:Object = null) : void
       {
          this.leaveCurrentChair();
          this.interactiveItem = param1;
-         param1.customer = this;
+         if(param1.customer == null)
+         {
+            param1.customer = this;
+         }
+         if(param3 != null)
+         {
+            if(param1.rcrOcupantes == null)
+            {
+               param1.rcrOcupantes = new Object();
+            }
+            this.rcrTapete = param3.x + "," + param3.y;
+            param1.rcrOcupantes[this.rcrTapete] = this;
+         }
          this.state = STATE_WALKING;
          setAnimation(Avatar3D.ANIMATION_WALK);
          setMovePath(param2);

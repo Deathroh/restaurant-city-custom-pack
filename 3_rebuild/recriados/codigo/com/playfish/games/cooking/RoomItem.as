@@ -200,6 +200,11 @@ package com.playfish.games.cooking
       }
 
       public var interactive:Boolean = false;
+
+      // RCR (2026-11-05): clientes usando o item interativo, por tapete ("x,y" -> Customer). Itens com 2 tapetes
+      // (mc_customer0/1: Sushi Bar, Neon Sushi Bar, pimbolim...) aceitam 2 clientes ao mesmo tempo; o campo
+      // customer do jogo continua apontando para um deles.
+      public var rcrOcupantes:Object = null;
       
       public var canOrderFood:Boolean;
       

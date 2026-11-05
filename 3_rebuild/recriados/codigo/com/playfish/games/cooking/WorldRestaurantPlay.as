@@ -1661,7 +1661,8 @@ package com.playfish.games.cooking
                {
                   return {
                      "item":_loc6_,
-                     "path":_loc4_.getFinalPath()
+                     "path":_loc4_.getFinalPath(),
+                     "tile":_loc3_
                   };
                }
             }
@@ -2756,7 +2757,7 @@ package com.playfish.games.cooking
                "x":param1.tileX + getTileIndexX(_loc4_.x,_loc4_.y),
                "y":param1.tileY + getTileIndexY(_loc4_.x,_loc4_.y)
             };
-            if(isWalkable(_loc5_.x,_loc5_.y))
+            if(isWalkable(_loc5_.x,_loc5_.y) && (param1.rcrOcupantes == null || param1.rcrOcupantes[_loc5_.x + "," + _loc5_.y] == null))
             {
                _loc2_.push(_loc5_);
             }
@@ -2767,6 +2768,33 @@ package com.playfish.games.cooking
             return _loc2_[Engine.rnd(0,_loc2_.length)];
          }
          return getInteractiveItemUserTile(param1);
+      }
+
+      // RCR (2026-11-05): o item tem mais de um tapete (mc_customerN) e algum esta sem cliente
+      public function rcrTapeteLivre(param1:RoomItem) : Boolean
+      {
+         var _loc2_:int = 0;
+         var _loc3_:int = 0;
+         var _loc4_:String = null;
+         while(param1.getChildMovieClipInstance("mc_customer" + _loc2_) != null)
+         {
+            _loc2_++;
+         }
+         if(_loc2_ < 2)
+         {
+            return false;
+         }
+         if(param1.rcrOcupantes != null)
+         {
+            for(_loc4_ in param1.rcrOcupantes)
+            {
+               if(param1.rcrOcupantes[_loc4_] != null)
+               {
+                  _loc3_++;
+               }
+            }
+         }
+         return _loc3_ < _loc2_;
       }
 
       // giro (0..3, como o de item) para o cliente parado em (param2,param3) olhar para o item
@@ -3088,10 +3116,37 @@ package com.playfish.games.cooking
                }
             }
             PerfTrace.mark("[RCR-ANIM] parado: " + _loc4_.join("; "));
+            PerfTrace.mark("[RCR-INTER] " + this.rcrDiagInterativos());
             PerfTrace.mark("[RCR-ANIM] anda: " + _loc5_.join("; "));
             rcrAnimA = null;
             rcrAnimMs = 0;
          }
+      }
+
+      // diagnostico: para cada item interativo, os tapetes (mc_customerN) e o bloco da frente, com "livre" se andavel
+      private function rcrDiagInterativos() : String
+      {
+         var _loc1_:Array = [];
+         var _loc2_:RoomItem = null;
+         var _loc3_:int = 0;
+         var _loc4_:MovieClip = null;
+         var _loc5_:String = null;
+         var _loc6_:Object = null;
+         for each(_loc2_ in this.interactiveItems)
+         {
+            _loc5_ = _loc2_.itemConfig.name + "@" + _loc2_.tileX + "," + _loc2_.tileY + " giro" + _loc2_.getRotationCount() + (_loc2_.customer != null ? " ocupado" : "") + (_loc2_.isBroken() ? " quebrado" : "") + " tapetes:";
+            _loc3_ = 0;
+            while((_loc4_ = _loc2_.getChildMovieClipInstance("mc_customer" + _loc3_)) != null)
+            {
+               _loc6_ = {"x":_loc2_.tileX + getTileIndexX(_loc4_.x,_loc4_.y),"y":_loc2_.tileY + getTileIndexY(_loc4_.x,_loc4_.y)};
+               _loc5_ += " " + _loc6_.x + "," + _loc6_.y + (isWalkable(_loc6_.x,_loc6_.y) ? "(livre)" : "(bloq)");
+               _loc3_++;
+            }
+            _loc6_ = getInteractiveItemUserTile(_loc2_);
+            _loc5_ += " frente:" + _loc6_.x + "," + _loc6_.y + (isWalkable(_loc6_.x,_loc6_.y) ? "(livre)" : "(bloq)");
+            _loc1_.push(_loc5_);
+         }
+         return _loc1_.join(" | ");
       }
 
       private function rcrTick0(param1:uint) : void
@@ -3342,7 +3397,7 @@ package com.playfish.games.cooking
          var _loc2_:int = 0;
          while(_loc2_ < this.interactiveItems.length)
          {
-            if(this.interactiveItems[_loc2_].customer == null && !this.interactiveItems[_loc2_].isBroken())
+            if(!this.interactiveItems[_loc2_].isBroken() && (this.interactiveItems[_loc2_].customer == null || this.rcrTapeteLivre(this.interactiveItems[_loc2_])))
             {
                _loc1_.push(this.interactiveItems[_loc2_]);
             }
