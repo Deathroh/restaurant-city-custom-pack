@@ -23,7 +23,7 @@ Versão do pacote: **2026-11-04**. A anterior era a de 2026-10-29.
 - **As recriações viraram os originais.** 77 itens que tínhamos recriado (Monster Robot, Cherry Blossom Tree, Zen Table, Magic Water, Sofa Corner...) agora são os itens oficiais de julho. **Quem instalou o pacote de 29/10 precisa migrar o banco** (veja o aviso 1 abaixo).
 - **50 receitas e 11 ingredientes de 2010.** Entram as 7 receitas da cadeia do Sushi Bar (Miso Soup, Yaki Gyoza, Seaweed Salad, Salmon Sashimi, Sushi Selection, Salmon Handrolls, Sakura Mochi) e mais **43 receitas de fevereiro a julho de 2010** (Rainbow Soup, Monster Burger, Chocolate Dream, as bebidas do Lounge Bar e outras), com o desenho original de cada prato. Também entram 11 ingredientes: Salmon, Seaweed, Pineapple, Coconut, Crab, Cherry, Mint, Easter Egg, Easter Spices, Chick Figurine e Chocolate Bunny. As 21 receitas que eram de tempo limitado em 2010 ficam **sempre disponíveis**. Por isso o pacote agora substitui **9 arquivos**, não mais 5.
 - **Sushi Bar:** cada um dos 8 pratos da esteira é de uma receita de sushi e só aparece cheio quando a receita foi **dominada** (nível 10), esteja ela no cardápio ou não. No começo, só o Salmon Sashimi aparece; os outros pratos giram vazios.
-- **Prêmios de domínio de receita:** ao dominar (nível 10) uma das 6 receitas especiais, o item de prêmio exclusivo é desbloqueado e adicionado direto ao inventário (Salmon Sashimi dá o Sushi Bar, Coco Colada dá o Lounge Bar, Eat Me dá o Pet Cheshire Cat, Boston Cooler dá a Night Sculpture, Chili Crabs dá o Sunken Ship Prow e Zero Gravity Salad dá o Blue Alien Pet).
+- **Prêmios de domínio de receita:** ao dominar (nível 10) uma das 6 receitas especiais, o item de prêmio exclusivo é desbloqueado e adicionado direto ao inventário (Salmon Sashimi dá o Sushi Bar, Coco Colada dá o Lounge Bar, Eat Me dá o Pet Cheshire Cat, Boston Cooler dá a Night Sculpture, Chili Crabs dá o Sunken Ship Prow e Zero Gravity Salad dá o Blue Alien Pet). **Precisa do patch de servidor `mastery_rewards.patch`** (opcional 3): sem ele, o item aparece no jogo aberto mas some ao recarregar, porque o servidor não o grava.
 - **Correções no `game.swf`:**
   - **Garçons:** o cálculo de rotas do garçom ficou rápido. Antes, um salão com muitas mesas longe da cozinha travava o jogo ao abrir ("A script in this movie has taken too long").
   - **Arcos de passar por baixo:** o Sunken Ruins Arch e o Wedding Trellis agora aparecem montados certo, e o cliente passa pelo bloco do meio.
@@ -190,7 +190,15 @@ git apply --ignore-whitespace caminho\do\pacote\2_optional\block_stacks.patch
 npm run build
 ```
 
-### 3. Seletor de desempenho (Ruffle)
+### 3. Prêmio de dominar receita (servidor)
+Sem este patch, o prêmio de nível 10 aparece no inventário do jogo aberto, mas o servidor não o grava e ele some ao recarregar a página. O patch faz o servidor ler o `level10Reward` do `recipe.xml` e pôr o item no inventário quando a receita chega ao nível 10 (uma vez por receita). Na pasta do servidor (backup de `src/db/recipe-catalog.ts` e `src/db/profile-store.ts` antes):
+```bash
+git apply --ignore-whitespace caminho\do\pacote\2_optional\mastery_rewards.patch
+npm run build
+```
+Testado no commit `cdef695`; reinicie o servidor depois.
+
+### 4. Seletor de desempenho (Ruffle)
 Um menu em `public/game.html` com três ajustes (Ultrarrápido, Equilibrado e Alta Definição), para reduzir o travamento em máquinas fracas e telas HiDPI:
 ```bash
 git apply --ignore-whitespace caminho\do\pacote\2_optional\performance_launcher.patch

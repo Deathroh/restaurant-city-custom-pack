@@ -1,0 +1,50 @@
+diff --git a/src/db/profile-store.ts b/src/db/profile-store.ts
+index 6dad5ed..3a5a2e5 100644
+--- a/src/db/profile-store.ts
++++ b/src/db/profile-store.ts
+@@ -1553,6 +1553,20 @@ async function applyRecipeUpgradeBatch(
+         globalItemId: recipeId, number: nextLevel, isSelected: false,
+       },
+     });
++    // Mastery prize (level10Reward in recipe.xml, July 2010 build: Salmon Sashimi -> Sushi Bar, Coco Colada ->
++    // Lounge Bar...). The level is capped at MAX_DISH_LEVEL, so crossing it happens once per recipe. The client
++    // (WorldRecipeMenu.rcrPremioDeDominio) adds the same item to the open game's inventory and shows a notice.
++    const reward = resolveRecipeEntry(String(recipeId))?.level10Reward;
++    if (reward && (levels.get(recipeId) ?? 0) < MAX_DISH_LEVEL && nextLevel >= MAX_DISH_LEVEL) {
++      await tx.inventoryItem.upsert({
++        where: { userProfileId_globalItemId: { userProfileId: profileId, globalItemId: reward } },
++        update: { number: { increment: 1 } },
++        create: {
++          id: inventoryKey(networkUid, reward), userProfileId: profileId,
++          globalItemId: reward, number: 1, isSelected: false,
++        },
++      });
++    }
+   }
+   return { accepted: true };
+ }
+diff --git a/src/db/recipe-catalog.ts b/src/db/recipe-catalog.ts
+index 51b9a42..96815e8 100644
+--- a/src/db/recipe-catalog.ts
++++ b/src/db/recipe-catalog.ts
+@@ -5,6 +5,8 @@ export interface RecipeEntry {
+   readonly id: number;
+   readonly hash: string;
+   readonly ingredientIds: readonly number[];
++  /** Item given when the recipe reaches level 10 (level10Reward in recipe.xml; July 2010 build). */
++  readonly level10Reward?: number;
+ }
+ 
+ let cachedRecipes: Map<string, RecipeEntry> | null = null;
+@@ -34,7 +36,10 @@ function recipeMap(): Map<string, RecipeEntry> {
+       .split(/\s*,\s*/)
+       .map((name) => ingredientIdsByName.get(name.trim().toLowerCase()))
+       .filter((ingredientId): ingredientId is number => Number.isInteger(ingredientId));
+-    const entry = { id, hash, ingredientIds };
++    const level10Reward = Number.parseInt(attrs.level10Reward ?? '', 10);
++    const entry: RecipeEntry = Number.isInteger(level10Reward) && level10Reward > 0
++      ? { id, hash, ingredientIds, level10Reward }
++      : { id, hash, ingredientIds };
+     recipes.set(hash, entry);
+     recipes.set(String(id), entry);
+   }

@@ -14,7 +14,7 @@ Package version: **2026-11-04**. The previous one was 2026-10-29.
 - **Recreations replaced by the originals.** 77 items we had recreated (Monster Robot, Cherry Blossom Tree, Zen Table, Magic Water, Sofa Corner...) are now the official July items. **If you installed the 2026-10-29 package, you must migrate your database** (see warning 1 below).
 - **50 recipes and 11 ingredients from 2010.** The 7 recipes of the Sushi Bar chain (Miso Soup, Yaki Gyoza, Seaweed Salad, Salmon Sashimi, Sushi Selection, Salmon Handrolls, Sakura Mochi) plus **43 recipes from February to July 2010** (Rainbow Soup, Monster Burger, Chocolate Dream, the Lounge Bar drinks and more), each with its original dish art. Also 11 ingredients: Salmon, Seaweed, Pineapple, Coconut, Crab, Cherry, Mint, Easter Egg, Easter Spices, Chick Figurine and Chocolate Bunny. The 21 recipes that were limited-time in 2010 are **always available**. Because of them the package now replaces **9 files** instead of 5.
 - **Sushi Bar:** each of the 8 plates on the belt belongs to one sushi recipe and only shows food once that recipe is **mastered** (level 10), whether or not it is on the menu. At first only the Salmon Sashimi shows; the other plates go round empty.
-- **Recipe mastery rewards:** mastering (level 10) one of the 6 special recipes unlocks its exclusive prize item and adds it directly to your inventory (Salmon Sashimi unlocks the Sushi Bar, Coco Colada unlocks the Lounge Bar, Eat Me unlocks Pet Cheshire Cat, Boston Cooler unlocks Night Sculpture, Chili Crabs unlocks Sunken Ship Prow, and Zero Gravity Salad unlocks Blue Alien Pet).
+- **Recipe mastery rewards:** mastering (level 10) one of the 6 special recipes unlocks its exclusive prize item and adds it directly to your inventory (Salmon Sashimi unlocks the Sushi Bar, Coco Colada unlocks the Lounge Bar, Eat Me unlocks Pet Cheshire Cat, Boston Cooler unlocks Night Sculpture, Chili Crabs unlocks Sunken Ship Prow, and Zero Gravity Salad unlocks Blue Alien Pet). **Needs the server patch `mastery_rewards.patch`** (optional 3): without it the item shows up in the open game but disappears on reload, because the server does not save it.
 - **`game.swf` fixes:**
   - **Waiters:** the waiter route calculation is now fast. Before, a dining room with many tables far from the kitchen froze the game on load ("A script in this movie has taken too long").
   - **Walk-through arches:** the Sunken Ruins Arch and the Wedding Trellis now render assembled correctly, and customers walk through the middle tile.
@@ -181,7 +181,15 @@ git apply --ignore-whitespace path\to\package\2_optional\block_stacks.patch
 npm run build
 ```
 
-### 3. Performance selector (Ruffle)
+### 3. Recipe mastery rewards (server)
+Without this patch, the level-10 prize appears in the open game's inventory, but the server does not save it and it disappears when the page reloads. The patch makes the server read `level10Reward` from `recipe.xml` and add the item to the inventory when the recipe reaches level 10 (once per recipe). In the server folder (back up `src/db/recipe-catalog.ts` and `src/db/profile-store.ts` first):
+```bash
+git apply --ignore-whitespace path\to\package\2_optional\mastery_rewards.patch
+npm run build
+```
+Tested on commit `cdef695`; restart the server afterwards.
+
+### 4. Performance selector (Ruffle)
 A dropdown in `public/game.html` with three presets (Ultra-fast, Balanced and High Definition) to reduce lag on low-end machines and HiDPI screens:
 ```bash
 git apply --ignore-whitespace path\to\package\2_optional\performance_launcher.patch
