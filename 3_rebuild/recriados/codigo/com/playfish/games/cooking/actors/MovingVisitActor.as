@@ -86,6 +86,36 @@ package com.playfish.games.cooking.actors
          }
       }
 
+      // RCR (2026-11-05, pedido da dona): bicho posto na area de fora anda la. O cesto acima so tem as casas do
+      // salao, entao o bicho de fora ia parar numa casa qualquer de dentro ao abrir o restaurante. A area de fora
+      // fica abaixo do salao (y de numTilesY a numTilesY + numOutsideTilesY - 1, x de 1 a numOutsideTilesX - 1,
+      // como no RoomEffectGenerator). Sem nenhuma casa livre la fora, volta ao cesto do salao.
+      public function useOutsideArea() : void
+      {
+         var _loc1_:int = 0;
+         var _loc2_:int = restaurant.numTilesY;
+         var _loc3_:RandomBasket = new RandomBasket();
+         var _loc4_:Boolean = false;
+         while(_loc2_ < restaurant.numTilesY + restaurant.numOutsideTilesY)
+         {
+            _loc1_ = 1;
+            while(_loc1_ < restaurant.numOutsideTilesX)
+            {
+               if(restaurant.isWalkable(_loc1_,_loc2_))
+               {
+                  _loc3_.addItems(WorldRestaurant.getTileIndex(_loc1_,_loc2_));
+                  _loc4_ = true;
+               }
+               _loc1_++;
+            }
+            _loc2_++;
+         }
+         if(_loc4_)
+         {
+            this.tileBasket = _loc3_;
+         }
+      }
+
       override public function setPosition(param1:Number, param2:Number) : void
       {
          var _loc3_:Number = x;

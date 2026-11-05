@@ -240,6 +240,11 @@ package com.playfish.games.cooking.itemfunctions
          {
             this.walkerWorld = param1;
             this.walker = new MovingVisitActor(this.walkerClass,param1);
+            // item na area de fora: o bicho (ou o robo) passeia la, nao no salao
+            if(this.roomItem.tileY >= param1.numTilesY)
+            {
+               this.walker.useOutsideArea();
+            }
             this.walker.placeNear(this.roomItem.tileX,this.roomItem.tileY);
             if(this.walkerPet)
             {
