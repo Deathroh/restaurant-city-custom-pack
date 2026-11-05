@@ -1654,7 +1654,7 @@ package com.playfish.games.cooking
                break;
             }
             _loc3_ = rcrInteractiveUserTile(_loc6_);
-            if(isWalkable(_loc3_.x,_loc3_.y))
+            if(_loc3_ != null && isWalkable(_loc3_.x,_loc3_.y))
             {
                _loc4_ = new PathFinder(param1.tileX,param1.tileY,_loc3_.x,_loc3_.y,this);
                if(_loc4_.processOpenList(-1) == PathFinder.PROCESS_STATE_FOUND)
@@ -2767,7 +2767,30 @@ package com.playfish.games.cooking
          {
             return _loc2_[Engine.rnd(0,_loc2_.length)];
          }
+         // (2026-11-05) item com tapete no desenho e nenhum livre (ocupados ou na parede): ninguem vai; antes os
+         // clientes a mais iam todos para o bloco da frente, um em cima do outro
+         if(_loc3_ > 0)
+         {
+            return null;
+         }
          return getInteractiveItemUserTile(param1);
+      }
+
+      private function rcrContarOcupantes(param1:RoomItem) : int
+      {
+         var _loc2_:int = 0;
+         var _loc3_:String = null;
+         if(param1.rcrOcupantes != null)
+         {
+            for(_loc3_ in param1.rcrOcupantes)
+            {
+               if(param1.rcrOcupantes[_loc3_] != null)
+               {
+                  _loc2_++;
+               }
+            }
+         }
+         return _loc2_;
       }
 
       // RCR (2026-11-05): o item tem mais de um tapete (mc_customerN) e algum esta sem cliente
@@ -3134,7 +3157,7 @@ package com.playfish.games.cooking
          var _loc6_:Object = null;
          for each(_loc2_ in this.interactiveItems)
          {
-            _loc5_ = _loc2_.itemConfig.name + "@" + _loc2_.tileX + "," + _loc2_.tileY + " giro" + _loc2_.getRotationCount() + (_loc2_.customer != null ? " ocupado" : "") + (_loc2_.isBroken() ? " quebrado" : "") + " tapetes:";
+            _loc5_ = _loc2_.itemConfig.name + "@" + _loc2_.tileX + "," + _loc2_.tileY + " giro" + _loc2_.getRotationCount() + (_loc2_.customer != null ? " ocupado(" + this.rcrContarOcupantes(_loc2_) + ")" : "") + (_loc2_.isBroken() ? " quebrado" : "") + " tapetes:";
             _loc3_ = 0;
             while((_loc4_ = _loc2_.getChildMovieClipInstance("mc_customer" + _loc3_)) != null)
             {
