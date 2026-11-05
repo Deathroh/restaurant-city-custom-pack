@@ -2994,8 +2994,109 @@ package com.playfish.games.cooking
          rcrTickMs += getTimer() - _loc1_;
       }
 
+      // RCR (2026-11-05) diagnostico de animacao, so com ?rcrdiag=1 na pagina do jogo: 10 s e 13 s depois de abrir o
+      // restaurante, anota o quadro de cada MovieClip animado (mais de 1 quadro) de cada item e escreve no console
+      // "[RCR-ANIM] parado: ..." para os itens visiveis cujo(s) clip(s) animado(s) nao andaram, e "anda" para os outros.
+      private static var rcrAnimMs:int = -1;
+
+      private static var rcrAnimA:flash.utils.Dictionary = null;
+
+      private static function rcrAnimLigado() : Boolean
+      {
+         try
+         {
+            return Engine.instance != null && Engine.instance.loaderInfo != null && Engine.instance.loaderInfo.parameters["rcrdiag"] == "1";
+         }
+         catch(e:Error)
+         {
+         }
+         return false;
+      }
+
+      private static function rcrAnimAssinatura(param1:flash.display.DisplayObject, param2:int) : String
+      {
+         var _loc3_:String = "";
+         var _loc4_:int = 0;
+         var _loc5_:flash.display.DisplayObjectContainer = null;
+         if(param1 is MovieClip && MovieClip(param1).totalFrames > 1)
+         {
+            _loc3_ += MovieClip(param1).currentFrame + ",";
+         }
+         if(param2 < 7 && param1 is flash.display.DisplayObjectContainer)
+         {
+            _loc5_ = flash.display.DisplayObjectContainer(param1);
+            _loc4_ = 0;
+            while(_loc4_ < _loc5_.numChildren)
+            {
+               _loc3_ += rcrAnimAssinatura(_loc5_.getChildAt(_loc4_),param2 + 1);
+               _loc4_++;
+            }
+         }
+         return _loc3_;
+      }
+
+      private function rcrAnimTick(param1:uint) : void
+      {
+         var _loc2_:* = undefined;
+         var _loc3_:String = null;
+         var _loc4_:Array = null;
+         var _loc5_:Array = null;
+         var _loc6_:String = null;
+         if(rcrAnimMs == -2 || room == null)
+         {
+            return;
+         }
+         if(rcrAnimMs == -1)
+         {
+            if(!rcrAnimLigado())
+            {
+               rcrAnimMs = -2;
+               return;
+            }
+            rcrAnimMs = 0;
+         }
+         rcrAnimMs += param1;
+         if(rcrAnimA == null && rcrAnimMs >= 10000)
+         {
+            rcrAnimA = new flash.utils.Dictionary(true);
+            for each(_loc2_ in room.baseObjects)
+            {
+               if(_loc2_ is RoomItem)
+               {
+                  rcrAnimA[_loc2_] = rcrAnimAssinatura(RoomItem(_loc2_),0);
+               }
+            }
+         }
+         else if(rcrAnimA != null && rcrAnimMs >= 13000)
+         {
+            _loc4_ = [];
+            _loc5_ = [];
+            for each(_loc2_ in room.baseObjects)
+            {
+               if(_loc2_ is RoomItem && rcrAnimA[_loc2_] != undefined && RoomItem(_loc2_).itemConfig != null)
+               {
+                  _loc3_ = rcrAnimAssinatura(RoomItem(_loc2_),0);
+                  _loc6_ = RoomItem(_loc2_).itemConfig.name + "(" + RoomItem(_loc2_).itemConfig.id + "@" + RoomItem(_loc2_).tileX + "," + RoomItem(_loc2_).tileY + (RoomItem(_loc2_).visible ? "" : ",oculto") + ")";
+                  if(_loc3_ != "" && _loc3_ == rcrAnimA[_loc2_])
+                  {
+                     _loc4_.push(_loc6_);
+                  }
+                  else if(_loc3_ != "")
+                  {
+                     _loc5_.push(_loc6_);
+                  }
+               }
+            }
+            PerfTrace.mark("[RCR-ANIM] parado: " + _loc4_.join("; "));
+            PerfTrace.mark("[RCR-ANIM] anda: " + _loc5_.join("; "));
+            rcrAnimA = null;
+            rcrAnimMs = 0;
+         }
+      }
+
       private function rcrTick0(param1:uint) : void
       {
+         this.rcrAnimTick(param1);
          var _loc2_:int = 0;
          var _loc3_:int = 0;
          var _loc4_:int = 0;

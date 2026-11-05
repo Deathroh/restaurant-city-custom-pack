@@ -1,5 +1,6 @@
 package com.playfish.games.cooking.itemfunctions
 {
+   import com.playfish.games.cooking.BaseObject;
    import com.playfish.games.cooking.Engine;
    import com.playfish.games.cooking.PerfTrace;
    import flash.display.DisplayObject;
@@ -34,7 +35,15 @@ package com.playfish.games.cooking.itemfunctions
       //   idle (1-45, repete), appear (46-102: o sorriso surge e o corpo aparece; volta ao idle),
       //   disappear (103-130: o corpo some e ficam so os olhos; para no fim).
       // Com o restaurante aberto: parado 8-20 s, some (sobram os olhos) por 5-12 s e reaparece.
+      // (2026-11-05, pedido da dona: ela lembra que ele aparecia em lugares aleatorios) Ao reaparecer, ele surge
+      // num bloco livre sorteado do mesmo salao (dentro ou na area de fora, onde o item estiver). Fora do lugar
+      // dele, o gato e uma copia so de imagem (cheshireCopia); o item continua no bloco onde foi posto (e salvo),
+      // escondido. Ao sair do modo de jogo, a copia sai e o item volta a aparecer no lugar dele.
       private var cheshire:Boolean = false;
+
+      private var cheshireMundo:WorldRestaurantPlay = null;
+
+      private var cheshireCopia:EffectObject = null;
 
       private var cheshireSumido:Boolean = false;
 
@@ -223,6 +232,7 @@ package com.playfish.games.cooking.itemfunctions
          }
          if(this.cheshire)
          {
+            this.cheshireMundo = param1;
             this.cheshireSumido = false;
             this.cheshireTimer = Engine.rnd(8000,20001);
          }
@@ -266,11 +276,15 @@ package com.playfish.games.cooking.itemfunctions
             }
             this.aguaPeixe = null;
          }
-         if(this.cheshire && this.cheshireSumido)
+         if(this.cheshire)
          {
-            // fora do modo de jogo o gato volta inteiro
-            this.cheshireTocar("idle");
-            this.cheshireSumido = false;
+            // fora do modo de jogo o gato volta inteiro, no lugar dele
+            this.cheshireTirarCopia();
+            if(this.cheshireSumido)
+            {
+               this.cheshireTocar("idle");
+               this.cheshireSumido = false;
+            }
          }
          if(this.walker)
          {
@@ -338,9 +352,88 @@ package com.playfish.games.cooking.itemfunctions
          }
          else
          {
+            this.cheshireMudar();
             this.cheshireTocar("appear");
             this.cheshireSumido = false;
             this.cheshireTimer = Engine.rnd(8000,20001);
+         }
+      }
+
+      // sorteia um bloco livre (sem item, sem parede) do mesmo salao e poe o gato la; no bloco do item, o item
+      private function cheshireMudar() : void
+      {
+         var _loc1_:WorldRestaurantPlay = this.cheshireMundo;
+         var _loc2_:Boolean = false;
+         var _loc3_:int = 0;
+         var _loc4_:int = 0;
+         var _loc5_:int = 0;
+         var _loc6_:int = 0;
+         var _loc7_:int = 0;
+         var _loc8_:int = 0;
+         var _loc9_:MovieClip = null;
+         if(_loc1_ == null)
+         {
+            return;
+         }
+         _loc2_ = this.roomItem.tileY >= _loc1_.numTilesY;
+         _loc3_ = _loc2_ ? _loc1_.numOutsideTilesX : _loc1_.numTilesX;
+         _loc4_ = _loc2_ ? _loc1_.numOutsideTilesY : _loc1_.numTilesY;
+         _loc5_ = 0;
+         while(_loc5_ < 40)
+         {
+            _loc6_ = Engine.rnd(0,_loc3_);
+            _loc7_ = Engine.rnd(0,_loc4_) + (_loc2_ ? _loc1_.numTilesY : 0);
+            if(_loc1_.isWalkable(_loc6_,_loc7_))
+            {
+               break;
+            }
+            _loc5_++;
+         }
+         this.cheshireTirarCopia();
+         // de vez em quando (1 em 4) ele volta para o lugar dele
+         if(_loc5_ >= 40 || Engine.rnd(0,4) == 0)
+         {
+            // volta (ou nenhum bloco livre achado): aparece no lugar dele
+            this.cheshireMostrarItem(true);
+            PerfTrace.mark("[RCR] Cheshire Cat reaparece no lugar dele");
+            return;
+         }
+         this.cheshireMostrarItem(false);
+         this.cheshireCopia = new EffectObject(this.roomItem.itemConfig.className,WorldRestaurant.getScreenX(_loc6_,_loc7_),WorldRestaurant.getScreenY(_loc6_,_loc7_),0,0,0);
+         // o clip do item e o primeiro filho do BaseObject (content e protegido); quadro = giro, sorteado
+         _loc9_ = this.cheshireCopia.numChildren > 0 ? this.cheshireCopia.getChildAt(0) as MovieClip : null;
+         if(_loc9_ != null)
+         {
+            _loc8_ = Engine.rnd(1,_loc9_.totalFrames + 1);
+            _loc9_.gotoAndStop(_loc8_);
+         }
+         this.cheshireCopia.drawPriority = WorldRestaurant.getTileDrawPriority(_loc6_,_loc7_) + 1;
+         _loc1_.room.addObject(this.cheshireCopia);
+         PerfTrace.mark("[RCR] Cheshire Cat reaparece em " + _loc6_ + "," + _loc7_ + " (o item fica em " + this.roomItem.tileX + "," + this.roomItem.tileY + ")");
+      }
+
+      private function cheshireTirarCopia() : void
+      {
+         if(this.cheshireCopia != null)
+         {
+            if(!this.cheshireCopia.removed)
+            {
+               this.cheshireCopia.remove();
+            }
+            this.cheshireCopia = null;
+         }
+         this.cheshireMostrarItem(true);
+      }
+
+      private function cheshireMostrarItem(param1:Boolean) : void
+      {
+         this.roomItem.visible = param1;
+         if(this.roomItem.subItems != null)
+         {
+            for each(var _loc2_:RoomItem in this.roomItem.subItems)
+            {
+               _loc2_.visible = param1;
+            }
          }
       }
 
@@ -501,6 +594,10 @@ package com.playfish.games.cooking.itemfunctions
       // toca o trecho no mc_content do item e das fatias dele, se o rotulo existir
       private function cheshireTocar(param1:String) : Boolean
       {
+         if(this.cheshireCopia != null)
+         {
+            return cheshireTocarEm(this.cheshireCopia,param1);
+         }
          var _loc2_:Boolean = cheshireTocarEm(this.roomItem,param1);
          var _loc3_:int = 0;
          if(this.roomItem.subItems != null)
@@ -514,7 +611,7 @@ package com.playfish.games.cooking.itemfunctions
          return _loc2_;
       }
 
-      private static function cheshireTocarEm(param1:RoomItem, param2:String) : Boolean
+      private static function cheshireTocarEm(param1:BaseObject, param2:String) : Boolean
       {
          var _loc3_:MovieClip = param1.getChildMovieClipInstance("mc_content");
          var _loc4_:Array = null;
