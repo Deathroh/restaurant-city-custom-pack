@@ -292,7 +292,11 @@ package com.playfish.games.cooking
          this.setGridSize(this.numTilesX,this.numTilesY);
          this.fullGridSizeX = this.numTilesX;
          this.fullGridSizeY = this.numTilesY;
-         this.itemHeight = -_loc5_.top + (WorldRestaurant.tileHeight * this.numTilesY - _loc5_.bottom);
+         // RCR (2026-11-04): o pe do desenho de um item NxM fica em tileHeight*(N+M)/2 (o losango do piso); o
+         // original usava tileHeight*numTilesY, certo so para itens quadrados. Num item de 1x2 (Zen Table, Long
+         // Sushi Table) o tampo saia 20 px alto e o prato e o que se punha em cima flutuavam. Antes isso era
+         // compensado no desenho recriado, que saiu quando as mesas viraram as originais de julho/2010.
+         this.itemHeight = -_loc5_.top + (WorldRestaurant.tileHeight * (this.numTilesX + this.numTilesY) / 2 - _loc5_.bottom);
          // RCR (2026-11-03): ?semcache=1 na pagina do jogo desliga o cacheAsBitmap dos itens (diagnostico:
          // no painel do app os itens com cache nao apareciam)
          if(!this.isAnimated(content,true) && !rcrSemCache())

@@ -18,6 +18,7 @@ Package version: **2026-11-04**. The previous one was 2026-10-29.
 - **`game.swf` fixes:**
   - **Waiters:** the waiter route calculation is now fast. Before, a dining room with many tables far from the kitchen froze the game on load ("A script in this movie has taken too long").
   - **Walk-through arches:** the Sunken Ruins Arch and the Wedding Trellis now render assembled correctly, and customers walk through the middle tile.
+  - **Two-tile tables:** on 1x2 tables such as the Zen Table and the Long Sushi Table, customer dishes and items placed on top now rest on the tabletop. Before, they floated 20 px above it.
   - **Seasonal items:** Halloween, Christmas and Valentine's items only show up in the shop during their season.
   - **July items with effects:** the pets walk around, Magic Water joins its edges, the Rain Cloud makes rain, the Pet Cheshire Cat vanishes and comes back, the petal, butterfly and music-note decorations work, and the demand bonuses apply.
 - **No duplicates in the shop.** These left the shop because they repeated original items: the July Teppanyaki Grill (the `3080048` one stays, with the original animation, 10 Playfish Cash and 10% faster cooking), and the recreated Bonsai Tree, Bamboo Flooring and Multi Tile. Anyone who already owns one keeps it.

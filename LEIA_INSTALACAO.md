@@ -27,6 +27,7 @@ Versão do pacote: **2026-11-04**. A anterior era a de 2026-10-29.
 - **Correções no `game.swf`:**
   - **Garçons:** o cálculo de rotas do garçom ficou rápido. Antes, um salão com muitas mesas longe da cozinha travava o jogo ao abrir ("A script in this movie has taken too long").
   - **Arcos de passar por baixo:** o Sunken Ruins Arch e o Wedding Trellis agora aparecem montados certo, e o cliente passa pelo bloco do meio.
+  - **Mesas de 2 blocos:** nas mesas de 1x2, como a Zen Table e a Long Sushi Table, o prato do cliente e o que se põe em cima ficam apoiados no tampo. Antes flutuavam 20 px acima.
   - **Itens de época:** os de Halloween, Natal e Valentine só aparecem na loja na época deles.
   - **Itens de julho com efeito:** os bichinhos andam, o Magic Water liga as bordas, a Rain Cloud faz chover, o Pet Cheshire Cat aparece e some, os enfeites que soltam pétalas, borboletas ou notas funcionam, e há os bônus de demanda.
 - **Loja sem repetidos.** Saíram da loja o Teppanyaki Grill de julho (fica o `3080048`, com a animação original, 10 fishcash e 10% mais rápido), o Bonsai Tree, o Bamboo Flooring e o Multi Tile recriados, porque repetiam itens originais. Quem já tem um deles continua com ele.
